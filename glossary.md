@@ -1,5 +1,10 @@
 # Glossary
 
+### APR
+
+Annual Percentage Rate, is the annualized interest rate without taking the
+effect of compounding into account.
+
 ### APY
 
 Annual Percentage Yield, is the normalized representation of an interest rate,
