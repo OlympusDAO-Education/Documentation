@@ -16,9 +16,9 @@ Governance participants can get involved on our forum and through discussions on
 
 ## How can I benefit from Olympus?
 
-The main benefit for stakers comes from supply growth. The protocol takes a sizeable fee on all supply expansion, which is distributed primarily to stakers. Most gains for stakers will come from compounding balances, though price exposure remains an important consideration.
+The main benefit for stakers comes from supply growth. The protocol takes a sizeable fee on all supply expansion, which is distributed primarily to stakers in the form of $OHM token. Most gains for stakers will come from compounding balances, though price exposure remains an important consideration. That is, if the increase in token balance outpaces the potential drop in price (due to inflation), stakers would make a profit.
 
-The main benefit for bonders comes from price consistency. Bonders are promised a fixed return at a set point in time; that return is in $OHM and thus depends on price. Bonders benefit from a rising or static price.
+The main benefit for bonders comes from price consistency. Bonders commit a capital upfront and are promised a fixed return at a set point in time; that return is in $OHM and thus the bonder's profit would depend on $OHM price when the bond matures. Bonders benefit from a rising or static $OHM price.
 
 ## Who created Olympus?
 
