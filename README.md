@@ -2,7 +2,7 @@
 
 ## What is Olympus?
 
-Olympus is an algorithmic currency protocol based on the $OHM token. It introduces unique economic and game-theoretic dynamics into the market through asset-backing and protocol owned value.
+Olympus is an algorithmic currency protocol based on the $OHM token. It introduces unique economic and game-theoretic dynamics into the market through asset-backing and protocol-owned value. Read more about the game theory of Olympus [here](https://olympusdao.medium.com/the-game-theory-of-olympus-e4c5f19a77df).
 
 ## What is the point of Olympus?
 
@@ -12,7 +12,7 @@ Our goal is to build a policy-controlled currency system, in which the behavior 
 
 There are two main strategies for market participants: staking and bonding. Stakers lock supply and receive a share of protocol profits as they are earned. Bonders provide locked liquidity and receive a fixed profit after a fixed period of time.
 
-Governance participants can get involved on our forum and through discussions on our [discord](https://discord.com/invite/olympusdao). We are always looking for new community members to contribute!
+Governance participants can get involved on our forum and through discussions on our discord. We are always looking for new community members to contribute!
 
 ## How can I benefit from Olympus?
 
@@ -33,3 +33,4 @@ No one. Olympus is DAO-governed. All decisions are formed by community members o
 2. [Twitter](https://twitter.com/OlympusDAO)
 3. [Medium](https://olympusdao.medium.com)
 4. [Discord](https://discord.com/invite/olympusdao)
+5. [Forum](https://forum.olympusdao.finance)
