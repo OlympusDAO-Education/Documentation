@@ -12,7 +12,7 @@ Our goal is to build a policy-controlled currency system, in which the behavior 
 
 There are two main strategies for market participants: staking and bonding. Stakers lock supply and receive a share of protocol profits as they are earned. Bonders provide locked liquidity and receive a fixed profit after a fixed period of time.
 
-Governance participants can get involved on our forum and through discussions on our discord. We are always looking for new community members to contribute!
+Governance participants can get involved on our forum and through discussions on our [discord](https://discord.com/invite/olympusdao). We are always looking for new community members to contribute!
 
 ## How can I benefit from Olympus?
 
