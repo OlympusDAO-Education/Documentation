@@ -1,6 +1,6 @@
 # Bonds
 
-Bonds allow users to buy OHM from the protocol for a discount by trading it for liquidity \(SLP Tokens\). Bonds take roughly 15 epochs to vest; during that period, the OHM the user is due is  slowly released to them. Bonds help the protocol accumulate and lock liquidity.
+Bonds allow users to buy OHM from the protocol at a discount by trading it with i) liquidity \(SLP tokens\) or ii) DAI. Bonds take roughly 15 epochs to vest, and OHM tokens are vested linearly to the user over that period. SLP bond helps the protocol accumulate and lock liquidity, while DAI bond allows the protocol to grow its treasury faster.
 
 ## How to Bond
 
