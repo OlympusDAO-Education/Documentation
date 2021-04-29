@@ -20,8 +20,8 @@ the protocol.
 
 ### PCV
 
-Protocol Controlled Value, is the amount of funds the treasure owns and
-controlls. The more PCV the better for the protocol and its users.
+Protocol Controlled Value, is the amount of funds the treasury owns and
+controls. The more PCV the better for the protocol and its users.
 
 ### RFV
 
