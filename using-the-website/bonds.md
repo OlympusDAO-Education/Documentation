@@ -1,10 +1,14 @@
 # Bonds
 
-Bonds allow users to buy OHM from the protocol for a discount by trading it for liquidity \(SLP Tokens\). Bonds take roughly 15 epochs to vest; during that period, the OHM the user is due is  slowly released to them. Bonds help the protocol accumulate and lock liquidity.
+Bonds allow users to buy OHM from the protocol by trading it for DAI or previously staked liquidity \(SLP Tokens\). Bonds are sold at a discount and take roughly 15 epochs to vest (ca 5 days); 
+The bonded OHM is released to the user linearly during the vesting period. Bonds help the protocol accumulate and lock in reliable liquidity.
 
 ## How to Bond
 
-First, go to Sushiswap and add liquidity. If you do not know how to do so, there is a good guide here. Next, come to our [website](http://olympusdao.finance/#/bond). Make sure "Bond" is selected. Type in the amount of SLP you would like to bond, then click Approve and sign the transaction. Next, click Bond and sign that transaction. **Please note that bonding takes two transactions; approve and bond.**
+DAI Bonds: You can purchase bonded OHM using DAI. Go to our [website](http://olympusdao.finance/#/bond) and make sure "Bond" is selected. Type in the amount of DAI that you would like to bond, then click "Approve" and sign the transaction. As it is finished, make sure you enter the same amount of DAI an click Bond, then sign the transaction. 
+
+SLP Bonds: In order to pay for the bond you need a corresponding amount of SLP tokens to pay with and you can get them from Sushiswap. If you are unfamiliar with the process, there is a good guide here. Next, come to our [website](http://olympusdao.finance/#/bond) and make sure "Bond" is selected. Type in the amount of SLP that you would like to bond, then click "Approve" and sign the transaction. As it is finished, make sure you enter the same amount of SLP an click Bond, then sign the transaction. 
+**Please note that bonding takes two transactions; approve and bond.**
 
 ## **How to Redeem**
 
@@ -16,7 +20,7 @@ Come to our [website](http://olympusdao.finance/#/bond) and select the "Redeem" 
 
 **Balance** is your balance of SLP tokens. This is the asset used to create a bond.
 
-**Bond Price** is the price of OHM through bonds. You can calculate the bond price as:   
+**Bond Price** is the price of bonded OHM . You can calculate the bond price as:   
 \(Value of your SLP token / OHM you'll get from the bond\).
 
 **Market Price** is the market price of OHM.
@@ -25,7 +29,6 @@ Come to our [website](http://olympusdao.finance/#/bond) and select the "Redeem" 
 
 **Debt Ratio** is the total amount of OHM created from bonds that have yet to pay out. The debt ratio is \(OHM created from unredeemed bonds / OHM total supply\).
 
-**Vesting Term** is the length that a bond takes to fully redeem. This number is in blocks. 33110 blocks is approximately 5 days or 15 epochs.
+**Vesting Term** is the time that a bond takes to fully redeem. This number is in blocks. 33110 blocks is approximately 5 days or 15 epochs.
 
 **Discount** is the difference between the bond price and the market price. In the photo above, bonding would give you a 10.63% discount versus buying on the market at that same moment.
-
