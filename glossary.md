@@ -26,8 +26,7 @@ controls. The more PCV the better for the protocol and its users.
 ### RFV
 
 Risk Free Value, is the amount of funds the treasury guarantees to use for
-backing $OHM. For instance $DAI bonds are most efficient for the treasury since
-100% of the $DAI provided can be accounted for as risk free value.
+backing $OHM.
 
 ### SLP
 
