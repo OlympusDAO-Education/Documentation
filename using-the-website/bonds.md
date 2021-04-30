@@ -22,7 +22,7 @@ Bonds allow users to buy OHM from the protocol at a discount by trading it with 
 
 3. After the "Approve" transaction has been processed successfully, click "Bond" and sign the transaction. Voila, you have purchased your first DAI bond!
 
-**Note: The "Approve" transaction is only needed when bonding for the first time; subsequent bonding only requires you to perform the "Bond" transaction.**
+*Note: The "Approve" transaction is only needed when bonding for the first time; subsequent bonding only requires you to perform the "Bond" transaction.*
 
 ## **How to Redeem**
 
