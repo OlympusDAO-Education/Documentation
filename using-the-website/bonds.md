@@ -26,7 +26,7 @@ Bonds allow users to buy OHM from the protocol at a discount by trading it with 
 
 ## **How to Redeem**
 
-Come to our [website](http://olympusdao.finance/#/bond) and select the "Redeem" tab at the top of the window. Click "Redeem" to claim all of your available rewards.
+On the same webpage that you used to purchase bond, select the "Redeem" tab. Click "Redeem" to claim all of your available rewards.
 
 ## Reading the Info
 
