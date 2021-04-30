@@ -2,13 +2,12 @@
 
 **Sales:**
 
-![](.gitbook/assets/image%20%282%29.png)
+![](.gitbook/assets/architecture/sales.png)
 
 **Bonds:**
 
-![](.gitbook/assets/image%20%281%29.png)
+![](.gitbook/assets/architecture/bonds.png)
 
 **Staking:**
 
-![](.gitbook/assets/image%20%289%29.png)
-
+![](.gitbook/assets/architecture/staking.png)
