@@ -6,13 +6,20 @@ $$
 deposit = withdrawal
 $$
 
-Swaps between OHM and sOHM \(staking and unstaking\) are always honored 1:1
+Swaps between $OHM and $sOHM during staking and unstaking are always honored
+1:1. The amount of $OHM deposited into the staking contract will always result
+in the same amount of $sOHM. And the amount of $sOHM withdrawn from the staking
+contract will always result in the same amount of $OHM.
 
 $$
-rebase = 1-(deposits/sOHMOutstanding)
+rebase = 1 - ( ohmDeposits / sOHMOutstanding )
 $$
 
-The treasury does not requesting sOHM back when it deposits profits, creating an imbalance. sOHM is rebased to correct this imbalance between OHM deposited and sOHM outstanding. The rebase brings sOHM outstanding back up so that 1 sOHM equals 1 staked OHM.
+The treasury deposits $OHM into the distributor. The distributor deposits $OHM
+into the staking contract, creating an imbalance between $OHM and $sOHM. $sOHM
+is rebased to correct this imbalance between $OHM deposited and $sOHM
+outstanding. The rebase brings $sOHM outstanding back up to parity so that 1
+$sOHM equals 1 staked $OHM.
 
 ## Bonding
 
@@ -36,7 +43,7 @@ $$
 
 The premium is derived from the debt ratio of the system and a scaling variable. This scaling variable allows us to control the rate at which bond prices increase.
 
-The premium determines profit due to the protocol and in turn stakers. ****The LP taken by the premium is used to mint and distribute new OHM to stakers and the DAO.
+The premium determines profit due to the protocol and in turn stakers. \*\*\*\*The LP taken by the premium is used to mint and distribute new OHM to stakers and the DAO.
 
 $$
 Premium = 1 + (debt Ratio * n)
@@ -75,4 +82,3 @@ epochBurn=|TWAP-IV|*supply*DCV
 $$
 
 If TWAP is less than IV, the treasury uses this equation to fund the sales contract with DAI. DCV is a DAO-controlled scaling variable that allows us to tune deflation.
-
