@@ -34,16 +34,20 @@ On the same webpage that you used to purchase bond, select the "Redeem" tab. Cli
 
 **Balance** is your balance of SLP tokens. This is the asset used to create a bond.
 
-**Bond Price** is the price of OHM through bonds. You can calculate the bond price as:   
-\(Value of your SLP token / OHM you'll get from the bond\).
+**Bond Price** is the price of OHM you get from bonding. You can calculate the bond price using the following formulae:
+
+- SLP Bond: \(Value of your SLP token / OHM you'll get from bonding\)
+- DAI Bond: \(Value of your DAI token / OHM you'll get from bonding\)
 
 **Market Price** is the market price of OHM.
 
-**You Will Get** tells you how many OHM you will get from bonding the chosen amount of SLP.
+**You Will Get** tells you how many OHM you will get from bonding the chosen amount of SLP or DAI tokens.
 
-**Debt Ratio** is the total amount of OHM created from bonds that have yet to pay out. The debt ratio is \(OHM created from unredeemed bonds / OHM total supply\).
+**Debt Ratio** measures the total amount of OHM created from bonds that have yet to pay out. The debt ratio is calculated differently for SLP bond and DAI bond:
 
-**Vesting Term** is the length that a bond takes to fully redeem. This number is in blocks. 33110 blocks is approximately 5 days or 15 epochs.
+- SLP Bond: \(OHM created from unredeemed bonds / OHM total supply\)
+- DAI Bond: \(OHM created from unredeemed bonds / OHM circulating supply\)
 
-**Discount** is the difference between the bond price and the market price. In the photo above, bonding would give you a 10.63% discount versus buying on the market at that same moment.
+**Vesting Term** measures the period a bond takes to fully redeem. This number is in Ethereum blocks. 33110 blocks is approximately 5 days or 15 epochs.
 
+**Discount** is the difference between the bond price and the market price. In the photo above, bonding would give you a 10.63% discount versus buying the same amount of OHM from the market.
