@@ -12,11 +12,17 @@ Bonds allow users to buy OHM from the protocol at a discount by trading it with 
 
 3. Type in the amount of SLP you would like to bond, then click "Approve" and sign the transaction.
 
-4. After the "Approve" transaction has been processed successfully, click "Bond" and sign the transaction. Voila, you have purchased your first bond!
-
-**Note: The "Approve" transaction is only needed when bonding for the first time; subsequent bonding only requires you to perform the "Bond" transaction.**
+4. After the "Approve" transaction has been processed successfully, click "Bond" and sign the transaction. Voila, you have purchased your first SLP bond!
 
 #### DAI Bond
+
+1. Head to [Olympus website](http://olympusdao.finance/#/bondai). There are two tabs: "Bond" and "Redeem"; make sure "Bond" is selected.
+
+2. Type in the amount of DAI you would like to bond, then click "Approve" and sign the transaction.
+
+3. After the "Approve" transaction has been processed successfully, click "Bond" and sign the transaction. Voila, you have purchased your first DAI bond!
+
+**Note: The "Approve" transaction is only needed when bonding for the first time; subsequent bonding only requires you to perform the "Bond" transaction.**
 
 ## **How to Redeem**
 
