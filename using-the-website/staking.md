@@ -14,7 +14,7 @@ First, connect your wallet and make sure you've selected "Unstake" at the top of
 
 ## **Reading the Info**
 
-![](../.gitbook/assets/image%20%285%29.png)
+![](../.gitbook/assets/using-the-website/staking/modal.png)
 
 **Blocks to Next Epoch** tells you how many blocks there are until the next rebase. To determine how long that is, add the block number at the end of this link: https://etherscan.io/block/countdown/xxxxxxxxx. Epochs run for approximately 8 hours each.
 
@@ -27,4 +27,3 @@ First, connect your wallet and make sure you've selected "Unstake" at the top of
 **Upcoming APY** tells you the annualized rate of the current epoch. Since sOHM rebases exponentially, we display a compounding rate. You can determine this number for yourself with the calculation \( \(1 + rebase\) ^ \(365 \* 3\) \) - 1
 
 **Current index** allows you to track increases from staking. At epoch 0, the index was 1. It has been rebased up during every epoch. You can use it to track your position; just mark down the index number when you stake, and use it to compare every time you check back.
-

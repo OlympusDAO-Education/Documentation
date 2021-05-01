@@ -30,7 +30,7 @@ On the same webpage that you used to purchase bond, select the "Redeem" tab. Cli
 
 ## Reading the Info
 
-![](../.gitbook/assets/image.png)
+![](../.gitbook/assets/using-the-website/bonds/modal.png)
 
 **Balance** is your balance of SLP tokens. This is the asset used to create a bond.
 
