@@ -43,7 +43,7 @@ $$
 
 The premium is derived from the debt ratio of the system and a scaling variable. This scaling variable allows us to control the rate at which bond prices increase.
 
-The premium determines profit due to the protocol and in turn stakers. \*\*\*\*The LP taken by the premium is used to mint and distribute new OHM to stakers and the DAO.
+The premium determines profit due to the protocol and in turn, stakers. The LP taken by the premium is used to mint and distribute new OHM to stakers and the DAO.
 
 $$
 Premium = 1 + (debt Ratio * n)
