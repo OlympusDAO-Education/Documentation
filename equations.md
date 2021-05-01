@@ -15,11 +15,11 @@ $$
 rebase = 1 - ( ohmDeposits / sOHMOutstanding )
 $$
 
-The treasury deposits $OHM into the distributor. The distributor deposits $OHM
-into the staking contract, creating an imbalance between $OHM and $sOHM. $sOHM
-is rebased to correct this imbalance between $OHM deposited and $sOHM
-outstanding. The rebase brings $sOHM outstanding back up to parity so that 1
-$sOHM equals 1 staked $OHM.
+The treasury deposits OHM into the distributor. The distributor then deposits OHM
+into the staking contract, creating an imbalance between OHM and sOHM. sOHM
+is rebased to correct this imbalance between OHM deposited and sOHM
+outstanding. The rebase brings sOHM outstanding back up to parity so that 1
+sOHM equals 1 staked OHM.
 
 ## Bonding
 
