@@ -6,20 +6,20 @@ $$
 deposit = withdrawal
 $$
 
-Swaps between OHM and sOHM during staking and unstaking are always honored
-1:1. The amount of OHM deposited into the staking contract will always result
-in the same amount of sOHM. And the amount of sOHM withdrawn from the staking
-contract will always result in the same amount of OHM.
+Swaps between OHM and sOHM during staking and unstaking are always honored 1:1.
+The amount of OHM deposited into the staking contract will always result in the
+same amount of sOHM. And the amount of sOHM withdrawn from the staking contract
+will always result in the same amount of OHM.
 
 $$
 rebase = 1 - ( ohmDeposits / sOHMOutstanding )
 $$
 
-The treasury deposits OHM into the distributor. The distributor then deposits OHM
-into the staking contract, creating an imbalance between OHM and sOHM. sOHM
-is rebased to correct this imbalance between OHM deposited and sOHM
-outstanding. The rebase brings sOHM outstanding back up to parity so that 1
-sOHM equals 1 staked OHM.
+The treasury deposits OHM into the distributor. The distributor then deposits
+OHM into the staking contract, creating an imbalance between OHM and sOHM. sOHM
+is rebased to correct this imbalance between OHM deposited and sOHM outstanding.
+The rebase brings sOHM outstanding back up to parity so that 1 sOHM equals 1
+staked OHM.
 
 ## Bonding
 
