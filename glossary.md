@@ -23,6 +23,11 @@ the protocol.
 Protocol Controlled Value, is the amount of funds the treasury owns and
 controls. The more PCV the better for the protocol and its users.
 
+### POL
+
+Protocol Owned Liquidity, is the amount of LP the treasury owns and
+controls. The more POL the better for the protocol and its users.
+
 ### RFV
 
 Risk Free Value, is the amount of funds the treasury guarantees to use for
