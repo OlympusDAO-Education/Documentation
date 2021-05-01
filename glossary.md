@@ -31,9 +31,9 @@ controls. The more POL the better for the protocol and its users.
 ### RFV
 
 Risk Free Value, is the amount of funds the treasury guarantees to use for
-backing $OHM.
+backing OHM.
 
 ### SLP
 
 Sushiswap Liquidity Provider, is the token received when providing liquidity on
-Sushiswap. For instance LP bonds require SLP tokens of the $OHM / $DAI pair.
+Sushiswap. For instance LP bonds require SLP tokens of the OHM / DAI pair.
