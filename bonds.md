@@ -38,7 +38,7 @@ Come to our [website](http://olympusdao.finance/#/bond) and select the "Redeem" 
 
 **Balance** is your balance of SLP tokens. This is the asset used to create a bond.
 
-**Bond Price** is the price of bonded OHM . You can calculate the bond price as:   
+**Bond Price** is the price of bonded OHM. You can calculate the bond price as:   
 \(Value of your SLP token / OHM you'll get from the bond\).
 
 **Market Price** is the market price of OHM.
@@ -50,5 +50,4 @@ Come to our [website](http://olympusdao.finance/#/bond) and select the "Redeem" 
 **Vesting Term** is the time that a bond takes to fully redeem. This number is in blocks. 33110 blocks is approximately 5 days or 15 epochs.
 
 **Discount** is the difference between the bond price and the market price. In the photo above, bonding would give you a 10.63% discount versus buying on the market at that same moment.
-
 
