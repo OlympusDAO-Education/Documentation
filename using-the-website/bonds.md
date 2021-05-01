@@ -1,6 +1,6 @@
 # Bonds
 
-Bonds allow users to buy OHM from the protocol for a discount by trading it for liquidity \(SLP Tokens\). Bonds take roughly 15 epochs to vest; during that period, the OHM the user is due is  slowly released to them. Bonds help the protocol accumulate and lock liquidity.
+Bonds allow users to buy OHM from the protocol for a discount by trading it for liquidity \(SLP Tokens\). Bonds take roughly 15 epochs to vest; during that period, the OHM the user is due is slowly released to them. Bonds help the protocol accumulate and lock liquidity.
 
 ## How to Bond
 
@@ -12,11 +12,11 @@ Come to our [website](http://olympusdao.finance/#/bond) and select the "Redeem" 
 
 ## Reading the Info
 
-![](../.gitbook/assets/image.png)
+![](../.gitbook/assets/using-the-website/bonds/modal.png)
 
 **Balance** is your balance of SLP tokens. This is the asset used to create a bond.
 
-**Bond Price** is the price of OHM through bonds. You can calculate the bond price as:   
+**Bond Price** is the price of OHM through bonds. You can calculate the bond price as:
 \(Value of your SLP token / OHM you'll get from the bond\).
 
 **Market Price** is the market price of OHM.
@@ -28,4 +28,3 @@ Come to our [website](http://olympusdao.finance/#/bond) and select the "Redeem" 
 **Vesting Term** is the length that a bond takes to fully redeem. This number is in blocks. 33110 blocks is approximately 5 days or 15 epochs.
 
 **Discount** is the difference between the bond price and the market price. In the photo above, bonding would give you a 10.63% discount versus buying on the market at that same moment.
-
