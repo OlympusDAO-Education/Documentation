@@ -18,7 +18,7 @@ The protocol quotes the bonder with terms for a trade at a future date. These te
 
 # Bonds
 
-Bonds allow users to buy OHM from the protocol by trading it for DAI or previously staked liquidity \(SLP Tokens\). Bonds are sold at a discount and take roughly 15 epochs to vest (ca 5 days); 
+Bonds allow users to buy OHM from the protocol for a pre-determined price, by trading it for DAI or LP Tokens. Bonds are sold at a discount and take roughly 15 epochs (5 days) to vest linearly. 
 The bonded OHM is released to the user linearly during the vesting period. Bonds help the protocol accumulate and lock in reliable liquidity.
 
 ## How to Bond
@@ -50,4 +50,3 @@ Come to our [website](http://olympusdao.finance/#/bond) and select the "Redeem" 
 **Vesting Term** is the time that a bond takes to fully redeem. This number is in blocks. 33110 blocks is approximately 5 days or 15 epochs.
 
 **Discount** is the difference between the bond price and the market price. In the photo above, bonding would give you a 10.63% discount versus buying on the market at that same moment.
-
