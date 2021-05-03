@@ -1,10 +1,10 @@
 # Bonds
 
-Bonds allow users to buy OHM from the protocol at a discount by trading it with i) liquidity \(SLP tokens\) or ii) DAI. Bonds take roughly 15 epochs to vest, and OHM tokens are vested linearly to the user over that period. SLP bond helps the protocol accumulate and lock liquidity, while DAI bond allows the protocol to grow its treasury faster.
+Bonds allow users to buy OHM from the protocol at a discount by trading it with i) liquidity \(LP tokens\) or ii) DAI. Bonds take roughly 15 epochs to vest, and OHM tokens are vested linearly to the user over that period. LP bond helps the protocol accumulate and lock liquidity, while DAI bond allows the protocol to grow its treasury faster.
 
 ## How to Bond
 
-#### SLP Bond
+#### LP Bond
 
 1. Go to Sushiswap and add liquidity. If you do not know how to do so, there is a good guide on [SushiSwap documentation](https://help.sushidocs.com/guides/how-to-add-tokens-to-sushiswap-exchange-as-an-lp).
 
