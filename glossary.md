@@ -27,8 +27,8 @@ bound to a governance token. In OlympusDAO the governance token is OHM.
 ### DCV
 
 Deflation Control Variable, is the scaling factor at which protocol defined buy
-pressure changes. A higher DCV means more buy pressure and higher deflation. A
-lower DCV means less buy pressure and lower deflation.
+pressure changes. A higher DCV means more buy pressure from the protocol, resulting in a higher deflation. A
+lower DCV means less buy pressure from the protocol, resulting in a lower deflation.
 
 ### EVM
 
