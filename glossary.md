@@ -27,8 +27,9 @@ bound to a governance token. In OlympusDAO the governance token is sOHM.
 ### DCV
 
 Deflation Control Variable, is the scaling factor at which protocol defined buy
-pressure changes. A higher DCV means more buy pressure from the protocol, resulting in a higher deflation. A
-lower DCV means less buy pressure from the protocol, resulting in a lower deflation.
+pressure changes. A higher DCV means more buy pressure from the protocol,
+resulting in a higher deflation. A lower DCV means less buy pressure from the
+protocol, resulting in a lower deflation.
 
 ### EVM
 
@@ -40,8 +41,9 @@ valid state from block to block.
 ### ICV
 
 Inflation Control Variable, is the scaling factor at which protocol defined sell
-pressure changes. A higher ICV means more sell pressure from the protocol, resulting in a higher inflation. A
-lower ICV means less sell pressure from the protocol, resulting in a lower inflation.
+pressure changes. A higher ICV means more sell pressure from the protocol,
+resulting in a higher inflation. A lower ICV means less sell pressure from the
+protocol, resulting in a lower inflation.
 
 ### PCV
 
@@ -65,8 +67,8 @@ Sushiswap. For instance LP bonds require SLP tokens of the OHM / DAI pair.
 
 ### TVL
 
-Total Value Locked, is the dollar amount of all OHM staked in the protocol. This metric is often used as
-growth or health indicator in DeFi projects.
+Total Value Locked, is the dollar amount of all OHM staked in the protocol. This
+metric is often used as growth or health indicator in DeFi projects.
 
 ### TWAP
 
