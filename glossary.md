@@ -22,7 +22,7 @@ the protocol.
 
 Decentralized Autonomous Organization, is a governance mechanism for making
 decisions in a more trustless and collaborative way. Voting rights are often
-bound to a governance token. In OlympusDAO the governance token is OHM.
+bound to a governance token. In OlympusDAO the governance token is sOHM.
 
 ### DCV
 
