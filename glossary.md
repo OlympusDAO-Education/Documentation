@@ -65,7 +65,7 @@ Sushiswap. For instance LP bonds require SLP tokens of the OHM / DAI pair.
 
 ### TVL
 
-Total Value Locked, is the amount of OHM staked. This metric is often used as
+Total Value Locked, is the dollar amount of all OHM staked in the protocol. This metric is often used as
 growth or health indicator in DeFi projects.
 
 ### TWAP
