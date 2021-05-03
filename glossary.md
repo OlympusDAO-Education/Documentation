@@ -40,8 +40,8 @@ valid state from block to block.
 ### ICV
 
 Inflation Control Variable, is the scaling factor at which protocol defined sell
-pressure changes. A higher ICV means more sell pressure and higher inflation. A
-lower ICV means less sell pressure and lower inflation.
+pressure changes. A higher ICV means more sell pressure from the protocol, resulting in a higher inflation. A
+lower ICV means less sell pressure from the protocol, resulting in a lower inflation.
 
 ### PCV
 
