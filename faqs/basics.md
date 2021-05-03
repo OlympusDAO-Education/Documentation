@@ -1,8 +1,4 @@
-# Basic Questions
-
-**Don’t ape in! Just don’t.** If you are looking for fast gains this is not the project you should be getting involved in. 
-
-## FAQs
+# FAQs
 
 **Why do we need OlympusDAO in the first place?**
 
