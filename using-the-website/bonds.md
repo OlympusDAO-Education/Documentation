@@ -54,7 +54,7 @@ On the same webpage that you used to purchase bond, select the "Redeem" tab. Cli
 
 ![](../.gitbook/assets/using-the-website/bonds/modal_redeem.png)
 
-**Pending Rewards** is the amount of OHM you are entitled to from bonding.
+**Pending Rewards** is the amount of OHM you are entitled to receive from bonding.
 
 **Claimable Rewards** is the amount of OHM that you can claim now. This amount keeps on increasing as OHM is vested to you over the bonding period.
 
