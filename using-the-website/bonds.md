@@ -43,7 +43,7 @@ On the same webpage that you used to purchase bond, select the "Redeem" tab. Cli
 
 **You Will Get** tells you how many OHM you will get from bonding.
 
-**Debt Ratio** measures the total amount of OHM created from bonds that have yet to pay out. The debt ratio is calculated differently for SLP bond and DAI bond:
+**Debt Ratio** measures the total amount of OHM created from bonds that have yet to be paid out by the protocol. The debt ratio is calculated differently for SLP bond and DAI bond:
 
 - SLP Bond: \(OHM created from unredeemed bonds / OHM total supply\)
 - DAI Bond: \(OHM created from unredeemed bonds / OHM circulating supply\)
