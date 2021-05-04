@@ -50,7 +50,7 @@ On the same webpage that you used to purchase bond, select the "Redeem" tab. Cli
 
 **Vesting Term** measures the period a bond takes to fully redeem. This number is in Ethereum blocks. 33110 blocks is approximately 5 days or 15 epochs.
 
-**Discount** is the difference between the bond price and the market price. In the photo above, bonding would give you a 10.63% discount versus buying the same amount of OHM from the market.
+**Discount** is the difference between the bond price and the market price. In the screenshot above, bonding would give you a 10.63% discount versus buying the same amount of OHM from the market.
 
 ![](../.gitbook/assets/using-the-website/bonds/modal_redeem.png)
 
