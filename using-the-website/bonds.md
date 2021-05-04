@@ -56,6 +56,6 @@ On the same webpage that you used to purchase bond, select the "Redeem" tab. Cli
 
 **Pending Rewards** is the amount of OHM you are entitled to receive from bonding.
 
-**Claimable Rewards** is the amount of OHM that you can claim now. This amount keeps on increasing as OHM is vested to you over the bonding period.
+**Claimable Rewards** is the amount of OHM that you can claim now. This amount keeps increasing as OHM is vested to you over the bonding period.
 
 **Full Bond Maturation** refers to the Ethereum block when the bond matures.
