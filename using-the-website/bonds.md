@@ -1,6 +1,6 @@
 # Bonds
 
-Bonds allow users to buy OHM from the protocol at a discount by trading it with i) liquidity \(LP tokens\) or ii) DAI. Bonds take roughly 15 epochs to vest, and OHM tokens are vested linearly to the user over that period. LP bond helps the protocol accumulate and lock liquidity, while DAI bond allows the protocol to grow its treasury faster.
+Bonds allow users to buy OHM from the protocol at a discount by trading it with i) liquidity \(LP tokens\) or ii) DAI. Bonds take roughly 15 epochs to vest, and OHM tokens are vested linearly to the user over that period. LP bonds help the protocol to accumulate and lock liquidity, while DAI bonds allow the protocol to grow its treasury, and thus its RFV faster.
 
 ## How to Bond
 
