@@ -16,7 +16,7 @@ Bonds allow users to buy OHM from the protocol at a discount by trading it with 
 
 #### DAI Bond
 
-1. Head to [Olympus website](http://olympusdao.finance/#/bondai). There are two tabs: "Bond" and "Redeem"; make sure "Bond" is selected.
+1. Head to the [DAI Bond page of the Olympus website](http://olympusdao.finance/#/bondai). There are two tabs: "Bond" and "Redeem". Make sure "Bond" is selected.
 
 2. Type in the amount of DAI you would like to bond, then click "Approve" and sign the transaction.
 
