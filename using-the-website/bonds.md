@@ -8,7 +8,7 @@ Bonds allow users to buy OHM from the protocol at a discount by trading it with 
 
 1. Go to Sushiswap and add liquidity. If you do not know how to do so, there is a good guide on [SushiSwap documentation](https://help.sushidocs.com/guides/how-to-add-tokens-to-sushiswap-exchange-as-an-lp).
 
-2. Head to [Olympus website](http://olympusdao.finance/#/bond). There are two tabs: "Bond" and "Redeem"; make sure "Bond" is selected.
+2. Head to the [Bond page of the Olympus website](http://olympusdao.finance/#/bond). There are two tabs: "Bond" and "Redeem". Make sure "Bond" is selected.
 
 3. Type in the amount of SLP you would like to bond, then click "Approve" and sign the transaction.
 
