@@ -41,7 +41,7 @@ On the same webpage that you used to purchase bond, select the "Redeem" tab. Cli
 
 **Market Price** is the market price of OHM.
 
-**You Will Get** tells you how many OHM you will get from bonding the chosen amount of SLP or DAI tokens.
+**You Will Get** tells you how many OHM you will get from bonding.
 
 **Debt Ratio** measures the total amount of OHM created from bonds that have yet to pay out. The debt ratio is calculated differently for SLP bond and DAI bond:
 
