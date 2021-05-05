@@ -2,7 +2,9 @@
 
 ### Why do we need OlympusDAO in the first place?
 
-Crypto is an emerging digital economy in the early stages of a multi-decade economic boom. Dollar-pegged stablecoins dominate crypto and the dollar is controlled by FED. By using these stablecoins, we have given up crypto’s monetary sovereignty and opened crypto up to external dependencies that introduce systemic risks. While that was a logical risk to take in the early days, as we march towards mainstream adoption we should be aiming to regain sovereignty in the form of crypto’s own cross-chain protocol-controlled currency system.
+Dollar-pegged stablecoins have become an essential part of crypto due to their lack of volatility as compared to tokens such as Bitcoin and Ether. Users are comfortable with transacting using stablecoins knowing that they hold the same amount of purchasing power today vs. tomorrow. But this is a fallacy. The dollar is controlled by the US government and the Federal Reserve. This means a depreciation of dollar also means a depreciation of these stablecoins.
+
+OlympusDAO aims to solve this by creating a non-pegged stablecoin called OHM. By focusing on supply growth rather than price appreciation, OlympusDAO hopes that OHM can function as a currency that is able to hold its purchasing power regardless of market volatility.
 
 ### OHM is backed, not pegged.
 
