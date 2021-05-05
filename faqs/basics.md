@@ -8,7 +8,7 @@ Crypto is an emerging digital economy in the early stages of a multi-decade econ
 
 Each OHM is backed by DAI, not pegged to it. This means OHM can never trade below 1 DAI because the treasury backs every OHM with at least 1 DAI. It could trade above 1 DAI because there is no cap imposed by the protocol.
 
-You might say that OHM floor price or intrinsic value is 1 DAI. We believe that the actual price will always be 1 DAI + premium, but in the end that is up to the market to decide.
+You might say that the OHM floor price or intrinsic value is 1 DAI. We believe that the actual price will always be 1 DAI + premium, but in the end that is up to the market to decide.
 
 ### How does it work?
 
