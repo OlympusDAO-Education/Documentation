@@ -17,3 +17,18 @@ You might say that the OHM floor price or intrinsic value is 1 DAI. We believe t
 At a high level, OlympusDAO consists of its protocol managed treasury, protocol owned liquidity, bond mechanism, and high staking rewards that are designed to control supply expansion.
 
 Bond generates profit for the protocol, and the treasury uses the profit to mint OHM and distribute them to stakers. With LP bond, the protocol is able to accumulate liquidity to ensure the system stability.
+
+### What is the deal with (3,3) and (1,1)?
+
+(3,3) is the idea that, if everyone cooperated in Olympus, it would generate the greatest gain for everyone (from a [game theory](https://en.wikipedia.org/wiki/Game_theory) standpoint). Currently, there are three actions a user can take:
+
+- Staking (+2)
+- Bonding (+1)
+- Selling (-2)
+
+Given two actors, all scenarios of what they could do are shown here:
+
+If we both stake, it is the best thing for both of us and the protocol (3 + 3 = 6).<br>
+If one of us stakes and the other one bonds, it is also great because staking takes OHM off the market and put it into the protocol, while bonding provides liquidity and DAI for the treasury (3 + 1 = 4).<br>
+When one of us sells, it diminishes effort of the other one who stakes or bonds (1 - 1 = 0).<br>
+When we both sell, it creates the worst outcome for both of us and the protocol (-3 - 3 = -6).
