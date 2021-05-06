@@ -34,3 +34,7 @@ If we both stake, it is the best thing for both of us and the protocol (3 + 3 = 
 If one of us stakes and the other one bonds, it is also great because staking takes OHM off the market and put it into the protocol, while bonding provides liquidity and DAI for the treasury (3 + 1 = 4).<br>
 When one of us sells, it diminishes effort of the other one who stakes or bonds (1 - 1 = 0).<br>
 When we both sell, it creates the worst outcome for both of us and the protocol (-3 - 3 = -6).
+
+### Why is PCV important?
+
+As the protocol controls the funds in its treasury, OHM can only be minted or burned by the protocol. This also guarantees that the protocol can always back 1 OHM with 1 DAI. You can easily define the risk of your investment because you can be confident that the protocol will indefinitely buy OHM below 1 DAI with the treasury assets until no one is left to sell. You can't trust the FED but you can trust the code.
