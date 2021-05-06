@@ -8,7 +8,7 @@ OlympusDAO aims to solve this by creating a non-pegged stablecoin called OHM. By
 
 ### OHM is backed, not pegged.
 
-Each OHM is backed by DAI, not pegged to it. This means OHM can never trade below 1 DAI because the treasury backs every OHM with at least 1 DAI. It could trade above 1 DAI because there is no cap imposed by the protocol.
+Each OHM is backed by 1 DAI, not pegged to it. Because the treasury backs every OHM with at least 1 DAI, the protocol would buy back and burn OHM when it trades below 1 DAI. This has the effect of pushing OHM price back up to 1 DAI. OHM could always trade above 1 DAI because there is no upper limit imposed by the protocol. Think pegged == 1, while backed >= 1.
 
 You might say that the OHM floor price or intrinsic value is 1 DAI. We believe that the actual price will always be 1 DAI + premium, but in the end that is up to the market to decide.
 
