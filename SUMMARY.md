@@ -7,6 +7,7 @@
 - [Initial Network State](initial-network-state.md)
 - [Market Dynamics](market-dynamics.md)
 - [Architecture](architecture.md)
+- [Contracts](contracts.md)
 - [Equations](equations.md)
 - [Glossary](glossary.md)
 - [Translations](translations.md)
