@@ -1,13 +1,13 @@
 # Architecture
 
-**Sales:**
+## Sales
 
 ![](.gitbook/assets/architecture/sales.png)
 
-**Bonds:**
+## Bonds
 
 ![](.gitbook/assets/architecture/bonds.png)
 
-**Staking:**
+## Staking
 
 ![](.gitbook/assets/architecture/staking.png)
