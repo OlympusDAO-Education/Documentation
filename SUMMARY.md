@@ -11,6 +11,10 @@
 - [Glossary](glossary.md)
 - [Translations](translations.md)
 
+## FAQ
+
+- [Basics](faqs/basics.md)
+
 ## Using the Website
 
 - [Staking](using-the-website/staking.md)
