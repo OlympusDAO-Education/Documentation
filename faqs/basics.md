@@ -30,7 +30,7 @@ Given two actors, all scenarios of what they could do are shown here:
 
 ![](../.gitbook/assets/faqs/game_theory.png)
 
-If we both stake, it is the best thing for both of us and the protocol (3 + 3 = 6).<br>
+If we both stake (3, 3), it is the best thing for both of us and the protocol (3 + 3 = 6).<br>
 If one of us stakes and the other one bonds, it is also great because staking takes OHM off the market and put it into the protocol, while bonding provides liquidity and DAI for the treasury (3 + 1 = 4).<br>
 When one of us sells, it diminishes effort of the other one who stakes or bonds (1 - 1 = 0).<br>
 When we both sell, it creates the worst outcome for both of us and the protocol (-3 - 3 = -6).
