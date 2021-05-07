@@ -22,7 +22,7 @@ Bond generates profit for the protocol, and the treasury uses the profit to mint
 
 (3,3) is the idea that, if everyone cooperated in Olympus, it would generate the greatest gain for everyone (from a [game theory](https://en.wikipedia.org/wiki/Game_theory) standpoint). Currently, there are three actions a user can take:
 
-- Staking (+2)
+- Staking (+3)
 - Bonding (+1)
 - Selling (-2)
 
