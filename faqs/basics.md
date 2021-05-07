@@ -24,7 +24,7 @@ Bond generates profit for the protocol, and the treasury uses the profit to mint
 
 - Staking (+3)
 - Bonding (+1)
-- Selling (-2)
+- Selling (-3)
 
 Given two actors, all scenarios of what they could do are shown here:
 
