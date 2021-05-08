@@ -8,6 +8,10 @@ https://etherscan.io/address/0x383518188c0c6d7730d91b2c03a03c837814a899
 
 https://etherscan.io/address/0x31932E6e45012476ba3A3A4953cbA62AeE77Fbbe
 
+When staking OHM receive sOHM to the same amount. OHM to sOHM and sOHM to OHM
+conversions are always 1:1. Adding this address to e.g. your MetaMask you can
+more easily check your sOHM balance increase with every rebase.
+
 ## aOHM
 
 https://etherscan.io/address/0x24ecfd535675f36ba1ab9c5d39b50dc097b0792e
