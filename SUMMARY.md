@@ -13,8 +13,8 @@
 
 ## Using the Website
 
-- [Staking](using-the-website/staking.md)
-- [Bonds](using-the-website/bonds.md)
+- [Stake Your OHM (3, 3)](using-the-website/staking.md)
+- [Purchase A Bond (1, 1)](using-the-website/bonds.md)
 
 ## References
 
