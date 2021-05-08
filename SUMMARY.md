@@ -1,22 +1,25 @@
 # Table of contents
 
 - [Introduction](README.md)
+- [Initial Network State](initial-network-state.md)
+- [Policy](policy.md)
+- [Market Dynamics](market-dynamics.md)
+
+## Basics
+
+- [FAQ](faqs/basics.md)
 - [Staking](staking.md)
 - [Bonds](bonds.md)
-- [Policy](policy.md)
-- [Initial Network State](initial-network-state.md)
-- [Market Dynamics](market-dynamics.md)
+
+## Using the Website
+
+- [Stake Your OHM (3, 3)](using-the-website/staking.md)
+- [Purchase A Bond (1, 1)](using-the-website/bonds.md)
+
+## References
+
 - [Architecture](architecture.md)
 - [Contracts](contracts.md)
 - [Equations](equations.md)
 - [Glossary](glossary.md)
 - [Translations](translations.md)
-
-## FAQ
-
-- [Basics](faqs/basics.md)
-
-## Using the Website
-
-- [Staking](using-the-website/staking.md)
-- [Bonds](using-the-website/bonds.md)
