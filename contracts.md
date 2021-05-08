@@ -4,6 +4,12 @@
 
 https://etherscan.io/address/0x383518188c0c6d7730d91b2c03a03c837814a899
 
+If you want to buy OHM on Sushiswap or any other DEX please make sure the token
+address of the token you purchase matches the one shown above. Never buy any OHM
+token which address you cannot verify yourself. Further, knowing the OHM token
+address you can see the list of holders and available exchanges providing
+liquidity for OHM.
+
 ## sOHM
 
 https://etherscan.io/address/0x31932E6e45012476ba3A3A4953cbA62AeE77Fbbe
