@@ -8,7 +8,8 @@ https://etherscan.io/address/0x383518188c0c6d7730d91b2c03a03c837814a899
 
 https://etherscan.io/address/0x31932E6e45012476ba3A3A4953cbA62AeE77Fbbe
 
-You receive sOHM when you stake OHM at a 1:1 ratio. Adding this address to your wallet allows you to track your sOHM balance which increases with every rebase.
+You receive sOHM when you stake OHM at a 1:1 ratio. Adding this address to your
+wallet allows you to track your sOHM balance which increases with every rebase.
 
 ## aOHM
 
