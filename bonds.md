@@ -15,4 +15,3 @@ The protocol quotes the bonder with terms for a trade at a future date. These te
 \*\*\*\*
 
 \*\*\*\*
-
