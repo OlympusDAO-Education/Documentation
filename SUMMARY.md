@@ -2,14 +2,14 @@
 
 - [Introduction](README.md)
 - [Initial Network State](initial-network-state.md)
-- [Staking](staking.md)
-- [Bonds](bonds.md)
 - [Policy](policy.md)
 - [Market Dynamics](market-dynamics.md)
 
-## FAQ
+## Basics
 
-- [Basics](faqs/basics.md)
+- [FAQ](faqs/basics.md)
+- [Staking](staking.md)
+- [Bonds](bonds.md)
 
 ## Using the Website
 
