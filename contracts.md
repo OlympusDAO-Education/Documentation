@@ -8,7 +8,7 @@ If you want to buy OHM on Sushiswap or any other DEX please make sure the token
 address of the token you purchase matches the one shown above. Never buy any OHM
 token which address you cannot verify yourself. Further, knowing the OHM token
 address you can see the list of holders and available exchanges providing
-liquidity for OHM.
+liquidity for OHM on Etherscan.
 
 ## sOHM
 
