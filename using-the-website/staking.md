@@ -1,8 +1,6 @@
 # Staking
 
-Staking can be found on our [website](http://olympusdao.finance/#/stake).
-
-Staking allows you to earn more OHM by exchanging your OHM to staked OHM, aka sOHM.
+Staking allows you to earn OHM passively via compound interest. By staking your OHM with Olympus, you receive sOHM in return at a 1:1 ratio. After that, your sOHM balance will increase automatically on every epoch based on the current APY.
 
 ## How to Stake
 
