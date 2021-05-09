@@ -4,7 +4,7 @@ Staking allows you to earn OHM passively via auto-compounding. By staking your O
 
 ## How to Stake
 
-1. Go to the [Stake page of the Olympus website](https://olympusdao.finance/#/stake).
+1. Go to the [Stake page of the OlympusDAO website](https://olympusdao.finance/#/stake).
 
 2. Enter the amount of OHM that you would like to stake in the input field. If you would like to stake all your OHM, press the "Max" button and the input field will be populated with all your available OHM balance.
 
