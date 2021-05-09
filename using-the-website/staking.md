@@ -1,6 +1,6 @@
 # Staking
 
-Staking allows you to earn OHM passively via compound interest. By staking your OHM with Olympus, you receive sOHM in return at a 1:1 ratio. After that, your sOHM balance will increase automatically on every epoch based on the current APY.
+Staking allows you to earn OHM passively via auto-compounding. By staking your OHM with OlympusDAO, you receive sOHM in return at a 1:1 ratio. After that, your sOHM balance will increase automatically on every epoch based on the current APY.
 
 ## How to Stake
 
