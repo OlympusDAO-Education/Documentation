@@ -4,7 +4,13 @@ Staking allows you to earn OHM passively via compound interest. By staking your 
 
 ## How to Stake
 
-First, connect your wallet and make sure you've selected "Stake" at the top of the window. Check the Balance line to see how many OHM are available to stake. Type that amount into the field. Next, click approve and sign the transaction. After you've approved, click stake and sign that transaction. **Please note that staking requires two transactions; approve and stake.**
+1. Go to the [Stake page of the Olympus website](https://olympusdao.finance/#/stake).
+
+2. Enter the amount of OHM that you would like to stake in the input field. If you would like to stake all your OHM, press the "Max" button and the input field will be populated with all your available OHM balance.
+
+3. Click "Approve" and sign the transaction.
+
+4. After the "Approve" transaction has been processed successfully, click "Stake" and sign the transaction. Voila, you have staked your OHM!
 
 ## **How to Unstake**
 
