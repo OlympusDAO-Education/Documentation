@@ -24,15 +24,15 @@ Staking allows you to earn OHM passively via auto-compounding. By staking your O
 
 *Note: The "Approve" transaction is only needed when staking/unstaking for the first time; subsequent staking/unstaking only requires you to perform the "Stake" or "Unstake" transaction.*
 
-## **Reading the Info**
+## Reading the Info
 
 ![](../.gitbook/assets/using-the-website/staking/modal.png)
-
-**Blocks to Next Epoch** tells you how many blocks there are until the next rebase. To determine how long that is, add the block number at the end of this link: https://etherscan.io/block/countdown/xxxxxxxxx. Epochs run for approximately 8 hours each.
 
 **Balance** tells you how many unstaked OHM are in your wallet. This is the maximum amount that you can stake.
 
 **Staked** tells you how many staked OHM are in your wallet. This is the maximum amount that you can unstake.
+
+**Time until rebase** tells you the remaining time until the next rebase.
 
 **Upcoming rebase** tells you how much your balance will increase when the next epoch begins. For example, if you held 100 OHM and the upcoming rebase was 0.6595%, your balance would increase from 100 to 100.6595 OHM.
 
