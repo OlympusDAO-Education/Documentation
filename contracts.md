@@ -17,6 +17,8 @@ https://etherscan.io/address/0x31932E6e45012476ba3A3A4953cbA62AeE77Fbbe
 You receive sOHM when you stake OHM at a 1:1 ratio. Adding this address to your
 wallet allows you to track your sOHM balance which increases with every rebase.
 
+TODO That it is not transferable, that you can enter it to your MM to see it, that it has automatic rebasing
+
 ## aOHM
 
 https://etherscan.io/address/0x24ecfd535675f36ba1ab9c5d39b50dc097b0792e
@@ -47,8 +49,17 @@ https://etherscan.io/address/0x0efff9199aa1ac3c3e34e957567c1be8bf295034
 
 ## Distributor
 
-https://etherscan.io/address/0xbe731507810C8747C3E01E62c676b1cA6F93242f
+https://etherscan.io/address/0xce6568338708400d03f430d29f2eb40a33a3f4c4
+
+The distributor contract receives minted OHM from the treasury in order to
+drip-feed rewards to stakers. This means all OHM in the distributor is backed by
+DAI, because it is already being accounted for by the protocol. The reward rate
+as of time of writing is set to 5700, which translates to 0.57% of circulating
+supply, since the reward rate is defined in tens of thousands. Note that the old
+distributor contract was at [0xbe73...242f] due to historical reasons.
 
 ## Treasury
 
 https://etherscan.io/address/0x886CE997aa9ee4F8c2282E182aB72A705762399D
+
+[0xbe73...242f]: (https://etherscan.io/address/0xbe731507810C8747C3E01E62c676b1cA6F93242f)
