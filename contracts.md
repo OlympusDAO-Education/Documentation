@@ -53,8 +53,9 @@ The distributor contract receives minted OHM from the treasury in order to
 drip-feed rewards to stakers. This means all OHM in the distributor is backed by
 DAI, because it is already being accounted for by the protocol. The reward rate
 as of time of writing is set to 5700, which translates to 0.57% of circulating
-supply, since the reward rate is defined in tens of thousands. Note that the old
-distributor contract was at
+supply, since the reward rate is defined in tens of thousands. Note that the
+reward rate determines the rebase rate and that the rebase rate determines the
+APY. Note that the old distributor contract was at
 [0xbe73...242f](https://etherscan.io/address/0xbe731507810C8747C3E01E62c676b1cA6F93242f)
 due to historical reasons.
 
