@@ -4,7 +4,7 @@ Staking allows you to earn OHM passively via auto-compounding. By staking your O
 
 ## How to Stake
 
-1. Go to the [Stake page of the OlympusDAO website](https://olympusdao.finance/#/stake).
+1. Go to the [Stake page of the OlympusDAO website](https://olympusdao.finance/#/stake). Select the "Stake" tab.
 
 2. Enter the amount of OHM that you would like to stake in the input field. If you would like to stake all your OHM, press the "Max" button and the input field will be populated with all your available OHM balance.
 
@@ -12,9 +12,17 @@ Staking allows you to earn OHM passively via auto-compounding. By staking your O
 
 4. After the "Approve" transaction has been processed successfully, click "Stake" and sign the transaction. Voila, you have staked your OHM!
 
-## **How to Unstake**
+## How to Unstake
 
-First, connect your wallet and make sure you've selected "Unstake" at the top of the window. Check the Staked line to see how many sOHM are available to unstake. Type that amount into the field. Next, click approve and sign the transaction. After you've approved, click unstake and sign that transaction. **Please note that unstaking requires two transactions; approve and stake.**
+1. Go to the [Stake page of the OlympusDAO website](https://olympusdao.finance/#/stake). Select the "Unstake" tab.
+
+2. Enter the amount of sOHM that you would like to unstake in the input field. If you would like to unstake all your sOHM, press the "Max" button and the input field will be populated with all your available sOHM balance.
+
+3. Click "Approve" and sign the transaction.
+
+4. After the "Approve" transaction has been processed successfully, click "Unstake" and sign the transaction.
+
+*Note: The "Approve" transaction is only needed when staking/unstaking for the first time; subsequent staking/unstaking only requires you to perform the "Stake" or "Unstake" transaction.*
 
 ## **Reading the Info**
 
