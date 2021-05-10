@@ -17,8 +17,6 @@ https://etherscan.io/address/0x31932E6e45012476ba3A3A4953cbA62AeE77Fbbe
 You receive sOHM when you stake OHM at a 1:1 ratio. Adding this address to your
 wallet allows you to track your sOHM balance which increases with every rebase.
 
-TODO That it is not transferable, that you can enter it to your MM to see it, that it has automatic rebasing
-
 ## aOHM
 
 https://etherscan.io/address/0x24ecfd535675f36ba1ab9c5d39b50dc097b0792e
