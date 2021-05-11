@@ -47,7 +47,17 @@ https://etherscan.io/address/0x0efff9199aa1ac3c3e34e957567c1be8bf295034
 
 ## Distributor
 
-https://etherscan.io/address/0xbe731507810C8747C3E01E62c676b1cA6F93242f
+https://etherscan.io/address/0xce6568338708400d03f430d29f2eb40a33a3f4c4
+
+The distributor contract receives minted OHM from the treasury in order to
+drip-feed rewards to stakers. This means all OHM in the distributor is backed by
+DAI, because it is already being accounted for by the protocol. The reward rate
+as of time of writing is set to 5700, which translates to 0.57% of circulating
+supply, since the reward rate is defined in tens of thousands. Note that the
+reward rate determines the rebase rate and that the rebase rate determines the
+APY. Further note that the old distributor contract was at
+[0xbe73...242f](https://etherscan.io/address/0xbe731507810C8747C3E01E62c676b1cA6F93242f)
+due to historical reasons.
 
 ## Treasury
 
