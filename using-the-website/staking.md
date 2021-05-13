@@ -40,4 +40,4 @@ Staking allows you to earn OHM passively via auto-compounding. By staking your O
 
 **Current APY** tells you the annualized rate of the current epoch. Since sOHM rebases exponentially, we display a compounding rate. You can determine this number for yourself with the calculation \( \(1 + rebase\) ^ \(365 \* 3\) \)
 
-**Current index** allows you to track your gain from staking. The index starts from 1 at epoch 0, and is rebased up during every epoch. You can use it to track your position by marking down the index number when you stake and unstake. You divide the index number when you unstake by the index number when you stake to get the ratio by which your sOHM balance has increased.
+**Current index** allows you to track your gain from staking. The index starts from 1 at epoch 0, and is increased during every epoch. You can use it to track your position by marking down the index number when you stake and unstake. You divide the index number when you unstake by the index number when you stake to get the ratio by which your sOHM balance has increased.
