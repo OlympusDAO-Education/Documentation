@@ -19,6 +19,7 @@
 ## References
 
 - [Architecture](architecture.md)
+- [Audits](audits.md)
 - [Contracts](contracts.md)
 - [Equations](equations.md)
 - [Glossary](glossary.md)
