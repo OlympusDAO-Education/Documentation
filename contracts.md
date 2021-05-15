@@ -21,6 +21,8 @@ wallet allows you to track your sOHM balance which increases with every rebase.
 
 https://etherscan.io/address/0x24ecfd535675f36ba1ab9c5d39b50dc097b0792e
 
+When OlympusDAO first launched, alphaOHM (aOHM) was used as a pre-allocation token which allowed the early participants to lay claim to OHM. Moving forward aOHM will serve as the in-game currency of [Alpha Omega](https://medium.com/@alpha_omega/alpha-omega-a-tale-of-two-cities-80a94966376b), a community-led social game that runs on the blockchain. Other than that aOHM is not relevant to OHM or the operation of OlympusDAO.
+
 ## Staking
 
 https://etherscan.io/address/0x0822F3C03dcc24d200AFF33493Dc08d0e1f274A2
