@@ -22,11 +22,13 @@ Bond generates profit for the protocol, and the treasury uses the profit to mint
 
 (3,3) is the idea that, if everyone cooperated in Olympus, it would generate the greatest gain for everyone (from a [game theory](https://en.wikipedia.org/wiki/Game_theory) standpoint). Currently, there are three actions a user can take:
 
-- Staking (+3)
+- Staking (+2)
 - Bonding (+1)
-- Selling (-3)
+- Selling (-2)
 
-Given two actors, all scenarios of what they could do are shown here:
+Staking and bonding are considered beneficiary to the protocol, while selling is considered detrimental. Staking and selling will also cause a price move, while bonding does not (we consider buying as a prerequisite of staking, thus causing a price move). If both actions are beneficiary, the actor who moves price also gets half of the benefit (+1). If both actions are contradictory, the bad actor who moves price gets half of the benefit (+1), while the good actor who moves price gets half of the downside (-1). If both actions are detrimental, which implies both actors are selling, they both get half of the downside (-1).
+
+Thus, given two actors, all scenarios of what they could do and the effect on the protocol are shown here:
 
 ![](../.gitbook/assets/faqs/game_theory.png)
 
