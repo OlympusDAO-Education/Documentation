@@ -38,6 +38,6 @@ Staking allows you to earn OHM passively via auto-compounding. By staking your O
 
 **ROI (5-day rate)** estimates how much your sOHM balance will increase after 5 days, if the upcoming rebase rate stays the same during this period. For example, if you stake 100 OHM and the rate is 10.0250%, your sOHM balance would increase from 100 to 110.025 after 5 days.
 
-**Upcoming APY** tells you the annualized rate of the current epoch. Since sOHM rebases exponentially, we display a compounding rate. You can determine this number for yourself with the calculation \( \(1 + rebase\) ^ \(365 \* 3\) \) - 1
+**Current APY** tells you the annualized rate of return based on the upcoming rebase rate. It takes into account the effect of compounding since sOHM rebases exponentially.
 
-**Current index** allows you to track increases from staking. At epoch 0, the index was 1. It has been rebased up during every epoch. You can use it to track your position; just mark down the index number when you stake, and use it to compare every time you check back.
+**Current index** allows you to track your gain from staking. The index starts from 1 at epoch 0, and is increased during every epoch. You can use it to track your position by marking down the index number when you stake and unstake. You divide the index number when you unstake by the index number when you stake to get the ratio by which your sOHM balance has increased.
