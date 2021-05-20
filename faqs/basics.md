@@ -32,10 +32,10 @@ Thus, given two actors, all scenarios of what they could do and the effect on th
 
 ![](../.gitbook/assets/faqs/game_theory.png)
 
-If we both stake (3, 3), it is the best thing for both of us and the protocol (3 + 3 = 6).<br>
-If one of us stakes and the other one bonds, it is also great because staking takes OHM off the market and put it into the protocol, while bonding provides liquidity and DAI for the treasury (3 + 1 = 4).<br>
-When one of us sells, it diminishes effort of the other one who stakes or bonds (1 - 1 = 0).<br>
-When we both sell, it creates the worst outcome for both of us and the protocol (-3 - 3 = -6).
+- If we both stake (3, 3), it is the best thing for both of us and the protocol (3 + 3 = 6).
+- If one of us stakes and the other one bonds, it is also great because staking takes OHM off the market and put it into the protocol, while bonding provides liquidity and DAI for the treasury (3 + 1 = 4).
+- When one of us sells, it diminishes effort of the other one who stakes or bonds (1 - 1 = 0).
+- When we both sell, it creates the worst outcome for both of us and the protocol (-3 - 3 = -6).
 
 ### Why is PCV important?
 
@@ -60,3 +60,11 @@ Lastly, in OHM's growth and expansion phase, the premium of market value over it
 It is extremely important to understand how early in development the OlympusDAO protocol is. A large amount of discussion has centered around the current price and expected a stable value moving forward. The reality is that these characteristics are not yet determined. The network is currently tuned for expansion of OHM supply, which when paired with the staking, bonding, and yield mechanics of OlympusDAO, result in a fair amount of volatility.
 
 OHM could trade at a very high price because the market is ready to pay a hefty premium to capture a percentage of the current market capitalization. However, the price of OHM could also drop to a large degree if the market sentiment turns bearish. We would expect significant price volatility during our growth phase so please **do your own research** whether this project suits your goals.
+
+### What is the point of buying it now when OHM trades at a very high premium?
+
+When you buy and stake OHM, you capture a percentage of the supply (market cap) which will remain close to a constant. This is because your staked OHM balance also increases along with the circulating supply. The implication is that if you buy OHM when the market cap is low, you would be capturing a larger percentage of the market cap.
+
+### What is a rebase?
+
+Rebase is a mechanism by which your staked OHM balance increases automatically. When new OHM are minted by the protocol, a large portion of it goes to the stakers. Because stakers only see staked OHM balance instead of OHM, the protocol utilizes the rebase mechanism to increase the staked OHM balance so that 1 staked OHM is always redeemable for 1 OHM.
