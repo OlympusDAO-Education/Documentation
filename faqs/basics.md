@@ -78,3 +78,7 @@ One interesting fact about APY is that your balance will grow not linearly but e
 <p align="center">
    <img width="721" height="446" src="../.gitbook/assets/faqs/apy.png" alt="The power of compounding">
 </p>
+
+### Why does the price of OHM become irrelevant in long term?
+
+As illustrated above, your OHM balance will grow exponentially over time thanks to the power of compounding. Let's say you buy an OHM for $400 now and the market decides that in 1 year time, the intrinsic value of OHM will be $2. Assuming a daily compound interest rate of 2%, your balance would grow to about 1377 OHMs by the end of the year, which is worth around $2754. That is a cool $2354 profit! By now, you should understand that you are paying a premium for OHM now in exchange for a long-term benefit. Thus, you should have a long time horizon to allow your OHM balance to grow exponentially and make this a worthwhile investment.
