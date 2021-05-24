@@ -75,4 +75,6 @@ APY stands for annual percentage yield. It measures the real rate of return on y
 
 One interesting fact about APY is that your balance will grow not linearly but exponentially over time! Assuming a daily compound interest of 2%, if you start with a balance of 1 OHM on day 1, after a year, your balance will grow to about 1377. That is a lot!
 
-![](../.gitbook/assets/faqs/apy.png)
+<p align="center">
+   <img width="721" height="446" src="../.gitbook/assets/faqs/apy.png" alt="The power of compounding">
+</p>
