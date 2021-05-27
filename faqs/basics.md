@@ -84,7 +84,7 @@ One interesting fact about APY is that your balance will grow not linearly but e
 The APY is calculated from the rebase rate using the following equation:
 
 $$
-APY = ( 1 + rebase rate ) ^ 1095
+APY = ( 1 + rebaseRate )^{1095}
 $$
 
 It raises to the power of 1095 because a rebase happens 3 times daily. Consider there are 365 days in a year, this would give a rebase frequency of 365 * 3 = 1095.
@@ -92,13 +92,13 @@ It raises to the power of 1095 because a rebase happens 3 times daily. Consider 
 Rebase rate is determined by the following equation:
 
 $$
-Rebase rate = Number of OHM distributed to the staking contract / Total OHM staked
+rebaseRate = OHM_{distributed} / OHM_{totalStaked}
 $$
 
 The number of OHM distributed to the staking contract is calculated from OHM circulating supply using the following equation:
 
 $$
-OHM to be distributed = OHM circulating supply * 0.57%
+OHM_{distributed} = OHM_{circulating} \times 0.57\%
 $$
 
 Note that the 0.57% part is subject to change by the protocol.
