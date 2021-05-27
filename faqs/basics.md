@@ -79,6 +79,30 @@ One interesting fact about APY is that your balance will grow not linearly but e
    <img width="721" height="446" src="../.gitbook/assets/faqs/apy.png" alt="The power of compounding">
 </p>
 
+### How is the APY calculated?
+
+The APY is calculated from the rebase rate using the following equation:
+
+$$
+APY = ( 1 + rebase rate ) ^ 1095
+$$
+
+It raises to the power of 1095 because a rebase happens 3 times daily. Consider there are 365 days in a year, this would give a rebase frequency of 365 * 3 = 1095.
+
+Rebase rate is determined by the following equation:
+
+$$
+Rebase rate = Number of OHM distributed to the staking contract / Total OHM staked
+$$
+
+The number of OHM distributed to the staking contract is calculated from OHM circulating supply using the following equation:
+
+$$
+OHM to be distributed = OHM circulating supply * 0.57%
+$$
+
+Note that the 0.57% part is subject to change by the protocol.
+
 ### Why does the price of OHM become irrelevant in long term?
 
 As illustrated above, your OHM balance will grow exponentially over time thanks to the power of compounding. Let's say you buy an OHM for $400 now and the market decides that in 1 year time, the intrinsic value of OHM will be $2. Assuming a daily compound interest rate of 2%, your balance would grow to about 1377 OHMs by the end of the year, which is worth around $2754. That is a cool $2354 profit! By now, you should understand that you are paying a premium for OHM now in exchange for a long-term benefit. Thus, you should have a long time horizon to allow your OHM balance to grow exponentially and make this a worthwhile investment.
