@@ -64,3 +64,8 @@ due to historical reasons.
 ## Treasury
 
 https://etherscan.io/address/0x886CE997aa9ee4F8c2282E182aB72A705762399D
+
+The treasury contract is a simple vault implementation holding all RFV funds of
+the protocol. If for instance a user purchases a DAI bond, the bonded DAI is
+fully taken in by the treasury in return of the market equivalent of OHM bonded
+for. Additional OHM minted is being sent to the distributor contract.
