@@ -27,12 +27,3 @@ Olympus was ideated by Zeus and built by a distributed psuedo-anonymous team.
 ## Who runs Olympus?
 
 No one. Olympus is DAO-governed. All decisions are formed by community members on the forum and made by token holders through snapshot voting.
-
-## Official links
-
-- [Website](https://olympusdao.finance)
-- [Twitter](https://twitter.com/OlympusDAO)
-- [Medium](https://olympusdao.medium.com)
-- [Discord](https://discord.com/invite/olympusdao)
-- [Forum](https://forum.olympusdao.finance)
-- [Scattershot](https://scattershot.page/#/olympusdao.eth)
