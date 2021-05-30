@@ -63,9 +63,12 @@ due to historical reasons.
 
 ## Treasury
 
-https://etherscan.io/address/0x886CE997aa9ee4F8c2282E182aB72A705762399D
+https://etherscan.io/address/0x31F8Cc382c9898b273eff4e0b7626a6987C846E8
 
-The treasury contract is a simple vault implementation holding all the funds collected by
-the protocol. If for instance a user purchases a DAI bond, the bonded DAI is
-fully taken in by the treasury in return of the market equivalent of OHM bonded
-for. New OHM will be minted based on the RFV of the treasury assets.
+The treasury contract is a simple vault implementation holding all the funds
+collected by the protocol. If for instance a user purchases a DAI bond, the
+bonded DAI is fully taken in by the treasury in return of the market equivalent
+of OHM bonded for. New OHM will be minted based on the RFV of the treasury
+assets. Further note that the old treasury contract was at
+[0x886C...399D](https://etherscan.io/address/0x886CE997aa9ee4F8c2282E182aB72A705762399D)
+due to historical reasons.
