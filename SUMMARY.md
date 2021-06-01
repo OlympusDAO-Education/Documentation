@@ -15,6 +15,7 @@
 
 - [Stake Your OHM (3, 3)](using-the-website/staking.md)
 - [Purchase A Bond (1, 1)](using-the-website/bonds.md)
+- [Stake LP Tokens](using-the-website/staking_lp.md)
 
 ## References
 
