@@ -29,3 +29,9 @@
 - [Glossary](glossary.md)
 - [Links](links.md)
 - [Translations](translations.md)
+
+## Get Involved
+
+- [Contribute](contribute.md)
+- [Discord](https://discord.com/invite/olympusdao)
+- [Forum](https://forum.olympusdao.finance)
