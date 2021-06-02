@@ -33,5 +33,6 @@
 ## Get Involved
 
 - [Contribute](contribute.md)
-- [Discord](https://discord.com/invite/olympusdao)
+- [Community Discord](https://discord.com/invite/olympusdao)
+- [DAO Discord](https://discord.com/invite/TANbneqH)
 - [Forum](https://forum.olympusdao.finance)
