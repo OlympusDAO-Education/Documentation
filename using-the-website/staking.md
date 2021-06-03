@@ -10,6 +10,10 @@ Staking allows you to earn OHM passively via auto-compounding. By staking your O
 
 3. You can select any input currency based on your available wallet balance. It is recommended to use DAI as the input currency to minimize the slippage.
 
+<p align="center">
+   <img width="1028" height="477" src="../.gitbook/assets/using-the-website/staking/buy_ohm.png" alt="Make sure the output currency is OHM">
+</p>
+
 4. Select the amount of OHM you want to swap for. Then click "Approve" and sign the transaction.
 
 5. After the "Approve" transaction has been processed successfully, click "Swap" and sign the transaction.
