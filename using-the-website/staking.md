@@ -2,6 +2,22 @@
 
 Staking allows you to earn OHM passively via auto-compounding. By staking your OHM with OlympusDAO, you receive sOHM in return at a 1:1 ratio. After that, your sOHM balance will increase automatically on every epoch based on the current APY.
 
+## How to Buy OHM
+
+1. Go to [this Sushiswap swap page](https://app.sushi.com/swap?outputCurrency=0x383518188c0c6d7730d91b2c03a03c837814a899).
+
+2. Make sure the output currency is OHM.
+
+3. You can select any input currency based on your available wallet balance. It is recommended to use DAI as the input currency to minimize the slippage.
+
+4. Select the amount of OHM you want to swap for. Then click "Approve" and sign the transaction.
+
+5. After the "Approve" transaction has been processed successfully, click "Swap" and sign the transaction.
+
+6. You should see OHM in your wallet balance now after the swap transaction is successful. If you cannot find it in your wallet, add [OHM contract address](https://docs.olympusdao.finance/references/contracts#ohm) to your wallet.
+
+*Note: The "Approve" transaction is only needed when you swap OHM for the first time; subsequent swapping only requires you to perform the "Swap" transaction.*
+
 ## How to Stake
 
 1. Go to the [Stake page of the OlympusDAO website](https://olympusdao.finance/#/stake). Select the "Stake" tab.
