@@ -6,7 +6,11 @@ Staking allows you to earn OHM passively via auto-compounding. By staking your O
 
 1. Go to [this Sushiswap swap page](https://app.sushi.com/swap?outputCurrency=0x383518188c0c6d7730d91b2c03a03c837814a899).
 
-2. Make sure the output currency is OHM.
+2. Make sure the output currency is OHM. You can also manually insert [OHM contract address](https://docs.olympusdao.finance/references/contracts#ohm) in the output currency field to ensure you are swapping the right token.
+
+<p align="center">
+   <img width="827" height="532" src="../.gitbook/assets/using-the-website/staking/ohm_contract.png" alt="Manually insert OHM contract address">
+</p>
 
 3. You can select any input currency based on your available wallet balance. It is recommended to use DAI as the input currency to minimize the slippage.
 
