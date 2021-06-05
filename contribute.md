@@ -18,3 +18,5 @@ Every contributor should follow this workflow when updating the documentation. A
 4. Perform your work in the local branch.
 5. Commit your changes and push them to the remote branch regularly as your work progresses.
 6. When the development is complete, submit a pull request on Github.
+
+If you are not familiar with GitHub, check out [this guide from GitHub](https://guides.github.com/activities/hello-world/).
