@@ -20,3 +20,22 @@ Every contributor should follow this workflow when updating the documentation. A
 6. When the development is complete, submit a pull request on Github.
 
 If you are not familiar with GitHub, check out [this guide from GitHub](https://guides.github.com/activities/hello-world/).
+
+### First-Time Setup
+
+1. Clone [OlympusDAO-Education/Documentation](https://github.com/OlympusDAO-Education/Documentation) GitHub repository.
+
+    `git clone git@github.com:OlympusDAO-Education/Documentation.git`
+
+2. Go to the project directory where you have cloned the repository and issue this command:
+
+    `git status`
+
+3. You should see the following output in your terminal:
+
+    > On branch master<br>
+    > Your branch is up to date with 'origin/master'.
+    >
+    > nothing to commit, working tree clean
+
+4. You have now successfully cloned the GitHub repository and you can start making changes locally.
