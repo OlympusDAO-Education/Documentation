@@ -10,6 +10,8 @@ Join our [DAO Discord](https://discord.gg/42xFV68uEf) and make sure you fill up 
 
 ## Contributor Workflow
 
+Prerequisite: Be part of the education team in [our organization](https://github.com/OlympusDAO-Education). Not sure how? Join our community in [DAO Discord](https://discord.gg/42xFV68uEf) and find out more.
+
 Every contributor should follow this workflow when updating the documentation. At a high level, the workflow is as follows:
 
 1. Clone the GitHub repository onto your local machine.
