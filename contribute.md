@@ -41,3 +41,34 @@ If you are not familiar with GitHub, check out [this guide from GitHub](https://
     > nothing to commit, working tree clean
 
 4. You have now successfully cloned the GitHub repository and you can start making changes locally.
+
+### Create a Branch
+
+After you have cloned the repository, you can start making changes to the documentation. All changes should be done in a separate branch before they can be merged to the master branch (i.e. become official).
+
+1. Go to the `master` branch and synchronize it with the repository.
+
+        git checkout master
+        git pull
+
+2. Create a branch to work on your changes. We name it `foo` in this example.
+
+        git checkout -b foo
+
+3. Push your branch to the repository so that other members can collaborate with you on the same branch.
+
+        git push -u origin HEAD
+
+4. To verify you have set up your branch correctly, check your working tree status:
+
+        git status
+
+5. The expected output should be:
+
+    > On branch foo
+    >
+    > Your branch is up to date with 'origin/foo'.
+    >
+    > nothing to commit, working tree clean
+
+6. You can start editing files now and we will show you how to commit your changes in the next section.
