@@ -49,7 +49,7 @@ https://etherscan.io/address/0x0efff9199aa1ac3c3e34e957567c1be8bf295034
 
 This smart contract here is an intermediary component used to provide the
 current circulating supply of OHM tokens. The [DAI Bond](#dai-bond) contract for
-instance calls for the circulating supply in order to calculate the rebase rate.
+instance calls for the circulating supply in order to calculate the max payout.
 The [Distributor](#distributor) contract for instance calls for the circulating
 supply in order to calculate the DAI bond debt ratio.
 
