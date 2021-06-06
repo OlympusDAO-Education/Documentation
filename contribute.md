@@ -35,7 +35,8 @@ If you are not familiar with GitHub, check out [this guide from GitHub](https://
 
 3. You should see the following output in your terminal:
 
-    > On branch master<br>
+    > On branch master
+    >
     > Your branch is up to date with 'origin/master'.
     >
     > nothing to commit, working tree clean
