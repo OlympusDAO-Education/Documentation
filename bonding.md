@@ -6,7 +6,7 @@
 between a fixed income product, a futures contract, and an option. The protocol
 quotes the bonder with terms for a trade at a future date. These terms include a
 predefined amount of OHM the bonder will receive and the time when vesting is
-complete. The bond becomes redeemable as it vests. I.e. in a 5 day term, after 2
+complete. The bond becomes redeemable as it vests. I.e. in a 5-day term, after 2
 days into the term 40% of the rewards can be claimed.
 
 **Bonding is an active, short-term strategy.** The price discovery mechanism of
