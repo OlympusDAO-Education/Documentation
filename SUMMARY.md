@@ -6,7 +6,7 @@
 
 - [FAQ](faqs/basics.md)
 - [Staking](staking.md)
-- [Bonds](bonds.md)
+- [Bonding](bonding.md)
 
 ## Using the Website
 

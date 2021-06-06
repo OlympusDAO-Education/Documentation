@@ -10,9 +10,17 @@ Our goal is to build a policy-controlled currency system, in which the behavior 
 
 ## How do I participate in Olympus?
 
-There are two main strategies for market participants: staking and bonding. Stakers stake their OHM tokens in return for more OHM tokens, while bonders provide LP or DAI tokens in exchange for discounted OHM tokens after a fixed vesting period.
+There are two main strategies for market participants:
+[staking](https://docs.olympusdao.finance/basics/staking) and
+[bonding](https://docs.olympusdao.finance/basics/bonding). Stakers stake their
+OHM tokens in return for more OHM tokens, while bonders provide LP or DAI tokens
+in exchange for discounted OHM tokens after a fixed vesting period.
 
-Governance participants can get involved on our forum and through discussions on our discord. We are always looking for new community members to contribute!
+Governance participants can get involved on our
+[forum](https://forum.olympusdao.finance) and through discussions on our
+[community discord](https://discord.com/invite/olympusdao) and
+[DAO discord](https://discord.com/invite/42xFV68uEf) servers respectively. We
+are always looking for new community members to contribute!
 
 ## How can I benefit from Olympus?
 
