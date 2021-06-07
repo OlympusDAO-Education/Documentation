@@ -73,3 +73,39 @@ After you have cloned the repository, you can start making changes to the docume
     > nothing to commit, working tree clean
 
 6. You can start editing files now and we will show you how to commit your changes in the next section.
+
+### Commit Changes
+
+Everytime you make a change in the documentation, you can commit the change so that it is recorded by Git. You should also push the change to the repository so that other members can see what you have changed, and most importantly, the repository serves as a backup for your work.
+
+1. Say you have made some changes to the file `bar` and you want to commit it. First you need to add it to the staging area:
+
+        git add bar
+
+2. Check your working tree status:
+
+        git status
+
+3. The expected output should be:
+
+    > On branch foo
+    >
+    > Your branch is up to date with 'origin/foo'.
+    >
+    > Changes to be committed:
+    >
+    > (use "git restore --staged <file>..." to unstage)
+    >
+    > modified: bar
+
+4. Once the modified file is in the staging area, you can commit it:
+
+        git commit
+
+5. This should open your default editor. Write a message that briefly explains your changes and consummate the commit by saving and exiting the file.
+
+    ![Your default editor will be opened when you make a commit](.gitbook/assets/contribute/commit_message.png)
+
+6. Finally, you can push your commit to the repository by issuing:
+
+        git push
