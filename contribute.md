@@ -109,3 +109,7 @@ Everytime you make a change in the documentation, you can commit the change so t
 6. Finally, you can push your commit to the repository by issuing:
 
         git push
+
+### Make a Pull Request
+
+When you are satisfied with your modification, you can submit a pull request in order to make it official.
