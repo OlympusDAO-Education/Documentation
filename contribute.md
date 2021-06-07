@@ -109,3 +109,25 @@ Everytime you make a change in the documentation, you can commit the change so t
 6. Finally, you can push your commit to the repository by issuing:
 
         git push
+
+### Make a Pull Request
+
+When you are satisfied with your modification, you can submit a pull request in order to make it official.
+
+1. Go to [OlympusDAO documentation GitHub repository](https://github.com/OlympusDAO-Education/Documentation).
+
+2. Select the branch that you are working on.
+
+    ![Select your branch](.gitbook/assets/contribute/select_branch.png)
+
+3. After selecting your branch, click on the "Pull request" button to make a pull request.
+
+    ![Make a pull request](.gitbook/assets/contribute/pull_request.png)
+
+4. On the pull request page, briefly describe what your modification is about.
+
+5. Add Education Team as reviewer so that all members of the Education Team will be notified about this pull request.
+
+6. Lastly, assign this pull request to yourself and submit it.
+
+    ![Submit the pull request](.gitbook/assets/contribute/submit_pull_request.png)
