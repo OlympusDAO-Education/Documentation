@@ -131,3 +131,19 @@ When you are satisfied with your modification, you can submit a pull request in 
 6. Lastly, assign this pull request to yourself and submit it.
 
     ![Submit the pull request](.gitbook/assets/contribute/submit_pull_request.png)
+
+### Merge Your Changes
+
+After your pull request is approved by the Education Team, you can merge your changes to the master branch. This will make your modification official.
+
+1. Go to the [Pull Request section](https://github.com/OlympusDAO-Education/Documentation/pulls) and select your pull request.
+
+    ![Select your pull request](.gitbook/assets/contribute/open_pull_request.png)
+
+2. Click "Squash and merge" after your pull request has been approved by the Education Team.
+
+    ![Merge your changes](.gitbook/assets/contribute/merge_changes.png)
+
+3. Click "Confirm squash and merge" to finally merge your changes into the master branch.
+
+    ![Finalize the process](.gitbook/assets/contribute/finalize.png)
