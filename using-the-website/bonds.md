@@ -8,7 +8,7 @@ Bonds allow users to buy OHM from the protocol at a discount by trading it with 
 
 1. Go to Sushiswap and add liquidity. If you do not know how to do so, there is a good guide on [SushiSwap documentation](https://help.sushidocs.com/guides/how-to-add-tokens-to-sushiswap-exchange-as-an-lp).
 
-2. Head to the [Bond page of the Olympus website](http://olympusdao.finance/#/bond). There are two tabs: "Bond" and "Redeem". Make sure "Bond" is selected.
+2. Head to the [OHM/DAI LP Bond page of the Olympus website](https://app.olympusdao.finance/#/bonds/ohm_dai_lp). There are two tabs: "Bond" and "Redeem". Make sure "Bond" is selected.
 
 3. Type in the amount of SLP you would like to bond, then click "Approve" and sign the transaction.
 
@@ -16,17 +16,17 @@ Bonds allow users to buy OHM from the protocol at a discount by trading it with 
 
 #### DAI Bond
 
-1. Head to the [DAI Bond page of the Olympus website](http://olympusdao.finance/#/bondai). There are two tabs: "Bond" and "Redeem". Make sure "Bond" is selected.
+1. Head to the [DAI Bond page of the Olympus website](https://app.olympusdao.finance/#/bonds/dai). There are two tabs: "Bond" and "Redeem". Make sure "Bond" is selected.
 
 2. Type in the amount of DAI you would like to bond, then click "Approve" and sign the transaction.
 
 3. After the "Approve" transaction has been processed successfully, click "Bond" and sign the transaction. Voila, you have purchased your first DAI bond!
 
-*Note: The "Approve" transaction is only needed when bonding for the first time; subsequent bonding only requires you to perform the "Bond" transaction.*
+_Note: The "Approve" transaction is only needed when bonding for the first time; subsequent bonding only requires you to perform the "Bond" transaction._
 
 ## **How to Redeem**
 
-Go to [Bond page](https://olympusdao.finance/#/choose_bond) and select the bond type you have purchased. Select the "Redeem" tab. Then, click "Claim Rewards" to claim all of your available rewards.
+Go to [Bond page](https://app.olympusdao.finance/#/bonds) and select the bond type you have purchased. Select the "Redeem" tab. Then, click "Claim Rewards" to claim all of your available rewards.
 
 ## Reading the Info
 
