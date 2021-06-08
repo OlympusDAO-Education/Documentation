@@ -116,3 +116,7 @@ There is no clear answer for this, but the intrinsic value can be determined by 
 Let’s say the protocol targets an APY of 100,000%. This would translate to a rebase rate of about 0.6328%, or a daily growth of about 2%. Please refer to the equation above to learn [how APY is calculated from the rebase rate](#how-is-the-apy-calculated).
 
 If there are 100,000 of OHM staked right now, the protocol would need to mint an additional 2000 OHM to achieve this daily growth. This is achievable if the protocol can bring in at least 2000 DAI daily from bond sales. If the protocol fails to achieve this, the APY of 100,000% cannot be guaranteed.
+
+### Do I have to unstake and stake OHM on every epoch to get my rebase rewards?
+
+No. Once you have staked OHM with OlympusDAO, your staked OHM balance will auto-compound on every epoch. That increase in balance represents your rebase rewards.
