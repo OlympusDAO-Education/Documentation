@@ -120,6 +120,7 @@ If there are 100,000 of OHM staked right now, the protocol would need to mint an
 ### Do I have to unstake and stake OHM on every epoch to get my rebase rewards?
 
 No. Once you have staked OHM with OlympusDAO, your staked OHM balance will auto-compound on every epoch. That increase in balance represents your rebase rewards.
+
 ### How do I track my rebase rewards?
 
 You can track your rebase rewards by calculating the increase in your staked OHM balance.
