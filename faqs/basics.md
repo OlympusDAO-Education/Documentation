@@ -126,11 +126,11 @@ You can track your rebase rewards by calculating the increase in your staked OHM
 
 1. Record down the Current Index value on the [staking page](https://app.olympusdao.finance/#/) when you first stake your OHM. Let's call this the Start Index.
 
-    ![Start index](../.gitbook/asset/faqs/start_index.png)
+    ![Start index](../.gitbook/assets/faqs/start_index.png)
 
 2. After staking for some time, if you want to determine by how much your balance has increased, check the Current Index value again. Let's call this the End Index.
 
-    ![End index](../.gitbook/asset/faqs/end_index.png)
+    ![End index](../.gitbook/assets/faqs/end_index.png)
 
 3. By dividing the End Index by Start Index, you would get the ratio by which your staked OHM balance has increased.
 
