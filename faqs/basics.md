@@ -113,6 +113,28 @@ There is no clear answer for this, but the intrinsic value can be determined by 
 
 ### How does the protocol manage to maintain the high staking APY?
 
-Let’s say the protocol targets an APY of 100,000%. This would translate to a rebase rate of about 0.6328%, or a daily growth of about 2%. Please refer to the equation above to learn [how APY is calculated from the rebase rate](#how-is-the-APY-calculated).
+Let’s say the protocol targets an APY of 100,000%. This would translate to a rebase rate of about 0.6328%, or a daily growth of about 2%. Please refer to the equation above to learn [how APY is calculated from the rebase rate](#how-is-the-apy-calculated).
 
 If there are 100,000 of OHM staked right now, the protocol would need to mint an additional 2000 OHM to achieve this daily growth. This is achievable if the protocol can bring in at least 2000 DAI daily from bond sales. If the protocol fails to achieve this, the APY of 100,000% cannot be guaranteed.
+
+### Do I have to unstake and stake OHM on every epoch to get my rebase rewards?
+
+No. Once you have staked OHM with OlympusDAO, your staked OHM balance will auto-compound on every epoch. That increase in balance represents your rebase rewards.
+
+### How do I track my rebase rewards?
+
+You can track your rebase rewards by calculating the increase in your staked OHM balance.
+
+1. Record down the Current Index value on the [staking page](https://app.olympusdao.finance/#/) when you first stake your OHM. Let's call this the Start Index.
+
+    ![Start index](../.gitbook/assets/faqs/start_index.png)
+
+2. After staking for some time, if you want to determine by how much your balance has increased, check the Current Index value again. Let's call this the End Index.
+
+    ![End index](../.gitbook/assets/faqs/end_index.png)
+
+3. By dividing the End Index by Start Index, you would get the ratio by which your staked OHM balance has increased.
+
+    $$
+    ratio = endIndex / startIndex
+    $$
