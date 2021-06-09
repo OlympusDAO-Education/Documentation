@@ -28,6 +28,10 @@ _Note: The "Approve" transaction is only needed when bonding for the first time;
 
 Go to [Bond page](https://app.olympusdao.finance/#/bonds) and select the bond type you have purchased. Select the "Redeem" tab. Then, click "Claim Rewards" to claim all of your available rewards.
 
+## Hades
+
+Hades is a feature that allows you to purchase bond and send it to another account. This is useful when you wish to purchase another bond while the current bond is being vested - if the same account holds multiple bonds, the pending rewards from the earlier bonds will be forfeited.
+
 ## Reading the Info
 
 ![](../.gitbook/assets/using-the-website/bonds/modal.png)
