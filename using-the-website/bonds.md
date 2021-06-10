@@ -24,7 +24,7 @@ Bonds allow users to buy OHM from the protocol at a discount by trading it with 
 
 #### Hades
 
-Hades is a feature that allows you to purchase bond and send it to another account. This is useful when you wish to purchase another bond while the current bond is being vested - if the same account holds multiple bonds, the pending rewards from the earlier bonds will be forfeited.
+Hades is a feature that allows you to purchase bonds while sending the acquired OHM to another address. This is useful for additional privacy, or for purchasing multiple bonds while the current bonds are still vesting. Note that if the same account holds multiple bonds, the pending rewards from the earlier bonds have to be forfeited.
 
 1. Go to [Bond page](https://app.olympusdao.finance/#/bonds) and select the bond type you want to purchase.
 
