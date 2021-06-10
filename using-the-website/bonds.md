@@ -32,6 +32,30 @@ Go to [Bond page](https://app.olympusdao.finance/#/bonds) and select the bond ty
 
 Hades is a feature that allows you to purchase bond and send it to another account. This is useful when you wish to purchase another bond while the current bond is being vested - if the same account holds multiple bonds, the pending rewards from the earlier bonds will be forfeited.
 
+1. Go to [Bond page](https://app.olympusdao.finance/#/bonds) and select the bond type you want to purchase.
+
+2. Select the amount that you would like to bond, then click on the cogwheel icon at the top right of the page.
+
+    ![](../.gitbook/assets/using-the-website/bonds/cogwheel.png)
+
+3. The Hades menu will show up. At the Recipient Address field, you can specify a different address that will receive the vested OHM. By default, it is filled with your current address.
+
+    ![](../.gitbook/assets/using-the-website/bonds/hades.png)
+
+4. You can also modify the Slippage field to increase or decrease the likelihood of your order getting through. A higher slippage increases that likelihood, but you may get a more undesirable fill price.
+
+5. Close the Hades menu by clicking the cogwheel icon again.
+
+6. Click "Approve" and sign the transaction.
+
+7. After the "Approve" transaction has been processed successfully, click "Bond" and sign the transaction. Voila, you have purchased your first bond using Hades!
+
+*Notes:*
+
+*- Do not alter the bond amount after you have closed the Hades menu, as it will reset the recipient address.*
+
+*- The "Approve" transaction is only needed when bonding for the first time; subsequent bonding only requires you to perform the "Bond" transaction.*
+
 ## Reading the Info
 
 ![](../.gitbook/assets/using-the-website/bonds/modal.png)
