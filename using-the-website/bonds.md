@@ -22,8 +22,6 @@ Bonds allow users to buy OHM from the protocol at a discount by trading it with 
 
 3. After the "Approve" transaction has been processed successfully, click "Bond" and sign the transaction. Voila, you have purchased your first DAI bond!
 
-_Note: The "Approve" transaction is only needed when bonding for the first time; subsequent bonding only requires you to perform the "Bond" transaction._
-
 #### Hades
 
 Hades is a feature that allows you to purchase bond and send it to another account. This is useful when you wish to purchase another bond while the current bond is being vested - if the same account holds multiple bonds, the pending rewards from the earlier bonds will be forfeited.
@@ -48,8 +46,8 @@ Hades is a feature that allows you to purchase bond and send it to another accou
 
 *Notes:*
 
-- *Do not alter the bond amount after you have closed the Hades menu, as it will reset the recipient address.*
 - *The "Approve" transaction is only needed when bonding for the first time; subsequent bonding only requires you to perform the "Bond" transaction.*
+- *When using Hades, do not alter the bond amount after you have closed the Hades menu, as it will reset the recipient address.*
 
 ## **How to Redeem**
 
