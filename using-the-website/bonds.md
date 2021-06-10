@@ -24,11 +24,7 @@ Bonds allow users to buy OHM from the protocol at a discount by trading it with 
 
 _Note: The "Approve" transaction is only needed when bonding for the first time; subsequent bonding only requires you to perform the "Bond" transaction._
 
-## **How to Redeem**
-
-Go to [Bond page](https://app.olympusdao.finance/#/bonds) and select the bond type you have purchased. Select the "Redeem" tab. Then, click "Claim Rewards" to claim all of your available rewards.
-
-## Hades
+#### Hades
 
 Hades is a feature that allows you to purchase bond and send it to another account. This is useful when you wish to purchase another bond while the current bond is being vested - if the same account holds multiple bonds, the pending rewards from the earlier bonds will be forfeited.
 
@@ -54,6 +50,10 @@ Hades is a feature that allows you to purchase bond and send it to another accou
 
 - *Do not alter the bond amount after you have closed the Hades menu, as it will reset the recipient address.*
 - *The "Approve" transaction is only needed when bonding for the first time; subsequent bonding only requires you to perform the "Bond" transaction.*
+
+## **How to Redeem**
+
+Go to [Bond page](https://app.olympusdao.finance/#/bonds) and select the bond type you have purchased. Select the "Redeem" tab. Then, click "Claim Rewards" to claim all of your available rewards.
 
 ## Reading the Info
 
