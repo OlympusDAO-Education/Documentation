@@ -52,9 +52,8 @@ Hades is a feature that allows you to purchase bond and send it to another accou
 
 *Notes:*
 
-*- Do not alter the bond amount after you have closed the Hades menu, as it will reset the recipient address.*
-
-*- The "Approve" transaction is only needed when bonding for the first time; subsequent bonding only requires you to perform the "Bond" transaction.*
+- *Do not alter the bond amount after you have closed the Hades menu, as it will reset the recipient address.*
+- *The "Approve" transaction is only needed when bonding for the first time; subsequent bonding only requires you to perform the "Bond" transaction.*
 
 ## Reading the Info
 
