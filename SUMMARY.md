@@ -14,6 +14,10 @@
 - [Purchase A Bond (1, 1)](using-the-website/bonds.md)
 - [Stake LP Tokens](using-the-website/staking_lp.md)
 
+## FRAX Partnership
+
+- [Stake OHM-FRAX LP Tokens](frax-partnership/staking_lp.md)
+
 ## Protocol Internals
 
 - [Initial Network State](initial-network-state.md)
