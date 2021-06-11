@@ -12,7 +12,7 @@ A [new partnership between OlympusDAO and Frax Finance](https://olympusdao.mediu
 
 3. Type in the amount of LP tokens you would like to stake, then click "STAKE".
 
-4. If this is the first time you stake your LP tokens, you would need to approve the website to spend your LP tokens.
+4. If this is the first time you stake your LP tokens, you would need to approve the Frax contract to spend your LP tokens.
 
 5. After the token approval transaction has been processed successfully, you would need to sign another transaction to actually stake your LP tokens.
 
