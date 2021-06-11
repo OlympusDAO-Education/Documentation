@@ -1,6 +1,6 @@
 # Stake OHM-FRAX LP Tokens
 
-A new partnership between OlympusDAO and [Frax Finance](https://frax.finance/) allows users to stake OHM-FRAX LP tokens to earn OHM and FXS rewards.
+A [new partnership between OlympusDAO and Frax Finance](https://olympusdao.medium.com/ohm-x-frax-a-new-breed-of-partnership-95cd1cc01770) allows users to stake OHM-FRAX LP tokens to earn OHM and FXS rewards.
 
 ## How to Stake LP Tokens
 
