@@ -2,7 +2,7 @@
 
 ## What is bonding?
 
-**Bondig is the secondary value accrual strategy of Olympus.** Bonds are a cross
+**Bonding is the secondary value accrual strategy of Olympus.** Bonds are a cross
 between a fixed income product, a futures contract, and an option. The protocol
 quotes the bonder with terms for a trade at a future date. These terms include a
 predefined amount of OHM the bonder will receive and the time when vesting is
