@@ -33,8 +33,9 @@ not relevant to OHM or the operation of OlympusDAO.
 
 ## Staking
 
-new https://etherscan.io/address/0xFd31c7d00Ca47653c6Ce64Af53c1571f9C36566a
-old https://etherscan.io/address/0x0822F3C03dcc24d200AFF33493Dc08d0e1f274A2
+- new https://etherscan.io/address/0xFd31c7d00Ca47653c6Ce64Af53c1571f9C36566a
+- helper https://etherscan.io/address/0xC8C436271f9A6F10a5B80c8b8eD7D0E8f37a612d
+- old https://etherscan.io/address/0x0822F3C03dcc24d200AFF33493Dc08d0e1f274A2
 
 ## LP
 
@@ -46,13 +47,13 @@ https://etherscan.io/address/0xF11f0F078BfaF05a28Eac345Bb84fcb2a3722223
 
 ## DAI Bond
 
-new https://etherscan.io/address/0xd03056323b7a63e2095ae97fa1ad92e4820ff045
-old https://etherscan.io/address/0xa64ED1b66Cb2838Ef2A198D8345c0ce6967A2A3c
+- new https://etherscan.io/address/0xd03056323b7a63e2095ae97fa1ad92e4820ff045
+- old https://etherscan.io/address/0xa64ED1b66Cb2838Ef2A198D8345c0ce6967A2A3c
 
 ## OHM / DAI LP Bond
 
-new https://etherscan.io/address/0x996668c46fc0b764afda88d83eb58afc933a1626
-old https://etherscan.io/address/0x13E8484a86327f5882d1340ed0D7643a29548536
+- new https://etherscan.io/address/0x996668c46fc0b764afda88d83eb58afc933a1626
+- old https://etherscan.io/address/0x13E8484a86327f5882d1340ed0D7643a29548536
 
 ## OHM / FRAX LP Bond
 
