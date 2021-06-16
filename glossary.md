@@ -55,6 +55,11 @@ controls. The more PCV the better for the protocol and its users.
 Protocol Owned Liquidity, is the amount of LP the treasury owns and
 controls. The more POL the better for the protocol and its users.
 
+### PoR
+
+Proof of Reserve, is the mechanism of acumulating protocol controlled value.
+OlympusDAO is designed for PoR by acumulating POL.
+
 ### RFV
 
 Risk Free Value, is the amount of funds the treasury guarantees to use for
@@ -69,6 +74,11 @@ Sushiswap. For instance LP bonds require SLP tokens of the OHM / DAI pair.
 
 Total Value Locked, is the dollar amount of all OHM staked in the protocol. This
 metric is often used as growth or health indicator in DeFi projects.
+
+### TaaS
+
+Treasury as a Service, is the business model of decentralized custody of
+partnership funds. OlympusDAO is designed for TaaS by selling bonds.
 
 ### TWAP
 
