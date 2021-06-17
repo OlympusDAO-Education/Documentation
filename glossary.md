@@ -57,8 +57,7 @@ controls. The more POL the better for the protocol and its users.
 
 ### PoR
 
-Proof of Reserve, is the mechanism of acumulating protocol controlled value.
-OlympusDAO is designed for PoR by acumulating POL.
+Proof of Reserve, is the mechanism of strengthening the reserve of OlympusDAO treasury via the sales of bonds. Bonders provide liquidity to the treasury, thereby building its reserve. In return for their service, bonders get paid in OHM.
 
 ### RFV
 
