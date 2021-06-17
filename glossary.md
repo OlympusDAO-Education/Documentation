@@ -57,7 +57,10 @@ controls. The more POL the better for the protocol and its users.
 
 ### PoR
 
-Proof of Reserve, is the mechanism of strengthening the reserve of OlympusDAO treasury via the sales of bonds. Bonders provide liquidity to the treasury, thereby building its reserve. In return for their service, bonders get paid in OHM.
+Proof of Reserve, is the mechanism of strengthening the reserve of OlympusDAO
+treasury via the sales of bonds. Bonders provide liquidity to the treasury,
+thereby building its reserve. In return for their service, bonders get paid in
+OHM.
 
 ### RFV
 
@@ -77,7 +80,8 @@ metric is often used as growth or health indicator in DeFi projects.
 ### TaaS
 
 Treasury as a Service, is the business model of decentralized custody of
-partnership funds. OlympusDAO is designed for TaaS by selling bonds and absorbing partners' liquidity into its treasury as a result.
+partnership funds. OlympusDAO is designed for TaaS by selling bonds and
+absorbing partners' liquidity into its treasury as a result.
 
 ### TWAP
 
