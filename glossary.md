@@ -77,7 +77,7 @@ metric is often used as growth or health indicator in DeFi projects.
 ### TaaS
 
 Treasury as a Service, is the business model of decentralized custody of
-partnership funds. OlympusDAO is designed for TaaS by selling bonds.
+partnership funds. OlympusDAO is designed for TaaS by selling bonds and absorbing partners' liquidity into its treasury as a result.
 
 ### TWAP
 
