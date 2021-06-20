@@ -50,9 +50,9 @@ https://etherscan.io/address/0xF11f0F078BfaF05a28Eac345Bb84fcb2a3722223
 https://etherscan.io/address/0xd03056323b7a63e2095ae97fa1ad92e4820ff045
 
 All bond contracts are more or less the same, with the one exception of the
-assets or LPs they manage. The bond contracts handle all deposits and
-redemptions. Here parameters for monetary policy are configured per contract.
-Such parameters are for instance the bond control variable and the max
+assets or LP tokens they manage. The bond contracts handle all deposits and
+redemptions. Here parameters for monetary policy are configured.
+Such parameters are for instance the [BCV](https://docs.olympusdao.finance/references/glossary#bcv) and the max
 individual payout. Below are listed old DAI bond contracts which got phased out
 due to historical reasons.
 
