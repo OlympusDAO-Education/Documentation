@@ -14,4 +14,14 @@ Users can buy OHM from OlympusDAO at a discount in exchange for OHM-FRAX LP toke
 
 4. After the "Approve" transaction has been processed successfully, click "Bond" and sign the transaction. Voila, you have purchased your first LP bond!
 
+#### FRAX Bond
+
+1. Head to the [FRAX Bond page of the Olympus website](https://app.olympusdao.finance/#/bonds/frax). There are two tabs: "Bond" and "Redeem". Make sure "Bond" is selected.
+
+    ![FRAX Bond page](../.gitbook/assets/frax-partnership/bonds/frax_bond.png)
+
+2. Type in the amount of FRAX you would like to bond, then click "Approve" and sign the transaction.
+
+3. After the "Approve" transaction has been processed successfully, click "Bond" and sign the transaction. Voila, you have purchased your first FRAX bond!
+
 *Note: The "Approve" transaction is only needed when bonding for the first time; subsequent bonding only requires you to perform the "Bond" transaction.*
