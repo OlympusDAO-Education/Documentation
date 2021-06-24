@@ -12,12 +12,9 @@ liquidity for OHM on Etherscan.
 
 ## sOHM
 
-https://etherscan.io/address/0x04f2694c8fcee23e8fd0dfea1d4f5bb8c352111f
-
 You receive sOHM when you stake OHM at a 1:1 ratio. Adding this address to your
 wallet allows you to track your sOHM balance which increases with every rebase.
-Below are listed old sOHM contracts which got phased out due to historical
-reasons.
+The previous and current versions of the sOHM contract are listed below:
 
 - V1 [0x3193...Fbbe](https://etherscan.io/address/0x31932E6e45012476ba3A3A4953cbA62AeE77Fbbe)
 - V2 [0x04f2...111f](https://etherscan.io/address/0x04f2694c8fcee23e8fd0dfea1d4f5bb8c352111f)
@@ -48,14 +45,12 @@ https://etherscan.io/address/0xF11f0F078BfaF05a28Eac345Bb84fcb2a3722223
 
 ## DAI Bond
 
-https://etherscan.io/address/0xd03056323b7a63e2095ae97fa1ad92e4820ff045
-
 All bond contracts are more or less the same, with the one exception of the
 assets or LP tokens they manage. The bond contracts handle all deposits and
 redemptions. Here parameters for monetary policy are configured. Such parameters
 are for instance the [BCV](https://docs.olympusdao.finance/references/glossary#bcv)
-and the max individual payout. Below are listed old DAI bond contracts which got
-phased out due to historical reasons.
+and the max individual payout. The previous and current versions of the DAI bond 
+contract are listed below:
 
 - V1 https://etherscan.io/address/0xa64ED1b66Cb2838Ef2A198D8345c0ce6967A2A3c
 - V2 https://etherscan.io/address/0xd03056323b7a63e2095ae97fa1ad92e4820ff045
