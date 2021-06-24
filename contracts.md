@@ -12,14 +12,12 @@ liquidity for OHM on Etherscan.
 
 ## sOHM
 
-https://etherscan.io/address/0x04f2694c8fcee23e8fd0dfea1d4f5bb8c352111f
-
 You receive sOHM when you stake OHM at a 1:1 ratio. Adding this address to your
 wallet allows you to track your sOHM balance which increases with every rebase.
-Below are listed old sOHM contracts which got phased out due to historical
-reasons.
+The previous and current versions of the sOHM contract are listed below:
 
-- [0x3193...Fbbe](https://etherscan.io/address/0x31932E6e45012476ba3A3A4953cbA62AeE77Fbbe)
+- V1 [0x3193...Fbbe](https://etherscan.io/address/0x31932E6e45012476ba3A3A4953cbA62AeE77Fbbe)
+- V2 [0x04f2...111f](https://etherscan.io/address/0x04f2694c8fcee23e8fd0dfea1d4f5bb8c352111f)
 
 ## aOHM
 
@@ -47,25 +45,33 @@ https://etherscan.io/address/0xF11f0F078BfaF05a28Eac345Bb84fcb2a3722223
 
 ## DAI Bond
 
-https://etherscan.io/address/0xd03056323b7a63e2095ae97fa1ad92e4820ff045
-
 All bond contracts are more or less the same, with the one exception of the
 assets or LP tokens they manage. The bond contracts handle all deposits and
 redemptions. Here parameters for monetary policy are configured. Such parameters
 are for instance the [BCV](https://docs.olympusdao.finance/references/glossary#bcv)
-and the max individual payout. Below are listed old DAI bond contracts which got
-phased out due to historical reasons.
+and the max individual payout. The previous and current versions of the DAI bond 
+contract are listed below:
 
-- https://etherscan.io/address/0xa64ED1b66Cb2838Ef2A198D8345c0ce6967A2A3c
+- V1 https://etherscan.io/address/0xa64ED1b66Cb2838Ef2A198D8345c0ce6967A2A3c
+- V2 https://etherscan.io/address/0xd03056323b7a63e2095ae97fa1ad92e4820ff045
+- V3 https://etherscan.io/address/0x575409F8d77c12B05feD8B455815f0e54797381c
 
 ## OHM / DAI LP Bond
 
-- new https://etherscan.io/address/0x996668c46fc0b764afda88d83eb58afc933a1626
-- old https://etherscan.io/address/0x13E8484a86327f5882d1340ed0D7643a29548536
+- V1 https://etherscan.io/address/0xd27001d1aaed5f002c722ad729de88a91239ff29
+- V2 https://etherscan.io/address/0x13e8484a86327f5882d1340ed0d7643a29548536
+- V3 https://etherscan.io/address/0x996668c46fc0b764afda88d83eb58afc933a1626
+- V4 https://etherscan.io/address/0x956c43998316b6a2F21f89a1539f73fB5B78c151
 
 ## OHM / FRAX LP Bond
 
-https://etherscan.io/address/0x539b6c906244ac34e348bbe77885cdfa994a3776
+- V1 https://etherscan.io/address/0x539b6c906244ac34e348bbe77885cdfa994a3776
+- V2 https://etherscan.io/address/0xc20cfff07076858a7e642e396180ec390e5a02f7
+
+## FRAX Bond
+
+- V1 https://etherscan.io/address/0x8510c8c2B6891E04864fa196693D44E6B6ec2514
+
 
 ## Circulating Supply
 
