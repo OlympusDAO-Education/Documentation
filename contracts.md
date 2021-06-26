@@ -92,7 +92,7 @@ version represents the currently active contract.
 
 The distributor contract receives minted OHM from the treasury in order to
 drip-feed rewards to stakers. The reward rate target as of time of writing is
-set to 3300, which translates to 0.35% of total supply, since the reward rate is
+set to 3500, which translates to 0.35% of total supply, since the reward rate is
 defined in tens of thousands. Note that the reward rate determines the rebase
 rate and that the rebase rate determines the APY. Below are listed distributor
 contracts by version, where the latest version represents the currently active
