@@ -91,17 +91,17 @@ version represents the currently active contract.
 ## Distributor
 
 The distributor contract receives minted OHM from the treasury in order to
-drip-feed rewards to stakers. This means all OHM in the distributor is backed by
-DAI, because it is already being accounted for by the protocol. The reward rate
-as of time of writing is set to 5700, which translates to 0.57% of circulating
-supply, since the reward rate is defined in tens of thousands. Note that the
-reward rate determines the rebase rate and that the rebase rate determines the
-APY. Below are listed distributor contracts by version, where the latest version
-represents the currently active contract.
+drip-feed rewards to stakers. The reward rate target as of time of writing is
+set to 3300, which translates to 0.35% of total supply, since the reward rate is
+defined in tens of thousands. Note that the reward rate determines the rebase
+rate and that the rebase rate determines the APY. Below are listed distributor
+contracts by version, where the latest version represents the currently active
+contract.
 
 - V1 [0xbe73...242f](https://etherscan.io/address/0xbe731507810C8747C3E01E62c676b1cA6F93242f)
 - V2 [0xce65...f4c4](https://etherscan.io/address/0xce6568338708400d03f430d29f2eb40a33a3f4c4)
 - V3 [0x73cf...bb1e](https://etherscan.io/address/0x73cfe6b116d161a2f9c165f7fc5270fb7dd2bb1e)
+- V4 [0xc58e...3ce6](https://etherscan.io/address/0xc58e923bf8a00e4361fe3f4275226a543d7d3ce6)
 
 ## Treasury
 
