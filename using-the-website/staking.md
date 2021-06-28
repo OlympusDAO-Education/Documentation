@@ -1,6 +1,6 @@
 # Staking
 
-Staking allows you to earn OHM passively via auto-compounding. By staking your OHM with OlympusDAO, you receive sOHM in return at a 1:1 ratio. After that, your sOHM balance will increase automatically on every epoch based on the current APY.
+Staking allows you to earn OHM passively via auto-compounding. By staking your OHM with OlympusDAO, you receive sOHM (staked OHM) in return at a 1:1 ratio. After that, your sOHM balance will increase automatically on every epoch based on the current APY.
 
 ## How to Buy OHM
 
@@ -50,18 +50,18 @@ Staking allows you to earn OHM passively via auto-compounding. By staking your O
 
 ## Reading the Info
 
-![](../.gitbook/assets/using-the-website/staking/modal.png)
+![The staking page](../.gitbook/assets/using-the-website/staking/staking_page.png)
 
-**Balance** tells you how many unstaked OHM are in your wallet. This is the maximum amount that you can stake.
+**Your Balance** tells you how many unstaked OHM are in your wallet. This is the maximum amount that you can stake.
 
-**Staked** tells you how many staked OHM are in your wallet. This is the maximum amount that you can unstake.
+**Your Staked Balance** tells you how many staked OHM are in your wallet. This is the maximum amount that you can unstake.
 
-**Time until rebase** tells you the remaining time until the next rebase.
+**Next Rebase** tells you the remaining time until the next rebase.
 
-**Upcoming rebase** tells you how much your sOHM balance will increase when the next epoch begins. For example, if you stake 100 OHM and the upcoming rebase is 0.6389%, your sOHM balance would increase from 100 to 100.6389.
+**Reward Yield** tells you how much your sOHM balance will increase when the next epoch begins. For example, if you stake 100 OHM and the upcoming rebase is 0.5427%, your sOHM balance would increase from 100 to 100.5427.
 
-**ROI (5-day rate)** estimates how much your sOHM balance will increase after 5 days, if the upcoming rebase rate stays the same during this period. For example, if you stake 100 OHM and the rate is 10.0250%, your sOHM balance would increase from 100 to 110.025 after 5 days.
+**ROI (5-Day Rate)** estimates how much your sOHM balance will increase after 5 days, if the reward yield stays the same during this period. For example, if you stake 100 OHM and the rate is 8.4577%, your sOHM balance would increase from 100 to 108.4577 after 5 days.
 
-**Current APY** tells you the annualized rate of return based on the upcoming rebase rate. It takes into account the effect of compounding since sOHM rebases exponentially.
+**APY** tells you the annualized rate of return based on the reward yield. It takes into account the effect of compounding since sOHM rebases exponentially.
 
-**Current index** allows you to track your gain from staking. The index starts from 1 at epoch 0, and is increased during every epoch. You can use it to track your position by marking down the index number when you stake and unstake. You divide the index number when you unstake by the index number when you stake to get the ratio by which your sOHM balance has increased.
+**TVL** measures the dollar amount of all the staked OHM in Olympus.
