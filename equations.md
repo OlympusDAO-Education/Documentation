@@ -62,16 +62,6 @@ $$
 Premium = 1 + (debt Ratio * n)
 $$
 
-## Sales
-
-$$
-executingPrice=lastMarketPrice*(1-discount)
-$$
-
-If the last market price is greater than the TWAP, the sales contract executes
-orders at that last market price minus a DAO-controlled discount which provides
-an arbitrage to encourage liquidity.
-
 ## Treasury
 
 $$
@@ -89,17 +79,8 @@ At the end of each epoch, the treasury mints OHM so that IV returns to our
 intended value of 1.
 
 $$
-epochMint=(TWAP-IV)*supply*ICV
-$$
-
-If TWAP is greater than IV, the treasury uses this equation to fund the sales
-contract with OHM. ICV is a DAO-controlled scaling variable that allows us to
-tune inflation.
-
-$$
 epochBurn=|TWAP-IV|*supply*DCV
 $$
 
-If TWAP is less than IV, the treasury uses this equation to fund the sales
-contract with DAI. DCV is a DAO-controlled scaling variable that allows us to
+If TWAP is less than IV, the treasury uses this equation to buy back OHM with DAI. DCV is a DAO-controlled scaling variable that allows us to
 tune deflation.
