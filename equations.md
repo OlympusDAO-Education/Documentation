@@ -29,7 +29,7 @@ new bonds. This creates a secondary price discovery mechanism that is somewhat
 independent from the actual market.
 
 $$
-Bond Price = RFV \times Premium
+Bond Price = RFV * Premium
 $$
 
 The risk-free value is derived from the assets in the liquidity pool. The
