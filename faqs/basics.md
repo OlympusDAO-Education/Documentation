@@ -110,7 +110,7 @@ $$
 The number of OHM distributed to the staking contract is calculated from OHM total supply using the following equation:
 
 $$
-OHM_{distributed} = OHM_{totalSupply} \times rewardRate\%
+OHM_{distributed} = OHM_{totalSupply} \times rewardRate
 $$
 
 Note that the reward rate is subject to change by the protocol. For example, it has been revised due to [this latest proposal](https://forum.olympusdao.finance/d/37-oip-11-reducing-reward-rate).
