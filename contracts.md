@@ -103,6 +103,15 @@ contract.
 - V3 [0x73cf...bb1e](https://etherscan.io/address/0x73cfe6b116d161a2f9c165f7fc5270fb7dd2bb1e)
 - V4 [0xc58e...3ce6](https://etherscan.io/address/0xc58e923bf8a00e4361fe3f4275226a543d7d3ce6)
 
+## Redeem Helper
+
+The redeem helper contract is configured with all active bond contract
+addresses. When calling `redeemAll` all claimable bond rewards are redeemed for
+the given recipient. Below are listed redeem helper contracts by version, where
+the latest version represents the currently active contract.
+
+- V1 [0xE1e8...819E](https://etherscan.io/address/0xE1e83825613DE12E8F0502Da939523558f0B819E)
+
 ## Treasury
 
 The treasury contract is a simple vault implementation holding all the funds
