@@ -77,6 +77,10 @@ When you buy and stake OHM, you capture a percentage of the supply (market cap) 
 
 Rebase is a mechanism by which your staked OHM balance increases automatically. When new OHM are minted by the protocol, a large portion of it goes to the stakers. Because stakers only see staked OHM balance instead of OHM, the protocol utilizes the rebase mechanism to increase the staked OHM balance so that 1 staked OHM is always redeemable for 1 OHM.
 
+### What is reward yield?
+
+Reward yield is the percentage by which your staked OHM balance increases on the next epoch. It is also known as *rebase rate*. You can find this number on the [Olympus staking page](https://app.olympusdao.finance/#/stake).
+
 ### What is APY?
 
 APY stands for annual percentage yield. It measures the real rate of return on your principal by taking into account the effect of compounding interest. In the case of OlympusDAO, your staked OHM represents your principal, and the compound interest is added periodically on every epoch (2200 Ethereum blocks, or around 8 hours) thanks to the rebase mechanism.
@@ -89,27 +93,27 @@ One interesting fact about APY is that your balance will grow not linearly but e
 
 ### How is the APY calculated?
 
-The APY is calculated from the rebase rate using the following equation:
+The APY is calculated from the reward yield (a.k.a rebase rate) using the following equation:
 
 $$
-APY = ( 1 + rebaseRate )^{1095}
+APY = ( 1 + rewardYield )^{1095}
 $$
 
 It raises to the power of 1095 because a rebase happens 3 times daily. Consider there are 365 days in a year, this would give a rebase frequency of 365 * 3 = 1095.
 
-Rebase rate is determined by the following equation:
+Reward yield is determined by the following equation:
 
 $$
-rebaseRate = OHM_{distributed} / OHM_{totalStaked}
+rewardYield = OHM_{distributed} / OHM_{totalStaked}
 $$
 
-The number of OHM distributed to the staking contract is calculated from OHM circulating supply using the following equation:
+The number of OHM distributed to the staking contract is calculated from OHM total supply using the following equation:
 
 $$
-OHM_{distributed} = OHM_{circulating} \times 0.57\%
+OHM_{distributed} = OHM_{totalSupply} \times rewardRate
 $$
 
-Note that the 0.57% part is subject to change by the protocol.
+Note that the reward rate is subject to change by the protocol. For example, it has been revised due to [this latest proposal](https://forum.olympusdao.finance/d/37-oip-11-reducing-reward-rate).
 
 ### Why does the price of OHM become irrelevant in long term?
 
