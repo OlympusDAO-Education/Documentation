@@ -107,7 +107,7 @@ contract.
 
 The redeem helper contract is configured with all active bond contract
 addresses. When calling `redeemAll` all claimable bond rewards are redeemed for
-the given receipient. Below are listed redeem helper contracts by version, where
+the given recipient. Below are listed redeem helper contracts by version, where
 the latest version represents the currently active contract.
 
 - V1 [0xE1e8...819E](https://etherscan.io/address/0xE1e83825613DE12E8F0502Da939523558f0B819E)
