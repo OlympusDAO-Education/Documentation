@@ -21,6 +21,9 @@
     - [Purchase A Bond](frax-partnership/bonds.md)
     - [Stake OHM-FRAX LP Tokens](frax-partnership/staking_lp.md)
 
+- [Rari Capital](rari-partnership/README.md)
+    - [Fuse](rari-partnership/fuse.md)
+
 ## Protocol Internals
 
 - [Initial Network State](initial-network-state.md)
