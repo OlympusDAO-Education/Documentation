@@ -20,7 +20,7 @@ Fuse is an isolated interest rate market by Rari Capital. Each pool in Fuse can 
 
     ![Enable as collateral](../.gitbook/assets/rari-partnership/fuse/collateral.png)
 
-4. Click "Confirm". If this is your first time supplying the asset, you must approve the contract to spend you asset.
+4. Click "Confirm". If this is your first time supplying the asset, you must approve the contract to spend your asset.
 
 5. After the approval transaction is completed, you need to sign a second transaction to mint fsToken. fsToken represents your share in the pool and it allows you to redeem your supplied assets when you wish to withdraw them later.
 
