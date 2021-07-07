@@ -25,3 +25,5 @@ Fuse is an isolated interest rate market by Rari Capital. Each pool in Fuse can 
 5. After the approval transaction is completed, you need to sign a second transaction to mint fsToken. fsToken represents your share in the pool and it allows you to redeem your supplied assets when you wish to withdraw them later.
 
 6. When the mint transaction is completed, your asset will be supplied to the Fuse pool. This allows you to earn interest and also borrow other assets if you have enabled the supplied asset as collateral.
+
+*Note: If you wish to borrow other assets against your collateral, there is a minimum borrow amount of 1 ETH in equivalent value. Because a small account may not be worth the gas fee to liquidate, this measure ensures that a liquidation is always profitable.*
