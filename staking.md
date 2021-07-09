@@ -2,7 +2,7 @@
 
 ## What is Staking
 
-**Staking is the primary value accrual strategy of Olympus.** Stakers lock and take on exposure to OHM and in return receive a fee on all OHM sold or purchased. Stakers receive those profits through rebases to the sOHM token. This allows us to compound yield automatically.
+**Staking is the primary value accrual strategy of Olympus.** Stakers stake their OHM on [Olympus website](https://app.olympusdao.finance/#/stake) to earn rebase rewards. The rebase rewards come from the proceed from [bond sales](https://docs.olympusdao.finance/basics/bonding), and can vary based on the number of OHM staked in the protocol and the policy set by the protocol.
 
 **Staking is a passive, long-term strategy.** The increases in your stake of OHM translates into a constantly falling cost basis converging on zero. Since the backing of OHM effectively shifts the floor for the token from zero to one, stakers can be rebased into a risk-free position. 
 
