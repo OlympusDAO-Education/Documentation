@@ -74,15 +74,16 @@ bonds. Examples are DAI bonds and FRAX bonds.
 
 ### Reward Rate
 
-Reward rate is the configured percentage of OHM distributed to all stakers on each rebase
-relative to the total supply. The reward rate is precisely set by the policy
-team.
+Reward rate is the configured percentage of OHM distributed to all stakers on
+each rebase relative to the total supply. The reward rate is precisely set by
+the policy team.
 
 ### Reward Yield
 
-Reward yield refers to the actual amount of OHM received by each staker on each rebase. The
-reward yield is a rough target from a policy point of view. It can almost never
-be maintained precisely due to e.g. fluctuating amounts of OHM staked.
+Reward yield refers to the actual amount of OHM received by each staker on each
+rebase. The reward yield is a rough target from a policy point of view. It can
+almost never be maintained precisely due to e.g. fluctuating amounts of OHM
+staked.
 
 ### RFV
 
