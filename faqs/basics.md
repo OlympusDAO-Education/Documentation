@@ -51,17 +51,31 @@ As the protocol controls the funds in its treasury, OHM can only be minted or bu
 
 As the protocol accumulates more PCV, more runway is guaranteed for the stakers. This means the stakers can be confident that the current staking APY can be sustained for a longer term because more funds are available in the treasury.
 
-### Is this a Ponzi scheme?
+### What will happen if there is a bank run on Olympus?
 
-[This Investopedia page](https://www.investopedia.com/terms/p/ponzischeme.asp) defines a Ponzi scheme as a fraudulent investing scam promising high rates of return with little risk to investors. This is similar to a pyramid scheme in that both are based on using new investors' funds to pay the earlier backers. Both Ponzi schemes and pyramid schemes eventually bottom out when the flood of new investors dries up and there isn't enough money to go around. At that point, the schemes unravel.
+Fractional reserve banking works because depositors don’t withdraw their funds all at once. A depositor’s faith in the banking system rests on regulations and agencies like Federal Deposit Insurance Corporation (FDIC).
 
-First, OlympusDAO is not fraudulent. The smart contracts that power OlympusDAO are public and can be verified by anyone. The treasury balances are updated in real-time and can be verified in any Ethereum block explorer such as [Etherscan](https://etherscan.io/address/0x886ce997aa9ee4f8c2282e182ab72a705762399d). This ensures transparency and allows the investors to vet the project before making an investment decision.
+OHM does not have FDIC insurance but it has an incentive structure that protects stakers. Let’s take a look at how it performs during a hypothetical bank run. In this scenario, we assume the majority of stakers would panic and unstake their tokens from Olympus - the staking percentage which stands at 92% now quickly collapses to 3.3%, leaving only 20,000 OHM staked.
 
-Second, all speculative financial instruments can only generate holder returns in one of two ways: 1) Grow its net asset value (NAV); 2) Achieve price appreciation such that later investors will buy from early investors at a premium. If you think a company or a token is only worth the amount of cash it has, then Tesla is a Ponzi, as its market cap-to-cash ratio is a whopping 37:1 (as of Q1 2021) and does not generate a penny of dividend to shareholders. The Bitcoin protocol has a market cap-to-cash ratio of infinity as it does not hold a single USD, nor does it generate income not denominated in bitcoin.
+Next, we assume the Risk-Free Value (RFV) inflows to the treasury completely dry up. For context, RFV is currently growing at about $1 million every 3 days. However, during a bank run this growth will likely stop.
 
-Third, OlympusDAO is not a piggy bank whose sole source of income is new infusions of cash. In fact, OHM has a compelling value proposition - it aims to become an algorithmic reserve currency that is backed by real crypto assets in its own treasury (DAI, LP token, etc. as decided by the DAO). Currently, OHM has an intrinsic floor of 1 DAI per 1 OHM, but that's not its market price just as Tesla is worth more than the amount of cash it holds.
+Finally, we assume that those last standing stakers bought in at a price of $500 per OHM. The initial investment of these stakers would be:
 
-Lastly, in OHM's growth and expansion phase, the premium of market value over its intrinsic value will be high as the Protocol builds up its treasury. The buyers are likely to price in the NAV and a premium of future dividend expectations. In OHM's mature and stability phase, the Protocol will convert OHM price volatility to supply volatility. This is achieved by conducting open market operations from its treasury to maintain the price of OHM at a market equilibrium price. The premium of OHM will then necessarily shrink. However, OHM stakers will be protected as their balance will rebase accordingly to maintain their purchasing power. So, unlike a Ponzi scheme where profits only come from the late entrants, the Protocol actually employs strategies to preserve an investor's capital.
+$$
+\$500/OHM * 20,000\ OHM = \$10\ million
+$$
+
+As of July 12 2021, the total OHM supply is 734,421 and the RFV is $13,905,970. Remember that 1 OHM is backed by 1 USD (DAI or FRAX). By subtracting these two numbers, we know 13,171,549 OHM will eventually get issued to the remaining stakers. In roughly a year, these stakers who are holding 20,000 OHM will have:
+
+$$
+20,000 + 13,171,549 = 13,191,549\ OHM
+$$
+
+$10 million investment made by these stakers will turn into about $13.2 million based on cash flow alone if they stay staked (recall that 1 OHM is backed by 1 USD). In this bank run scenario, the stakers who stay staked not only get their money back, but also make some profit. Therefore, [(3,3)](#what-is-the-deal-with-33-and-11) isn’t just a popular meme, it is actually a dominant strategy.
+
+The above scenario is unlikely to play out because when other people find out that extremely high rewards are being paid to the stakers, they will copy the strategy by buying and staking OHM. This is also why the percentage of OHM staked in Olympus has consistently remained over 90% since launch.
+
+*Note: Most of the data referenced above are taken from [this Dune Analytics page](https://duneanalytics.com/shadow/Olympus-(OHM)).*
 
 ### Why is the market price of OHM so volatile?
 
