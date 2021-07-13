@@ -45,6 +45,11 @@ pressure changes. A higher ICV means more sell pressure from the protocol,
 resulting in a higher inflation. A lower ICV means less sell pressure from the
 protocol, resulting in a lower inflation.
 
+### Liquidity Bonds
+
+Liquidity bonds are LP token bonds. Examples are OHM-DAI LP bonds and OHM-FRAX
+LP bonds.
+
 ### PCV
 
 Protocol Controlled Value, is the amount of funds the treasury owns and
@@ -61,6 +66,24 @@ Proof of Reserve, is the mechanism of strengthening the reserve of OlympusDAO
 treasury via the sales of bonds. Bonders provide liquidity to the treasury,
 thereby building its reserve. In return for their service, bonders get paid in
 OHM.
+
+### Reserve Bonds
+
+Reserve bonds are single asset bonds. They are sometimes referred to as "naked"
+bonds. Examples are DAI bonds and FRAX bonds.
+
+### Reward Rate
+
+Reward rate is the configured percentage of OHM distributed to all stakers on
+each rebase relative to the total supply. The reward rate is precisely set by
+the policy team.
+
+### Reward Yield
+
+Reward yield refers to the actual amount of OHM received by each staker on each
+rebase. The reward yield is a rough target from a policy point of view. It can
+almost never be maintained precisely due to e.g. fluctuating amounts of OHM
+staked.
 
 ### RFV
 
