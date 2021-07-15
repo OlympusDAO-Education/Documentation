@@ -29,7 +29,7 @@ The main benefit for bonders comes from price consistency. Bonders commit a capi
 
 ## Who created Olympus?
 
-Olympus was ideated by Zeus and built by a distributed psuedo-anonymous team.
+Olympus was ideated by Zeus and built by a distributed pseudo-anonymous team.
 
 ## Who runs Olympus?
 
