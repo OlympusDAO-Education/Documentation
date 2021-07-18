@@ -1,0 +1,43 @@
+# Unstaking
+
+Sometimes, the Olympus website might not be accessible due to [hosting issues](https://twitter.com/FleekHQ/status/1416505712222609411). Fear not, you can still interact with the Olympus contracts to perform certain actions such as unstaking. In this guide, we will show you how to unstake sOHM tokens via [Etherscan](https://etherscan.io/).
+
+If you have never unstaked sOHM before, there are two steps involved:
+
+1. Approve the staking contract to spend your sOHM tokens.
+
+2. Unstake your sOHM tokens.
+
+If you have unstaked sOHM before, there is only one step to perform: Unstake your sOHM tokens.
+
+## How to Approve sOHM Spending via Etherscan
+
+1. Go to the [Write Contract section of the sOHM token contract](https://etherscan.io/address/0x04f2694c8fcee23e8fd0dfea1d4f5bb8c352111f#writeContract).
+
+2. Check and ensure your selected network is "Ethereum Mainnet" in your wallet. Then press **Connect to Web3** to connect your wallet if you haven't done so.
+
+3. Once it is connected, select the first option *approve*.
+
+4. On the *spender (address)* field, fill in this value: **0xFd31c7d00Ca47653c6Ce64Af53c1571f9C36566a**
+
+5. On the *amount (uint256)* field, fill in this value: **1000000000000000000**
+
+6. Click **Write**.
+
+7. Sign the transaction on Metamask and wait for it to complete.
+
+## How to Unstake sOHM via Etherscan
+
+1. Go to the [Write Contract section of the staking contract](https://etherscan.io/address/0xFd31c7d00Ca47653c6Ce64Af53c1571f9C36566a#writeContract).
+
+2. Check and ensure your selected network is "Ethereum Mainnet" in your wallet. Then press **Connect to Web3** to connect your wallet if you haven't done so.
+
+3. Once it is connected, select the last option *unstake*.
+
+4. On the *_amount (uint256)* field, fill in the amount you wish to unstake, and multiply it by 1e9. For example, if you want to unstake 1 sOHM, fill in the value: **1000000000**
+
+5. On the *_trigger (bool)* field, fill in the value: **true**
+
+6. Click **Write**.
+
+7. Sign the transaction on Metamask and wait for it to complete.
