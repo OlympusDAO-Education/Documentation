@@ -14,7 +14,7 @@ If you have staked OHM before, there is only one step to perform: Stake your OHM
 
 1. Go to the [Write Contract section of the OHM token contract](https://etherscan.io/address/0x383518188c0c6d7730d91b2c03a03c837814a899#writeContract).
 
-2. Press **Connect to Web3** to connect your wallet if you haven't done so.
+2. Check and ensure your selected network is "Ethereum Mainnet" in your wallet. Then press **Connect to Web3** to connect your wallet if you haven't done so.
 
 3. Once it is connected, select the third option *approve*.
 
@@ -30,7 +30,7 @@ If you have staked OHM before, there is only one step to perform: Stake your OHM
 
 1. Go to the [Write Contract section of the staking contract](https://etherscan.io/address/0xC8C436271f9A6F10a5B80c8b8eD7D0E8f37a612d#writeContract).
 
-2. Press **Connect to Web3** to connect your wallet if you haven't done so.
+2. Check and ensure your selected network is "Ethereum Mainnet" in your wallet. Then press **Connect to Web3** to connect your wallet if you haven't done so.
 
 3. Once it is connected, select the *stake* option.
 
