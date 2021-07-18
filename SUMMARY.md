@@ -16,6 +16,11 @@
 - [Unstake LP Tokens](using-the-website/unstaking_lp.md)
 - [Migrate Staked OHM](using-the-website/migrate.md)
 
+## Using Etherscan
+
+- [Stake Your OHM (3, 3)](using-etherscan/staking.md)
+- [Unstake sOHM](using-etherscan/unstaking.md)
+
 ## Partnership
 
 - [Frax Finance](frax-partnership/README.md)
