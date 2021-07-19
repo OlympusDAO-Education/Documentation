@@ -34,7 +34,7 @@ If you have unstaked sOHM before, there is only one step to perform: Unstake you
 
 3. Once it is connected, select the last option *unstake*.
 
-4. On the *_amount (uint256)* field, fill in the amount you wish to unstake, and multiply it by 1e9. For example, if you want to unstake 1 sOHM, fill in the value: **1000000000**
+4. On the *_amount (uint256)* field, fill in the amount you wish to unstake, and multiply it by 1e9. Alternatively, you can use [this calculator](https://docs.google.com/spreadsheets/d/1vm48OCBnVh8uah0-3Xa7HqFwmfxgcrMIWPrOllSFIvA/edit?usp=sharing) to perform the conversion for you. For example, if you want to unstake 1 sOHM, fill in the value: **1000000000**
 
 5. On the *_trigger (bool)* field, fill in the value: **true**
 

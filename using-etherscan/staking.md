@@ -34,7 +34,7 @@ If you have staked OHM before, there is only one step to perform: Stake your OHM
 
 3. Once it is connected, select the *stake* option.
 
-4. On the *_amount (uint256)* field, fill in the amount you wish to stake, and multiply it by 1e9. For example, if you want to stake 1 OHM, fill in the value: **1000000000**
+4. On the *_amount (uint256)* field, fill in the amount you wish to stake, and multiply it by 1e9. Alternatively, you can use [this calculator](https://docs.google.com/spreadsheets/d/1vm48OCBnVh8uah0-3Xa7HqFwmfxgcrMIWPrOllSFIvA/edit?usp=sharing) to perform the conversion for you. For example, if you want to stake 1 OHM, fill in the value: **1000000000**
 
 5. Click **Write**.
 
