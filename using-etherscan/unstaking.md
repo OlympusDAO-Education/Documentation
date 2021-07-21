@@ -18,7 +18,7 @@ If you have unstaked sOHM before, there is only one step to perform: Unstake you
 
 3. Once it is connected, select the first option *approve*.
 
-4. On the *spender (address)* field, fill in this value: **0xFd31c7d00Ca47653c6Ce64Af53c1571f9C36566a**
+4. On the *spender (address)* field, we would fill in the [staking contract address](https://docs.olympusdao.finance/references/contracts#staking). Enter this value: **0xFd31c7d00Ca47653c6Ce64Af53c1571f9C36566a**
 
 5. On the *amount (uint256)* field, fill in this value: **1000000000000000000**
 
