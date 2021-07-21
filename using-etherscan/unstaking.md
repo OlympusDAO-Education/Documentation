@@ -20,7 +20,7 @@ If you have unstaked sOHM before, there is only one step to perform: Unstake you
 
 4. On the *spender (address)* field, we would fill in the [staking contract address](https://docs.olympusdao.finance/references/contracts#staking). Enter this value: **0xFd31c7d00Ca47653c6Ce64Af53c1571f9C36566a**
 
-5. On the *amount (uint256)* field, fill in this value: **1000000000000000000**
+5. On the *amount (uint256)* field, fill in the amount of sOHM you would like the staking contract to spend on your behalf, and multiply it by 1e9. Alternatively, you can use [this calculator](https://docs.google.com/spreadsheets/d/1vm48OCBnVh8uah0-3Xa7HqFwmfxgcrMIWPrOllSFIvA/edit?usp=sharing) to perform the conversion for you. If you don't want to repeat this step whenever you want to unstake, you can choose a very large value. Let's say you want to allow the contract to spend up to 1e9 sOHM on your behalf, you would enter: **1000000000000000000**
 
 6. Click **Write**.
 
