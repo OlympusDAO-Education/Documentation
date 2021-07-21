@@ -18,7 +18,7 @@ If you have staked OHM before, there is only one step to perform: Stake your OHM
 
 3. Once it is connected, select the third option *approve*.
 
-4. On the *spender (address)* field, fill in this value: **0xC8C436271f9A6F10a5B80c8b8eD7D0E8f37a612d**
+4. On the *spender (address)* field, we would fill in the [staking contract address](https://docs.olympusdao.finance/references/contracts#staking). Enter this value: **0xC8C436271f9A6F10a5B80c8b8eD7D0E8f37a612d**
 
 5. On the *amount (uint256)* field, fill in this value: **1000000000000000000**
 
