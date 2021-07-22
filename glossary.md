@@ -38,13 +38,6 @@ smart contracts live. At any given block in the chain, Ethereum has one and only
 one canonical state, and the EVM is what defines the rules for computing a new
 valid state from block to block.
 
-### ICV
-
-Inflation Control Variable, is the scaling factor at which protocol defined sell
-pressure changes. A higher ICV means more sell pressure from the protocol,
-resulting in a higher inflation. A lower ICV means less sell pressure from the
-protocol, resulting in a lower inflation.
-
 ### Liquidity Bonds
 
 Liquidity bonds are LP token bonds. Examples are OHM-DAI LP bonds and OHM-FRAX
