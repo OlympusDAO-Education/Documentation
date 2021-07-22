@@ -4,9 +4,9 @@ Olympus features policy constants that allow us to optimize the system.
 
 ## Bonds
 
-The **BCV** allows us to scale the rate at which bond premiums increase. A higher BCV means a lower discount for bonders and less inflation. A lower BCV means a higher capacity for bonders and less protocol profit.
+The **BCV** allows us to scale the rate at which bond premiums increase. A higher BCV means a lower discount for bonders and more protocol profit. A lower BCV means a higher discount for bonders and less protocol profit.
 
-The **vesting term** determines how long it takes for bonds to become redeemable. A longer term means lower inflation and lower bond demand.
+The **vesting term** determines how long it takes for bonds to become fully redeemable. A longer term means lower inflation and lower bond demand.
 
 ## Sales
 
