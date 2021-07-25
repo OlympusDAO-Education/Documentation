@@ -71,7 +71,7 @@ $$
 20,000 + 13,171,549 = 13,191,549\ OHM
 $$
 
-$10 million investment made by these stakers will turn into about $13.2 million based on cash flow alone if they stay staked (recall that 1 OHM is backed by 1 USD). In this bank run scenario, the stakers who stay staked not only get their money back, but also make some profit. Therefore, [(3,3)](#what-is-the-deal-with-33-and-11) isn’t just a popular meme, it is actually a dominant strategy.
+$10 million investment made by these stakers will turn into about $13.2 million based on cash flow alone if they stay staked (recall that 1 OHM is backed by 1 USD). In this bank run scenario, the stakers who stay staked not only get their money back, but also make some profit. Therefore, [(3,3)](#what-is-the-deal-with-3-3-and-1-1) isn’t just a popular meme, it is actually a dominant strategy.
 
 The above scenario is unlikely to play out because when other people find out that extremely high rewards are being paid to the stakers, they will copy the strategy by buying and staking OHM. This is also why the percentage of OHM staked in Olympus has consistently remained over 90% since launch.
 
