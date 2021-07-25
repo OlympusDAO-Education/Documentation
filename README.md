@@ -2,7 +2,7 @@
 
 ## What is Olympus?
 
-Olympus is an algorithmic currency protocol based on the OHM token. It introduces unique economic and game-theoretic dynamics into the market through asset backing and protocol controlled value. Read more about the game theory of Olympus in [one of our blog posts](https://olympusdao.medium.com/the-game-theory-of-olympus-e4c5f19a77df).
+Olympus is a decentralized reserve currency protocol based on the OHM token. It introduces unique economic and game-theoretic dynamics into the market through asset backing and protocol controlled value. Read more about the game theory of Olympus in [one of our blog posts](https://olympusdao.medium.com/the-game-theory-of-olympus-e4c5f19a77df).
 
 <p align="center">
 <a href="https://www.youtube.com/watch?v=QZOaZ9dd-ms"><img width="729" height="406" src="./.gitbook/assets/intro/video_frame.png" alt="Olympus Video"></a>
