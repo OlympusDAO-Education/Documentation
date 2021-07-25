@@ -4,6 +4,10 @@
 
 Olympus is an algorithmic currency protocol based on the OHM token. It introduces unique economic and game-theoretic dynamics into the market through asset backing and protocol controlled value. Read more about the game theory of Olympus in [one of our blog posts](https://olympusdao.medium.com/the-game-theory-of-olympus-e4c5f19a77df).
 
+<p align="center">
+<a href="https://www.youtube.com/watch?v=QZOaZ9dd-ms"><img width="819" height="471" src="./.gitbook/assets/intro/frame.png" alt="Olympus Video"></a>
+</p>
+
 ## What is the point of Olympus?
 
 Our goal is to build a policy-controlled currency system, in which the behavior of the OHM token is controlled at a high level by the DAO. In the long term, we believe this system can be used to optimize for stability and consistency so that OHM can function as a global unit-of-account and medium-of-exchange currency. In the short term, we intend to optimize the system for growth and wealth creation.
