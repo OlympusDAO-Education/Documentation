@@ -75,7 +75,7 @@ $10 million investment made by these stakers will turn into about $13.2 million 
 
 The above scenario is unlikely to play out because when other people find out that extremely high rewards are being paid to the stakers, they will copy the strategy by buying and staking OHM. This is also why the percentage of OHM staked in Olympus has consistently remained over 90% since launch.
 
-*Note: Most of the data referenced above are taken from [this Dune Analytics page](https://duneanalytics.com/shadow/Olympus-(OHM)).*
+*Note: Most of the data referenced above are taken from [this Dune Analytics page](https://duneanalytics.com/shadow/Olympus-\(OHM\)).*
 
 ### Why is the market price of OHM so volatile?
 
