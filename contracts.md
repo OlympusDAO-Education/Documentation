@@ -33,6 +33,12 @@ contract.
 
 - V1 [0x24ec...792e](https://etherscan.io/address/0x24ecfd535675f36ba1ab9c5d39b50dc097b0792e)
 
+## pOHM
+
+pOHM, previously known as pOLY, is the presale token of Olympus. It was used to raise funds from private investors to bootstrap Olympus. You can read more about pOHM in this [Medium article](https://olympusdao.medium.com/what-is-poh-16b2c38a6cd6). Below are listed pOHM contracts by version, where the latest version represents the currently active contract.
+
+- V1 [0x3699...c800](https://etherscan.io/token/0x36994486c6e97c170065899d8659a28d7371c800)
+
 ## Staking
 
 - new https://etherscan.io/address/0xFd31c7d00Ca47653c6Ce64Af53c1571f9C36566a
