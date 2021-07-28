@@ -49,9 +49,10 @@ their staked OHM to the new staking contract
 The new staking contract works with a staking helper contract
 ([0xC8C4....612d](https://etherscan.io/address/0xC8C436271f9A6F10a5B80c8b8eD7D0E8f37a612d)).
 The staking helper contract calls "stake" and then "claim" of the new staking
-contract. When the "stake" function is called, sOHM is put into a warmup phase and all the information about how
-much sOHM a user has staked is stored in the new staking contract. When the "claim" function is called, sOHM is retrieved from the warmup and then sent to the user's
-wallet.
+contract. When the "stake" function is called, sOHM is put into a warmup phase
+and all the information about how much sOHM a user has staked is stored in the
+new staking contract. When the "claim" function is called, sOHM is retrieved
+from the warmup and then sent to the user's wallet.
 
 ## LP
 
