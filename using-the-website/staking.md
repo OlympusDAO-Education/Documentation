@@ -50,7 +50,15 @@ Staking allows you to earn OHM passively via auto-compounding. By staking your O
 
 ## Reading the Info
 
-![The staking page](../.gitbook/assets/using-the-website/staking/staking_page.png)
+![The staking page](../.gitbook/assets/using-the-website/staking/staking_page_index.png)
+
+**APY** tells you the annualized rate of return based on the reward yield. It takes into account the effect of compounding since sOHM rebases exponentially.
+
+**TVL** measures the dollar amount of all the staked OHM in Olympus.
+
+**Current Index** The current index allows you to track your gain from staking. The index started from 1 at epoch 0, and increases every epoch. If you staked at genesis (epoch 0) and never unstaked any OHM, your balance today would be X times greater, where X is the current index.
+
+You can use the index to track your position by marking down the index number when you stake and unstake. You divide the index number when you unstake by the index number when you stake to get the ratio by which your sOHM balance has increased.
 
 **Your Balance** tells you how many unstaked OHM are in your wallet. This is the maximum amount that you can stake.
 
@@ -62,6 +70,4 @@ Staking allows you to earn OHM passively via auto-compounding. By staking your O
 
 **ROI (5-Day Rate)** estimates how much your sOHM balance will increase after 5 days, if the reward yield stays the same during this period. For example, if you stake 100 OHM and the rate is 8.4577%, your sOHM balance would increase from 100 to 108.4577 after 5 days.
 
-**APY** tells you the annualized rate of return based on the reward yield. It takes into account the effect of compounding since sOHM rebases exponentially.
 
-**TVL** measures the dollar amount of all the staked OHM in Olympus.
