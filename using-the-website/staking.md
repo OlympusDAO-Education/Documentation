@@ -56,9 +56,7 @@ Staking allows you to earn OHM passively via auto-compounding. By staking your O
 
 **TVL** measures the dollar amount of all the staked OHM in Olympus.
 
-**Current Index** The current index allows you to track your gain from staking. The index started from 1 at epoch 0, and increases every epoch. If you staked at genesis (epoch 0) and never unstaked any OHM, your balance today would be X times greater, where X is the current index.
-
-You can use the index to track your position by marking down the index number when you stake and unstake. You divide the index number when you unstake by the index number when you stake to get the ratio by which your sOHM balance has increased.
+**Current Index**  allows you to track your gain from staking. The index started from 1 at epoch 0, and increases every epoch. If you staked at genesis (epoch 0) and never unstaked any OHM, your balance today would be X times greater, where X is the current index. You can use the index to track your position by marking down the index number when you stake and unstake. You divide the index number when you unstake by the index number when you stake to get the ratio by which your sOHM balance has increased.
 
 **Your Balance** tells you how many unstaked OHM are in your wallet. This is the maximum amount that you can stake.
 
