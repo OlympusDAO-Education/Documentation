@@ -8,4 +8,4 @@
 
 **When you stake, you lock OHM and receive an equal amount of sOHM.** Your sOHM balance rebases up automatically at the end of every epoch. sOHM is transferable and therefore composable with other DeFi protocols.
 
-**When you unstake, you burn sOHM and receive an equal amount of OHM.** Unstaking also requires the user to forfeit the most recent rebase as an exit fee.
+**When you unstake, you burn sOHM and receive an equal amount of OHM.** Unstaking means the user will forfeit the upcoming rebase reward. Note that the forfeited reward is only applicable to the unstaked amount; the remaining staked OHM (if any) will continue to receive rebase rewards.
