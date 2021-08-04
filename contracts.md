@@ -91,9 +91,9 @@ where the latest version represents the currently active contract.
 
 - V1 [0x8510...2514](https://etherscan.io/address/0x8510c8c2B6891E04864fa196693D44E6B6ec2514)
 
-## wETH Bond
+## ETH Bond
 
-Since ETH itself is not an ERC20 token itself, our ETH bonds utilize wETH. All
+Since ETH is not an ERC-20 token itself, our ETH bonds utilize [wETH](https://weth.io/). All
 things being equal to our other bond types, the only exception for ETH bonds is
 that we do not mint OHM against wETH taken in to begin with. Below are listed
 ETH bond contracts by version, where the latest version represents the currently
