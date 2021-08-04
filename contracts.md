@@ -91,6 +91,16 @@ where the latest version represents the currently active contract.
 
 - V1 [0x8510...2514](https://etherscan.io/address/0x8510c8c2B6891E04864fa196693D44E6B6ec2514)
 
+## ETH Bond
+
+Since ETH is not an ERC-20 token itself, our ETH bonds utilize [wETH](https://weth.io/). All
+things being equal to our other bond types, the only exception for ETH bonds is
+that we do not mint OHM against wETH taken in to begin with. Below are listed
+ETH bond contracts by version, where the latest version represents the currently
+active contract.
+
+- V1 [0x7464...d90d](https://etherscan.io/address/0x7464a65aa3fc15a625e2adfb8b340277d804d90d)
+
 ## Circulating Supply
 
 This smart contract here is an intermediary component used to provide the
