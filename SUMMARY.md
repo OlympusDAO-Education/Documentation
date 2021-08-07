@@ -12,6 +12,8 @@
 
 - [Stake Your OHM (3, 3)](using-the-website/staking.md)
 - [Purchase A Bond (1, 1)](using-the-website/bonds.md)
+    - [wETH Bond](using-the-website/bond_weth.md)
+
 - [Stake LP Tokens](using-the-website/staking_lp.md)
 - [Unstake LP Tokens](using-the-website/unstaking_lp.md)
 - [Migrate Staked OHM](using-the-website/migrate.md)
