@@ -100,6 +100,7 @@ ETH bond contracts by version, where the latest version represents the currently
 active contract.
 
 - V1 [0x7464...d90d](https://etherscan.io/address/0x7464a65aa3fc15a625e2adfb8b340277d804d90d)
+- V2 [0xE629...6F1c](https://etherscan.io/address/0xE6295201CD1ff13CeD5f063a5421c39A1D236F1c)
 
 ## Circulating Supply
 
