@@ -12,6 +12,7 @@
 
 - [Stake Your OHM (3, 3)](using-the-website/staking.md)
 - [Purchase A Bond (1, 1)](using-the-website/bonds.md)
+    - [DAI Bond](using-the-website/bond_dai.md)
     - [wETH Bond](using-the-website/bond_weth.md)
 
 - [Stake LP Tokens](using-the-website/staking_lp.md)
