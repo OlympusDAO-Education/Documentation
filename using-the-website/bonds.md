@@ -1,6 +1,16 @@
 # Bonds
 
-Bonds allow users to buy OHM from the protocol at a discount by trading it with i) liquidity \(LP tokens\) or ii) DAI. Bonds take roughly 15 epochs to vest, and OHM tokens are vested linearly to the user over that period. LP bonds help the protocol to accumulate and lock liquidity, while DAI bonds allow the protocol to grow its treasury, and thus its RFV faster.
+Bonds allow users to buy OHM from the protocol at a discount by trading it with i) liquidity \(LP tokens\) or ii) other assets. The former is called [liquidity bonds](https://docs.olympusdao.finance/references/glossary#liquidity-bonds) and the latter [reserve bonds](https://docs.olympusdao.finance/references/glossary#reserve-bonds).
+
+Bonds take roughly 15 epochs to vest, and OHM tokens are vested linearly to the user over that period. Liquidity bonds help the protocol to accumulate and lock liquidity, while reserve bonds allow the protocol to grow its treasury, and thus its RFV faster.
+
+Olympus offers five types of bonds [on its website](https://app.olympusdao.finance/#/bonds):
+
+- DAI bond
+- FRAX bond
+- wETH bond
+- OHM-DAI LP bond
+- OHM-FRAX LP bond
 
 ## How to Bond
 
