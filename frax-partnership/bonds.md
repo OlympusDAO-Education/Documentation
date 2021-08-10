@@ -1,6 +1,6 @@
 # Bonds
 
-Users can buy OHM from OlympusDAO at a discount in exchange for OHM-FRAX LP tokens. The bond takes roughly 15 epochs to vest, and OHM tokens are vested linearly to the user over that period. LP bonds help OlympusDAO to accumulate and lock liquidity,
+Users can buy OHM from Olympus at a discount in exchange for OHM-FRAX LP tokens or FRAX tokens. Both bonds take roughly 15 epochs to vest, and OHM tokens are vested linearly to the user over that period.
 
 ## How to Bond
 
