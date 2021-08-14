@@ -29,9 +29,6 @@
 ## Partnership
 
 - [Frax Finance](frax-partnership/README.md)
-    - [Purchase A Bond](frax-partnership/bonds.md)
-    - [Stake OHM-FRAX LP Tokens](frax-partnership/staking_lp.md)
-
 - [Rari Capital](rari-partnership/README.md)
     - [Fuse](rari-partnership/fuse.md)
 
