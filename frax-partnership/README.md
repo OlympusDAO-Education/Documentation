@@ -4,6 +4,6 @@ A [new partnership between OlympusDAO and Frax Finance](https://olympusdao.mediu
 
 A few initiatives have been launched in light of this partnership:
 
-- Staking of OHM-FRAX LP tokens
-- OHM-FRAX bond
-- FRAX bond
+- [OHM-FRAX bond](../using-the-website/bond_ohm_frax.md)
+- [FRAX bond](../using-the-website/bond_frax.md)
+- Staking of OHM-FRAX LP tokens (deprecated)
