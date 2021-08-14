@@ -127,7 +127,8 @@ $$
 OHM_{distributed} = OHM_{totalSupply} \times rewardRate
 $$
 
-Note that the reward rate is subject to change by the protocol. For example, it has been revised due to [this latest proposal](https://forum.olympusdao.finance/d/37-oip-11-reducing-reward-rate).
+Note that the reward rate is subject to change by the protocol. For example, it
+has been revised due to [this latest proposal](https://forum.olympusdao.finance/d/77-oip-18-reward-rate-framework-and-reduction).
 
 ### Why does the price of OHM become irrelevant in long term?
 
