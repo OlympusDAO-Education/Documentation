@@ -65,11 +65,12 @@ For single-asset bonds such as DAI bond and FRAX bond, the RFV simply equals to 
 ## Treasury
 
 $$
-IV = reserves/supply
+IV = \$1 of RFV + \% of farmed tokens + \% of wETH
 $$
 
-The intrinsic value is determined by total reserve assets divided by total OHM
-supply.
+The IV (intrinsic value) of each OHM consists of $1 of [RFV](https://docs.olympusdao.finance/references/glossary#rfv), a percentage of farmed tokens (e.g. xSUSHI and stkAAVE), and a percentage of wETH sitting in the treasury.
+
+The IV is dynamic - as the market values of the farmed tokens and wETH rise, so does the IV, but its floor is always guaranteed by the $1 of RFV. Also, as other assets are introduced to the treasury, the IV will be made up of these assets as well.
 
 $$
 profitMint =(IV-1)*supply
