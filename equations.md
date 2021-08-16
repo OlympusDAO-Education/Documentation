@@ -73,11 +73,10 @@ The IV (intrinsic value) of each OHM consists of $1 of [RFV](https://docs.olympu
 The IV is dynamic - as the market values of the farmed tokens and wETH rise, so does the IV, but its floor is always guaranteed by the $1 of RFV. Also, as more assets are introduced to the treasury, the IV will be made up of these assets as well.
 
 $$
-profitMint =(IV-1)*supply
+OHM_{minted} = OHM_{totalSupply} * rewardRate
 $$
 
-At the end of each epoch, the treasury mints OHM so that IV returns to our
-intended value of 1.
+At the end of each epoch, the treasury mints OHM at a set [reward rate](https://docs.olympusdao.finance/references/glossary#reward-rate). These OHM will be distributed to all the stakers in the protocol. You can track the latest reward rate on the [Olympus Policy dashboard](https://dune.xyz/shadow/Olympus-Policy).
 
 $$
 epochBurn=|TWAP-IV|*supply*DCV
