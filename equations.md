@@ -45,22 +45,16 @@ The debt ratio is the total of all OHM promised to bonders divided by the total
 supply of OHM. This allows us to measure the debt of the system.
 
 $$
-bond Payout = RFV/bondPrice
+bondPayout_{reserveBond} = marketValue_{asset}\ /\ bondPrice
 $$
 
-Bond payout determines the number of OHM sold to a bonder.
+Bond payout determines the number of OHM sold to a bonder. For [reserve bonds](https://docs.olympusdao.finance/references/glossary#reserve-bonds), the market value of the assets supplied by the bonder is used to determine the bond payout. For example, if a user supplies 1000 DAI and the bond price is 250 DAI, the user will be entitled 4 OHM.
 
 $$
-RFV_{lpBond}=2sqrt(constantProduct) *(LP/totalLP)
+bondPayout_{lpBond} = marketValue_{lpToken}\ /\ bondPrice
 $$
 
-RFV, or risk-free value, depends on the bond type. For LP bond, it is derived from the assets in the liquidity pool. Take OHM-DAI pool for instance, the protocol sees OHM and DAI as equal because the protocol measures OHM by its intrinsic value. This means we only need to care about the sum of the assets in the pool and not their value. Based on the constant product formula x \* y = k, the risk free value is the minimum for x + y. This happens to be when x = y. We can use the square root of x \* y to determine this point.
-
-$$
-RFV_{bond} = assetSupplied
-$$
-
-For single-asset bonds such as DAI bond and FRAX bond, the RFV simply equals to the amount of the underlying asset supplied by the bonder.
+For [liquidity bonds](https://docs.olympusdao.finance/references/glossary#liquidity-bonds), the market value of the LP tokens supplied by the bonder is used to determine the bond payout. For example, if a user supplies 0.001 OHM-DAI LP token which is valued at 1000 DAI at the time of bonding, and the bond price is 250 DAI, the user will be entitled 4 OHM.
 
 ## Treasury
 
