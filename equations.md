@@ -56,6 +56,36 @@ $$
 
 For [liquidity bonds](https://docs.olympusdao.finance/references/glossary#liquidity-bonds), the market value of the LP tokens supplied by the bonder is used to determine the bond payout. For example, if a user supplies 0.001 OHM-DAI LP token which is valued at 1000 DAI at the time of bonding, and the bond price is 250 DAI, the user will be entitled 4 OHM.
 
+## OHM Supply
+
+$$
+OHM_{supplyGrowth} = OHM_{stakers} + OHM_{bonders} + OHM_{DAO}
+$$
+
+OHM supply does not have a hard cap. Its supply increases when:
+
+- OHM is minted and distributed to the stakers.
+- OHM is minted for the bonder. This happens whenever someone purchases a bond.
+- OHM is minted for the DAO. This happens whenever someone purchases a bond. The DAO gets the same number of OHM as the bonder.
+
+$$
+OHM_{stakers} = OHM_{totalSupply} * rewardRate
+$$
+
+At the end of each epoch, the treasury mints OHM at a set [reward rate](https://docs.olympusdao.finance/references/glossary#reward-rate). These OHM will be distributed to all the stakers in the protocol. You can track the latest reward rate on the [Olympus Policy dashboard](https://dune.xyz/shadow/Olympus-Policy).
+
+$$
+OHM_{bonders} = bondPayout
+$$
+
+Whenever someone purchases a bond, a set number of OHM is minted. These OHM will not be released to the bonder all at once - they are vested to the bonder linearly over time. The bond payout uses a different formula for different types of bonds. Check the [bonding section above](#bonding) to see how it is calculated.
+
+$$
+OHM_{DAO} = OHM_{bonders}
+$$
+
+The DAO receives the same amount of OHM as the bonder. This represents the DAO profit.
+
 ## Treasury
 
 $$
