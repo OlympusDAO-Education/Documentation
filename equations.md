@@ -86,6 +86,32 @@ $$
 
 The DAO receives the same amount of OHM as the bonder. This represents the DAO profit.
 
+## Backing per OHM
+
+$$
+OHM_{backing} = treasuryBalance_{stablecoin} + treasuryBalance_{otherAssets}
+$$
+
+Every OHM in circulation is backed by the Olympus treasury. The assets in the treasury can be divided into two categories: stablecoin and non-stablecoin.
+
+$$
+treasuryBalance_{stablecoin} = RFV_{reserveBond} + RFV_{lpBond}
+$$
+
+The stablecoin balance in the treasury grows when bonds are sold. [RFV](https://docs.olympusdao.finance/references/glossary#rfv) is calculated differently for different bond types.
+
+$$
+RFV_{reserveBond} = assetSupplied
+$$
+
+For reserve bonds such as DAI bond and FRAX bond, the RFV simply equals to the amount of the underlying asset supplied by the bonder.
+
+$$
+RFV_{lpBond} = 2sqrt(constantProduct) * (\%\ ownership\ of\ the\ pool)
+$$
+
+For LP bonds such as OHM-DAI bond and OHM-FRAX bond, the RFV is calculated differently because the protocol needs to mark down its value. Why? The LP token pair consists of OHM, and each OHM in circulation will be backed by these LP tokens - there is a cyclical dependency. To safely guarantee all circulating OHM are backed, the protocol marks down the value of these LP tokens, hence the name *risk-free* value (RFV).
+
 ## Treasury
 
 $$
