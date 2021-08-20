@@ -111,26 +111,3 @@ RFV_{lpBond} = 2sqrt(constantProduct) * (\%\ ownership\ of\ the\ pool)
 $$
 
 For LP bonds such as OHM-DAI bond and OHM-FRAX bond, the RFV is calculated differently because the protocol needs to mark down its value. Why? The LP token pair consists of OHM, and each OHM in circulation will be backed by these LP tokens - there is a cyclical dependency. To safely guarantee all circulating OHM are backed, the protocol marks down the value of these LP tokens, hence the name *risk-free* value (RFV).
-
-## Treasury
-
-$$
-IV = \$1 of RFV + \% of farmed tokens + \% of wETH
-$$
-
-The IV (intrinsic value) of each OHM consists of $1 of [RFV](https://docs.olympusdao.finance/references/glossary#rfv), a percentage of farmed tokens (e.g. xSUSHI and stkAAVE), and a percentage of wETH sitting in the treasury.
-
-The IV is dynamic - as the market values of the farmed tokens and wETH rise, so does the IV, but its floor is always guaranteed by the $1 of RFV. Also, as more assets are introduced to the treasury, the IV will be made up of these assets as well.
-
-$$
-OHM_{minted} = OHM_{totalSupply} * rewardRate
-$$
-
-At the end of each epoch, the treasury mints OHM at a set [reward rate](https://docs.olympusdao.finance/references/glossary#reward-rate). These OHM will be distributed to all the stakers in the protocol. You can track the latest reward rate on the [Olympus Policy dashboard](https://dune.xyz/shadow/Olympus-Policy).
-
-$$
-epochBurn=|TWAP-IV|*supply*DCV
-$$
-
-If TWAP is less than IV, the treasury uses this equation to buy back OHM with DAI. DCV is a DAO-controlled scaling variable that allows us to
-tune deflation.
