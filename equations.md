@@ -45,42 +45,69 @@ The debt ratio is the total of all OHM promised to bonders divided by the total
 supply of OHM. This allows us to measure the debt of the system.
 
 $$
-bond Payout = RFV/bondPrice
+bondPayout_{reserveBond} = marketValue_{asset}\ /\ bondPrice
 $$
 
-Bond payout determines the number of OHM sold to a bonder.
+Bond payout determines the number of OHM sold to a bonder. For [reserve bonds](https://docs.olympusdao.finance/references/glossary#reserve-bonds), the market value of the assets supplied by the bonder is used to determine the bond payout. For example, if a user supplies 1000 DAI and the bond price is 250 DAI, the user will be entitled 4 OHM.
 
 $$
-RFV_{lpBond}=2sqrt(constantProduct) *(LP/totalLP)
+bondPayout_{lpBond} = marketValue_{lpToken}\ /\ bondPrice
 $$
 
-RFV, or risk-free value, depends on the bond type. For LP bond, it is derived from the assets in the liquidity pool. Take OHM-DAI pool for instance, the protocol sees OHM and DAI as equal because the protocol measures OHM by its intrinsic value. This means we only need to care about the sum of the assets in the pool and not their value. Based on the constant product formula x \* y = k, the risk free value is the minimum for x + y. This happens to be when x = y. We can use the square root of x \* y to determine this point.
+For [liquidity bonds](https://docs.olympusdao.finance/references/glossary#liquidity-bonds), the market value of the LP tokens supplied by the bonder is used to determine the bond payout. For example, if a user supplies 0.001 OHM-DAI LP token which is valued at 1000 DAI at the time of bonding, and the bond price is 250 DAI, the user will be entitled 4 OHM.
+
+## OHM Supply
 
 $$
-RFV_{bond} = assetSupplied
+OHM_{supplyGrowth} = OHM_{stakers} + OHM_{bonders} + OHM_{DAO}
 $$
 
-For single-asset bonds such as DAI bond and FRAX bond, the RFV simply equals to the amount of the underlying asset supplied by the bonder.
+OHM supply does not have a hard cap. Its supply increases when:
 
-## Treasury
-
-$$
-IV = reserves/supply
-$$
-
-The intrinsic value is determined by total reserve assets divided by total OHM
-supply.
+- OHM is minted and distributed to the stakers.
+- OHM is minted for the bonder. This happens whenever someone purchases a bond.
+- OHM is minted for the DAO. This happens whenever someone purchases a bond. The DAO gets the same number of OHM as the bonder.
 
 $$
-profitMint =(IV-1)*supply
+OHM_{stakers} = OHM_{totalSupply} * rewardRate
 $$
 
-At the end of each epoch, the treasury mints OHM so that IV returns to our
-intended value of 1.
+At the end of each epoch, the treasury mints OHM at a set [reward rate](https://docs.olympusdao.finance/references/glossary#reward-rate). These OHM will be distributed to all the stakers in the protocol. You can track the latest reward rate on the [Olympus Policy dashboard](https://dune.xyz/shadow/Olympus-Policy).
 
 $$
-epochBurn=|TWAP-IV|*supply*DCV
+OHM_{bonders} = bondPayout
 $$
 
-If TWAP is less than IV, the treasury uses this equation to buy back OHM with DAI. DCV is a DAO-controlled scaling variable that allows us to
-tune deflation.
+Whenever someone purchases a bond, a set number of OHM is minted. These OHM will not be released to the bonder all at once - they are vested to the bonder linearly over time. The bond payout uses a different formula for different types of bonds. Check the [bonding section above](#bonding) to see how it is calculated.
+
+$$
+OHM_{DAO} = OHM_{bonders}
+$$
+
+The DAO receives the same amount of OHM as the bonder. This represents the DAO profit.
+
+## Backing per OHM
+
+$$
+OHM_{backing} = treasuryBalance_{stablecoin} + treasuryBalance_{otherAssets}
+$$
+
+Every OHM in circulation is backed by the Olympus treasury. The assets in the treasury can be divided into two categories: stablecoin and non-stablecoin.
+
+$$
+treasuryBalance_{stablecoin} = RFV_{reserveBond} + RFV_{lpBond}
+$$
+
+The stablecoin balance in the treasury grows when bonds are sold. [RFV](https://docs.olympusdao.finance/references/glossary#rfv) is calculated differently for different bond types.
+
+$$
+RFV_{reserveBond} = assetSupplied
+$$
+
+For reserve bonds such as DAI bond and FRAX bond, the RFV simply equals to the amount of the underlying asset supplied by the bonder.
+
+$$
+RFV_{lpBond} = 2sqrt(constantProduct) * (\%\ ownership\ of\ the\ pool)
+$$
+
+For LP bonds such as OHM-DAI bond and OHM-FRAX bond, the RFV is calculated differently because the protocol needs to mark down its value. Why? The LP token pair consists of OHM, and each OHM in circulation will be backed by these LP tokens - there is a cyclical dependency. To safely guarantee all circulating OHM are backed, the protocol marks down the value of these LP tokens, hence the name *risk-free* value (RFV).
