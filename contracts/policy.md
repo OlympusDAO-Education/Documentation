@@ -3,9 +3,10 @@
 ## Policy
 
 The policy contract is an address guarded by a simple gnosis safe
-implementation. OlympusDAO protocol. This includes BCV and reward rate
-adjustments. Below are listed policy addresses by version, where the latest
-version represents the currently active address.
+implementation. The policy address manages adjustments of the monetary policy of
+the Olympus DAO protocol. This includes BCV and reward rate adjustments. Below
+are listed policy addresses by version, where the latest version represents the
+currently active address.
 
 - V1 [0x0cf3...6b2E](https://etherscan.io/address/0x0cf30dc0d48604A301dF8010cdc028C055336b2E)
 
