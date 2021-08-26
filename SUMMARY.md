@@ -38,11 +38,19 @@
 - [Policy](policy.md)
 - [Market Dynamics](market-dynamics.md)
 
+## Contracts
+
+- [Audits](contracts/audits.md)
+- [Bonds](contracts/bonds.md)
+- [DAO](contracts/dao.md)
+- [Policy](contracts/policy.md)
+- [Staking](contracts/staking.md)
+- [Tokens](contracts/tokens.md)
+- [Treasury](contracts/treasury.md)
+
 ## References
 
 - [Architecture](architecture.md)
-- [Audits](audits.md)
-- [Contracts](contracts.md)
 - [Equations](equations.md)
 - [Glossary](glossary.md)
 - [Links](links.md)
