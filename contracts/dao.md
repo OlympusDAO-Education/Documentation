@@ -4,7 +4,7 @@
 
 The DAO contract is an address guarded by a simple gnosis safe implementation.
 The DAO address holds all the DAO funds accumulated over time. For instance the
-DAO allocates OHM from every bond sold by the protocol. The DAO address also
+DAO receives OHM from every bond sold by the protocol. The DAO address also
 holds funds from strategic investments like pKLIMA acquired during a strategic
 partnership with KlimaDAO. Below are listed DAO addresses by version, where
 the latest version represents the currently active address.
