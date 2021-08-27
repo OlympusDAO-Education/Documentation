@@ -4,7 +4,7 @@
 
 Olympus is a decentralized reserve currency protocol based on the OHM token. Each OHM token is backed by a basket of assets \(e.g. DAI, FRAX\) in the Olympus treasury, giving it an intrinsic value that it cannot fall below. Olympus also introduces unique economic and game-theoretic dynamics into the market through staking and bonding. Read more about the game theory aspect of Olympus in [one of our blog posts](https://olympusdao.medium.com/the-game-theory-of-olympus-e4c5f19a77df).
 
- [![Olympus Video](.gitbook/assets/video_frame.png)](https://www.youtube.com/watch?v=QZOaZ9dd-ms)
+{% embed url="https://www.youtube.com/watch?v=QZOaZ9dd-ms" caption="Introductory video about Olympus" %}
 
 ## What is the point of Olympus?
 
