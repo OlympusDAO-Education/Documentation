@@ -12,22 +12,7 @@ Olympus offers five types of bonds [on its website](https://app.olympusdao.finan
 * [OHM-DAI LP bond](ohm-dai-lp-bond.md)
 * [OHM-FRAX LP bond](bond_ohm_frax.md)
 
-## How to Bond
-
-### LP Bond
-
-1. Go to Sushiswap and add liquidity. If you do not know how to do so, there is a good guide on [SushiSwap documentation](https://help.sushidocs.com/guides/how-to-add-tokens-to-sushiswap-exchange-as-an-lp).
-2. Head to the [OHM/DAI LP Bond page of the Olympus website](https://app.olympusdao.finance/#/bonds/ohm_dai_lp). There are two tabs: "Bond" and "Redeem". Make sure "Bond" is selected.
-3. Type in the amount of SLP you would like to bond, then click "Approve" and sign the transaction.
-4. After the "Approve" transaction has been processed successfully, click "Bond" and sign the transaction. Voila, you have purchased your first SLP bond!
-
-### DAI Bond
-
-1. Head to the [DAI Bond page of the Olympus website](https://app.olympusdao.finance/#/bonds/dai). There are two tabs: "Bond" and "Redeem". Make sure "Bond" is selected.
-2. Type in the amount of DAI you would like to bond, then click "Approve" and sign the transaction.
-3. After the "Approve" transaction has been processed successfully, click "Bond" and sign the transaction. Voila, you have purchased your first DAI bond!
-
-### Hades
+## Hades
 
 Hades is a feature that allows you to purchase bonds while sending the acquired OHM to another address. This is useful for additional privacy, or for purchasing multiple bonds while the current bonds are still vesting. Note that if the same account holds multiple bonds, the pending rewards from the earlier bonds have to be forfeited.
 
