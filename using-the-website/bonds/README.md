@@ -9,7 +9,7 @@ Olympus offers five types of bonds [on its website](https://app.olympusdao.finan
 * [DAI bond](bond_dai.md)
 * [FRAX bond](bond_frax.md)
 * [wETH bond](bond_weth.md)
-* OHM-DAI LP bond
+* [OHM-DAI LP bond](ohm-dai-lp-bond.md)
 * [OHM-FRAX LP bond](bond_ohm_frax.md)
 
 ## How to Bond
