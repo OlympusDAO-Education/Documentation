@@ -1,22 +1,22 @@
-# Policy
+# 정책
 
-Olympus features policy constants that allow us to optimize the system.
+올림푸스는 시스템을 최적화할 수 있는 정책 유지를 제공합니다.
 
-## Bonds
+## 본드
 
-The **BCV** allows us to scale the rate at which bond premiums increase. A higher BCV means a lower discount for bonders and more protocol profit. A lower BCV means a higher discount for bonders and less protocol profit.
+**BCV**는 본드의 프리미엄이 증가하는 비율을 조절할 수 있도록 합니다. 높은 BCV는 본더에게는 낮은 할인율을 의미하며 더 많은 프로토콜의 이익이 발생합니다. 낮은 BCV는 본더들에게 높은 할인율을 의미하며 더 낮은 프로토콜의 이익이 발생합니다.
 
-The **vesting term** determines how long it takes for bonds to become fully redeemable. A longer term means lower inflation and lower bond demand.
+베스팅 기간은 본드가 완전히 상환 가능해지기 까지 얼마만큼의 시간이 걸리는지를 결정합니다. 기간이 길 수록 인플레이션이 낮아지고, 본드의 수요가 줄어듭니다.
 
-## Sales
+## 판매
 
-The **DCV** allows us to scale protocol buy pressure up or down. A higher DCV means more buy pressure and higher deflation. A lower DCV means less buy pressure and a weaker floor.
+**DCV**는 프로토콜의 구매 압력을 상향하거나 하향할 수 있게 합니다. 높은 DCV는 더 많은 구매 압력과 높은 디플레이션을, 낮은 DCV는 적은 구매 압력과 약한 바닥층을 야기합니다.
 
-## Treasury
+## 금고
 
-Profit Allocations are the only treasury variable. This allows us to choose who receives profits from the protocol.
+수익을 할당하는 것은 금고의 유일한 변수입니다. 이것은 프로토콜로부터 누가 수익을 받을 것인가를 결정합니다.
 
-## Staking
+## 스테이킹
 
-There are no variables in the staking contract. OHM and sOHM are always redeemable 1:1, and profits are always distributed equally through rebase.
+스테이킹 컨트랙트에는 변수가 없습니다. OHM과 sOHM은 항상 1:1 비율로 교환되며 이익은 리베이스를 통해 균등하게 분배됩니다.
 

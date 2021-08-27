@@ -5,41 +5,41 @@
 ## Basics
 
 * [FAQ](basics/basics.md)
-* [Staking](basics/staking.md)
-* [Bonding](basics/bonding.md)
+* [스테이킹](basics/staking.md)
+* [본딩](basics/bonding.md)
 
-## Using the Website
+## 웹사이트 사용법 <a id="using-the-website"></a>
 
-* [Stake Your OHM \(3, 3\)](using-the-website/staking.md)
-* [Purchase A Bond \(1, 1\)](using-the-website/bonds/README.md)
+* [OHM 스테이킹 \(3,3\)](using-the-website/staking.md)
+* [본드 구입 \(1,1\)](using-the-website/bonds/README.md)
   * [DAI Bond](using-the-website/bonds/bond_dai.md)
-  * [FRAX Bond](using-the-website/bonds/bond_frax.md)
-  * [wETH Bond](using-the-website/bonds/bond_weth.md)
-  * [OHM-FRAX LP Bond](using-the-website/bonds/bond_ohm_frax.md)
-* [Stake LP Tokens](using-the-website/staking_lp.md)
-* [Unstake LP Tokens](using-the-website/unstaking_lp.md)
-* [Migrate Staked OHM](using-the-website/migrate.md)
+  * [FRAX 본드](using-the-website/bonds/bond_frax.md)
+  * [wETH 본드](using-the-website/bonds/bond_weth.md)
+  * [OHM-FRAX LP 본드](using-the-website/bonds/bond_ohm_frax.md)
+* [Stake LP 토큰](using-the-website/staking_lp.md)
+* [LP 토큰 언스테이킹](using-the-website/unstaking_lp.md)
+* [sOHM 마이그레이션](using-the-website/migrate.md)
 
-## Using Etherscan
+## 이더스캔 사용법 <a id="using-etherscan"></a>
 
-* [Stake Your OHM \(3, 3\)](using-etherscan/staking.md)
-* [Unstake sOHM](using-etherscan/unstaking.md)
+* [OHM 스테이킹 \(3, 3\)](using-etherscan/staking.md)
+* [sOHM 언스테이킹](using-etherscan/unstaking.md)
 
-## Partnership
+## 파트너십 <a id="partnership"></a>
 
 * [Frax Finance](partnership/frax-partnership.md)
 * [Rari Capital](partnership/rari-partnership/README.md)
   * [Fuse](partnership/rari-partnership/fuse.md)
 
-## Protocol Internals
+## 프로토콜 내부 <a id="protocol-internals"></a>
 
-* [Initial Network State](protocol-internals/initial-network-state.md)
-* [Policy](protocol-internals/policy.md)
-* [Market Dynamics](protocol-internals/market-dynamics.md)
+* [초기 네트워크 상태](protocol-internals/initial-network-state.md)
+* [정책](protocol-internals/policy.md)
+* [시장 다이내믹](protocol-internals/market-dynamics.md)
 
-## Contracts
+## 컨트랙트 <a id="contracts"></a>
 
-* [Audits](contracts/audits.md)
+* [오딧\(Audit\)](contracts/audits.md)
 * [Bonds](contracts/bonds.md)
 * [DAO](contracts/dao.md)
 * [Policy](contracts/policy.md)
@@ -47,10 +47,10 @@
 * [Tokens](contracts/tokens.md)
 * [Treasury](contracts/treasury.md)
 
-## References
+## 레퍼런스 <a id="references"></a>
 
-* [Architecture](references/architecture.md)
-* [Equations](references/equations.md)
+* [스테이킹](references/architecture.md)
+* [방정식](references/equations.md)
 * [Glossary](references/glossary.md)
 * [Links](references/links.md)
 * [Translations](references/translations.md)

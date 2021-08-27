@@ -1,31 +1,22 @@
-# Unstake LP Tokens
+# LP 토큰 언스테이킹
 
-OHM-DAI LP token staking has been deprecated as Olympus owns most of the liquidity now. [Staking rewards are no longer being paid](https://scattershot.page/#/olympusdao.eth/proposal/QmRhBupfD53yBothJ6EarEiL6ztVjSPSfTHRWEpVE7oq3g) to OHM-DAI LP stakers, and users are advised to unstake their OHM-DAI LP tokens from Olympus to prevent any opportunity cost.
+OHM-DAI LP 스테이킹 프로그램은 올림푸스다오가 유동성 대부분을 가져가게 되어 종료되었습니다. OHM-DAI 유동성 공급자들에게는 현재 [보상이 제공되지 않습니다](https://scattershot.page/#/olympusdao.eth/proposal/QmRhBupfD53yBothJ6EarEiL6ztVjSPSfTHRWEpVE7oq3g). 따라서, OHM-DAI 유동성 공급자들의 기회비용을 고려하여, LP 토큰 언스테이킹을 권장드립니다.
 
-As Olympus no longer supports this feature, there is no interface for users to unstake their LP tokens directly from the Olympus website. Luckily, users can still unstake their LP tokens via [Etherscan](https://etherscan.io/). The following guide will show you how.
+올림푸스 사이트에서 현재 언스테이킹은 지원되지 않습니다. 유동성 공급자 분들은 현재 [이더스캔](https://etherscan.io/)을 통해서만 언스테이킹이 가능합니다. 아래에서 단계별로 설명 드리겠습니다.
 
-## How to Unstake LP Tokens via Etherscan
+## 이더스캔을 사용하여 LP 토큰을 언스테이킹 하는  
 
-1. Go to the [Write Contract section of the LP staking contract](https://etherscan.io/address/0xF11f0F078BfaF05a28Eac345Bb84fcb2a3722223#writeContract) on Etherscan.
+1. LP 스테이킹 계약의 이더스캔 페이지에서 [Write Contract](https://etherscan.io/address/0xF11f0F078BfaF05a28Eac345Bb84fcb2a3722223#writeContract)를 선택하세요.
 
-   ![Go to the Write Contract section](../.gitbook/assets/write_contract.png)
+2. **Connect to Web3** 버튼을 선택하여 지갑을 연하세요.
 
-2. Connect your wallet by pressing the **Connect to Web3** button.
+3. 경고 문구가 표시될 것입니다. **OK**를 선택하세요.
 
-   ![Connect your wallet](../.gitbook/assets/connect_wallet.png)
+4. 지갑이 연결된 후, Connect to Web3 버튼은 **Connected**로 바뀌어 있고, 옆에 지갑 주소가 표시될 것입니다.
 
-3. A warning prompt will pop up from Etherscan. Select **OK**.
+5. unstakeLP를 선택하고 **Write** 버튼을 클릭하세요.
 
-   ![Dismiss the warning message](../.gitbook/assets/warning.png)
+6. 지갑에서 언스테이킹 트랜잭션 승을 요청할 것입니다. 트랜잭션을 승인하고, 완료될 때까지 기다려 주세요.
 
-4. When your wallet is connected, the button will be changed to show "Connected" along with your wallet address \(redacted in the following screenshot\).
-
-   ![Wallet is connected](../.gitbook/assets/wallet_connected.png)
-
-5. Go to the fifth option, _unstakeLP_, and press the **Write** button.
-
-   ![Click &quot;Write&quot;](../.gitbook/assets/write.png)
-
-6. Your wallet will prompt you to sign the transaction for unstaking your LP tokens. Confirm the transaction and wait for it to complete.
-7. After the transaction has been processed successfully, your LP token balance should show up correctly in your wallet.
+7. 트랜잭션이 완료되면 LP 토큰이 지갑에 들어와 있을 것입니다.
 

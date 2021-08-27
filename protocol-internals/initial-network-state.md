@@ -1,36 +1,36 @@
-# Initial Network State
+# 초기 네트워크 상태
 
-**Our initial goal is not to find a stable price.** This may seem antithetical to our currency aspirations, but we ensure you it is not. Olympus can be tuned to optimize for different things. The main tradeoff is volatility and profitability versus stability and consistency. With volatility and profit comes growth; this is what we want early on.
+**우리의 초기 목표는 안정적인 가격을 찾는것이 아닙니다.** 이것은 통화에 대한 우리의 열정과 반대되는 것 처럼 보일 수 있지만 확실히 그 반대입니다. 올림푸스는 여러 다양한 것들에 최적화 되도록 조율될 수 있습니다. 주요한 단점은 안정성 및 일관성과 대조되는 변동성과 수익성입니다. 변동성과 이익이 동반 성장하는 것, 이것이 우리가 초기에 바라는 것들입니다.
 
-With tight policy and scale, Olympus should function well as a stable asset. Upward and downward pressures should stabilize at some non-intrinsic value. With loose policy, regardless of scale, Olympus has the potential to act as a wealth creation machine. The market premium of the token measures the positive sum of the game; all extrinsic value is new wealth created.
+올림푸스는 엄격한 정책과 규모를 통해서 안정적인 자산으로 기능해야 합니다. 상방 또는 하방 압력은 내재가치 밖의 어딘가에서 안정되어야 합니다. 반대로 규모에 상관없고 느슨한 정책으로는, 올림푸스는 부를 창출하는 기계가 될 수 있는 잠재력을 갖고 있기도 합니다. 토큰의 시장 프리미엄을 통해 게임이 얼마나 긍정적인 측면을 갖고 있는지 측정할 수 있습니다. 모든 외재가치는 새롭게 생성되는 부와 마찬가지입니다.
 
-## Alpha State
+## 초기 상태\(Alpha State\)
 
-The initial network features a one-way treasury \(money goes in, none comes out\), the bonding contract \(through which supply increases and profits are produced\), and the staking contract \(where profits are distributed\).
+초기의 네트워크는 단일 방향으로 작동하는 금고\(돈이 들어오고 나가지 못하는\)로, 본딩 컨트랙트\(공급이 증가하고 이익이 창출되는\)로, 그리고 스테이킹 컨트랙트\(이익이 배분되는\)로 작동합니다.
 
-The following are the initial policy states:
+초기 정책 상태는 다음과 같습니다:
 
 * **BCV**
 
-  [BCV](https://docs.olympusdao.finance/references/glossary#bcv) varies based on bond types. It is tuned regularly by the Policy team to meet the protocol goals. For example, if the protocol wants to accumulate more liquidity into its treasury, it can lower the BCV for [liquidity bonds](https://docs.olympusdao.finance/references/glossary#liquidity-bonds) to increase their bond capacity. To view the BCV targets for different bond types, visit the [Olympus Policy Dune page](https://dune.xyz/shadow/Olympus-Policy).
+  **BCV\(링크\)** 는 본드 타입에 따라 달라집니다. 이는 정책 팀에 의해 프로토콜의 목표에 부합하기 위해 정기적으로 조절됩니다. 예를 들면, 만약 프로토콜이 금고에 더 많은 유동성을 쌓고 싶으면, 유동성 본드의 BCV를 낮춤으로써 본드의 용량을 증가시킬 수 있습니다. 본드 타입 별 다르게 설정된 BCV를 확인하려면 올림푸스 정책 Dune 페이지를 참고하세요.
 
-* **Bond vesting term**
+* **본드 베스팅 기간**
 
-  It is set to 33110 Ethereum blocks or approximately five days for all bond types.
+  모든 종류의 본드는 대략 33110 이더리움 블록 또는 대략 5일간의 베스팅 기간을 갖도록 설정되어 있습니다.
 
-* **OHM distribution**
+* **OHM 배분**
 
-  Every time someone purchases a bond, the proceed will go to the [Olympus treasury](https://docs.olympusdao.finance/references/contracts#treasury). A corresponding amount of OHM will be minted and distributed to three parties:
+  누군가가 본드를 구입할 때 마다, 수익은 올림푸스 금고\(링크\)로 이동합니다. 그리고 해당하는 만큼의 OHM이 발행되어 아래 3곳으로 분배됩니다:
 
-  * Bonder
+  * 본더
 
-    The bond purchaser will receive the quoted amount of OHM linearly over the vesting term.
+    본드 매수자가 베스팅 기간에 따라 선형적으로 견적된 만큼의 OHM을 받습니다.
 
   * DAO
 
-    The DAO receives the same amount of OHM as the bonder. This represents the DAO profit.
+    DAO가 본더와 동일한 양의 OHM을 받습니다. 이것은 DAO의 수익이기도 합니다.
 
-  * Stakers
+  * 스테이커
 
-    After accounting for the OHM distributed to the bonder and the DAO, the rest will be distributed among all stakers in the protocol.
+    본더와 DAO에 배분할 OHM을 계산하고 난 뒤, 나머지는 프로토콜에 있는 모든 스테이커들에게 배분됩니다.
 

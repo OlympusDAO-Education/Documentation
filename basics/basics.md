@@ -1,161 +1,143 @@
 # FAQ
 
-## Why do we need OlympusDAO in the first place?
+## 애초에  올림푸스가 필요한가요? <a id="why-do-we-need-olympusdao-in-the-first-place"></a>
 
-Dollar-pegged stablecoins have become an essential part of crypto due to their lack of volatility as compared to tokens such as Bitcoin and Ether. Users are comfortable with transacting using stablecoins knowing that they hold the same amount of purchasing power today vs. tomorrow. But this is a fallacy. The dollar is controlled by the US government and the Federal Reserve. This means a depreciation of dollar also means a depreciation of these stablecoins.
+달러에 페깅된 스테이블 코인은 비트코인이나 이더리움에 비해 변동성이 없기에 암호화폐 사이에서 없어선 안될 필수적인 존재가 되었습니다. 사용자들은 오늘이든 내일이든 같은 구매력을 가진 스테이블 코인을 사용해 거래하는 것을 더 편리하게 여깁니다. 하지만 이것은 잘못된 생각입니다. 달러는 미국 정부와 연방준비제도이사회\(Federal Reserve\)에 의해 통제되고 있기 때문입니다. 이는 달러의 가치가 떨어지면 스테이블 코인의 가치 또한 동일하게 떨어지는 것을 의미합니다.
 
-OlympusDAO aims to solve this by creating a non-pegged stablecoin called OHM. By focusing on supply growth rather than price appreciation, OlympusDAO hopes that OHM can function as a currency that is able to hold its purchasing power regardless of market volatility.
+올림푸스는 OHM이라고 불리는 페깅되지 않은\(non-pegged\) 스테이블 코인을 사용해 이 문제를 해결하고자 합니다. 올림푸스는 토큰 가격의 상승보다 공급량 증가에 초점을 맞춰서 OHM이 시장 변동성에 상관없이 구매력을 유지할 수 있는 통화로 기능할 수 있기를 기대합니다.
 
-## Is OHM a stable coin?
+## OHM은 스테이블 코인인가요? <a id="is-ohm-a-stable-coin"></a>
 
-No, OHM is not a stable coin. Rather, OHM aspires to become an algorithmic reserve currency backed by other decentralized assets. Similar to the idea of the gold standard, OHM provides free floating value its users can always fall back on, simply because of the fractional treasury reserves OHM draws its intrinsic value from.
+OHM은 스테이블 코인은 아니지만, 다른 탈중앙화된 자산으로 지지되는, 알고리즘을 활용한 준비 통화\(reserve currency\)를 지향합니다. OHM은 금본위제와 유사하게, 금고의 일부가 OHM의 내재 가치를 끌어오기 때문에 참여자들이 항상 의존할 수 있는 자유롭게 부동하는 가치를 제공합니다. 
 
-## OHM is backed, not pegged.
+## OHM 은 페깅되지 않고, 지지됩니다. <a id="ohm-is-backed-not-pegged"></a>
 
-Each OHM is backed by 1 DAI, not pegged to it. Because the treasury backs every OHM with at least 1 DAI, the protocol would buy back and burn OHM when it trades below 1 DAI. This has the effect of pushing OHM price back up to 1 DAI. OHM could always trade above 1 DAI because there is no upper limit imposed by the protocol. Think pegged == 1, while backed &gt;= 1.
+각 OHM은 페깅되는 것이 아니라 1 DAI에 지지됩니다. 금고가 각 OHM을 최소 1 DAI로 지지하기 때문에, 프로토콜은 OHM이 1 DAI 아래로 떨어질때 되사서 소각합니다. 이것은 OHM의 가격을 1 DAI 위로 지지해주는 효과가 있습니다. 프로토콜이 OHM의 가격에 상한을 두고 있지 않기 때문에 항상 1 DAI위에서 거래될 수 있습니다. 페깅은 1달러에 고정되는 것을 의미하지만, 지지는 1달러보다 같거나 클 수 있음을 의미합니다.
 
-You might say that the OHM floor price or intrinsic value is 1 DAI. We believe that the actual price will always be 1 DAI + premium, but in the end that is up to the market to decide.
+여기에서 여러분은 OHM 가격의 바닥이나 혹은 내재 가치가 1 DAI라고 말할 지도 모릅니다. 우리는 실제 가격이 항상 1 DAI에 프리미엄을 더한 값이라고 믿고 있지만 이것은 결국 시장에 달렸습니다.
 
-## How does it work?
+## 어떻게 작동하나요? <a id="how-does-it-work"></a>
 
-At a high level, OlympusDAO consists of its protocol managed treasury, protocol owned liquidity, bond mechanism, and high staking rewards that are designed to control supply expansion.
+올림푸스의 가장 상단에는, 프로토콜이 관리하는 금고와 프로토콜이 소유한 유동성, 본드 메커니즘 그리고 공급량 확대를 조절하기 위해 설계된 높은 스테이킹 보상 시스템으로 구성되어 있습니다.
 
-Bond generates profit for the protocol, and the treasury uses the profit to mint OHM and distribute them to stakers. With LP bond, the protocol is able to accumulate liquidity to ensure the system stability.
+본드는 프로토콜을 위해 수익을 창출하고, 금고는 창출된 수익을 이용해 OHM을 발행해 스테이커들에게 분배합니다. 또한 프로토콜은 LP 본드 유동성을 축적해서 시스템의 안정성을 확보합니다.
 
-## What is the deal with \(3,3\) and \(1,1\)?
+## \(3,3\)은 무엇이고 \(1,1\)은 무엇인가요? <a id="what-is-the-deal-with-3-3-and-1-1"></a>
 
-\(3,3\) is the idea that, if everyone cooperated in Olympus, it would generate the greatest gain for everyone \(from a [game theory](https://en.wikipedia.org/wiki/Game_theory) standpoint\). Currently, there are three actions a user can take:
+\(3,3\)이란, 올림푸스의 모든 참여자가 뜻을 모은다면 모두에게 가장 큰 이익을 가져다줄 수 있다는 아이디어 입니다\([게임 이론](https://en.wikipedia.org/wiki/Game_theory)의 관점에서\).
 
-* Staking \(+2\)
-* Bonding \(+1\)
-* Selling \(-2\)
+현재 사용자가 취할 수 있는 행동은 3 가지가 있습니다:
 
-Staking and bonding are considered beneficiary to the protocol, while selling is considered detrimental. Staking and selling will also cause a price move, while bonding does not \(we consider buying OHM from the market as a prerequisite of staking, thus causing a price move\). If both actions are beneficiary, the actor who moves price also gets half of the benefit \(+1\). If both actions are contradictory, the bad actor who moves price gets half of the benefit \(+1\), while the good actor who moves price gets half of the downside \(-1\). If both actions are detrimental, which implies both actors are selling, they both get half of the downside \(-1\).
+* 스테이킹\(+2\)
+* 본딩\(+1\)
+* 판매\(-2\)
 
-Thus, given two actors, all scenarios of what they could do and the effect on the protocol are shown here:
+스테이킹과 본딩은 프로토콜에 이득이며, 판매는 손해를 줍니다. 스테이킹과 판매 모두 가격 변동에 영향을 주지만, 본딩은 그렇지 않습니다\(우리는 시장에서의 OHM의 구매가 스테이킹을 전제로 한 것이라고 여기기 때문에 가격 변동에 영향을 준다고 봅니다\). 만약 이 두가지 행동이 이익이 된다면, 가격을 움직인 행위자도 그로 인한 이익의 절반을 얻는 셈이 됩니다\(+1\). 만약 두 행동이 반대로 이뤄진다면 가격을 움직인 부정적인 행위자가 이익의 절반을 얻지만\(+1\), 긍정적 행위자는 손실의 절반을 얻습니다\(-1\). 만약 두 행위가 각 참여자의 판매로 인해 모두 손해를 준다면, 모든 참여자는 손실의 절반을 얻게 됩니다\(-1\).
 
-![](../.gitbook/assets/game_theory.png)
+따라서 두 참여자가 있다고 가정했을 때, 그들이 취할 수 있는 행동과 프로토콜에 가할 수 있는 시나리오를 아래의 그림으로 나타낼 수 있습니다.
 
-* If we both stake \(3, 3\), it is the best thing for both of us and the protocol \(3 + 3 = 6\).
-* If one of us stakes and the other one bonds, it is also great because staking takes OHM off the market and put it into the protocol, while bonding provides liquidity and DAI for the treasury \(3 + 1 = 4\).
-* When one of us sells, it diminishes effort of the other one who stakes or bonds \(1 - 1 = 0\).
-* When we both sell, it creates the worst outcome for both of us and the protocol \(-3 - 3 = -6\).
+![](https://gblobscdn.gitbook.com/assets%2F-MV4hwONledQK5nEDaUc%2Fsync%2F825671741c4d78f18d0985b8c6f08d3572cfd263.png?alt=media)
 
-## Why is PCV important?
+* 만약 둘 다 스테이킹을 한다면\(3,3\), 둘에게도 프로토콜에도 가장 좋습니다\(3 + 3 = 6\).
+* 만약 한 명이 스테이킹을 하고 다른 한 명이 본딩을 한다면, 스테이킹은 OHM을 시장에서 분리시켜 프로토콜에 넣고, 본딩은 유동성과 DAI를 금고에 제공하기 때문에\(3 + 1 = 4\), 이것 또한 좋습니다.
+* 우리 중 한명이 팔면, 스테이킹이나 본딩을 하는 다른 사람의 노력이 상쇄됩니다\(1 - 1 = 0\).
+* 양쪽이 모두 판매하면, 우리 뿐 아니라 프로토콜에 가장 나쁜 결과를 가져옵니다\(-3 - 3 = -6\).
 
-As the protocol controls the funds in its treasury, OHM can only be minted or burned by the protocol. This also guarantees that the protocol can always back 1 OHM with 1 DAI. You can easily define the risk of your investment because you can be confident that the protocol will indefinitely buy OHM below 1 DAI with the treasury assets until no one is left to sell. You can't trust the FED but you can trust the code.
+## PCV가 중요한 이유는 무엇인가요? <a id="why-is-pcv-important"></a>
 
-As the protocol accumulates more PCV, more runway is guaranteed for the stakers. This means the stakers can be confident that the current staking APY can be sustained for a longer term because more funds are available in the treasury.
+프로토콜이 금고 안에서 자금을 관리하기 때문에, OHM은 프로토콜에 의해서만 발행되거나 소각될 수 있습니다. 이는 또한 프로토콜이 1 OHM을 1 DAI로 지지하도록 만들 수 있도록 보장합니다. 여러분은 프로토콜이 금고의 자산을 사용해서 판매자가 남아있지 않을 때 까지 OHM을 1 DAI 아래에서 무기한으로 매입할 것이라는 것을 확신할 수 있기 때문에, 투자의 위험을 사전에 쉽게 정의할 수 있습니다. 여러분은 FED는 신뢰할 수 없지만 코드는 신뢰할 수 있습니다.
 
-## What will happen if there is a bank run on Olympus?
+프로토콜이 더 많은 PCV를 축적해 나가면서, 스테이커들에게는 더 많은 주로\(runway\)가 보장됩니다. 이 말인 즉, 금고가 더 많은 자금을 보유하기 때문에 스테이커들은 현재의 APY가 더 오랜 기간 동안 지속 될 것이라고 확신하게 됩니다.
 
-Fractional reserve banking works because depositors don’t withdraw their funds all at once. A depositor’s faith in the banking system rests on regulations and agencies like Federal Deposit Insurance Corporation \(FDIC\).
+## 만약 올림푸스에서 예금 인출 사태가 벌어진다면 어떻게 될까요? <a id="what-will-happen-if-there-is-a-bank-run-on-olympus"></a>
 
-OHM does not have FDIC insurance but it has an incentive structure that protects stakers. Let’s take a look at how it performs during a hypothetical bank run. In this scenario, we assume the majority of stakers would panic and unstake their tokens from Olympus - the staking percentage which stands at 92% now quickly collapses to 3.3%, leaving only 20,000 OHM staked.
+예금자들이 모든 돈을 한꺼번에 인출하지 않기 때문에, 준비 은행 일부가 부분적으로 작동하게 됩니다. 예금자들의 은행 시스템에 대한 믿음은 규제와 연방예금보험공사\(FDIC\)와 같은 기관에 대한 신뢰를 배경으로 합니다.
 
-Next, we assume the Risk-Free Value \(RFV\) inflows to the treasury completely dry up. For context, RFV is currently growing at about $1 million every 3 days. However, during a bank run this growth will likely stop.
+OHM은 FDIC 보험같은 것을 가지고 있지 않지만, 스테이커들을 보호하기 위한 인센티브 구조를 갖고 있습니다. 가상의 예금 인출 사태에서 올림푸스가 어떻게 작동할지 떠올려 봅시다. 스테이커의 대부분이 패닉에 빠지고 그들의 토큰을 올림푸스에서 언스테이킹 해서, 92%에 머물러 있던 스테이킹 비율이 3.3%로 빠르게 감소해 20,000OHM 만이 스테이킹된 채로 남아있다고 가정해 봅시다.
 
-Finally, we assume that those last standing stakers bought in at a price of $500 per OHM. The initial investment of these stakers would be:
+다음으로, 금고에 유입되는 무위험가치\(RFV\)가 완전히 고갈되었다고 가정해 봅시다. 실제 RFV는 현재 3일 마다 100만 달러씩 증가하고 있지만, 예금 인출 사태에서는 이런 성장이 멈출 것입니다.
 
-$$
-\$500/OHM * 20,000\ OHM = \$10\ million
-$$
+마지막으로, 끝까지 남아있는 스테이커들이 OHM을 개당 $500에 구입했다고 가정해 봅시다. 이 스테이커들의 초기 투자비용은 총 $500/OHM \* 20,000 = $10,000,000, 즉 1천만 달러 입니다.
 
-As of July 12 2021, the total OHM supply is 734,421 and the RFV is $13,905,970. Remember that 1 OHM is backed by 1 USD \(DAI or FRAX\). By subtracting these two numbers, we know 13,171,549 OHM will eventually get issued to the remaining stakers. In roughly a year, these stakers who are holding 20,000 OHM will have:
+2021년 7월 12일을 기준으로, OHM의 총 공급량은 734,421개 이고 RFV는 $13,905,970 입니다. 1 OHM이 \(DAI나 FRAX를 활용하여\) 1 USD 만큼의 가치로 지지받고 있다는 것을 기억해보면, 방금 나온 두 숫자를 빼면 결국 13,171,549 개의 OHM이 남은 스테이커들에게 발행되어 배분되리라는 것을 알 수 있습니다. 20,000 OHM을 스테이킹하고 있는 이 스테이커들 대략 1년 안에 20,000 + 13,171,549 = 13,191,549 OHM을 갖게 될 것입니다.
 
-$$
-20,000 + 13,171,549 = 13,191,549\ OHM
-$$
+이들이 투자한 1천만 달러는 현금흐름상 결국 1320만 달러가 될 것입니다\(다시 한 번 강조하면 1 OHM은 1 USD 가치만큼 지지됩니다\). 이 예금 인출 시나리오에서, 스테이킹을 유지한 스테이커들은 돈을 돌려받을 뿐 아니라 수익을 내었습니다. 따라서 \(3,3\)은 단순히 유명한 밈\(meme\)이 아니라, 우세한 투자 전략입니다.
 
-$10 million investment made by these stakers will turn into about $13.2 million based on cash flow alone if they stay staked \(recall that 1 OHM is backed by 1 USD\). In this bank run scenario, the stakers who stay staked not only get their money back, but also make some profit. Therefore, [\(3,3\)](basics.md#what-is-the-deal-with-3-3-and-1-1) isn’t just a popular meme, it is actually a dominant strategy.
+위의 시나리오는 스테이커들에게 높은 보상이 돌아갈 것이라는 사실을 사람들이 알게 되면 그 전략을 모방해서 OHM을 매입하고 스테이킹 할 것이기 때문에 실현 가능성이 낮습니다. 바로 이것이 올림푸스 출시 이후 스테이킹된 OHM의 비율이 계속적으로 90% 이상으로 유지되고 있는 이유이기도 합니다.
 
-The above scenario is unlikely to play out because when other people find out that extremely high rewards are being paid to the stakers, they will copy the strategy by buying and staking OHM. This is also why the percentage of OHM staked in Olympus has consistently remained over 90% since launch.
+참고: 위에서 사용된 자료들은 [_Dune Analytics page_](https://duneanalytics.com/shadow/Olympus-%28OHM%29) _에서 불러왔습니다._
 
-_Note: Most of the data referenced above are taken from_ [_this Dune Analytics page_](https://duneanalytics.com/shadow/Olympus-%28OHM%29)_._
+## OHM의 가격은 왜 변동성이 큰가요? <a id="why-is-the-market-price-of-ohm-so-volatile"></a>
 
-## Why is the market price of OHM so volatile?
+올림푸스 프로토콜의 개발은 아직 극 초기 단계에 있다는 것을 아는 것이 굉장히 중요합니다. 현재 가격을 중심으로 수 많은 논의가 오가고 있고 앞으로 가치가 안정화 될 것으로 기대하고 있습니다. 사실은 가격을 정하는 특정 요인들이 아직 결정되지 않았다는 점 입니다. 네트워크는 현재 OHM의 공급의 증가에 맞춰 조절되고 있으며  이는 올림푸스의 스테이킹과 본딩, 이자 구조와 맞물려 있기 때문에, 일정량의 변동성을 야기할 수 밖에 없습니다.
 
-It is extremely important to understand how early in development the OlympusDAO protocol is. A large amount of discussion has centered around the current price and expected a stable value moving forward. The reality is that these characteristics are not yet determined. The network is currently tuned for expansion of OHM supply, which when paired with the staking, bonding, and yield mechanics of OlympusDAO, result in a fair amount of volatility.
+시장은 현재 시가총액의 일정 부분에 달하는 양 만큼 프리미엄을 지불할 용의가 있기 때문에 OHM은 높은 가격에 거래될 수 있습니다. 하지만 시장의 심리가 약세로 돌아서면 OHM의 가격은 크게 떨어질 수도 있습니다. 아마 성장하는 기간동안 상당한 가격 변동이 있을 것으로 예상되니, 이 프로젝트가 여러분의 목표와 부합할지에 대해서는 스스로 공부해 보시길 바랍니다.
 
-OHM could trade at a very high price because the market is ready to pay a hefty premium to capture a percentage of the current market capitalization. However, the price of OHM could also drop to a large degree if the market sentiment turns bearish. We would expect significant price volatility during our growth phase so please **do your own research** whether this project suits your goals.
+## OHM이 높은 프리미엄에 거래되고 있는데, 지금 구입하는 이유는 무엇인가요? <a id="what-is-the-point-of-buying-it-now-when-ohm-trades-at-a-very-high-premium"></a>
 
-## What is the point of buying it now when OHM trades at a very high premium?
+여러분이 OHM을 구입하고 스테이킹 한다면, 총 공급\(시가 총액\)의 일정 부분을 점유하게 되며, 이 공급량은 계속 변화합니다. 왜냐하면 당신이 스테이킹한 OHM 잔고도 총 공급량을 따라서 증가하기 때문입니다. 즉 시가총액이 낮을 때 OHM을 구입한다면 시가총액의 더 많은 부분을 점유할 수 있게 됩니다.
 
-When you buy and stake OHM, you capture a percentage of the supply \(market cap\) which will remain close to a constant. This is because your staked OHM balance also increases along with the circulating supply. The implication is that if you buy OHM when the market cap is low, you would be capturing a larger percentage of the market cap.
+## 리베이스\(rebase\)란 무엇인가요? <a id="what-is-a-rebase"></a>
 
-## What is a rebase?
+리베이스란 여러분이 스테이킹한 OHM의 잔고가 자동으로 증가하는 메커니즘입니다. 프로토콜에서 새 OHM이 발행되면, 그 중 상당 부분이 스테이커들에게 배분됩니다. 실제로는 스테이커들이 OHM이 아닌 sOHM\(스테이킹된 OHM\)을 확인하게 되는데, 프로토콜은 발행과 배분을 통해 sOHM 잔고를 증가시키고, 이후 1 sOHM은 1 OHM으로 변환할 수 있게 됩니다.
 
-Rebase is a mechanism by which your staked OHM balance increases automatically. When new OHM are minted by the protocol, a large portion of it goes to the stakers. Because stakers only see staked OHM balance instead of OHM, the protocol utilizes the rebase mechanism to increase the staked OHM balance so that 1 staked OHM is always redeemable for 1 OHM.
+## 보상 이자란 무엇인가요? <a id="what-is-reward-yield"></a>
 
-## What is reward yield?
+보상 이자란 sOHM 잔고가 다음 에포크\(epoch\)에 얼마나 증가하는지를 나타내는 비율입니다. 이것은 리베이스 비율\(rebase rate\)이라고도 불립니다. 이 숫자는 [올림푸스 스테이킹 페이지](https://app.olympusdao.finance/#/stake) 에서 확인할 수 있습니다.
 
-Reward yield is the percentage by which your staked OHM balance increases on the next epoch. It is also known as _rebase rate_. You can find this number on the [Olympus staking page](https://app.olympusdao.finance/#/stake).
+## APY는 무엇인가요? <a id="what-is-apy"></a>
 
-## What is APY?
+APY는 연간 이자 수익률을 의미합니다. 복리 적립을 통해 생기는 잔고의 원금에 대한 실제 수익률을 뜻합니다. 올림푸스의 경우 여러분의 스테이킹된 OHM이 원금이 되며, 리베이스 메커니즘 덕에 복리 이자가 매 에포크 별로 주기적으로 추가 됩니다\(매 2200 이더리움 블록, 혹은 대략 8 시간 마다\).
 
-APY stands for annual percentage yield. It measures the real rate of return on your principal by taking into account the effect of compounding interest. In the case of OlympusDAO, your staked OHM represents your principal, and the compound interest is added periodically on every epoch \(2200 Ethereum blocks, or around 8 hours\) thanks to the rebase mechanism.
+APY에 대한 흥미로운 사실은 여러분의 잔고가 선형적으로 증가하지 않지만 시간이 지나면서 기하급수적으로 증가한다는 것입니다. 매일 이자가 2% 이고 여러분의 잔고가 첫 날 1 OHM으로 시작했다면, 1년 뒤 당신의 잔고는 대략 1377 OHM이 될 것입니다. 꽤 크죠!
 
-One interesting fact about APY is that your balance will grow not linearly but exponentially over time! Assuming a daily compound interest of 2%, if you start with a balance of 1 OHM on day 1, after a year, your balance will grow to about 1377. That is a lot!
+![&#xBCF5;&#xB9AC;&#xC801;&#xB9BD;&#xC758; &#xD798;](https://gblobscdn.gitbook.com/assets%2F-MV4hwONledQK5nEDaUc%2Fsync%2F585854ca21f006875c918ba2aed711730f71284a.png?alt=media)
 
-![The power of compounding](../.gitbook/assets/apy.png)
+## APY는 어떻게 계산하나요? <a id="how-is-the-apy-calculated"></a>
 
-## How is the APY calculated?
+APY는 보상 이자\(리베이스 비율\)을 활용하여 다음과 같이 계산됩니다:
 
-The APY is calculated from the reward yield \(a.k.a rebase rate\) using the following equation:
+_**APY = \(1 + 보상 이자\)^1095**_
 
-$$
-APY = ( 1 + rewardYield )^{1095}
-$$
+리베이스는 하루 3 번 일어나기 때문에 총 1095번의 계산을 해야 합니다. 1년에 365일이 있다고 가정하면 리베이스 횟수는 365 \* 3 = 1095 가 됩니다.
 
-It raises to the power of 1095 because a rebase happens 3 times daily. Consider there are 365 days in a year, this would give a rebase frequency of 365 \* 3 = 1095.
+보상 이자는 다음과 같이 계산됩니다:
 
-Reward yield is determined by the following equation:
+_**보상 이자 = 배분되는 OHM / 총 스테이킹된 OHM**_
 
-$$
-rewardYield = OHM_{distributed} / OHM_{totalStaked}
-$$
+스테이킹 컨트랙트에 배분되는 OHM의 갯수는 OHM의 총 공급량을 사용하여 다음과 같이 계산됩니다:
 
-The number of OHM distributed to the staking contract is calculated from OHM total supply using the following equation:
+_**배분되는 OHM = 총 공급 OHM \* 보상비율**_
 
-$$
-OHM_{distributed} = OHM_{totalSupply} \times rewardRate
-$$
+보상 비율은 프로토콜에 의해 변동될 수 있습니다. 예를 들, [최근의 제안](https://forum.olympusdao.finance/d/37-oip-11-reducing-reward-rate)에 따라 수정되었습니다.
 
-Note that the reward rate is subject to change by the protocol. For example, it has been revised due to [this latest proposal](https://forum.olympusdao.finance/d/77-oip-18-reward-rate-framework-and-reduction).
+## 장기적으로 볼때 OHM의 가격이 중요하지 않은 이유는 무엇인가요? <a id="why-does-the-price-of-ohm-become-irrelevant-in-long-term"></a>
 
-## Why does the price of OHM become irrelevant in long term?
+위에서 설명했듯이 여러분의 OHM 잔고는 복리 적립의 힘으로 시간이 지날수록 기하급수로 증가하게 됩니다. 만약 당신이 $400을 주고 1 OHM을 구입한 뒤, 1년이 지나 OHM의 내재 가치가 $2가 되었다고 가정해 봅시다. 여기에 매일 복리 이자율이 2%라고 가정했을 때, 당신의 OHM 잔고는 1년이 끝나는 시점에 대략 1377개가 되며 $2754의 가치를 갖게 됩니다. $2354 의 수익을 내게 된 셈이죠! 지금 쯤이면 장기적인 수익을 위해 OHM의 프리미엄을 지불하고 있다는 부분을 이해해야만 합니다. 따라서 OHM 잔고를 기하급수적으로 늘리고 이 투자가 의미있게 만들기 위해서는 장기적인 여유를 가져야 합니다.
 
-As illustrated above, your OHM balance will grow exponentially over time thanks to the power of compounding. Let's say you buy an OHM for $400 now and the market decides that in 1 year time, the intrinsic value of OHM will be $2. Assuming a daily compound interest rate of 2%, your balance would grow to about 1377 OHMs by the end of the year, which is worth around $2754. That is a cool $2354 profit! By now, you should understand that you are paying a premium for OHM now in exchange for a long-term benefit. Thus, you should have a long time horizon to allow your OHM balance to grow exponentially and make this a worthwhile investment.
+## 미래에 OHM의 내재가치는 어떻게 될까요? <a id="what-will-be-ohms-intrinsic-value-in-the-future"></a>
 
-## What will be OHM's intrinsic value in the future?
+명확한 해답을 내리기는 어렵지만, 이는 금고의 퍼포먼스에 따라 결정될 것입니다. 예를 들면 금고가 각 OHM을 100 DAI로 지지할 수 있다면, OHM의 내재가치는 100 DAI가 될 것입니다. 이는 DAO에 의해서도 정해질 수 있는 부분입니다. 이를테면 DAO가 [OHM의 바닥 가격을 상승시키기로 결정](https://forum.olympusdao.finance/d/31-use-price-floor-as-tool-for-monetary-policy)하면, 그에 따라 내재 가치가 정해질 수도 있습니다.
 
-There is no clear answer for this, but the intrinsic value can be determined by the treasury performance. For example, if the treasury could guarantee to back every OHM with 100 DAI, the intrinsic value will be 100 DAI. It can also be decided by the DAO. For example, if the DAO decides to [raise the price floor of OHM](https://forum.olympusdao.finance/d/31-use-price-floor-as-tool-for-monetary-policy), its intrinsic value will rise accordingly.
+## 프로토콜 어떻게 높은 APY를 유지하나요? <a id="how-does-the-protocol-manage-to-maintain-the-high-staking-apy"></a>
 
-## How does the protocol manage to maintain the high staking APY?
+프로토콜이 100,000%의 APY를 목표로 한다고 가정해 봅니다. 이는 리베이스 비율이 대략 0.6328% 정도가 되거나 일일 증가율이 대략 2%가 되는 것을 의미합니다. 리베이스 비율을 사용해 어떻게 APY를 계산하는지\(링크\)에 대해서 위의 계산법을 참고해 보세요.
 
-Let’s say the protocol targets an APY of 100,000%. This would translate to a rebase rate of about 0.6328%, or a daily growth of about 2%. Please refer to the equation above to learn [how APY is calculated from the rebase rate](basics.md#how-is-the-apy-calculated).
+현재 100,000 개의 스테이킹된 OHM이 있다면, 프로토콜은 그와 같은 성장을 이뤄내기 위해 추가로 2000 OHM을 발행해야 합니다. 이것은 프로토콜이 본드 판매를 통해 최소한 매일 2000 DAI의 수익을 내야한다는 것을 의미합니다. 만약 프로토콜이 이것에 실패할 경우 100,000% APY는 보장될 수 없을 것입니다.
 
-If there are 100,000 of OHM staked right now, the protocol would need to mint an additional 2000 OHM to achieve this daily growth. This is achievable if the protocol can bring in at least 2000 DAI daily from bond sales. If the protocol fails to achieve this, the APY of 100,000% cannot be guaranteed.
+## 리베이스 보상을 받기 위해서 매 에포크\(epoch\) 마다 OHM을 언스테이킹 했다가 다시 스테이킹 해야하나요? <a id="do-i-have-to-unstake-and-stake-ohm-on-every-epoch-to-get-my-rebase-rewards"></a>
 
-## Do I have to unstake and stake OHM on every epoch to get my rebase rewards?
+아뇨, 올림푸스에서 한 번 OHM을 스테이킹 하고 나면, 스테이킹된 OHM 잔고는 매 에포크마다 자동으로 복리 적립됩니다. 여러분의 리베이스 보상은 잔고 증가분을 통해 확인할 수 있습니다.
 
-No. Once you have staked OHM with OlympusDAO, your staked OHM balance will auto-compound on every epoch. That increase in balance represents your rebase rewards.
+## 내 리베이스 보상을 어떻게 추적할 수 있나요? <a id="how-do-i-track-my-rebase-rewards"></a>
 
-## How do I track my rebase rewards?
+스테이크된 OHM 잔고가 얼마나 증가했는지를 통해 리베이스 보상을 확인할 수 있습니다.
 
-You can track your rebase rewards by calculating the increase in your staked OHM balance.
+1. 처음 OHM을 스테이킹 할 때, [스테이킹 페이지](https://app.olympusdao.finance/#/stake)에 있는 현재 인덱스\(Current index\) 값을 기록해 두세요. 이것을 시작 인덱스 라고 부릅시다. ​![Start index](https://firebasestorage.googleapis.com/v0/b/gitbook-28427.appspot.com/o/assets%2F-MV4hwONledQK5nEDaUc%2Fsync%2F0a3a254e52d48a9317372261abd2f4eda1ddf97c.png?generation=1623157970057597&alt=media)​
+2. 스테이킹 후 일정 시간이 지난 뒤, 잔고가 얼마나 증가했는지 알아보고 싶다면, 현재 인덱스를 다시 한 번 확인해 보세요. 이것을 끝 인덱스 라고 부릅시다. ​![End index](https://firebasestorage.googleapis.com/v0/b/gitbook-28427.appspot.com/o/assets%2F-MV4hwONledQK5nEDaUc%2Fsync%2Fc703f20e91a28ae8f1caab6589c9aa606d11a4d3.png?generation=1623157971338045&alt=media)​
+3. 끝 인덱스를 시작 인덱스로 나눠 보세요, 여러분의 스테이킹된 OHM이 얼마나 증가했는지 비율을 알 수 있습니다.
 
-1. Record down the Current Index value on the [staking page](https://app.olympusdao.finance/#/) when you first stake your OHM. Let's call this the Start Index.
+_**비율 = 끝 인덱스 / 시작 인덱스**_
 
-   ![Start index](../.gitbook/assets/start_index.png)
 
-2. After staking for some time, if you want to determine by how much your balance has increased, check the Current Index value again. Let's call this the End Index.
-
-   ![End index](../.gitbook/assets/end_index.png)
-
-3. By dividing the End Index by Start Index, you would get the ratio by which your staked OHM balance has increased.
-
-   $$
-   ratio = endIndex / startIndex
-   $$
 

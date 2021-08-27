@@ -1,12 +1,12 @@
-# Staking
+# 스테이킹
 
-## What is Staking
+## 스테이킹이란?
 
-**Staking is the primary value accrual strategy of Olympus.** Stakers stake their OHM on [the Olympus website](https://app.olympusdao.finance/#/stake) to earn rebase rewards. The rebase rewards come from the proceed from [bond sales](https://docs.olympusdao.finance/basics/bonding), and can vary based on the number of OHM staked in the protocol and the reward rate set by monetary policy.
+**스테이킹은 가치를 늘릴 수 있는 올림푸스의 주요 전략입니다.** 스테이커는 [올림푸스 웹사이트](https://app.olympusdao.finance/#/stake)에서 OHM을 스테이킹하여 리베이스 보상을 받습니다. 리베이스 보상분은 본드 판매\(링크\)를 통해 생기며, 프로토콜에 얼마나 많은 OHM이 스테이킹 되어있는지 그리고 정책에 따른 보상 비율에 따라서 달라질 수 있습니다.
 
-**Staking is a passive, long-term strategy.** The increase in your stake of OHM translates into a constantly falling cost basis converging on zero. This means even if the market price of OHM drops below your initial purchase price, given a long enough staking period, the increase in your staked OHM balance should eventually outpace the fall in price.
+**스테이킹은 수동적이면서도, 장기적인 전략입니다.** 여러분의 스테이킹된 OHM이 증가한다면 비용적 측면에서 손해볼게 없게 됩니다. 이것은 OHM의 시장 가격이 여러분이 구입한 구매가 보다 떨어진다고 하더라도, 장기간 충분한 스테이킹을 유지한다면 OHM 잔고의 증가로 인해 가격 하락을 상쇄할 수 있다는 것을 의미합니다.
 
-**When you stake, you lock OHM and receive an equal amount of sOHM.** Your sOHM balance rebases up automatically at the end of every epoch. sOHM is transferable and therefore composable with other DeFi protocols.
+**당신이 스테이크를 하면, OHM를 묶어두고 같은 양의 sOHM을 받게 됩니다.** 당신의 sOHM 잔고는 매 에포크\(epoch\) 마다 자동적으로 리베이스 되어 복리로 적립됩니다. sOHM은 전송이 가능한 자산이며, 따라서 다른 DeFi에서 합성될 수 있습니다.
 
-**When you unstake, you burn sOHM and receive an equal amount of OHM.** Unstaking means the user will forfeit the upcoming rebase reward. Note that the forfeited reward is only applicable to the unstaked amount; the remaining staked OHM \(if any\) will continue to receive rebase rewards.
+**당신이 언스테이킹을 하면, sOHM을 소각하고 동일한 양의 OHM을 받게 됩니다.** 언스테이킹을 하면 다가올 리베이스 보상을 받지 않게 됩니다. 이것은 언스테이킹된 분량에 대해서만 해당되며, 남아있는 스테이킹 OHM에 대해서는 계속해서 리베이스 보상이 지급됩니다.
 

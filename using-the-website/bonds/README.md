@@ -1,88 +1,84 @@
-# Purchase A Bond \(1, 1\)
+# 본드 구입 \(1,1\)
 
-Bonds allow users to buy OHM from the protocol at a discount by trading it with i\) liquidity \(LP tokens\) or ii\) other assets. The former is called [liquidity bonds](https://docs.olympusdao.finance/references/glossary#liquidity-bonds) and the latter [reserve bonds](https://docs.olympusdao.finance/references/glossary#reserve-bonds).
+본드는 유동성\(LP 토큰\) 또는 기타 자산 거래를 통해 프로토콜에서 할인된 가격으로 OHM을 구입할 수 있습니다. 전자는 유동성 본드\(링크\), 후자는 준비 본드\(링크\)로 불립니다.
 
-Bonds take roughly 15 epochs to vest, and OHM tokens are vested linearly to the user over that period. Liquidity bonds help the protocol to accumulate and lock liquidity, while reserve bonds allow the protocol to grow its treasury, and thus its RFV faster.
+본드는 선형적인 베스팅 기간이 있는데 대략 15 에포크가 소요됩니다. 유동성 본드는 프로토콜이 유동성을 축적하고 잠글 수 있도록 돕고, 준비 본드는 프로토콜의 금고가 확장될 수 있도록 돕습니다. 이에 따라 RFV가 성장합니다.
 
-Olympus offers five types of bonds [on its website](https://app.olympusdao.finance/#/bonds):
+올림푸스는 [웹사이트에서](https://app.olympusdao.finance/#/bonds) 5 가지 종류의 본드를 제공합니다.
 
-* DAI bond
-* FRAX bond
-* wETH bond
-* OHM-DAI LP bond
-* OHM-FRAX LP bond
+* DAI 본드
+* FRAX 본드
+* wETH 본드
+* OHM-DAI LP 본드
+* OHM-FRAX LP 본드
 
-## How to Bond
+## 본딩 하기
 
-### LP Bond
+### LP 본드
 
-1. Go to Sushiswap and add liquidity. If you do not know how to do so, there is a good guide on [SushiSwap documentation](https://help.sushidocs.com/guides/how-to-add-tokens-to-sushiswap-exchange-as-an-lp).
-2. Head to the [OHM/DAI LP Bond page of the Olympus website](https://app.olympusdao.finance/#/bonds/ohm_dai_lp). There are two tabs: "Bond" and "Redeem". Make sure "Bond" is selected.
-3. Type in the amount of SLP you would like to bond, then click "Approve" and sign the transaction.
-4. After the "Approve" transaction has been processed successfully, click "Bond" and sign the transaction. Voila, you have purchased your first SLP bond!
+1. 스시스왑\(Sushiswap\)으로 이동해 유동성을 추가합니다. 어떻게 하는지 모른다면, [스시스왑 문서](https://help.sushidocs.com/guides/how-to-add-tokens-to-sushiswap-exchange-as-an-lp)를 참고하세요.
+2. [올림푸스 웹사이트의 OHM/DAI LP 본드 페이지](https://app.olympusdao.finance/#/bonds/ohm_dai_lp) 로 이동하세요. "Bond" 와 "Redeem" 메뉴가 있을 것입니다. 정확하게 "본드" 메뉴로 이동하세요.
+3. 본딩하고 싶은 만큼의 SLP를 입력한 후, "Approve" 버튼을 클릭해 트랜젝션에 서명하세요.
+4. "Approve" 트랜젝션이 성공적으로 진행된 후, "Bond" 버튼을 눌러 트랜젝션에 서명하세요. 이제 처음으로 SLP 본드를 구입하게 되셨습니다!
 
-### DAI Bond
+### DAI 본드
 
-1. Head to the [DAI Bond page of the Olympus website](https://app.olympusdao.finance/#/bonds/dai). There are two tabs: "Bond" and "Redeem". Make sure "Bond" is selected.
-2. Type in the amount of DAI you would like to bond, then click "Approve" and sign the transaction.
-3. After the "Approve" transaction has been processed successfully, click "Bond" and sign the transaction. Voila, you have purchased your first DAI bond!
+1. [올림푸스 웹사이트의 DAI 본드 페이지](https://app.olympusdao.finance/#/bonds/dai) 로 이동하세요.
+2. "Bond" 와 "Redeem" 메뉴가 있을 것입니다. 정확하게 "본드" 메뉴로 이동하세요.
+3. 본딩하고 싶은 만큼의 DAI를 입력한 후, "Approve" 버튼을 클릭해 트랜젝션에 서명하세요.
+4. "Approve" 트랜젝션이 성공적으로 진행된 후, "Bond" 버튼을 눌러 트랜젝션에 서명하세요. 이제 처음으로 DAI 본드를 구입하게 되셨습니다!
 
-### Hades
+### 하데스\(Hades\)
 
-Hades is a feature that allows you to purchase bonds while sending the acquired OHM to another address. This is useful for additional privacy, or for purchasing multiple bonds while the current bonds are still vesting. Note that if the same account holds multiple bonds, the pending rewards from the earlier bonds have to be forfeited.
+하데스는 당신이 얻은 OHM을 다른 주소로 보내는 동안 본드를 구입할 수 있는 기능입니다. 이 기능은 프라이버시를 강화하거나 현재 본드에 베스팅이 걸려있을 때 복수의 채권을 구입하기에 유용합니다. 같은 계좌가 복수의 본드를 소유한다면, 먼저 구입한 본드로부터 받을 보상은 상쇄된다는 것을 유념하세요.
 
-1. Go to [Bond page](https://app.olympusdao.finance/#/bonds) and select the bond type you want to purchase.
-2. Select the amount that you would like to bond, then click on the cogwheel icon at the top right of the page.
+[본드 페이지 ](https://app.olympusdao.finance/#/bonds)로 이동해 구입하고자 하는 본드를 선택하세요.
 
-   ![](../../.gitbook/assets/cogwheel.png)
+1. 본딩하고자 하는 양을 선택한 후, 페이지의 우측 상단에 있는 톱니바퀴 아이콘을 클릭하세요.
+2. Hedes 메뉴가 나타나면, 수신자 주소 항목에 베스팅 중인 OHM을 받을 수 있는 다른 주소를 특정하여 입력할 수 있습니다. 기본적으로는 당신의 현재 주소가 채워집니다.
+3. 슬리피지 항목을 수정해서 주문이 통과할 가능성을 높이거나 낮출 수도 있습니다. 높은 슬리피지는 가능성을 높이지만, 원하지 않은 가격을 취하게 될 수도 있습니다.
+4. 톱니바퀴 버튼을 다시 눌러서 하데스 메뉴를 닫습니다.
+5. "Approve" 메뉴를 선택해서 트랜젝션에 서명합니다.
+6. "Approve" 트랜젝션이 성공적으로 진행된 뒤, "Bond" 메뉴를 선택해 트랜젝션에 서명합니다. 이제 하데스를 이용한 첫 본드 구입이 완성되었습니다!
 
-3. The Hades menu will show up. At the Recipient Address field, you can specify a different address that will receive the vested OHM. By default, it is filled with your current address.
+_알림:_
 
-   ![](../../.gitbook/assets/hades.png)
+* _"Approve" 트랜젝션은 최초로 본딩할 때 단 한번만 필요합니다. 이후의 본딩 과정에서는 "Bond" 트랜젝션만 발생시키면 됩니다._
+* 하데스를 사용할 때에는, 하데스 메뉴를 닫은 이후에 본드 금액을 변경하지 마세요, 수신자 주소가 초기화될 것입니다.
 
-4. You can also modify the Slippage field to increase or decrease the likelihood of your order getting through. A higher slippage increases that likelihood, but you may get a more undesirable fill price.
-5. Close the Hades menu by clicking the cogwheel icon again.
-6. Click "Approve" and sign the transaction.
-7. After the "Approve" transaction has been processed successfully, click "Bond" and sign the transaction. Voila, you have purchased your first bond using Hades!
+## **상환\(Redeem\) 방법** 
 
-_Notes:_
+[본드 페이지 ](https://app.olympusdao.finance/#/bonds) 이동하여 구입한 본드 종류를 선택합니다. "Redeem" 탭을 선택하고, "Claim Rewards"를 선택해 상환 가능한 보상들을 받습니다.
 
-* _The "Approve" transaction is only needed when bonding for the first time; subsequent bonding only requires you to perform the "Bond" transaction._
-* _When using Hades, do not alter the bond amount after you have closed the Hades menu, as it will reset the recipient address._
-
-## **How to Redeem**
-
-Go to [Bond page](https://app.olympusdao.finance/#/bonds) and select the bond type you have purchased. Select the "Redeem" tab. Then, click "Claim Rewards" to claim all of your available rewards.
-
-## Reading the Info
+## 용어 알아보기
 
 ![](../../.gitbook/assets/modal.png)
 
-**Balance** is your balance of SLP tokens. This is the asset used to create a bond.
+**Balance**는 당신의 SLP 토큰의 잔고를 보여줍니다. 본드를 만들기 위한 자산입니다.
 
-**Bond Price** is the price of OHM you get from bonding. You can calculate the bond price using the following formulae:
+**Bond Price**는 본딩시 OHM의 가격을 의미합니다. 아래 계산식을 이용해 본드 가격을 알 수 있습니다.
 
-* SLP Bond: \(Value of your SLP token / OHM you'll get from bonding\)
-* DAI Bond: \(Value of your DAI token / OHM you'll get from bonding\)
+* SLP 본드: \(당신의 SLP 토큰의 가치 / 본드를 통해 얻을 OHM\)
+* DAI 본드: \(당신의 DAI 토큰의 가치 / 본드를 통해 얻을 OHM\)
 
-**Market Price** is the market price of OHM.
+**Market Price**는 OHM의 시장 가격을 의미합니다.
 
-**You Will Get** tells you how many OHM you will get from bonding.
+**You Will Get**은 본드를 통해 얼마나 많은 OHM을 얻을 지 보여줍니다.
 
-**Debt Ratio** measures the total amount of OHM created from bonds that have yet to be paid out by the protocol. The debt ratio is calculated differently for SLP bond and DAI bond:
+**Debt Ratio**는 프로토콜에 아직 지불되지 않은 본드를 통해 얼마나 많은 OHM이 생성되었는지 보여줍니다. 이는 SLP 본드와 DAI 본드 각각 다른 계산식을 갖고 있습니다.
 
-* SLP Bond: \(OHM created from unredeemed bonds / OHM total supply\)
-* DAI Bond: \(OHM created from unredeemed bonds / OHM circulating supply\)
+* SLP 본드: \(상환되지 않은 본드에서 만들어진 OHM / OHM 총 공급량\)
+* DAI 본: \(상환되지 않은 본드에서 만들어진 OHM / OHM 총 순환량\)
 
-**Vesting Term** measures the period a bond takes to fully redeem. This number is in Ethereum blocks. 33110 blocks is approximately 5 days or 15 epochs.
+**Vesting Term**은 ****전액 상환을 위해 얼마만큼의 기간이 필요한지 측정합니다. 이더리움 블록체인 상에서 대략 33110 블록으로, 5일 또는 15 에포크와 동일합니다. 
 
-**Discount** is the difference between the bond price and the market price. In the screenshot above, bonding would give you a 10.63% discount versus buying the same amount of OHM from the market.
+**Discount**는 본드 가격과 시장 가격의 차이를 뜻합니다. 위 스크린샷에서, 본딩은 시장에서 OHM을 구매하는 것 보다 10.63%의 할인을 줍니다. 
 
 ![](../../.gitbook/assets/modal_redeem.png)
 
-**Pending Rewards** is the amount of OHM you are entitled to receive from bonding.
+**Pending Rewards**는 본딩을 통해 받을 권리가 있는 OHM의 수량을 의미합니다. 
 
-**Claimable Rewards** is the amount of OHM that you can claim now. This amount keeps increasing as OHM is vested to you over the bonding period.
+**Claimable Rewards** 현재 바로 상환할 수 있는 OHM의 양을 의미합니다. 이 양은 본딩 기간동안 베스팅이 걸려있으면 계속 늘어나게 됩니다.
 
-**Full Bond Maturation** refers to the Ethereum block when the bond is fully redeemable.
+**Full Bond Maturation**는 본드가 전체 상환 가능할 때의 이더리움 블록을 의미합니다.
 

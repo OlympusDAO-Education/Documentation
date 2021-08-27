@@ -1,6 +1,6 @@
 # Fuse
 
-Fuse is an isolated interest rate market by Rari Capital. Each pool in Fuse can support different types of assets and use different interest rate curves. To lend out sOHM and/or use it as a collateral, users can enter [Olympus Pool Party Fuse pool](https://app.rari.capital/fuse/pool/18). In this pool, several assets are supported:
+퓨즈는 라리 캐피탈에서 제공되는 머니마켓 풀들입니다. 각각의 풀은 각기 다른 종류의 자산들을 지원하며, 각기 다른 이자율 커브를 사용합니다. sOHM을 빌려주고 담보로 사용하기 위해서는 [올림푸스 파티 퓨즈 풀](https://app.rari.capital/fuse/pool/18)을 이용하시면 됩니다. 본 풀에서는 다음 자산들이 지원됩니다:
 
 * sOHM
 * USDC
@@ -8,20 +8,19 @@ Fuse is an isolated interest rate market by Rari Capital. Each pool in Fuse can 
 * ETH
 * FRAX
 
-## How to Supply Asset
+## 자산 빌려주기
 
-1. Go to [Olympus Pool Party Fuse pool](https://app.rari.capital/fuse/pool/18).
-2. On the Supply panel, select the asset you want to supply.
+1. [올림푸스 파티 퓨즈 풀](https://app.rari.capital/fuse/pool/18) 페이지에 들어갑니다.
 
-   ![The Supply panel](../../.gitbook/assets/supply.png)
+2. 좌측의 Supply 칸에서, 빌려주실 자산을 선택합니다. 
 
-3. Enter the amount of asset that you would like to supply. If you want to use the asset as collateral in order to borrow other assets against it, turn on the "Enable As Collateral" field.
+3. 빌려주실 자산의 수량을 입력하세요. 빌려주는 자산을 담보로 사용하여 다른 자산을 빌리고 싶으시다면, "Enable as Collateral" 켜져 있는지 확인하세요.
 
-   ![Enable as collateral](../../.gitbook/assets/collateral.png)
+4. "Confirm" 버튼을 클릭하세요. 자산을 빌려주시는게 처음이시라면, 컨트랙트가 자산을 사용하는 것을 허용해야 합니다.
 
-4. Click "Confirm". If this is your first time supplying the asset, you must approve the contract to spend your asset.
-5. After the approval transaction is completed, you need to sign a second transaction to mint fsToken. fsToken represents your share in the pool and it allows you to redeem your supplied assets when you wish to withdraw them later.
-6. When the mint transaction is completed, your asset will be supplied to the Fuse pool. This allows you to earn interest and also borrow other assets if you have enabled the supplied asset as collateral.
+5. 사용 허용 트랜잭션이 완료된 후, fsToken을 민트하기 위한 트랜잭션을 승인해야 합니다. fsToken은 전체 풀의 지분을 나타내며, 맡겨주신 자산을 다시 되찾으시기 위해 필요합니다.
 
-_Note: If you wish to borrow other assets against your collateral, there is a minimum borrow amount of 1 ETH in equivalent value. Because a small account may not be worth the gas fee to liquidate, this measure ensures that a liquidation is always profitable._
+6. 민트 트랜잭션이 완료된 후, 선택하신 자산은 퓨즈 풀에 제공됩니다. 이에 따라 이자를 받으실 수도 있고, 자산을 담보로 사용하여 다른 자산을 빌리는 것 또한 가능합니다. 
+
+_참고: 빌려주신 자산을 담보로 사용하여 대출을 하실 때에는 최소 1 ETH 만큼의 자산을 빌려야 합니다. 너무 작은 수량은 가스 비용으로 인해 청산 시 수익이 안 생길수도 있기 때문입니다. 이는 청산자가 항상 수익을 얻을 수 있게 하기 위한 조치입니다._
 

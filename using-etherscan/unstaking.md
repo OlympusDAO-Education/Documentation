@@ -1,31 +1,31 @@
-# Unstake sOHM
+# sOHM 언스테이킹
 
-Sometimes, the Olympus website might not be accessible due to [hosting issues](https://twitter.com/FleekHQ/status/1416505712222609411). Fear not, you can still interact with the Olympus contracts to perform certain actions such as unstaking. In this guide, we will show you how to unstake sOHM tokens via [Etherscan](https://etherscan.io/).
+1. [이더스캔에서 스테이킹 컨트랙트의 'Write Contract'](https://etherscan.io/address/0xFd31c7d00Ca47653c6Ce64Af53c1571f9C36566a#writeContract) 섹션에 들어갑니다.
+2. 지갑에서 연결된 네트워크가 이더리움 메인넷인 것을 확인합니다. 그 후 **Connect to Web3** 버튼을 클릭하여 지갑을 연결해 주세요.
+3. 연결 후, _unstake_를 선택합니다.
+4. _\_amount \(uint256\)_ 항목에 사용을 허용할 sOHM의 수량에 1e9를 곱한 숫자를 입력해주세요. 계산을 어떻게 해야 할지 확실하지 않으시다면, [본 링크](https://docs.google.com/spreadsheets/d/1vm48OCBnVh8uah0-3Xa7HqFwmfxgcrMIWPrOllSFIvA/edit)의 계산기를 사용하시면 됩니다. 예를 들어, 1 sOHM을 언스테이킹 하려면, **1000000000**을 입력하시면 됩니다.
+5. _\_trigger \(bool\)_ 항목에 **true**를 입력해주세요.
+6. **Write** 버튼을 클릭하세요.
+7. 지갑에서 트랜잭션을 승인 후, 완료될 때까지 기다려 주세요.
 
-If you have never unstaked sOHM before, there are two steps involved:
+## 이더스캔을 통해 OHM 스테이킹 하는 법
 
-1. Approve the staking contract to spend your sOHM tokens.
-2. Unstake your sOHM tokens.
+1. [이더스캔에서 OHM 토큰 컨트랙트의 'Write Contract'](https://etherscan.io/address/0x04f2694c8fcee23e8fd0dfea1d4f5bb8c352111f#writeContract) 섹션에 들어갑니다. 
+2. 지갑에서 연결된 네트워크가 이더리움 메인넷인 것을 확인합니다. 그 후 **Connect to Web3** 버튼을 클릭하여 지갑을 연결해 주세요.
+3. 연결 후, 첫번째 항목인 _approve_를 선택합니다.
+4. _spender \(address\)_ 항목에 [스테이킹 컨트랙트](https://docs.olympusdao.finance/references/contracts#staking)의 주소를 입력해 주세요. 주소는 다음과 같습니다:  **0xFd31c7d00Ca47653c6Ce64Af53c1571f9C36566a**
+5. _amount \(uint256\)_ 항목에, 사용을 허용할 sOHM의 수량에 1e9를 곱한 숫자를 입력해주세요. 계산을 어떻게 해야 할지 확실하지 않으시다면, [본 링크](https://docs.google.com/spreadsheets/d/1vm48OCBnVh8uah0-3Xa7HqFwmfxgcrMIWPrOllSFIvA/edit)의 계산기를 사용하시면 됩니다. 스테이킹 할 때마다 이 과정을 반복하고 싶지 않으시다면, 큰 숫자를 입력하시면 됩니다. 예를 들어, 컨트랙트에게 1e9 만큼의 sOHM을 사용하게 허용하려면, **1000000000000000000**을 입력하시면 됩니다.
+6. **Write** 버튼을 클릭하세요.
+7. 지갑에서 트랜잭션을 승인 후, 완료될 때까지 기다려 주세요.
 
-If you have unstaked sOHM before, there is only one step to perform: Unstake your sOHM tokens.
+## 이더스캔을 통한 sOHM 사용 승인하는 법 
 
-## How to Approve sOHM Spending via Etherscan
+이전에 sOHM을 언테이킹 하신 적이 있으면, 바로 sOHM 스테이킹을 하실 수 있습니다.
 
-1. Go to the [Write Contract section of the sOHM token contract](https://etherscan.io/address/0x04f2694c8fcee23e8fd0dfea1d4f5bb8c352111f#writeContract).
-2. Check and ensure your selected network is "Ethereum Mainnet" in your wallet. Then press **Connect to Web3** to connect your wallet if you haven't done so.
-3. Once it is connected, select the first option _approve_.
-4. On the _spender \(address\)_ field, we would fill in the [staking contract address](https://docs.olympusdao.finance/references/contracts#staking). Enter this value: **0xFd31c7d00Ca47653c6Ce64Af53c1571f9C36566a**
-5. On the _amount \(uint256\)_ field, fill in the amount of sOHM you would like the staking contract to spend on your behalf, and multiply it by 1e9. Alternatively, you can use [this calculator](https://docs.google.com/spreadsheets/d/1vm48OCBnVh8uah0-3Xa7HqFwmfxgcrMIWPrOllSFIvA/edit?usp=sharing) to perform the conversion for you. If you don't want to repeat this step whenever you want to unstake, you can choose a very large value. Let's say you want to allow the contract to spend up to 1e9 sOHM on your behalf, you would enter: **1000000000000000000**
-6. Click **Write**.
-7. Sign the transaction on Metamask and wait for it to complete.
+1. sOHM 토큰 사용 승인 
+2. sOHM 토큰 스테이킹
 
-## How to Unstake sOHM via Etherscan
+sOHM을 전에 언스테이킹 해 보신 적이 없으시다면, 두개의 단계를 거쳐야 합니다:
 
-1. Go to the [Write Contract section of the staking contract](https://etherscan.io/address/0xFd31c7d00Ca47653c6Ce64Af53c1571f9C36566a#writeContract).
-2. Check and ensure your selected network is "Ethereum Mainnet" in your wallet. Then press **Connect to Web3** to connect your wallet if you haven't done so.
-3. Once it is connected, select the last option _unstake_.
-4. On the _\_amount \(uint256\)_ field, fill in the amount you wish to unstake, and multiply it by 1e9. Alternatively, you can use [this calculator](https://docs.google.com/spreadsheets/d/1vm48OCBnVh8uah0-3Xa7HqFwmfxgcrMIWPrOllSFIvA/edit?usp=sharing) to perform the conversion for you. For example, if you want to unstake 1 sOHM, fill in the value: **1000000000**
-5. On the _\_trigger \(bool\)_ field, fill in the value: **true**
-6. Click **Write**.
-7. Sign the transaction on Metamask and wait for it to complete.
+[호스팅 측](https://twitter.com/FleekHQ/status/1416505712222609411) 문제로 인해 올림푸스 웹사이트가 다운되는 일이 가끔 있을 수 있습니다. 그러나 컨트랙트를 사용하여 언스테이킹 역시 여전히 가능합니다. 이번 가이드에서는 [이더스캔](https://etherscan.io/)을 사용하여 sOHM을 언스테이킹 하는 법을 알아보겠습니다.
 

@@ -1,32 +1,34 @@
-# Market Dynamics
+# 시장 다이내믹
 
-There are several feedback mechanisms within the system. These are self-reinforcing behaviors; action 1 increases the rate of action 2 which increases the rate of action 1. Circular mechanics like this are the drivers of exponential expansion and boom and bust cycles. Loose policy states enable these dynamics while tight policy states suppress them.
+## 시장 다이내믹
 
-## Player Goals
+시스템에는 몇 가지 피드백 메커니즘이 있습니다. 이것들은 스스로 보강하는 행위를 하는데, 행위 1은 행위 2의 비율을 증가시키며, 동시에 행위 2는 행위 1의 비율을 증가시킵니다. 이 같은 순환 구조는 기하급수적인 확장, 그리고 호황과 불황 사이클의 원동력이기도 합니다. 느슨한 정책 상태는 이런 역동들을 가능하게 하며, 타이트한 정책 상태는 그것들을 억압합니다.
 
-**Stakers care primarily about their OHM balance.** While price is important in valuing their OHM and determining the rate at which it grows, it is not the main goal. A smart staker cares only about the short and long term growth prospects of the network. That growth translates into wealth via price and balance growth.
+## 플레이어 목표 <a id="player-goals"></a>
 
-**Bonders care primarily about OHM price.** When they bond, these users lock in a fixed reward in OHM. Therefore, network profitability is only helpful in calculating opportunity cost or gain; bonders have their OHM gains locked in. 
+**스테이커들은 주로 OHM의 잔고에 신경을 씁니다.** 가격이 그들의 OHM 가치를 측정하고 성장 속도를 결정하는 데 중요하지만, 그것이 최종 목표는 아닙니다. 똑똑한 스테이커는 네트워크의 단기적, 장기적 성장에만 신경씁니다. 성장만이 가격과 잔고의 성장을 이끌 수 있기 때문입니다.
 
-The ideal scenario for a bonder is for price to go up; in this case, the bonder benefits from their discount on OHM and the increase in price. 
+**채권자들은 주로 OHM의 가격에 신경을 씁니다.** 그들이 본드를 결합할 때, OHM으로 고정된 보상을 받기 위해 묶입니다. 따라서 네트워크의 수익성은 비용이나 이득을 계산할 때에만 도움이 됩니다. 본더들의 OHM은 묶여있기 때문입니다.
 
-Bonders are still happy if price remains flat; their profit is the discount from the bond. Like stakers, bonders profit from inactivity at or around their buy in via an increasing balance.
+본더들에 대한 이상적인 시나리오는 가격이 오르는 것입니다. 이 경우 본드들은 OHM의 할인과 가격 상승으로부터 수익을 얻습니다.
 
-Bonders only lose when price goes down beyond the discount on the bond. At this point, the bonder will choose between the OHM or the SLP, depending on which one is worth more. Bonders always get to choose the better of the two assets, effectively combining the best pieces of both assets' risk to reward profiles.
+본더들은 가격이 유지만 되어도 행복할 수 있습니다. 그들의 수익은 할인된 본드로부터 나오기 때문입니다. 스테이커와 같이, 본더들은 활동을 하지 않아도 잔고 증가를 통해서 이득을 볼 수 있습니다.
 
-## Market Dynamics
+본더들은 가격이 본드의 할인분을 넘어서 하락할 경우 손해를 봅니다. 이 때 본더는 OHM과 SLP 중 어떤 것이 더 가치가 있는지 선택합니다. 본더는 항상 두 자산의 위험도 중 가장 나은 부분을 효과적으로 결합해 보상하게 됩니다.
 
-The default state of the network is at intrinsic value. After some long period of inactivity, price will always return to this level. 
+## 시장 다이내믹 <a id="market-dynamics"></a>
 
-Contractions are conceivably only triggered by short-term liquidity crises. Since OHM holders have a guarantee that price will come back above intrinsic value eventually, the only sellers below should be those who need a short term exit and are willing to take the extra loss.
+네트워크 상태의 기본 상태는 시장의 내재 가치에 있습니다. 장기간 활동이 없게 되면 가격은 항상 이 수준으로 되돌아갑니다.
 
-**Expansions can be triggered by an increase in staking or bonding.**
+경제적 축소는 단기 유동성 위기가 발생했을 때에만 유발됩니다. OHM 홀더들은 결국 가격이 내재가치를 상회할 것이라고 확신하기 때문에 판매자만이 단기적으로 이탈하고 추가적인 손실을 감수하게 됩니다.
 
-An increase in staking will generally be preceded by purchases from the market. That increases price, which allows the protocol to sell at a higher price and increases yield for stakers. That should serve to bring in more stakers and continue the cycle.
+**확장은 스테이킹이나 본딩의 증가를 통해 유발될 수 있습니다.**
 
-Meanwhile, the rising price increases the bond discount and creates capacity for new bonds. These are preceded by new liquidity, which improves the protocol's ability to carry out sales and increases available exit liquidity.
+스테이킹의 증가는 일반적으로 시장에서의 구매가 선행되어야 합니다. 이것은 가격을 상승시키고 프로토콜이 그것을 더 높은 가격에 판매하여 스테이커들에게 더 높은 수익을 가져다 줍니다. 이것은 더 많은 스테이커들을 불러들이고 계속해서 순환하게 됩니다.
 
-This positive price-liquidity feedback loop should serve to create sustainable to expansionary periods. However, they work both ways. Falling demand decreases staking rewards and bond capacity, causing demand to fall further. This is an unavoidable fact of system's like this; even the best \(i.e. Bitcoin\) are no stranger to significant declines after periods of expansion.
+동시에, 가격 인상은 본드 할인율을 높이며 새로운 본드를 수용할 능력이 커지게 됩니다. 여기에는 새로운 유동성이 선행되어야 하는데, 이것은 프로토콜의 판매 능력을 개선시키고 이탈이 가능한 유동성을 증가시킵니다.
 
-But we can work to mitigate busts. This is where the protocol's reserves step in and to catch the market when velocity turns too far to the downside. It does so through forward guidance \(the fact that the protocol _will_ buy lowers risk the lower we go, which can mean we _don't have to_ buy\) and by buying perpetually below intrinsic value. The treasury ensures that, although bear markets and contractions can and will occur, the protocol can never die.
+이러한 가격-유동성간의 긍정적인 피드백 순환고리는 확장하는 기간동안 지속 가능한 것들을 생성하도록 합니다. 하지만 이것들은 양쪽으로 모두 작동합니다. 수요가 감소하면 스테이킹 보상이 감소하고 본드 수용 능력도 줄어들게 되며, 더 나아가 수요를 떨어뜨립니다. 확장 기간 이후 하락을 경험하는 이러한 상황은 비트코인이라 하더라도 피할 수 없습니다.
+
+하지만 불황을 경감시킬 수는 있습니다. 바로 여기서 프로토콜의 준비 자금이 개입하여, 하방으로 속도가 빨라질 때 시장을 붙잡는 역할을 합니다. 이는 선도적인 가이드\(프로토콜이 매입을 할 수록 리스크는 낮아지고, 이는 우리가 더 매입할 필요가 없다는 것을 의미할 수도 있음\), 그리고 꾸준히 내재가치 아래에서 매입하는 행위를 통해 가능합니다. 금고는 비록 하락장이나 위축이 일어난다 하더라도 프로토콜이 결코 없어지지 않도록 보장합니다.
 

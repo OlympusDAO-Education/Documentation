@@ -1,57 +1,51 @@
-# Stake Your OHM \(3, 3\)
+# OHM 스테이킹 \(3,3\)
 
-Staking allows you to earn OHM passively via auto-compounding. By staking your OHM with OlympusDAO, you receive sOHM \(staked OHM\) in return at a 1:1 ratio. After that, your sOHM balance will increase automatically on every epoch based on the current APY.
+스테이킹을 하면 자동 복리 적립을 통해 자동으로 OHM을 얻게 됩니다. 올림푸스에서 OHM을 스테이킹하면, sOHM\(staked OHM\)을 1:1 비율로 받게 됩니다. 이후 여러분의 sOHM 잔고는 현재 APY에 따라 매 에포크\(epoch\) 마다 자동으로 증가하게 됩니다.
 
-## How to Buy OHM
+## OHM 구입 방법
 
-1. Go to [this Sushiswap swap page](https://app.sushi.com/swap?outputCurrency=0x383518188c0c6d7730d91b2c03a03c837814a899).
-2. Make sure the output currency is OHM. You can also copy and paste [OHM contract address](https://docs.olympusdao.finance/references/contracts#ohm) in the output currency field to ensure you are swapping the right token.
+1. [스시스왑](https://app.sushi.com/swap?outputCurrency=0x383518188c0c6d7730d91b2c03a03c837814a899) 페이지로 이동하세요.
+2. 스왑하려는 최종 화폐를 OHM으로 설정하세요. 또는, 정확히 설정하기 위해 **OHM 컨트랙트 주소**\(추가\)를 추가하세요. \(스샷\)
+3. 당신의 지갑 잔고에 따라서, 스왑 하려는 화폐를 선택하세요. 슬리피지를 줄이기 위해서 DAI를 선택하는 것을 추천합니다. \(스샷\)
+4. 얼마만큼의 OHM으로 스왑하기 원하는지 선택한 후, "Approve" 버튼을 클릭해 트랜젝션에 서명하여 기능을 활성화 하세요.
+5. "Approve" 트랜젝션이 성공적으로 진행된 후, "Swap" 버튼을 눌러 트랜젝션에 서명하세요.
+6. 스왑 트랜젝션이 성공적으로 진행된 후, 지갑 잔고에 OHM이 보일 것입니다. 만약 보이지 않는다면, 지갑에 **OHM 컨트랙트 주소**\(추가\)를 추가하세요.
 
-   ![Paste OHM contract address](../.gitbook/assets/ohm_contract.png)
+_알림: "Approve" 트랜젝션은 최초로 OHM을 스왑할 때 단 한번만 필요합니다. 이후의 스왑 과정에서는 "Swap" 트랜젝션만 발생시키면 됩니다._
 
-3. You can select any input currency based on your available wallet balance. It is recommended to use DAI as the input currency to minimize the slippage.
+## 스테이크 방법
 
-   ![Make sure the output currency is OHM](../.gitbook/assets/buy_ohm.png)
+1. [올림푸스의 스테이크 페이지](https://app.olympusdao.finance/#/stake)로 접속한 뒤, "Stake" 탭으로 이동합니다.
+2. 입력 칸에 스테이크 하려는 OHM 갯수를 입력하세요. 갖고 있는 전체 OHM을 스테이크 하려면 "Max" 버튼을 클릭하세요.
+3. "Approve" 버튼을 선택해 트랜젝션에 서명하세요.
+4. "Approve" 트랜젝션이 성공적으로 진행된 후, "Stake" 버튼을 클릭하여 트랜젝션에 서명하세요. 이제 성공적으로 OHM이 스테이킹 되었습니다!
 
-4. Select the amount of OHM you want to swap for. Then click "Approve" and sign the transaction.
-5. After the "Approve" transaction has been processed successfully, click "Swap" and sign the transaction.
-6. You should see OHM in your wallet balance now after the swap transaction is successful. If you cannot find it in your wallet, add [OHM contract address](https://docs.olympusdao.finance/references/contracts#ohm) to your wallet.
+## 언스테이크 방법
 
-_Note: The "Approve" transaction is only needed when you swap OHM for the first time; subsequent swapping only requires you to perform the "Swap" transaction._
+1. [올림푸스의 스테이크 페이지](https://app.olympusdao.finance/#/stake)로 접속한 뒤, "Unstake" 탭으로 이동합니다.
+2. 입력 칸에 언스테이크 하려는 sOHM 갯수를 입력하세요. 갖고 있는 전체 sOHM을 언스테이크 하려 "Max" 버튼을 클릭하세요.
+3. "Approve" 버튼을 선택해 트랜젝션에 서명하세요.
+4. "Approve" 트랜젝션이 성공적으로 진행된 후, "Unstake" 버튼을 클릭해 트랜젝션에 서명하세요.
 
-## How to Stake
+_알림: "Approve" 트랜젝션은 최초로 스테이킹/언스테이킹 할 때 단 한번만 필요합니다. 이후의 스테이킹/언스테이킹 과정에서는 "Stake" 또는 "Unstake" 트랜젝션만 발생시키면 됩니다._
 
-1. Go to the [Stake page of the OlympusDAO website](https://app.olympusdao.finance/#/). Select the "Stake" tab.
-2. Enter the amount of OHM that you would like to stake in the input field. If you would like to stake all your OHM, press the "Max" button and the input field will be populated with all your available OHM balance.
-3. Click "Approve" and sign the transaction.
-4. After the "Approve" transaction has been processed successfully, click "Stake" and sign the transaction. Voila, you have staked your OHM!
-
-## How to Unstake
-
-1. Go to the [Stake page of the OlympusDAO website](https://app.olympusdao.finance/#/). Select the "Unstake" tab.
-2. Enter the amount of sOHM that you would like to unstake in the input field. If you would like to unstake all your sOHM, press the "Max" button and the input field will be populated with all your available sOHM balance.
-3. Click "Approve" and sign the transaction.
-4. After the "Approve" transaction has been processed successfully, click "Unstake" and sign the transaction.
-
-_Note: The "Approve" transaction is only needed when staking/unstaking for the first time; subsequent staking/unstaking only requires you to perform the "Stake" or "Unstake" transaction._
-
-## Reading the Info
+## 용어 알아보기
 
 ![The staking page](../.gitbook/assets/staking_page_index.png)
 
-**APY** tells you the annualized rate of return based on the reward yield. It takes into account the effect of compounding since sOHM rebases exponentially.
+**APY**는 보상 이자를 근거로 계산된 연간 수익 비율을 나타냅니다. 리베이스를 통해 sOHM이 기하급수적으로 증가하는 복리 적립 효과를 통해 계산됩니다.
 
-**TVL** measures the dollar amount of all the staked OHM in Olympus.
+**TVL**은 올림푸스에 스테이크 되어있는 총 OHM을 달러로 환산한 가치입니다.
 
-**Current Index** allows you to track your gain from staking. The index started from 1 at epoch 0, and increases every epoch. If you staked at genesis \(epoch 0\) and never unstaked any OHM, your balance today would be X times greater, where X is the current index. You can use the index to track your position by marking down the index number when you stake and unstake. You divide the index number when you unstake by the index number when you stake to get the ratio by which your sOHM balance has increased.
+**Current Index**는 스테이킹으로부터 얻는 소득을 추적 할 수 있습니다. 인덱스는 에포크 0 일 때 1에서 시작하여 매 에포크마다 증가하는 수치입니다. 만약 당신이 프로토콜이 시작된 시점\(제네시스, 에포크 0\)부터 OHM을 스테이크 했다면, 현재 잔고는 X 배 증가했을 것이고 여기서 X 현재 인덱스\(Current Index\)를 대입하면 됩니다. 당신이 스테이크 하고 또 언스테이크 하는 시점의 인덱스를 기록해 둠으로써 포지션이 얼마나 증가했는지 추적할 수 있습니다. 다시 말하면 언스테이크 시점의 인덱스를 스테이크 시점의 인덱스로 나누어서 sOHM이 얼마나 증가했는지 비율을 알 수 있습니다.
 
-**Your Balance** tells you how many unstaked OHM are in your wallet. This is the maximum amount that you can stake.
+**Your Balance** 지갑에 스테이킹되지 않은 OHM이 얼마나 남아있는지 보여줍니다. 이는 다른 뜻으로 얼만큼의 OHM을 스테이크 할 수 있는지를 보여줍니다.
 
-**Your Staked Balance** tells you how many staked OHM are in your wallet. This is the maximum amount that you can unstake.
+**Your Staked Balance** 는 지갑에 스테이킹된 OHM이 얼마나 있는지 보여줍니다. 이는 언스테이킹 할 수 있는 OHM이 얼마나 되는지 보여줍니다.
 
-**Next Rebase** tells you the remaining time until the next rebase.
+**Next Rebase** 는 다음 리베이스까지 남은 시간을 의미합니다.
 
-**Reward Yield** tells you how much your sOHM balance will increase when the next epoch begins. For example, if you stake 100 OHM and the upcoming rebase is 0.5427%, your sOHM balance would increase from 100 to 100.5427.
+**Reward Yield** 는 다음 에포크에서 얼만큼의 sOHM이 증가할지를 여줍니다. 예를 들어 당신이 100 OHM을 스테이킹 했고 다가올 리베이스가 0.5427% 이라면, 당신의 sOHM 잔고는 100에서 100.5427로 늘어날 입니다.
 
-**ROI \(5-Day Rate\)** estimates how much your sOHM balance will increase after 5 days, if the reward yield stays the same during this period. For example, if you stake 100 OHM and the rate is 8.4577%, your sOHM balance would increase from 100 to 108.4577 after 5 days.
+**ROI \(5-Day Rate\)** 는 보상 이자가 동일한 수치로 유지된다는 전제 하에, 5일 뒤에 sOHM 잔고가 얼마나 늘어날지를 예측합니다. 예를 들어 당신이 100 OHM을 스테이크 했고 비율이 8.4577% 이라면, 5일 뒤 OHM 잔고는 100 에서 108.4577로 늘어날 것입니다.
 

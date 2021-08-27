@@ -1,4 +1,4 @@
-# Architecture
+# 스테이킹
 
 ## Sales
 
