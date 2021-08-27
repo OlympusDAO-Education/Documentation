@@ -15,6 +15,7 @@
   * [DAI Bond](using-the-website/bonds/bond_dai.md)
   * [FRAX 본드](using-the-website/bonds/bond_frax.md)
   * [wETH 본드](using-the-website/bonds/bond_weth.md)
+  * [OHM-DAI LP 본드](using-the-website/bonds/ohm-dai-lp.md)
   * [OHM-FRAX LP 본드](using-the-website/bonds/bond_ohm_frax.md)
 * [Stake LP 토큰](using-the-website/staking_lp.md)
 * [LP 토큰 언스테이킹](using-the-website/unstaking_lp.md)
