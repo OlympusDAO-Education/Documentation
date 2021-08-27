@@ -1,4 +1,4 @@
-# Introduction
+# 소개
 
 ## What is Olympus?
 
