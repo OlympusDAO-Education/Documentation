@@ -1,74 +1,74 @@
-# Glossary
+# 용어 사전
 
 ## APR
 
-Annual Percentage Rate, is the annualized interest rate without taking the effect of compounding into account.
+복리 이자를 적용하지 않고 계산된 연간 금리 비율을 의미합니다.
 
 ## APY
 
-Annual Percentage Yield, is the normalized representation of an interest rate, based on a compounding period over one year. Note that APYs provided are rather ballpark level indicators and not so much precise future results.
+연간 이자 비율로, 1년 간 복리 이자가 적용된 이자 비율을 나타냅니다. APY는 대략적인 수준의 지표이며 미래 결과를 정확히 나타내지 못한다는 점을 유념하세요.
 
 ## BCV
 
-Bond Control Variable, is the scaling factor at which bond prices change. A higher BCV means a lower discount for bonders and higher inflation by the protocol. A lower BCV means a higher discount for bonders and lower inflation by the protocol.
+본드 조절 변수는, 본드 가격에 변화를 주는 계수 인자입니다. 높은 BCV는 본더들에게 낮은 본드 할인율을 주고 프로토콜에 의한 높은 인플레이션을 이야기합니다. 낮은 BCV는 높은 본드 할인과 낮은 인플레이션을 의미합니다.
 
 ## DAO
 
-Decentralized Autonomous Organization, is a governance mechanism for making decisions in a more trustless and collaborative way. Voting rights are often bound to a governance token. In OlympusDAO the governance token is sOHM.
+탈중앙화된 자율 조직은, 신뢰가 필요 없으며 협력적인 방식으로 의사를 결정하는 거버넌스 메커니즘입니다. 대부분 투표권은 거버넌스 토큰을 통해 활용되기도 합니다. 올림푸스의 거버넌스 토큰은 sOHM입니다.
 
 ## DCV
 
-Deflation Control Variable, is the scaling factor at which protocol defined buy pressure changes. A higher DCV means more buy pressure from the protocol, resulting in a higher deflation. A lower DCV means less buy pressure from the protocol, resulting in a lower deflation.
+디플레이션 조절 변수는, 구매 압력을 조절하는 계수 인자입니다. 높은 DCV는 프로토콜의 더 많은 구매 압력을 의미하며 높은 디플레이션을 야기합니다. 낮은 DCV는 적은 구매 압력을 의미하며 낮은 디플레이션을 야기합니다.
 
 ## EVM
 
-Ethereum Virtual Machine, is a state machine in which all Ethereum accounts and smart contracts live. At any given block in the chain, Ethereum has one and only one canonical state, and the EVM is what defines the rules for computing a new valid state from block to block.
+이더리움 가상 머신은, 모든 이더리움 계정과 스마트 컨트랙트가 라이브 된 상태 머신입니다. 체인 위의 어떤 블록에서도, 이더리움은 단 하나의 표준 상태만 갖게 되며 EVM은 블록에서 블록으로 이어지는 새로운 유효 상태를 계산하기 위해 규칙을 정의합니다.
 
-## Liquidity Bonds
+## 유동성 본드
 
-Liquidity bonds are LP token bonds. Examples are OHM-DAI LP bonds and OHM-FRAX LP bonds.
+유동성 본드는 LP 토큰 본드입니다. 예를 들면, OHM-DAI LP 본드나 OHM-FRAX LP 본드가 있습니다.
 
 ## PCV
 
-Protocol Controlled Value, is the amount of funds the treasury owns and controls. The more PCV the better for the protocol and its users.
+프로토콜 조절 가치\(Protocol Controlled Value\)는 금고가 소유하고 관리하는 자산의 양을 뜻합니다. PCV가 많을 수록 프로토콜과 사용자에게 유익합니다.
 
 ## POL
 
-Protocol Owned Liquidity, is the amount of LP the treasury owns and controls. The more POL the better for the protocol and its users.
+프로토콜 소유 유동성\(Protocol Owned Liquidity\)은 금고가 소유하고 관리하는 LP 토큰의 양을 뜻합니다. POL이 많을 수록 프로토콜과 사용자에게 유익합니다.
 
 ## PoR
 
-Proof of Reserve, is the mechanism of strengthening the reserve of OlympusDAO treasury via the sales of bonds. Bonders provide liquidity to the treasury, thereby building its reserve. In return for their service, bonders get paid in OHM.
+준비 증명\(Proof of Reserve\)은 본드 판매를 통해 올림푸스 금고의 준비 자산을 강화시키는 메커니즘 입니다. 본더들은 금고에 유동성을 제공하여 준비 자산을 축적합니다. 제공의 대가로 본더들은 OHM을 받게 됩니다.
 
-## Reserve Bonds
+## 준비 본드\(Reserve Bonds\)
 
-Reserve bonds are single asset bonds. They are sometimes referred to as "naked" bonds. Examples are DAI bonds and FRAX bonds.
+준비 본드는 단일 자산 본드입니다. 종종 순수 본드\(naked bonds\)라고 불리우기도 합니다. 예시로는 DAI 본드와 FRAX 본드가 있습니다.
 
-## Reward Rate
+## 보상 비율\(Reward Rate\)
 
-Reward rate is the configured percentage of OHM distributed to all stakers on each rebase relative to the total supply. The reward rate is precisely set by the policy team.
+보상 비율은 총 공급량 대비 각 리베이스마다 모든 스테이커들에게 배분된 OHM의 백분율 수치를 의미합니다. 이 보상 비율은 정책 팀에 의해 정확하게 설정됩니다.
 
-## Reward Yield
+## 보상 수익율
 
-Reward yield refers to the actual amount of OHM received by each staker on each rebase. The reward yield is a rough target from a policy point of view. It can almost never be maintained precisely due to e.g. fluctuating amounts of OHM staked.
+보상 수익률은 각 리베이스마다 각 스테이커가 받은 실제 OHM 수량을 의미합니다. 이 보상 수익률은 정책의 관점에서 볼때 대략적인 목표치라고 볼 수 있습니다. 예를 들면 스테이크된 OHM 양이 계속 변화하기 때문에, 이 보상 수익률은 정확하게 유지될 수 없습니다.
 
 ## RFV
 
-Risk Free Value, is the amount of funds the treasury guarantees to use for backing OHM.
+무위험 가치는 금고가 OHM을 지지하기 위해 보장할 수 있는 자금의 양을 의미합니다.
 
 ## SLP
 
-Sushiswap Liquidity Provider, is the token received when providing liquidity on Sushiswap. For instance LP bonds require SLP tokens of the OHM / DAI pair.
+스시스왑 유동성 공급자\(Sushiswap Liquidity Provider\)는 스시스왑에 유동성을 공급했을 때 받는 토큰입니다. 예를 들면 OHM / DAI 쌍에서의 LP 본드는 SLP 토큰을 필요로 합니다.
 
 ## TVL
 
-Total Value Locked, is the dollar amount of all OHM staked in the protocol. This metric is often used as growth or health indicator in DeFi projects.
+총 예치자산 가치\(Total Value Locked\)는 프로토콜에 스테이크 되어있는 모든 OHM의 달러 가치입니다. 이 지표는 디파이 프로젝트의 성장이나 상태를 확인하는데 자주 사용됩니다.
 
 ## TaaS
 
-Treasury as a Service, is the business model of decentralized custody of partnership funds. OlympusDAO is designed for TaaS by selling bonds and absorbing partners' liquidity into its treasury as a result.
+서비스로서의 금고\(Treasury as a Service\)는 파트너십 펀드의 탈중앙화된 위탁 비즈니스 모델입니다. 올림푸스는 본드를 판매하고 파트너의 유동성을 금고에 흡수하는 방식으로 설계되었습니다.
 
 ## TWAP
 
-Time Weighted Average Price, is the average price of an asset over a specified time. TWAPs are used to represent the fair value of an asset as defined by the market.
+시간 가중 평균 가격\(Time Weighted Average Price\)은 특정 기간 동안 한가지 자산의 평균 가격을 의미합니다. TWQP은 시장에 의해 결정된 자산의 공정 가치를 의미합니다.
 

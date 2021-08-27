@@ -84,23 +84,23 @@ $$
 OHM_{backing} = treasuryBalance_{stablecoin} + treasuryBalance_{otherAssets}
 $$
 
-Every OHM in circulation is backed by the Olympus treasury. The assets in the treasury can be divided into two categories: stablecoin and non-stablecoin.
+순환되는 모든 OHM은 올림푸스 금고에 의해 지지되고 있습니다. 금고의 자산들은 2개의 카테고리로 분류될 수 있습니다: 스테이블코인과 논-스테이블 코인
 
 $$
 treasuryBalance_{stablecoin} = RFV_{reserveBond} + RFV_{lpBond}
 $$
 
-The stablecoin balance in the treasury grows when bonds are sold. [RFV](https://docs.olympusdao.finance/references/glossary#rfv) is calculated differently for different bond types.
+금고에 있는 스테이블코인의 잔고는 본드가 팔릴때 늘어납니다. RFV\(링크\)는 본드 타입에 따라 다르게 계산됩니다.
 
 $$
 RFV_{reserveBond} = assetSupplied
 $$
 
-For reserve bonds such as DAI bond and FRAX bond, the RFV simply equals to the amount of the underlying asset supplied by the bonder.
+DAI 본드나 FRAX 본드와 같은 준비 본드의 경우, RFV는 단순히 본드에 의해 공급된 자산의 총량과 동일합니다.
 
 $$
 RFV_{lpBond} = 2sqrt(constantProduct) * (\%\ ownership\ of\ the\ pool)
 $$
 
-For LP bonds such as OHM-DAI bond and OHM-FRAX bond, the RFV is calculated differently because the protocol needs to mark down its value. Why? The LP token pair consists of OHM, and each OHM in circulation will be backed by these LP tokens - there is a cyclical dependency. To safely guarantee all circulating OHM are backed, the protocol marks down the value of these LP tokens, hence the name _risk-free_ value \(RFV\).
+OHM-DAI 본드나 OHM-FRAX 본드와 같은 LP 본드의 경우, 프로토콜이 그 가격을 낮게 측정해야 하기 때문에 RFV는 다른 방식으로 계산됩니다. 왜냐구요? LP 토큰의 쌍은 OHM으로 구성되어 있으며 각 순환중인 OHM은 이 LP 토큰들로부터 지지되고 있기 때문입니다. 여기에는 순환하는 의존성이 있습니다. 모든 순환중인 OHM이 확실하고 안전하게 지지되기 위해서는, 프로토콜이 LP 토큰의 가치를 낮게 측정해야 합니다. RFV의 뜻이 '무위험가치'인 만큼이요.
 

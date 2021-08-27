@@ -40,25 +40,25 @@
 ## 컨트랙트 <a id="contracts"></a>
 
 * [오딧\(Audit\)](contracts/audits.md)
-* [Bonds](contracts/bonds.md)
+* [본드](contracts/bonds.md)
 * [DAO](contracts/dao.md)
-* [Policy](contracts/policy.md)
-* [Staking](contracts/staking.md)
-* [Tokens](contracts/tokens.md)
-* [Treasury](contracts/treasury.md)
+* [정책\(Policy\)](contracts/policy.md)
+* [스테이킹](contracts/staking.md)
+* [토큰](contracts/tokens.md)
+* [금고](contracts/treasury.md)
 
 ## 레퍼런스 <a id="references"></a>
 
 * [스테이킹](references/architecture.md)
 * [방정식](references/equations.md)
-* [Glossary](references/glossary.md)
-* [Links](references/links.md)
-* [Translations](references/translations.md)
+* [용어 사전](references/glossary.md)
+* [링크](references/links.md)
+* [번역](references/translations.md)
 
-## Get Involved
+## 참여하기 <a id="get-involved"></a>
 
-* [Contribute](get-involved/contribute.md)
-* [Community Discord](https://discord.com/invite/olympusdao)
-* [DAO Discord](https://discord.com/invite/42xFV68uEf)
-* [Forum](https://forum.olympusdao.finance)
+* [기여하기](get-involved/contribute.md)
+* [커뮤니티 디스코드](https://discord.com/invite/olympusdao)
+* [DAO 디스코드](https://discord.com/invite/olympusdao)
+* [포럼](https://forum.olympusdao.finance)
 
