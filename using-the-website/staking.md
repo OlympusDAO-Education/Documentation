@@ -2,6 +2,10 @@
 
 Staking allows you to earn OHM passively via auto-compounding. By staking your OHM with OlympusDAO, you receive sOHM \(staked OHM\) in return at a 1:1 ratio. After that, your sOHM balance will increase automatically on every epoch based on the current APY.
 
+Check out this video on how to get OHM and stake it on Olympus:
+
+{% embed url="https://www.youtube.com/watch?v=aXAE1ikVMpM" caption="How to get OHM and stake it on Olympus" %}
+
 ## How to Buy OHM
 
 1. Go to [this Sushiswap swap page](https://app.sushi.com/swap?outputCurrency=0x383518188c0c6d7730d91b2c03a03c837814a899).
