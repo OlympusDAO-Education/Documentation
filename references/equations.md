@@ -1,6 +1,6 @@
 # 방정식
 
-## 스테이
+## 스테이크
 
 $$
 deposit = withdrawal

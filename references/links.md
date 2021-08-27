@@ -13,7 +13,7 @@
 
 ‌
 
-## 그 외 자 <a id="undefined-1"></a>
+## 그 외 자료 <a id="undefined-1"></a>
 
 ‌
 

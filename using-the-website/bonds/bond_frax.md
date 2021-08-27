@@ -1,6 +1,6 @@
 # FRAX 본드
 
-FRAX 본드는 2021년 6월 16일에 공개되었습니다. 올림푸스에서 [FRAX](https://www.coingecko.com/en/coins/frax)를 사용해 OHM을 할인된 가격애 거래할 수 있습니다.
+FRAX 본드는 2021년 6월 16일에 공개되었습니다. 올림푸스에서 [FRAX](https://www.coingecko.com/en/coins/frax)를 사용해 OHM을 할인된 가격에 거래할 수 있습니다.
 
 ## 본드 방법
 

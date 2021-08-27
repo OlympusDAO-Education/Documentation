@@ -1,6 +1,6 @@
 # OHM-FRAX LP 본드
 
-OHM-FRAX LP 본드는 2021년 6월 11일에 공개되었습니다. 올림푸스에서 [OHM-FRAX LP 토큰](https://v2.info.uniswap.org/pair/0x2dce0dda1c2f98e0f171de8333c3c6fe1bbf4877)을 사용해 OHM을 할인된 가격애 거래할 수 있습니다.
+OHM-FRAX LP 본드는 2021년 6월 11일에 공개되었습니다. 올림푸스에서 [OHM-FRAX LP 토큰](https://v2.info.uniswap.org/pair/0x2dce0dda1c2f98e0f171de8333c3c6fe1bbf4877)을 사용해 OHM을 할인된 가격 거래할 수 있습니다.
 
 ## 본드 방법
 
