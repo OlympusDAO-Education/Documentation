@@ -8,24 +8,24 @@ As Olympus no longer supports this feature, there is no interface for users to u
 
 1. Go to the [Write Contract section of the LP staking contract](https://etherscan.io/address/0xF11f0F078BfaF05a28Eac345Bb84fcb2a3722223#writeContract) on Etherscan.
 
-    ![Go to the Write Contract section](../.gitbook/assets/using-the-website/unstaking_lp/write_contract.png)
+   ![Go to the Write Contract section](../.gitbook/assets/write_contract.png)
 
 2. Connect your wallet by pressing the **Connect to Web3** button.
 
-    ![Connect your wallet](../.gitbook/assets/using-the-website/unstaking_lp/connect_wallet.png)
+   ![Connect your wallet](../.gitbook/assets/connect_wallet.png)
 
 3. A warning prompt will pop up from Etherscan. Select **OK**.
 
-    ![Dismiss the warning message](../.gitbook/assets/using-the-website/unstaking_lp/warning.png)
+   ![Dismiss the warning message](../.gitbook/assets/warning.png)
 
-4. When your wallet is connected, the button will be changed to show "Connected" along with your wallet address (redacted in the following screenshot).
+4. When your wallet is connected, the button will be changed to show "Connected" along with your wallet address \(redacted in the following screenshot\).
 
-    ![Wallet is connected](../.gitbook/assets/using-the-website/unstaking_lp/wallet_connected.png)
+   ![Wallet is connected](../.gitbook/assets/wallet_connected.png)
 
-5. Go to the fifth option, *unstakeLP*, and press the **Write** button.
+5. Go to the fifth option, _unstakeLP_, and press the **Write** button.
 
-    ![Click "Write"](../.gitbook/assets/using-the-website/unstaking_lp/write.png)
+   ![Click &quot;Write&quot;](../.gitbook/assets/write.png)
 
 6. Your wallet will prompt you to sign the transaction for unstaking your LP tokens. Confirm the transaction and wait for it to complete.
-
 7. After the transaction has been processed successfully, your LP token balance should show up correctly in your wallet.
+
