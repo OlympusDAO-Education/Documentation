@@ -2,7 +2,7 @@
 
 * [소개](README.md)
 
-## Basics
+## 기초 <a id="basics"></a>
 
 * [FAQ](basics/basics.md)
 * [스테이킹](basics/staking.md)

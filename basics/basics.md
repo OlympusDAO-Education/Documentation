@@ -93,7 +93,7 @@ APY에 대한 흥미로운 사실은 여러분의 잔고가 선형적으로 증�
 
 ![&#xBCF5;&#xB9AC;&#xC801;&#xB9BD;&#xC758; &#xD798;](https://gblobscdn.gitbook.com/assets%2F-MV4hwONledQK5nEDaUc%2Fsync%2F585854ca21f006875c918ba2aed711730f71284a.png?alt=media)
 
-## APY는 어떻게 계산하나요? <a id="how-is-the-apy-calculated"></a>
+## APY는 어떻게 계산하나요? <a id="kor-apy-calculation"></a>
 
 APY는 보상 이자\(리베이스 비율\)을 활용하여 다음과 같이 계산됩니다:
 

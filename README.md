@@ -12,7 +12,7 @@
 
 ## 올림푸스에는 어떻게 참여하나요?
 
-시장에 참여하기 위해서는 크게 두 가지 방법이 존재합니다. 바로 스테이킹\(링크\)과 본딩\(링크\) 입니다. 스테이커는 OHM 토큰을 스테이크 해서 더 많은 OHM 토큰을 받게 되고, 본더는 거래소에 LP 또는 DAI 토큰을 제공하면 지정된 기간 이후 OHM 토큰을 할인된 가격 구입할 수 있습니다.
+시장에 참여하기 위해서는 크게 두 가지 방법이 존재합니다. 바로 [스테이킹](https://app.gitbook.com/@olympusdao-1/s/olympusdocs/~/drafts/-Mi591LA4MoieccDq3sf/v/korean/basics/staking)과 [본딩](https://app.gitbook.com/@olympusdao-1/s/olympusdocs/~/drafts/-Mi591LA4MoieccDq3sf/v/korean/basics/bonding) 입니다. 스테이커는 OHM 토큰을 스테이크 해서 더 많은 OHM 토큰을 받게 되고, 본더는 거래소에 LP 또는 DAI 토큰을 제공하면 지정된 기간 이후 OHM 토큰을 할인된 가격 구입할 수 있습니다.
 
 거버넌스 참여자들은 [포럼](https://forum.olympusdao.finance/)을 통해 관여하거나 [커뮤니티 디스코드](https://discord.com/invite/olympusdao), 그리고 [DAO 디스코드](https://discord.com/invite/42xFV68uEf) 서버를 통해 토론에 참여하실 수 있습니다. 우리는 항상 커뮤니티에 기여할 새 멤버 분들을 기다리고 있습니다! 
 
