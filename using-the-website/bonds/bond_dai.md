@@ -10,7 +10,7 @@ DAI bond was introduced on 21 April 2021. It allows you to trade [DAI](https://w
 4. If this is your first purchase, you need to approve the Olympus contract to spend your DAI. Click "Approve" and sign the transaction.
 5. After the "Approve" transaction has been processed successfully, refresh the page. The "Approve" button should be changed to display "Bond" by now.
 
-   ![Refresh the page after the token approval process](../../.gitbook/assets/bond_dai_refresh.png)
+   ![Refresh the page after the token approval process](../../.gitbook/assets/bond_dai_refresh%20%281%29.png)
 
 6. Click "Bond" and sign the transaction. Voila, you have purchased your first DAI bond!
 
