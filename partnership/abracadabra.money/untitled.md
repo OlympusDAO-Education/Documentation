@@ -6,6 +6,8 @@
 Read Abracadabra.money’s article to be aware of the risk for leveraging.
 {% endhint %}
 
+## How to Borrow MIM
+
 In [Pool 10](https://docs.abracadabra.money/intro/leveraged-positions), You can borrow $MIM using $sOHM which is already staked in Olympus App. Details are below:
 
 1. In borrow menu, enter to Pool 10 for dealing $wsOHM
