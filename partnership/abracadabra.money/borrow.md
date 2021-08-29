@@ -1,9 +1,9 @@
 # Borrowing
 
-**Begin and refer** by reading David’s [medium article](https://davidgmi.medium.com/how-to-cast-a-magic-spell-to-your-ohm-and-3-3-strategy-using-abracadabra-money-45fc6187f281) in addition to the basic explanations below.
+You can start by referring to David’s [Medium article on how to use Abracadabra](https://davidgmi.medium.com/how-to-cast-a-magic-spell-to-your-ohm-and-3-3-strategy-using-abracadabra-money-45fc6187f281) in addition to the basic explanations below.
 
 {% hint style="warning" %}
-Read Abracadabra.money’s article to be aware of the risk for leveraging.
+Make sure you understand the risk of leveraging before proceeding.
 {% endhint %}
 
 ## How to Borrow MIM
