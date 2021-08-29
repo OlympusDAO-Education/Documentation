@@ -8,18 +8,18 @@ Read Abracadabra.money’s article to be aware of the risk for leveraging.
 
 ## How to Borrow MIM
 
-In [Pool 10](https://docs.abracadabra.money/intro/leveraged-positions), You can borrow $MIM using $sOHM which is already staked in Olympus App. Details are below:
+In [Pool 10](https://abracadabra.money/pool/10), You can borrow MIM using sOHM which is already staked in Olympus App. Details are below:
 
-1. In borrow menu, enter to Pool 10 for dealing $wsOHM
+1. Connect your wallet and go to [Abracadabra.money Pool 10](https://abracadabra.money/pool/10).
 
-2. Using ‘WRAP’ menu to wrap your $sOHM to $wsOHM as many as you want
+2. Under the "WRAP" menu, wrap the amount of sOHM against which you want to borrow to wsOHM.
 
 ![](../../.gitbook/assets/screen-shot-2021-08-29-at-4.10.42-pm%20%281%29.png)
 
-3. Move to ‘BORROW’ menu, type the amount of $wsOHM as you want to use as collateral, and type the amount of $MIM you want to borrow
+3. Move to "BORROW" menu, type the amount of wsOHM as you want to use as collateral, and type the amount of MIM you want to borrow.
 
 {% hint style="info" %}
-To borrow, Ethereum wallet which contains $sOHM must be linked to App, and you need to sign in transactions for approving every function when you use it at first.
+If this is your first interaction with the App, you need to approve the Abracadabra's contract to spend your token first. However, you only need to perform this once - subsequent wrapping or borrowing process doesn't require the token approval step.
 {% endhint %}
 
 **In case you don’t use leverage**
