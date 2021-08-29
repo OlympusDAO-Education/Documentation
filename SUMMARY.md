@@ -31,7 +31,8 @@
 * [Frax Finance](partnership/frax-partnership.md)
 * [Rari Capital](partnership/rari-partnership/README.md)
   * [Fuse](partnership/rari-partnership/fuse.md)
-* [Abracadabra.money](partnership/abracadabra.money.md)
+* [Abracadabra.money](partnership/abracadabra.money/README.md)
+  * [대출](partnership/abracadabra.money/undefined.md)
 
 ## 프로토콜 내부 <a id="protocol-internals"></a>
 
