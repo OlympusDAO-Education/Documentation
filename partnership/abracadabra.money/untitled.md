@@ -2,9 +2,9 @@
 
 **Begin and refer** by reading David’s [medium article](https://davidgmi.medium.com/how-to-cast-a-magic-spell-to-your-ohm-and-3-3-strategy-using-abracadabra-money-45fc6187f281) in addition to the basic explanations below.
 
-Note: Read Abracadabra.money’s article to be aware of the risk for leveraging.
-
-Note2: To borrow, Ethereum wallet which contains $sOHM must be linked to App, and you need to sign in transactions for approving every function when you use it at first.
+{% hint style="warning" %}
+Read Abracadabra.money’s article to be aware of the risk for leveraging.
+{% endhint %}
 
 In [Pool 10](https://docs.abracadabra.money/intro/leveraged-positions), You can borrow $MIM using $sOHM which is already staked in Olympus App. Details are below:
 
@@ -15,6 +15,10 @@ In [Pool 10](https://docs.abracadabra.money/intro/leveraged-positions), You can 
 ![](../../.gitbook/assets/screen-shot-2021-08-29-at-4.10.42-pm%20%281%29.png)
 
 3. Move to ‘BORROW’ menu, type the amount of $wsOHM as you want to use as collateral, and type the amount of $MIM you want to borrow
+
+{% hint style="info" %}
+To borrow, Ethereum wallet which contains $sOHM must be linked to App, and you need to sign in transactions for approving every function when you use it at first.
+{% endhint %}
 
 **In case you don’t use leverage**
 
