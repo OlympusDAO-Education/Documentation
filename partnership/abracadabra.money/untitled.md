@@ -9,10 +9,12 @@ Note2: To borrow, Ethereum wallet which contains $sOHM must be linked to App, an
 In [Pool 10](https://docs.abracadabra.money/intro/leveraged-positions), You can borrow $MIM using $sOHM which is already staked in Olympus App. Details are below:
 
 1. In borrow menu, enter to Pool 10 for dealing $wsOHM
-2. Using ‘WRAP’ menu to wrap your $sOHM to $wsOHM as many as you want 
-3. Move to ‘BORROW’ menu, type the amount of $wsOHM as you want to use as collateral, and type the amount of $MIM you want to borrow
+
+2. Using ‘WRAP’ menu to wrap your $sOHM to $wsOHM as many as you want
 
 ![](../../.gitbook/assets/screen-shot-2021-08-29-at-4.10.42-pm%20%281%29.png)
+
+3. Move to ‘BORROW’ menu, type the amount of $wsOHM as you want to use as collateral, and type the amount of $MIM you want to borrow
 
 **In case you don’t use leverage**
 
