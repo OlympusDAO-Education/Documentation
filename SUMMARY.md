@@ -31,6 +31,8 @@
 * [Frax Finance](partnership/frax-partnership.md)
 * [Rari Capital](partnership/rari-partnership/README.md)
   * [Fuse](partnership/rari-partnership/fuse.md)
+* [Abracadabra.money](partnership/abracadabra.money/README.md)
+  * [Untitled](partnership/abracadabra.money/untitled.md)
 
 ## Protocol Internals
 
