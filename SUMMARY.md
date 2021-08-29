@@ -32,7 +32,7 @@
 * [Rari Capital](partnership/rari-partnership/README.md)
   * [Fuse](partnership/rari-partnership/fuse.md)
 * [Abracadabra.money](partnership/abracadabra.money/README.md)
-  * [대출](partnership/abracadabra.money/undefined.md)
+  * [대출](partnership/abracadabra.money/borrow.md)
 
 ## 프로토콜 내부 <a id="protocol-internals"></a>
 
