@@ -10,7 +10,7 @@ Check out this video on how to get OHM and stake it on Olympus:
 
 1. Go to [this Sushiswap swap page](https://app.sushi.com/swap?outputCurrency=0x383518188c0c6d7730d91b2c03a03c837814a899).
 
-2. Make sure the output currency is OHM. You can also copy and paste the [OHM contract address](https://docs.olympusdao.finance/references/contracts#ohm) into the output currency field to ensure you are swapping for the right token.
+2. Make sure the output currency is OHM. You can also copy and paste the [OHM contract address](../contracts/tokens.md#ohm) into the output currency field to ensure you are swapping for the right token.
 
 ![Paste OHM contract address](../.gitbook/assets/ohm_contract.png)
 
