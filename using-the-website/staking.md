@@ -22,7 +22,7 @@ Check out this video on how to get OHM and stake it on Olympus:
 
 5. After the "Approve" transaction has been processed successfully, click "Swap" and sign the transaction.
 
-6. You should see OHM in your wallet balance now after the swap transaction is successful. If you cannot find it in your wallet, add [OHM contract address](https://docs.olympusdao.finance/references/contracts#ohm) to your wallet.
+6. You should see OHM in your wallet balance now after the swap transaction is successful. If you cannot find it in your wallet, add [OHM contract address](../contracts/tokens.md#ohm) to your wallet.
 
 _Note: The "Approve" transaction is only needed when you swap OHM for the first time; subsequent swapping only requires you to perform the "Swap" transaction._
 
