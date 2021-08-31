@@ -14,7 +14,7 @@ If you have unstaked sOHM before, there is only one step to perform: Unstake you
 1. Go to the [Write Contract section of the sOHM token contract](https://etherscan.io/address/0x04f2694c8fcee23e8fd0dfea1d4f5bb8c352111f#writeContract).
 2. Check and ensure your selected network is "Ethereum Mainnet" in your wallet. Then press **Connect to Web3** to connect your wallet if you haven't done so.
 3. Once it is connected, select the first option _approve_.
-4. On the _spender \(address\)_ field, we would fill in the [staking contract address](https://docs.olympusdao.finance/references/contracts#staking). Enter this value: **0xFd31c7d00Ca47653c6Ce64Af53c1571f9C36566a**
+4. On the _spender \(address\)_ field, we would fill in the [staking contract address](../contracts/staking.md#staking). Enter this value: **0xFd31c7d00Ca47653c6Ce64Af53c1571f9C36566a**
 5. On the _amount \(uint256\)_ field, fill in the amount of sOHM you would like the staking contract to spend on your behalf, and multiply it by 1e9. Alternatively, you can use [this calculator](https://docs.google.com/spreadsheets/d/1vm48OCBnVh8uah0-3Xa7HqFwmfxgcrMIWPrOllSFIvA/edit?usp=sharing) to perform the conversion for you. If you don't want to repeat this step whenever you want to unstake, you can choose a very large value. Let's say you want to allow the contract to spend up to 1e9 sOHM on your behalf, you would enter: **1000000000000000000**
 6. Click **Write**.
 7. Sign the transaction on Metamask and wait for it to complete.
