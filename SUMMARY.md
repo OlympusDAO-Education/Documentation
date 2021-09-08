@@ -42,6 +42,7 @@
 
 ## Contracts
 
+* [Allocators](contracts/allocators.md)
 * [Audits](contracts/audits.md)
 * [Bonds](contracts/bonds.md)
 * [DAO](contracts/dao.md)
