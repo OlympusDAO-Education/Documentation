@@ -1,6 +1,6 @@
 # Table of contents
 
-* [Introduction](README.md)
+* [Einleitung](README.md)
 
 ## Basics
 
@@ -42,6 +42,7 @@
 
 ## Contracts
 
+* [Allocators](contracts/allocators.md)
 * [Audits](contracts/audits.md)
 * [Bonds](contracts/bonds.md)
 * [DAO](contracts/dao.md)

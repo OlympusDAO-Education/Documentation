@@ -8,23 +8,26 @@ Check out this video on how to get OHM and stake it on Olympus:
 
 ## How to Buy OHM
 
-1. Go to [this Sushiswap swap page](https://app.sushi.com/swap?outputCurrency=0x383518188c0c6d7730d91b2c03a03c837814a899).
+{% hint style="warning" %}
+There are several venues to purchase OHM: [Sushiswap](https://app.sushi.com/swap), [Uniswap](https://app.uniswap.org/#/swap), or DEX aggregators such as [matcha](https://matcha.xyz/). Make sure to **check the slippage first** before buying OHM, as some venue offers worse rate than the others due to low liquidity.
+{% endhint %}
 
+1. Go to [this Sushiswap swap page](https://app.sushi.com/swap?outputCurrency=0x383518188c0c6d7730d91b2c03a03c837814a899). We use Sushiswap as an example here. It is recommended to compare the exchange rate across different DEXes to ensure you are getting the best price.
 2. Make sure the output currency is OHM. You can also copy and paste the [OHM contract address](../contracts/tokens.md#ohm) into the output currency field to ensure you are swapping for the right token.
 
 ![Paste OHM contract address](../.gitbook/assets/ohm_contract.png)
 
-3. You can select any input currency based on your available wallet balance. It is recommended to use DAI as the input currency to minimize the slippage.
+1. You can select any input currency based on your available wallet balance. It is recommended to use DAI as the input currency to minimize the slippage.
 
 ![Make sure the output currency is OHM](../.gitbook/assets/buy_ohm.png)
 
-4. Select the amount of OHM you want to swap for. Then click "Approve" and sign the transaction.
+1. Select the amount of OHM you want to swap for. Then click "Approve" and sign the transaction.
+2. After the "Approve" transaction has been processed successfully, click "Swap" and sign the transaction.
+3. You should see OHM in your wallet balance now after the swap transaction is successful. If you cannot find it in your wallet, add [OHM contract address](../contracts/tokens.md#ohm) to your wallet.
 
-5. After the "Approve" transaction has been processed successfully, click "Swap" and sign the transaction.
-
-6. You should see OHM in your wallet balance now after the swap transaction is successful. If you cannot find it in your wallet, add [OHM contract address](../contracts/tokens.md#ohm) to your wallet.
-
-_Note: The "Approve" transaction is only needed when you swap OHM for the first time; subsequent swapping only requires you to perform the "Swap" transaction._
+{% hint style="info" %}
+The "Approve" transaction is only needed when you swap OHM for the first time; subsequent swapping only requires you to perform the "Swap" transaction.
+{% endhint %}
 
 ## How to Stake
 
