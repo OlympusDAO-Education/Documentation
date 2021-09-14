@@ -62,6 +62,7 @@
 
 * [기여하기](get-involved/contribute.md)
 * [커뮤니티 디스코드](https://discord.com/invite/olympusdao)
+* [카카오톡\(KakaoTalk\)](https://open.kakao.com/o/gR5IKujd)
 * [DAO 디스코드](https://discord.com/invite/olympusdao)
 * [포럼](https://forum.olympusdao.finance)
 
