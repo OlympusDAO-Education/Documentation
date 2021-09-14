@@ -10,8 +10,7 @@ The DAO contract is guarded by a 4 of 7 multisig. That means any transaction for
 making DAO changes must be approved by at least 4 signers, of which we have 7
 signers in total. The operation security for our DAO is thus protected from a
 single actor going rogue, because it takes a quorum of 4 to authorize any transaction
-like engaging in DAO swaps. Note that DAO and treasury are guarded by the same
-signers. The 7 signing addresses for the DAO are listed below.
+like engaging in DAO swaps. The 7 signing addresses for the DAO are listed below.
 
 1. [0x1774...55eB](https://etherscan.io/address/0x1774B6106d7E969d467396a5e90089FeaD6E55eB)
 2. [0x131b...bf80](https://etherscan.io/address/0x131bd1A2827ccEb2945B2e3B91Ee1Bf736cCbf80)
