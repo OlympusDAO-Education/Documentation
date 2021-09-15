@@ -49,27 +49,46 @@ As the protocol accumulates more PCV, more runway is guaranteed for the stakers.
 
 ## What will happen if there is a bank run on Olympus?
 
-Fractional reserve banking works because depositors don’t withdraw their funds all at once. A depositor’s faith in the banking system rests on regulations and agencies like Federal Deposit Insurance Corporation \(FDIC\).
+Fractional reserve banking works because depositors don’t withdraw their funds
+all at once. A depositor’s faith in the banking system rests on regulations and
+agencies like Federal Deposit Insurance Corporation \(FDIC\).
 
-OHM does not have FDIC insurance but it has an incentive structure that protects stakers. Let’s take a look at how it performs during a hypothetical bank run. In this scenario, we assume the majority of stakers would panic and unstake their tokens from Olympus - the staking percentage which stands at 92% now quickly collapses to 3.3%, leaving only 20,000 OHM staked.
+OHM does not have FDIC insurance but it has an incentive structure that protects
+stakers. Let’s take a look at how it performs during a hypothetical bank run. In
+this scenario, we assume the majority of stakers would panic and unstake their
+tokens from Olympus - the staking percentage which stands at 92% now quickly
+collapses to 3.3%, leaving only 55,000 OHM staked.
 
-Next, we assume the Risk-Free Value \(RFV\) inflows to the treasury completely dry up. For context, RFV is currently growing at about $1 million every 3 days. However, during a bank run this growth will likely stop.
+Next, we assume the Risk-Free Value \(RFV\) inflows to the treasury completely
+dry up. For context, RFV is currently growing at [about $1 million every 2 days](https://dune.xyz/queries/29153/58862).
+However, during a bank run this growth will likely stop.
 
-Finally, we assume that those last standing stakers bought in at a price of $500 per OHM. The initial investment of these stakers would be:
+Finally, we assume that those last standing stakers bought in at a price of $500
+per OHM. The initial investment of these stakers would be:
 
 $$
-\$500/OHM * 20,000\ OHM = \$10\ million
+\$500/OHM * 55,000\ OHM = \$27.5\ million
 $$
 
-As of July 12 2021, the total OHM supply is 734,421 and the RFV is $13,905,970. Remember that 1 OHM is backed by 1 USD \(DAI or FRAX\). By subtracting these two numbers, we know 13,171,549 OHM will eventually get issued to the remaining stakers. In roughly a year, these stakers who are holding 20,000 OHM will have:
+As of September 15 2021, the total OHM supply is 2,082,553 and the RFV is $47,041,833.
+Remember that 1 OHM is backed by 1 USD \(DAI or FRAX\). By subtracting these two
+numbers, we know 44,959,280 OHM will eventually get issued to the remaining stakers.
+In roughly a year, these stakers who are holding 55,000 OHM will have:
 
 $$
-20,000 + 13,171,549 = 13,191,549\ OHM
+55,000 + 44,959,280 = 45,014,280\ OHM
 $$
 
-$10 million investment made by these stakers will turn into about $13.2 million based on cash flow alone if they stay staked \(recall that 1 OHM is backed by 1 USD\). In this bank run scenario, the stakers who stay staked not only get their money back, but also make some profit. Therefore, [\(3,3\)](basics.md#what-is-the-deal-with-3-3-and-1-1) isn’t just a popular meme, it is actually a dominant strategy.
+$27.5 million investment made by these stakers will turn into about $45 million
+based on cash flow alone if they stay staked \(recall that 1 OHM is backed by 1
+USD\). In this bank run scenario, the stakers who stay staked not only get their
+money back, but also make some profit. Therefore, [\(3,3\)](basics.md#what-is-the-deal-with-3-3-and-1-1)
+isn’t just a popular meme, it is actually a dominant strategy.
 
-The above scenario is unlikely to play out because when other people find out that extremely high rewards are being paid to the stakers, they will copy the strategy by buying and staking OHM. This is also why the percentage of OHM staked in Olympus has consistently remained over 90% since launch.
+The above scenario is unlikely to play out because when other people find out that
+extremely high rewards are being paid to the stakers, they will copy the strategy
+by buying and staking OHM. This is also why the percentage of OHM staked in Olympus
+has consistently remained over 90% since launch.
 
 _Note: Most of the data referenced above are taken from_ [_this Dune Analytics page_](https://duneanalytics.com/shadow/Olympus-%28OHM%29)_._
 
