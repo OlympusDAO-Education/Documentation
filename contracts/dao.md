@@ -6,10 +6,15 @@ The DAO 컨트랙트는 간단한 그노시스의 안전한 구현을 통해 보
 
 V1 [0x245c...988B](https://etherscan.io/address/0x245cc372C84B3645Bf0Ffe6538620B04a217988B)
 
-DAO 컨트랙트는 2/4 멀티시그에 의해 보호받습니다. 즉 DAO를 변경하려면 현재 기준으로 총 4명의 서명자 중에 최소 2명의 서명자가 승인해야 한다는 뜻입니다. 따라서 악의를 가진 한 명이 있더라도 DAO 스왑과 같이 트랜젝션 서명에 2개의 승인이 필요하므로 DAO의 운영 보안이 유지될 수 있습니다. DAO를 위한 4개의 서명 주소는 아래와 같습니다.
+DAO 컨트랙트는 4/7 멀티시그에 의해 보호받습니다. 즉 DAO를 변경하려면 현재 기준으로 총 7명의 서명자 중에 최소 4명의 서명자가 승인해야 한다는 뜻입니다. 따라서 악의를 가진 한 명이 있더라도 DAO 스왑과 같이 트랜젝션 서명에 4개의 승인이 필요하므로 DAO의 운영 보안이 유지될 수 있습니다. DAO를 위한 7개의 서명 주소는 아래와 같습니다.
 
 1. [0x1774...55eB](https://etherscan.io/address/0x1774B6106d7E969d467396a5e90089FeaD6E55eB)
 2. [0x131b...bf80](https://etherscan.io/address/0x131bd1A2827ccEb2945B2e3B91Ee1Bf736cCbf80)
 3. [0x3524...7dd3](https://etherscan.io/address/0x3524c03D39A13D51485419A17586286A6b617dd3)
 4. [0x8d34...290E](https://etherscan.io/address/0x8d34EA6fb1Ed6B60F94ac6CD01dD1181ef12290E)
+5. [0x21Da...39b9](https://etherscan.io/address/0x21Daa251F1eE3ebEB3F2C25BC262de56C9A639b9)
+6. [0x4702...47dC](https://etherscan.io/address/0x4702D39c499236A43654c54783c3f24830E247dC)
+7. [0x17e0...c96e](https://etherscan.io/address/0x17e06ce6914E3969f7BD37D8b2a563890cA1c96e)
+
+
 
