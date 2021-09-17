@@ -19,7 +19,7 @@ You might say that the OHM floor price or intrinsic value is 1 DAI. We believe t
 ## How does it work?
 
 At a high level, OlympusDAO consists of its protocol managed treasury, protocol
-owned liquidity \([POL](../references/glossary.md#POL)\), bond mechanism, and high
+owned liquidity \([POL](../references/glossary.md#POL)\), bond mechanism, and
 staking rewards that are designed to control supply expansion.
 
 Bond generates profit for the protocol, and the treasury uses the profit to mint
