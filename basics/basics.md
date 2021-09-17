@@ -55,7 +55,7 @@ As the protocol accumulates more PCV, more runway is guaranteed for the stakers.
 ## Why is POL important?
 
 Olympus [owns most of its liquidity](https://dune.xyz/shadow/Olympus-\(OHM\)) thanks
-to its bonding mechanism. This has several benefits:
+to its bond mechanism. This has several benefits:
 
 - Olympus does not have to pay out high farming rewards to incentivize liquidity.
 - Olympus guarantees the market that the liquidity is always there to facilitate
