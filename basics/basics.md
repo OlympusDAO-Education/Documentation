@@ -47,6 +47,17 @@ As the protocol controls the funds in its treasury, OHM can only be minted or bu
 
 As the protocol accumulates more PCV, more runway is guaranteed for the stakers. This means the stakers can be confident that the current staking APY can be sustained for a longer term because more funds are available in the treasury.
 
+## Why is POL important?
+
+Olympus [owns most of its liquidity](https://dune.xyz/shadow/Olympus-\(OHM\)) thanks
+to its bonding mechanism. This has several benefits:
+
+- Olympus does not have to pay out high farming rewards to incentivize liquidity.
+- Olympus guarantees the market that the liquidity is always there to facilitate
+sell or buy transaction.
+- By being the largest LP (liquidity provider), it earns most of the LP fees which
+represents another source of income to the treasury.
+
 ## What will happen if there is a bank run on Olympus?
 
 Fractional reserve banking works because depositors don’t withdraw their funds
