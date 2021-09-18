@@ -63,6 +63,9 @@ providers a.k.a renting liquidity.
 sell or buy transaction.
 - By being the largest LP (liquidity provider), it earns most of the LP fees which
 represents another source of income to the treasury.
+- All POL can be used to back OHM. The LP tokens are marked down to their risk-free
+value for this purpose. You can read more about the rationale behind this in this
+[Medium article](https://olympusdao.medium.com/dai-bonds-a-more-effective-sales-mechanism-c9a57586f1f7).
 
 ## What will happen if there is a bank run on Olympus?
 
