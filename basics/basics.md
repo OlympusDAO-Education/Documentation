@@ -57,7 +57,8 @@ As the protocol accumulates more PCV, more runway is guaranteed for the stakers.
 Olympus [owns most of its liquidity](https://dune.xyz/shadow/Olympus-\(OHM\)) thanks
 to its bond mechanism. This has several benefits:
 
-- Olympus does not have to pay out high farming rewards to incentivize liquidity.
+- Olympus does not have to pay out high farming rewards to incentivize liquidity
+providers a.k.a renting liquidity.
 - Olympus guarantees the market that the liquidity is always there to facilitate
 sell or buy transaction.
 - By being the largest LP (liquidity provider), it earns most of the LP fees which
