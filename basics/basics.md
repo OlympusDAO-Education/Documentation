@@ -18,9 +18,14 @@ You might say that the OHM floor price or intrinsic value is 1 DAI. We believe t
 
 ## How does it work?
 
-At a high level, OlympusDAO consists of its protocol managed treasury, protocol owned liquidity, bond mechanism, and high staking rewards that are designed to control supply expansion.
+At a high level, OlympusDAO consists of its protocol managed treasury, protocol
+owned liquidity \([POL](../references/glossary.md#POL)\), bond mechanism, and
+staking rewards that are designed to control supply expansion.
 
-Bond generates profit for the protocol, and the treasury uses the profit to mint OHM and distribute them to stakers. With LP bond, the protocol is able to accumulate liquidity to ensure the system stability.
+Bond sales generate profit for the protocol, and the treasury uses the profit to mint
+OHM and distribute them to stakers. With [liquidity bonds](../references/glossary.md#liquidity-bonds),
+the protocol is able to accumulate its own liquidity. Check out the entry below
+on [the importance of POL](basics.md#why-is-pol-important).
 
 ## What is the deal with \(3,3\) and \(1,1\)?
 
@@ -46,6 +51,21 @@ Thus, given two actors, all scenarios of what they could do and the effect on th
 As the protocol controls the funds in its treasury, OHM can only be minted or burned by the protocol. This also guarantees that the protocol can always back 1 OHM with 1 DAI. You can easily define the risk of your investment because you can be confident that the protocol will indefinitely buy OHM below 1 DAI with the treasury assets until no one is left to sell. You can't trust the FED but you can trust the code.
 
 As the protocol accumulates more PCV, more runway is guaranteed for the stakers. This means the stakers can be confident that the current staking APY can be sustained for a longer term because more funds are available in the treasury.
+
+## Why is POL important?
+
+Olympus [owns most of its liquidity](https://dune.xyz/shadow/Olympus-\(OHM\)) thanks
+to its bond mechanism. This has several benefits:
+
+- Olympus does not have to pay out high farming rewards to incentivize liquidity
+providers a.k.a renting liquidity.
+- Olympus guarantees the market that the liquidity is always there to facilitate
+sell or buy transaction.
+- By being the largest LP (liquidity provider), it earns most of the LP fees which
+represents another source of income to the treasury.
+- All POL can be used to back OHM. The LP tokens are marked down to their risk-free
+value for this purpose. You can read more about the rationale behind this in this
+[Medium article](https://olympusdao.medium.com/dai-bonds-a-more-effective-sales-mechanism-c9a57586f1f7).
 
 ## What will happen if there is a bank run on Olympus?
 
