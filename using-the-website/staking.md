@@ -1,4 +1,4 @@
-# Stake Deine OHM \(3, 3\)
+# Stake Dein OHM \(3, 3\)
 
 Staking allows you to earn OHM passively via auto-compounding. By staking your OHM with OlympusDAO, you receive sOHM \(staked OHM\) in return at a 1:1 ratio. After that, your sOHM balance will increase automatically on every epoch based on the current APY.
 
