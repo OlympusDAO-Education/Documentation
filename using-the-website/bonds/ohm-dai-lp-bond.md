@@ -1,24 +1,24 @@
 # OHM-DAI LP Bond
 
-OHM-DAI LP bond was introduced on 1 April 2021. It allows you to trade [OHM-DAI SLP token](https://app.sushi.com/add/0x6B175474E89094C44Da98b954EedeAC495271d0F/0x383518188C0C6d7730D91b2c03a03C837814a899) in exchange for discounted OHM on Olympus.
+Die OHM-DAI LP-Anleihe wurde am 1. April 2021 eingeführt. Sie ermöglicht es Ihnen, [OHM-DAI SLP-Token](https://app.gitbook.com/@olympusdao-1/s/olympusdocs/~/drafts/-MjxK-6bxi3DHyrtNitA/using-the-website/bonds/ohm-dai-lp-bond) im Austausch für vergünstigte OHM auf Olympus zu handeln.
 
-## How to Bond
+## Wie man Bondet
 
-1. Make sure you have OHM-DAI SLP tokens in your wallet. You need to go to Sushiswap and add liquidity for the [OHM-DAI pool](https://app.sushi.com/add/0x6B175474E89094C44Da98b954EedeAC495271d0F/0x383518188C0C6d7730D91b2c03a03C837814a899) to acquire them.
+1. Stellen Sie sicher, dass Sie OHM-DAI SLP-Token in Ihrer Wallet haben. Sie müssen zu Sushiswap gehen und Liquidität für den [OHM-DAI-Pool](https://app.sushi.com/add/0x6B175474E89094C44Da98b954EedeAC495271d0F/0x383518188C0C6d7730D91b2c03a03C837814a899) hinzufügen, um sie zu erwerben.
 
-2. Head to the [OHM-DAI SLP Bond page of the Olympus website](https://app.olympusdao.finance/#/bonds/ohm_dai_lp). There are two tabs: "Bond" and "Redeem". Make sure "Bond" is selected.
+2. Rufen Sie die [OHM-DAI SLP Bond-Seite auf der Olympus-Website](https://app.olympusdao.finance/#/bonds/ohm_dai_lp) auf. Dort gibt es zwei Registerkarten: "Bond" und "Redeem". Stellen Sie sicher, dass "Bond" ausgewählt ist.
 
-3. Type in the amount of OHM-DAI SLP tokens you would like to bond. Make sure you are not trying to bond more than is allowed. The **Max You Can Buy** field below shows the maximum amount of OHM you can purchase.
+3. Geben Sie den Betrag der OHM-DAI SLP Tokens ein, den Sie bonden möchten. Achten Sie darauf, dass Sie nicht versuchen, mehr zu bonden, als erlaubt ist. Das Feld **Max You Can Buy** unten zeigt die maximale Menge an OHM, die Sie kaufen können.
 
-![You can only purchase up to a certain amount of OHM](../../.gitbook/assets/max_you_can_buy.png)
+![Sie k&#xF6;nnen nur bis zu einer bestimmten Menge an OHM kaufen](../../.gitbook/assets/max_you_can_buy.png)
 
-4. If this is your first purchase, you need to approve the Olympus contract to spend your OHM-DAI SLP tokens. Click "Approve" and sign the transaction.
+4. Wenn dies Ihr erster Kauf ist, müssen Sie den Olympus-Contract genehmigen, um Ihr OHM-DAI SLP Token auszugeben. Klicken Sie auf "Approve" und unterschreiben Sie die Transaktion.
 
-5. After the "Approve" transaction has been processed successfully, refresh the page. The "Approve" button should be changed to display "Bond" by now.
+5. Nachdem die Transaktion "Approve" erfolgreich bearbeitet wurde, aktualisieren Sie die Seite. Auf der Schaltfläche "Approve" sollte nun "Bond" angezeigt werden.
 
-![Refresh the page after the token approval process](../../.gitbook/assets/bond_ohm_dai_refresh.png)
+![Aktualisieren Sie die Seite nach dem Token-Genehmigungsprozess](../../.gitbook/assets/bond_ohm_dai_refresh.png)
 
-6. Click "Bond" and sign the transaction. Voila, you have purchased your first OHM-DAI LP bond!
+6. Klicken Sie auf "Bond" und unterschreiben Sie die Transaktion. Voila, Sie haben Ihre erste DAI-Anleihe gekauft!
 
 
 

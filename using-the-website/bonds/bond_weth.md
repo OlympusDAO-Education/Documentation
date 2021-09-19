@@ -18,5 +18,5 @@ Die wETH-Anleihe wurde am 6. August 2021 eingeführt. Sie ermöglicht es Ihnen, 
 
 ![Aktualisieren Sie die Seite nach dem Token-Genehmigungsprozess](../../.gitbook/assets/bond_refresh.png)
 
-6.  Klicken Sie auf "Bond" und unterschreiben Sie die Transaktion. Voila, Sie haben Ihre erste DAI-Anleihe gekauft!
+6. Klicken Sie auf "Bond" und unterschreiben Sie die Transaktion. Voila, Sie haben Ihre erste DAI-Anleihe gekauft!
 
