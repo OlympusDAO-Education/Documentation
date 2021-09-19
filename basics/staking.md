@@ -1,12 +1,12 @@
 # Staking
 
-## What is Staking
+## Was ist Staking?
 
-**Staking is the primary value accrual strategy of Olympus.** Stakers stake their OHM on [the Olympus website](https://app.olympusdao.finance/#/stake) to earn rebase rewards. The rebase rewards come from the proceed from [bond sales](https://docs.olympusdao.finance/basics/bonding), and can vary based on the number of OHM staked in the protocol and the reward rate set by monetary policy.
+**Das Staking ist die wichtigste Strategie von Olympus zur Wertsteigerung.** Staker setzen ihre OHM auf der [Olympus-Website](https://app.olympusdao.finance/#/stake) ein, um Rebase-Rewards zu verdienen. Die Rebase-Belohnungen stammen aus dem Erlös von [Anleiheverkäufen](https://docs.olympusdao.finance/basics/bonding) und können je nach Anzahl der im Protokoll eingesetzten OHM und der von der Geldpolitik festgelegten Belohnungsrate variieren.
 
-**Staking is a passive, long-term strategy.** The increase in your stake of OHM translates into a constantly falling cost basis converging on zero. This means even if the market price of OHM drops below your initial purchase price, given a long enough staking period, the increase in your staked OHM balance should eventually outpace the fall in price.
+**Staking ist eine passive, langfristige Strategie.** Die Erhöhung Ihres OHM-Einsatzes führt zu einer stetig sinkenden Kostenbasis, die gegen Null konvergiert. Das heißt, selbst wenn der Marktpreis des OHM unter Ihren ursprünglichen Kaufpreis fällt, sollte bei einer ausreichend langen Einsatzdauer der Anstieg Ihres eingesetzten OHM-Guthabens den Preisrückgang schließlich übertreffen.
 
-**When you stake, you lock OHM and receive an equal amount of sOHM.** Your sOHM balance rebases up automatically at the end of every epoch. sOHM is transferable and therefore composable with other DeFi protocols.
+**Wenn Sie staken, sperren Sie OHM und erhalten den gleichen Betrag an sOHM.** Ihr sOHM-Guthaben wird am Ende jeder Epoche automatisch wieder aufgestockt. sOHM ist übertragbar und daher mit anderen DeFi-Protokollen kombinierbar.
 
-**When you unstake, you burn sOHM and receive an equal amount of OHM.** Unstaking means the user will forfeit the upcoming rebase reward. Note that the forfeited reward is only applicable to the unstaked amount; the remaining staked OHM \(if any\) will continue to receive rebase rewards.
+**Wenn Sie unstaken, verbrennen Sie sOHM und erhalten die gleiche Menge an OHM.** Wenn Sie unstaken, verfällt die anstehende Rebase-Belohnung. Beachten Sie, dass die verwirkte Belohnung nur für die nicht eingesetzte Menge gilt; für die verbleibenden eingesetzten OHM \(falls vorhanden\) werden weiterhin Rebase-Belohnungen gewährt.
 
