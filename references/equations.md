@@ -60,7 +60,8 @@ OHM supply does not have a hard cap. Its supply increases when:
 * OHM is minted for the bonder. This happens whenever someone purchases a bond.
 * OHM is minted for the DAO. This happens whenever someone purchases a bond. The DAO gets the same number of OHM as the bonder.
 * OHM is minted for the team, investors, advisors, or the DAO. This happens whenever
-the aforementioned party exercises their pOHM.
+
+  the aforementioned party exercises their pOHM.
 
 $$
 OHM_{stakers} = OHM_{totalSupply} * rewardRate
@@ -84,9 +85,7 @@ $$
 OHM_{pohmExercise} = pOHM + DAI
 $$
 
-The individual would supply 1 pOHM along with 1 DAI to mint 1 OHM. The pOHM is
-subsequently burned. Read [this Medium article](https://olympusdao.medium.com/what-is-poh-16b2c38a6cd6)
-for more information on pOHM.
+The individual would supply 1 pOHM along with 1 DAI to mint 1 OHM. The pOHM is subsequently burned. Read [this Medium article](https://olympusdao.medium.com/what-is-poh-16b2c38a6cd6) for more information on pOHM.
 
 ## Backing per OHM
 

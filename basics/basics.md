@@ -18,14 +18,9 @@ You might say that the OHM floor price or intrinsic value is 1 DAI. We believe t
 
 ## How does it work?
 
-At a high level, OlympusDAO consists of its protocol managed treasury, protocol
-owned liquidity \([POL](../references/glossary.md#pol)\), bond mechanism, and
-staking rewards that are designed to control supply expansion.
+At a high level, OlympusDAO consists of its protocol managed treasury, protocol owned liquidity \([POL](../references/glossary.md#pol)\), bond mechanism, and staking rewards that are designed to control supply expansion.
 
-Bond sales generate profit for the protocol, and the treasury uses the profit to mint
-OHM and distribute them to stakers. With [liquidity bonds](../references/glossary.md#liquidity-bonds),
-the protocol is able to accumulate its own liquidity. Check out the entry below
-on [the importance of POL](basics.md#why-is-pol-important).
+Bond sales generate profit for the protocol, and the treasury uses the profit to mint OHM and distribute them to stakers. With [liquidity bonds](../references/glossary.md#liquidity-bonds), the protocol is able to accumulate its own liquidity. Check out the entry below on [the importance of POL](basics.md#why-is-pol-important).
 
 ## What is the deal with \(3,3\) and \(1,1\)?
 
@@ -54,61 +49,49 @@ As the protocol accumulates more PCV, more runway is guaranteed for the stakers.
 
 ## Why is POL important?
 
-Olympus [owns most of its liquidity](https://dune.xyz/shadow/Olympus-\(OHM\)) thanks
-to its bond mechanism. This has several benefits:
+Olympus [owns most of its liquidity](https://dune.xyz/shadow/Olympus-%28OHM%29) thanks to its bond mechanism. This has several benefits:
 
-- Olympus does not have to pay out high farming rewards to incentivize liquidity
-providers a.k.a renting liquidity.
-- Olympus guarantees the market that the liquidity is always there to facilitate
-sell or buy transaction.
-- By being the largest LP (liquidity provider), it earns most of the LP fees which
-represents another source of income to the treasury.
-- All POL can be used to back OHM. The LP tokens are marked down to their risk-free
-value for this purpose. You can read more about the rationale behind this in this
-[Medium article](https://olympusdao.medium.com/dai-bonds-a-more-effective-sales-mechanism-c9a57586f1f7).
+* Olympus does not have to pay out high farming rewards to incentivize liquidity
+
+  providers a.k.a renting liquidity.
+
+* Olympus guarantees the market that the liquidity is always there to facilitate
+
+  sell or buy transaction.
+
+* By being the largest LP \(liquidity provider\), it earns most of the LP fees which
+
+  represents another source of income to the treasury.
+
+* All POL can be used to back OHM. The LP tokens are marked down to their risk-free
+
+  value for this purpose. You can read more about the rationale behind this in this
+
+  [Medium article](https://olympusdao.medium.com/dai-bonds-a-more-effective-sales-mechanism-c9a57586f1f7).
 
 ## What will happen if there is a bank run on Olympus?
 
-Fractional reserve banking works because depositors don’t withdraw their funds
-all at once. A depositor’s faith in the banking system rests on regulations and
-agencies like Federal Deposit Insurance Corporation \(FDIC\).
+Fractional reserve banking works because depositors don’t withdraw their funds all at once. A depositor’s faith in the banking system rests on regulations and agencies like Federal Deposit Insurance Corporation \(FDIC\).
 
-OHM does not have FDIC insurance but it has an incentive structure that protects
-stakers. Let’s take a look at how it performs during a hypothetical bank run. In
-this scenario, we assume the majority of stakers would panic and unstake their
-tokens from Olympus - the staking percentage which stands at 92% now quickly
-collapses to 3.3%, leaving only 55,000 OHM staked.
+OHM does not have FDIC insurance but it has an incentive structure that protects stakers. Let’s take a look at how it performs during a hypothetical bank run. In this scenario, we assume the majority of stakers would panic and unstake their tokens from Olympus - the staking percentage which stands at 92% now quickly collapses to 3.3%, leaving only 55,000 OHM staked.
 
-Next, we assume the Risk-Free Value \(RFV\) inflows to the treasury completely
-dry up. For context, RFV is currently growing at [about $1 million every 2 days](https://dune.xyz/queries/29153/58862).
-However, during a bank run this growth will likely stop.
+Next, we assume the Risk-Free Value \(RFV\) inflows to the treasury completely dry up. For context, RFV is currently growing at [about $1 million every 2 days](https://dune.xyz/queries/29153/58862). However, during a bank run this growth will likely stop.
 
-Finally, we assume that those last standing stakers bought in at a price of $500
-per OHM. The initial investment of these stakers would be:
+Finally, we assume that those last standing stakers bought in at a price of $500 per OHM. The initial investment of these stakers would be:
 
 $$
 \$500/OHM * 55,000\ OHM = \$27.5\ million
 $$
 
-As of September 15 2021, the total OHM supply is 2,082,553 and the RFV is $47,041,833.
-Remember that 1 OHM is backed by 1 USD \(DAI or FRAX\). By subtracting these two
-numbers, we know 44,959,280 OHM will eventually get issued to the remaining stakers.
-In roughly a year, these stakers who are holding 55,000 OHM will have:
+As of September 15 2021, the total OHM supply is 2,082,553 and the RFV is $47,041,833. Remember that 1 OHM is backed by 1 USD \(DAI or FRAX\). By subtracting these two numbers, we know 44,959,280 OHM will eventually get issued to the remaining stakers. In roughly a year, these stakers who are holding 55,000 OHM will have:
 
 $$
 55,000 + 44,959,280 = 45,014,280\ OHM
 $$
 
-$27.5 million investment made by these stakers will turn into about $45 million
-based on cash flow alone if they stay staked \(recall that 1 OHM is backed by 1
-USD\). In this bank run scenario, the stakers who stay staked not only get their
-money back, but also make some profit. Therefore, [\(3,3\)](basics.md#what-is-the-deal-with-3-3-and-1-1)
-isn’t just a popular meme, it is actually a dominant strategy.
+$27.5 million investment made by these stakers will turn into about $45 million based on cash flow alone if they stay staked \(recall that 1 OHM is backed by 1 USD\). In this bank run scenario, the stakers who stay staked not only get their money back, but also make some profit. Therefore, [\(3,3\)](basics.md#what-is-the-deal-with-3-3-and-1-1) isn’t just a popular meme, it is actually a dominant strategy.
 
-The above scenario is unlikely to play out because when other people find out that
-extremely high rewards are being paid to the stakers, they will copy the strategy
-by buying and staking OHM. This is also why the percentage of OHM staked in Olympus
-has consistently remained over 90% since launch.
+The above scenario is unlikely to play out because when other people find out that extremely high rewards are being paid to the stakers, they will copy the strategy by buying and staking OHM. This is also why the percentage of OHM staked in Olympus has consistently remained over 90% since launch.
 
 _Note: Most of the data referenced above are taken from_ [_this Dune Analytics page_](https://duneanalytics.com/shadow/Olympus-%28OHM%29)_._
 
@@ -188,17 +171,17 @@ You can track your rebase rewards by calculating the increase in your staked OHM
 
 ![](../.gitbook/assets/index_old.png)
 
-2. After staking for some time, if you want to determine by how much your balance has increased, check the Current Index value again. Let's call this the End Index.
+1. After staking for some time, if you want to determine by how much your balance has increased, check the Current Index value again. Let's call this the End Index.
 
 ![](../.gitbook/assets/index_new.png)
 
-3. By dividing the End Index by Start Index, you would get the ratio by which your staked OHM balance has increased.
+1. By dividing the End Index by Start Index, you would get the ratio by which your staked OHM balance has increased.
 
 $$
 ratio = endIndex / startIndex
 $$
 
-4. In this example, the OHM balance has grown by 1.5 times.
+1. In this example, the OHM balance has grown by 1.5 times.
 
 $$
 ratio = 13.2\ /\ 8.8\newline = 1.5
