@@ -1,165 +1,187 @@
 # FAQ
 
-## Warum brauchen wir überhaupt OlympusDAO?
+## Why do we need OlympusDAO in the first place?
 
-An den Dollar gekoppelte Stablecoins sind aufgrund ihrer geringen Volatilität im Vergleich zu Token wie Bitcoin und Ether zu einem wesentlichen Bestandteil der Kryptowährung geworden. Die Nutzer fühlen sich bei Transaktionen mit Stablecoins wohl, weil sie wissen, dass sie heute die gleiche Kaufkraft besitzen wie morgen. Doch das ist ein Trugschluss. Der Dollar wird von der US-Regierung und der Federal Reserve kontrolliert. Das bedeutet, dass eine Abwertung des Dollars auch eine Abwertung dieser Stablecoins bedeutet.
+Dollar-pegged stablecoins have become an essential part of crypto due to their lack of volatility as compared to tokens such as Bitcoin and Ether. Users are comfortable with transacting using stablecoins knowing that they hold the same amount of purchasing power today vs. tomorrow. But this is a fallacy. The dollar is controlled by the US government and the Federal Reserve. This means a depreciation of dollar also means a depreciation of these stablecoins.
 
-OlympusDAO möchte dieses Problem lösen, indem es einen stabilen, nicht an den Kurs gebundenen Coin namens OHM schafft. OlympusDAO hofft, dass OHM als eine Währung fungieren kann, die ihre Kaufkraft unabhängig von der Marktvolatilität halten kann, indem sie sich auf das Wachstum des Angebots und nicht auf den Preisanstieg konzentriert.
+OlympusDAO aims to solve this by creating a non-pegged stablecoin called OHM. By focusing on supply growth rather than price appreciation, OlympusDAO hopes that OHM can function as a currency that is able to hold its purchasing power regardless of market volatility.
 
-## Ist OHM eine stable coin?
+## Is OHM a stable coin?
 
-Nein, OHM ist keine stable coin. Vielmehr strebt OHM danach, eine algorithmische Reservewährung zu werden, die von anderen dezentralen Vermögenswerten gestützt wird. Ähnlich der Idee des Goldstandards bietet OHM einen frei schwankenden Wert, auf den seine Nutzer immer zurückgreifen können, einfach aufgrund der fraktionierten Schatzreserven, aus denen OHM seinen inneren Wert bezieht.
+No, OHM is not a stable coin. Rather, OHM aspires to become an algorithmic reserve currency backed by other decentralized assets. Similar to the idea of the gold standard, OHM provides free floating value its users can always fall back on, simply because of the fractional treasury reserves OHM draws its intrinsic value from.
 
-## OHM wird gesichert, nicht gekoppelt.
+## OHM is backed, not pegged.
 
-Jedes OHM ist mit 1 DAI unterlegt, nicht daran gekoppelt. Da das Schatzamt jedes OHM mit mindestens 1 DAI unterlegt, würde das Protokoll OHM zurückkaufen und verbrennen, wenn sie unter 1 DAI gehandelt werden. Dies hat zur Folge, dass der OHM-Preis wieder auf 1 DAI steigt. OHM könnte immer über 1 DAI gehandelt werden, da es keine vom Protokoll auferlegte Obergrenze gibt. Man kann sich vorstellen, dass pegged == 1 ist, während backed &gt;= 1 ist. Man könnte sagen, dass der Mindestpreis oder der innere Wert des OHM bei 1 DAI liegt. 
+Each OHM is backed by 1 DAI, not pegged to it. Because the treasury backs every OHM with at least 1 DAI, the protocol would buy back and burn OHM when it trades below 1 DAI. This has the effect of pushing OHM price back up to 1 DAI. OHM could always trade above 1 DAI because there is no upper limit imposed by the protocol. Think pegged == 1, while backed &gt;= 1.
 
-Wir sind der Meinung, dass der tatsächliche Preis immer 1 DAI + Aufschlag betragen wird, aber das muss letztendlich der Markt entscheiden.
+You might say that the OHM floor price or intrinsic value is 1 DAI. We believe that the actual price will always be 1 DAI + premium, but in the end that is up to the market to decide.
 
-## Wie funktioniert das?
+## How does it work?
 
-Im Großen und Ganzen besteht OlympusDAO aus einer vom Protokoll verwalteten Schatzkammer, protokolleigener Liquidität, einem Bond-Mechanismus und hohen Staking-Belohnungen, die dazu dienen, die Angebotsausweitung zu kontrollieren. 
+At a high level, OlympusDAO consists of its protocol managed treasury, protocol owned liquidity \([POL](../references/glossary.md#pol)\), bond mechanism, and staking rewards that are designed to control supply expansion.
 
-Die Anleihe generiert Gewinn für das Protokoll, und die Schatzkammer verwendet den Gewinn, um OHM zu prägen und sie an die Staker zu verteilen. Mit der LP-Anleihe ist das Protokoll in der Lage, Liquidität zu akkumulieren, um die Stabilität des Systems zu gewährleisten.
+Bond sales generate profit for the protocol, and the treasury uses the profit to mint OHM and distribute them to stakers. With [liquidity bonds](../references/glossary.md#liquidity-bonds), the protocol is able to accumulate its own liquidity. Check out the entry below on [the importance of POL](basics.md#why-is-pol-important).
 
-## Was hat es mit \(3,3\) und \(1,1\) auf sich?
+## What is the deal with \(3,3\) and \(1,1\)?
 
-\(3,3\) ist die Idee, dass, wenn alle in Olympus kooperieren, dies den größten Gewinn für alle bringen würde \(vom Standpunkt der [Spieltheorie](https://en.wikipedia.org/wiki/Game_theory) aus gesehen\). Derzeit gibt es drei Aktionen, die ein Nutzer durchführen kann:
+\(3,3\) is the idea that, if everyone cooperated in Olympus, it would generate the greatest gain for everyone \(from a [game theory](https://en.wikipedia.org/wiki/Game_theory) standpoint\). Currently, there are three actions a user can take:
 
 * Staking \(+2\)
 * Bonding \(+1\)
-* Verkauf \(-2\)
+* Selling \(-2\)
 
-Der Staking und die Bonding gelten als vorteilhaft für das Protokoll, während der Verkauf als nachteilig angesehen wird. Staking und Verkäufe führen auch zu einer Preisveränderung, während das Bonding dies nicht tut \(wir betrachten den Kauf von OHM auf dem Markt als Voraussetzung für Einsätze, wodurch eine Preisveränderung verursacht wird\). Wenn beide Aktionen vorteilhaft sind, erhält der Akteur, der den Preis bewegt, auch die Hälfte des Vorteils \(+1\). Wenn beide Handlungen gegensätzlich sind, erhält der schlechte Akteur, der den Preis bewegt, die Hälfte des Nutzens \(+1\), während der gute Akteur, der den Preis bewegt, die Hälfte des Nachteils \(-1\) erhält. Wenn beide Handlungen nachteilig sind, was bedeutet, dass beide Akteure verkaufen, erhalten sie beide die Hälfte des Nachteils \(-1\).
+Staking and bonding are considered beneficiary to the protocol, while selling is considered detrimental. Staking and selling will also cause a price move, while bonding does not \(we consider buying OHM from the market as a prerequisite of staking, thus causing a price move\). If both actions are beneficiary, the actor who moves price also gets half of the benefit \(+1\). If both actions are contradictory, the bad actor who moves price gets half of the benefit \(+1\), while the good actor who moves price gets half of the downside \(-1\). If both actions are detrimental, which implies both actors are selling, they both get half of the downside \(-1\).
 
-Bei zwei Akteuren werden also alle Szenarien, was sie tun könnten, und die Auswirkungen auf das Protokoll hier dargestellt:
+Thus, given two actors, all scenarios of what they could do and the effect on the protocol are shown here:
 
 ![](../.gitbook/assets/game_theory.png)
 
-* Wenn wir beide auf \(3, 3\) setzen, ist das das Beste für uns beide und das Protokoll \(3 + 3 = 6\).
-* Wenn einer von uns einen Stake macht und der andere einen Bond, ist das auch gut, denn der Einsatz nimmt OHM vom Markt und steckt sie in das Protokoll, während die Bond-Liquidität und DAI für die Staatskasse liefert \(3 + 1 = 4\).
-* Wenn einer von uns verkauft, verringert sich der Aufwand des anderen, der den Stake oder den Bond tätigt \(1 - 1 = 0\).
-* Wenn wir beide verkaufen, ist das Ergebnis für uns beide und das Protokoll am schlechtesten \(-3 - 3 = -6\).
+* If we both stake \(3, 3\), it is the best thing for both of us and the protocol \(3 + 3 = 6\).
+* If one of us stakes and the other one bonds, it is also great because staking takes OHM off the market and put it into the protocol, while bonding provides liquidity and DAI for the treasury \(3 + 1 = 4\).
+* When one of us sells, it diminishes effort of the other one who stakes or bonds \(1 - 1 = 0\).
+* When we both sell, it creates the worst outcome for both of us and the protocol \(-3 - 3 = -6\).
 
-## Warum ist PCV wichtig?
+## Why is PCV important?
 
-Da das Protokoll die Mittel in seiner Schatzkammer kontrolliert, können OHM nur vom Protokoll geprägt oder verbrannt werden. Dies garantiert auch, dass das Protokoll immer 1 OHM mit 1 DAI zurückzahlen kann. Sie können das Risiko Ihrer Investition leicht definieren, da Sie darauf vertrauen können, dass das Protokoll unbegrenzt OHM unter 1 DAI mit den Mitteln des Schatzamtes kaufen wird, bis niemand mehr zum Verkauf übrig ist. Sie können der FED nicht vertrauen, aber Sie können dem Code vertrauen.
+As the protocol controls the funds in its treasury, OHM can only be minted or burned by the protocol. This also guarantees that the protocol can always back 1 OHM with 1 DAI. You can easily define the risk of your investment because you can be confident that the protocol will indefinitely buy OHM below 1 DAI with the treasury assets until no one is left to sell. You can't trust the FED but you can trust the code.
 
-Je mehr PCV das Protokoll anhäuft, desto mehr Runway ist für die Staker garantiert. Dies bedeutet, dass die Staker darauf vertrauen können, dass der aktuelle APY für einen längeren Zeitraum aufrechterhalten werden kann, da mehr Mittel in der Kasse vorhanden sind.
+As the protocol accumulates more PCV, more runway is guaranteed for the stakers. This means the stakers can be confident that the current staking APY can be sustained for a longer term because more funds are available in the treasury.
 
-## Was wird passieren, wenn es einen Banküberfall auf Olympus gibt?
+## Why is POL important?
 
-Das fraktionierte Mindestreserve-Bankwesen funktioniert, weil die Einleger ihr Geld nicht auf einmal abheben. Das Vertrauen der Einleger in das Bankensystem beruht auf Vorschriften und Einrichtungen wie der Federal Deposit Insurance Corporation \(FDIC\).
+Olympus [owns most of its liquidity](https://dune.xyz/shadow/Olympus-%28OHM%29) thanks to its bond mechanism. This has several benefits:
 
-Das OHM verfügt nicht über eine FDIC-Versicherung, aber es hat eine Anreizstruktur, die die Anleger schützt. Schauen wir uns an, wie es sich bei einem hypothetischen Bank-Run verhält. In diesem Szenario gehen wir davon aus, dass die Mehrheit der Staker in Panik gerät und ihre Token von Olympus abzieht - der Prozentsatz der Staker, der jetzt bei 92 % liegt, bricht schnell auf 3,3 % ein, so dass nur noch 20.000 OHM im Einsatz sind.
+* Olympus does not have to pay out high farming rewards to incentivize liquidity
 
-Als nächstes nehmen wir an, dass die Zuflüsse des risikofreien Werts \(RFV\) in das Schatzamt vollständig versiegen. Zum Vergleich: Der RFV wächst derzeit alle 3 Tage um etwa 1 Million Dollar. Während eines Bank-Runs wird dieses Wachstum jedoch wahrscheinlich aufhören.
+  providers a.k.a renting liquidity.
 
-Schließlich gehen wir davon aus, dass diese letzten Staker zu einem Preis von 500 $ pro OHM einsteigen. Die Anfangsinvestition dieser Staker wäre dann:
+* Olympus guarantees the market that the liquidity is always there to facilitate
+
+  sell or buy transaction.
+
+* By being the largest LP \(liquidity provider\), it earns most of the LP fees which
+
+  represents another source of income to the treasury.
+
+* All POL can be used to back OHM. The LP tokens are marked down to their risk-free
+
+  value for this purpose. You can read more about the rationale behind this in this
+
+  [Medium article](https://olympusdao.medium.com/dai-bonds-a-more-effective-sales-mechanism-c9a57586f1f7).
+
+## What will happen if there is a bank run on Olympus?
+
+Fractional reserve banking works because depositors don’t withdraw their funds all at once. A depositor’s faith in the banking system rests on regulations and agencies like Federal Deposit Insurance Corporation \(FDIC\).
+
+OHM does not have FDIC insurance but it has an incentive structure that protects stakers. Let’s take a look at how it performs during a hypothetical bank run. In this scenario, we assume the majority of stakers would panic and unstake their tokens from Olympus - the staking percentage which stands at 92% now quickly collapses to 3.3%, leaving only 55,000 OHM staked.
+
+Next, we assume the Risk-Free Value \(RFV\) inflows to the treasury completely dry up. For context, RFV is currently growing at [about $1 million every 2 days](https://dune.xyz/queries/29153/58862). However, during a bank run this growth will likely stop.
+
+Finally, we assume that those last standing stakers bought in at a price of $500 per OHM. The initial investment of these stakers would be:
 
 $$
-\$500/OHM * 20,000\ OHM = \$10\ million
+\$500/OHM * 55,000\ OHM = \$27.5\ million
 $$
 
-Mit Stand vom 12. Juli 2021 beträgt der Gesamtbestand an OHM 734.421 und der RFV 13.905.970 $. Zur Erinnerung: 1 OHM ist durch 1 USD \(DAI oder FRAX\) gedeckt. Durch Subtraktion dieser beiden Zahlen wissen wir, dass letztendlich 13.171.549 OHM an die verbleibenden Staker ausgegeben werden. In etwa einem Jahr werden diese Staker, die 20.000 OHM halten, über:
+As of September 15 2021, the total OHM supply is 2,082,553 and the RFV is $47,041,833. Remember that 1 OHM is backed by 1 USD \(DAI or FRAX\). By subtracting these two numbers, we know 44,959,280 OHM will eventually get issued to the remaining stakers. In roughly a year, these stakers who are holding 55,000 OHM will have:
 
 $$
-20,000 + 13,171,549 = 13,191,549\ OHM
+55,000 + 44,959,280 = 45,014,280\ OHM
 $$
 
-Aus den 10 Millionen Dollar, die diese Staker investiert haben, werden allein durch den Cashflow etwa 13,2 Millionen Dollar, wenn sie ihre Einsätze beibehalten \(zur Erinnerung: 1 OHM ist durch 1 USD gedeckt\). In diesem Bank-Run-Szenario erhalten die Staker, die ihre Einsätze beibehalten, nicht nur ihr Geld zurück, sondern machen auch einen gewissen Gewinn. Daher ist [\(3,3\)](basics.md#was-hat-es-mit-3-3-und-1-1-auf-sich) nicht nur ein beliebtes Mem, sondern tatsächlich eine dominante Strategie.
+$27.5 million investment made by these stakers will turn into about $45 million based on cash flow alone if they stay staked \(recall that 1 OHM is backed by 1 USD\). In this bank run scenario, the stakers who stay staked not only get their money back, but also make some profit. Therefore, [\(3,3\)](basics.md#what-is-the-deal-with-3-3-and-1-1) isn’t just a popular meme, it is actually a dominant strategy.
 
-Es ist unwahrscheinlich, dass das obige Szenario eintritt, denn wenn andere Leute herausfinden, dass extrem hohe Belohnungen an die Staker gezahlt werden, werden sie die Strategie kopieren, indem sie OHM kaufen und einsetzen. Das ist auch der Grund, warum der Prozentsatz der OHM, die in Olympus eingesetzt werden, seit dem Start konstant über 90 % liegt.
+The above scenario is unlikely to play out because when other people find out that extremely high rewards are being paid to the stakers, they will copy the strategy by buying and staking OHM. This is also why the percentage of OHM staked in Olympus has consistently remained over 90% since launch.
 
-_Hinweis: Die meisten der oben genannten Daten stammen von dieser_ [_Dune Analytics-Seite_](https://dune.xyz/shadow/Olympus-%28OHM%29)_._
+_Note: Most of the data referenced above are taken from_ [_this Dune Analytics page_](https://duneanalytics.com/shadow/Olympus-%28OHM%29)_._
 
-## Warum ist der Marktpreis des OHM so volatil?
+## Why is the market price of OHM so volatile?
 
-Es ist äußerst wichtig zu verstehen, wie früh sich das OlympusDAO-Protokoll in der Entwicklung befindet. Ein großer Teil der Diskussion drehte sich um den aktuellen Preis und die Erwartung eines stabilen Wertes in der Zukunft. Die Realität ist, dass diese Eigenschaften noch nicht festgelegt sind. Das Netzwerk ist derzeit auf die Ausweitung des OHM-Angebots eingestellt, was in Verbindung mit dem Staking-, Bonding- und Yield-Mechanismus von OlympusDAO zu einer gewissen Volatilität führt.
+It is extremely important to understand how early in development the OlympusDAO protocol is. A large amount of discussion has centered around the current price and expected a stable value moving forward. The reality is that these characteristics are not yet determined. The network is currently tuned for expansion of OHM supply, which when paired with the staking, bonding, and yield mechanics of OlympusDAO, result in a fair amount of volatility.
 
-OHM könnte zu einem sehr hohen Preis gehandelt werden, weil der Markt bereit ist, einen kräftigen Aufschlag zu zahlen, um einen Prozentsatz der aktuellen Marktkapitalisierung zu erhalten. Der Kurs von OHM könnte aber auch stark fallen, wenn sich die Marktstimmung ins Negative wendet. Wir erwarten während unserer Wachstumsphase erhebliche Kursschwankungen. Bitte **prüfen Sie daher selbst**, ob dieses Projekt Ihren Zielen entspricht.
+OHM could trade at a very high price because the market is ready to pay a hefty premium to capture a percentage of the current market capitalization. However, the price of OHM could also drop to a large degree if the market sentiment turns bearish. We would expect significant price volatility during our growth phase so please **do your own research** whether this project suits your goals.
 
-## Welchen Sinn hat es, sie jetzt zu kaufen, wenn das OHM mit einem sehr hohen Aufschlag gehandelt wird?
+## What is the point of buying it now when OHM trades at a very high premium?
 
-Wenn Sie OHM kaufen und einsetzen, erwerben Sie einen prozentualen Anteil des Angebots \(Marktkapitalisierung\), der nahezu konstant bleibt. Dies liegt daran, dass Ihr OHM-Einsatz mit dem zirkulierenden Angebot steigt. Wenn Sie also OHM kaufen, wenn die Marktkapitalisierung niedrig ist, erhalten Sie einen größeren Anteil an der Marktkapitalisierung.
+When you buy and stake OHM, you capture a percentage of the supply \(market cap\) which will remain close to a constant. This is because your staked OHM balance also increases along with the circulating supply. The implication is that if you buy OHM when the market cap is low, you would be capturing a larger percentage of the market cap.
 
-## Was ist eine Rebase?
+## What is a rebase?
 
-Rebase ist ein Mechanismus, durch den sich Ihr eingesetztes OHM-Guthaben automatisch erhöht. Wenn neue OHM durch das Protokoll geprägt werden, geht ein großer Teil davon an die Staker. Da die Staker nur das eingesetzte OHM-Guthaben und nicht die OHM sehen, nutzt das Protokoll den Rebase-Mechanismus, um das eingesetzte OHM-Guthaben zu erhöhen, so dass 1 eingesetztes OHM immer für 1 OHM eingelöst werden kann.
+Rebase is a mechanism by which your staked OHM balance increases automatically. When new OHM are minted by the protocol, a large portion of it goes to the stakers. Because stakers only see staked OHM balance instead of OHM, the protocol utilizes the rebase mechanism to increase the staked OHM balance so that 1 staked OHM is always redeemable for 1 OHM.
 
-## Was ist die Reward Yield?
+## What is reward yield?
 
-Der Reward Yield ist der Prozentsatz, um den sich Ihr eingesetztes OHM-Guthaben in der nächsten Epoche erhöht. Sie wird auch als Rebase-Rate bezeichnet. Sie finden diese Zahl auf der [Olympus Staking-Seite](https://app.olympusdao.finance/#/stake).
+Reward yield is the percentage by which your staked OHM balance increases on the next epoch. It is also known as _rebase rate_. You can find this number on the [Olympus staking page](https://app.olympusdao.finance/#/stake).
 
-## Was ist APY?
+## What is APY?
 
-APY steht für annualisierte prozentuale Rendite. Er misst die reale Rendite Ihres Kapitals, indem er den Effekt des Zinseszinses berücksichtigt. Im Fall von OlympusDAO stellt Ihr eingesetztes OHM Ihr Kapital dar, und der Zinseszins wird dank des Rebase-Mechanismus periodisch in jeder Epoche \(2200 Ethereum-Blöcke oder etwa 8 Stunden\) hinzugefügt.
+APY stands for annual percentage yield. It measures the real rate of return on your principal by taking into account the effect of compounding interest. In the case of OlympusDAO, your staked OHM represents your principal, and the compound interest is added periodically on every epoch \(2200 Ethereum blocks, or around 8 hours\) thanks to the rebase mechanism.
 
-Eine interessante Tatsache über APY ist, dass Ihr Guthaben nicht linear, sondern exponentiell mit der Zeit wächst! Geht man von einem täglichen Zinseszins von 2 % aus, so wird Ihr Guthaben, wenn Sie am ersten Tag mit einem Guthaben von 1 OHM beginnen, nach einem Jahr auf etwa 1377 OHM anwachsen. Das ist eine ganze Menge!
+One interesting fact about APY is that your balance will grow not linearly but exponentially over time! Assuming a daily compound interest of 2%, if you start with a balance of 1 OHM on day 1, after a year, your balance will grow to about 1377. That is a lot!
 
-![Die Macht der Zinseszinsen](../.gitbook/assets/apy.png)
+![The power of compounding](../.gitbook/assets/apy.png)
 
-## Wie wird die APY berechnet?
+## How is the APY calculated?
 
-Der APY errechnet sich aus der Rendite \(auch bekannt als Rebase Rate\) anhand der folgenden Gleichung:
+The APY is calculated from the reward yield \(a.k.a rebase rate\) using the following equation:
 
 $$
 APY = ( 1 + rewardYield )^{1095}
 $$
 
-Sie erhöht sich hoch 1095, weil ein Rebase 3 Mal täglich stattfindet. Da ein Jahr 365 Tage hat, ergibt sich eine Rebase-Häufigkeit von 365 \* 3 = 1095.
+It raises to the power of 1095 because a rebase happens 3 times daily. Consider there are 365 days in a year, this would give a rebase frequency of 365 \* 3 = 1095.
 
-Der Ertrag der Belohnung wird durch die folgende Gleichung bestimmt:
+Reward yield is determined by the following equation:
 
 $$
 rewardYield = OHM_{distributed} / OHM_{totalStaked}
 $$
 
-Die Anzahl der auf den Staking-contract verteilten OHM wird anhand der folgenden Gleichung aus dem Gesamtangebot an OHM berechnet:
+The number of OHM distributed to the staking contract is calculated from OHM total supply using the following equation:
 
 $$
 OHM_{distributed} = OHM_{totalSupply} \times rewardRate
 $$
 
-Beachten Sie, dass der Belohnungssatz durch das Protokoll geändert werden kann. So wurde er beispielsweise aufgrund dieses [jüngsten Vorschlags](https://forum.olympusdao.finance/d/77-oip-18-reward-rate-framework-and-reduction) überarbeitet.
+Note that the reward rate is subject to change by the protocol. For example, it has been revised due to [this latest proposal](https://forum.olympusdao.finance/d/77-oip-18-reward-rate-framework-and-reduction).
 
-## Warum wird der Preis des OHM langfristig irrelevant?
+## Why does the price of OHM become irrelevant in long term?
 
-Wie oben dargestellt, wächst Ihr OHM-Guthaben im Laufe der Zeit dank der Macht der Zinseszinsen exponentiell. Nehmen wir an, Sie kaufen jetzt ein OHM für 400 $ und der Markt entscheidet, dass der innere Wert des OHM in einem Jahr bei 2 $ liegen wird. Bei einem täglichen Zinseszins von 2 % würde Ihr Guthaben bis zum Ende des Jahres auf etwa 1377 OHMs anwachsen, die etwa 2754 $ wert sind. Das ist ein toller Gewinn von $2354! Inzwischen sollten Sie verstanden haben, dass Sie jetzt eine Prämie für OHM zahlen und dafür einen langfristigen Nutzen erhalten. Sie sollten also einen langen Zeithorizont haben, damit Ihr OHM-Guthaben exponentiell wachsen kann und sich diese Investition lohnt.
+As illustrated above, your OHM balance will grow exponentially over time thanks to the power of compounding. Let's say you buy an OHM for $400 now and the market decides that in 1 year time, the intrinsic value of OHM will be $2. Assuming a daily compound interest rate of 2%, your balance would grow to about 1377 OHMs by the end of the year, which is worth around $2754. That is a cool $2354 profit! By now, you should understand that you are paying a premium for OHM now in exchange for a long-term benefit. Thus, you should have a long time horizon to allow your OHM balance to grow exponentially and make this a worthwhile investment.
 
-## Wie hoch wird der intristische Wert von OHM in Zukunft sein?
+## What will be OHM's intrinsic value in the future?
 
-Hierauf gibt es keine eindeutige Antwort, aber der intristische Wert kann durch die Leistung des Schatzamtes bestimmt werden. Wenn das Schatzamt zum Beispiel garantieren könnte, jedes OHM mit 100 DAI zu unterlegen, wäre der innere Wert 100 DAI. Er kann auch von der DAO bestimmt werden. Wenn die [DAO zum Beispiel](https://forum.olympusdao.finance/d/31-use-price-floor-as-tool-for-monetary-policy) beschließt, die Preisuntergrenze für OHM anzuheben, wird der innere Wert entsprechend steigen.
+There is no clear answer for this, but the intrinsic value can be determined by the treasury performance. For example, if the treasury could guarantee to back every OHM with 100 DAI, the intrinsic value will be 100 DAI. It can also be decided by the DAO. For example, if the DAO decides to [raise the price floor of OHM](https://forum.olympusdao.finance/d/31-use-price-floor-as-tool-for-monetary-policy), its intrinsic value will rise accordingly.
 
-## Wie schafft es das Protokoll, den hohen Staking-APY zu halten?
+## How does the protocol manage to maintain the high staking APY?
 
-Nehmen wir an, das Protokoll strebt einen effektiven Jahreszins von 100.000% an. Dies entspräche einem Basiszinssatz von etwa 0,6328 % oder einem täglichen Wachstum von etwa 2 %. In der obigen Gleichung erfahren Sie, wie der [APY aus der Rebase-Rate](basics.md#wie-wird-die-apy-berechnet) berechnet wird.
+Let’s say the protocol targets an APY of 100,000%. This would translate to a rebase rate of about 0.6328%, or a daily growth of about 2%. Please refer to the equation above to learn [how APY is calculated from the rebase rate](basics.md#how-is-the-apy-calculated).
 
-Wenn jetzt 100.000 OHM staked sind, müsste das Protokoll zusätzlich 2000 OHM prägen, um dieses tägliche Wachstum zu erreichen. Dies ist möglich, wenn das Protokoll täglich mindestens 2000 DAI aus Bondverkäufen einbringen kann. Wenn das Protokoll dies nicht erreicht, kann der APY von 100.000% nicht garantiert werden.
+If there are 100,000 of OHM staked right now, the protocol would need to mint an additional 2000 OHM to achieve this daily growth. This is achievable if the protocol can bring in at least 2000 DAI daily from bond sales. If the protocol fails to achieve this, the APY of 100,000% cannot be guaranteed.
 
-## Muss ich in jeder Epoche meine OHM unstaken und neu staken, um meine Rebase-Belohnungen zu erhalten?
+## Do I have to unstake and stake OHM on every epoch to get my rebase rewards?
 
-Nein. Sobald Sie OHM bei OlympusDAO gestaked haben, erhöht sich Ihr gestakedes OHM-Guthaben in jeder Epoche automatisch. Dieser Anstieg des Guthabens entspricht Ihrer Rebase-Belohnung.
+No. Once you have staked OHM with OlympusDAO, your staked OHM balance will auto-compound on every epoch. That increase in balance represents your rebase rewards.
 
-## Wie kann ich meine Rebase-Belohnungen verfolgen?
+## How do I track my rebase rewards?
 
-Sie können Ihre Rebase-Belohnungen nachverfolgen, indem Sie den Anstieg Ihres OHM-Einsatzes berechnen.
+You can track your rebase rewards by calculating the increase in your staked OHM balance.
 
-1. Notieren Sie den aktuellen Indexwert auf der [Staking-Seite](https://app.olympusdao.finance/#/stake), wenn Sie Ihren OHM zum ersten Mal einsetzen. Nennen wir dies den Startindex.
+1. Record down the Current Index value on the [staking page](https://app.olympusdao.finance/#/) when you first stake your OHM. Let's call this the Start Index.
 
 ![](../.gitbook/assets/index_old.png)
 
-2. Wenn Sie nach einiger Zeit feststellen möchten, um wie viel sich Ihr Guthaben erhöht hat, überprüfen Sie erneut den aktuellen Indexwert. Wir nennen dies den Endindex.
+1. After staking for some time, if you want to determine by how much your balance has increased, check the Current Index value again. Let's call this the End Index.
 
 ![](../.gitbook/assets/index_new.png)
 
-3. Wenn Sie den Endindex durch den Startindex dividieren, erhalten Sie das Verhältnis, um das sich Ihr eingesetzter OHM-Saldo erhöht hat.
+1. By dividing the End Index by Start Index, you would get the ratio by which your staked OHM balance has increased.
 
 $$
 ratio = endIndex / startIndex
 $$
 
-4. In diesem Beispiel ist der OHM-Saldo um das 1,5-fache gestiegen.
+1. In this example, the OHM balance has grown by 1.5 times.
 
 $$
 ratio = 13.2\ /\ 8.8\newline = 1.5

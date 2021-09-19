@@ -1,6 +1,6 @@
 # Table of contents
 
-* [Einleitung](README.md)
+* [Introduction](README.md)
 
 ## Basics
 
@@ -10,7 +10,7 @@
 
 ## Using the Website
 
-* [Stake Dein OHM \(3, 3\)](using-the-website/staking.md)
+* [Stake Deine OHM \(3, 3\)](using-the-website/staking.md)
 * [Kaufe Einen Bond \(1, 1\)](using-the-website/bonds/README.md)
   * [DAI Bond](using-the-website/bonds/bond_dai.md)
   * [FRAX Bond](using-the-website/bonds/bond_frax.md)
