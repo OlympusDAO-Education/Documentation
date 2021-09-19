@@ -1,10 +1,10 @@
-# Purchase A Bond \(1, 1\)
+# Kaufe einen Bond \(1, 1\)
 
-Bonds allow users to buy OHM from the protocol at a discount by trading it with i\) liquidity \(LP tokens\) or ii\) other assets. The former is called [liquidity bonds](https://docs.olympusdao.finance/references/glossary#liquidity-bonds) and the latter [reserve bonds](https://docs.olympusdao.finance/references/glossary#reserve-bonds).
+Bonds ermöglichen es den Nutzern, OHM mit einem Abschlag vom Protokoll zu kaufen, indem sie sie gegen i\) Liquidität \(LP-Token\) oder ii\) andere Vermögenswerte eintauschen. Erstere werden als [Liquiditätsanleihen](../../references/glossary.md#liquidity-bonds) und letztere als [Reserveanleihen](../../references/glossary.md#reserve-bonds) bezeichnet. 
 
-Bonds take roughly 15 epochs to vest, and OHM tokens are vested linearly to the user over that period. Liquidity bonds help the protocol to accumulate and lock liquidity, while reserve bonds allow the protocol to grow its treasury, and thus its RFV faster.
+Es dauert etwa 15 Epochen, bis die Anleihen gültig werden, und die OHM-Token werden dem Nutzer in diesem Zeitraum linear zugeteilt. Liquiditätsanleihen helfen dem Protokoll, Liquidität zu akkumulieren und zu binden, während Reserveanleihen es dem Protokoll ermöglichen, seine Schatzkammer und damit seinen RFV schneller zu vergrößern. 
 
-Olympus offers five types of bonds [on its website](https://app.olympusdao.finance/#/bonds):
+Olympus bietet fünf Arten von Anleihen auf seiner [Website](https://app.olympusdao.finance/#/bonds) an:
 
 * [DAI bond](bond_dai.md)
 * [FRAX bond](bond_frax.md)
@@ -14,26 +14,26 @@ Olympus offers five types of bonds [on its website](https://app.olympusdao.finan
 
 ## Hades
 
-Hades is a feature that allows you to purchase bonds while sending the acquired OHM to another address. This is useful for additional privacy, or for purchasing multiple bonds while the current bonds are still vesting. Note that if the same account holds multiple bonds, the pending rewards from the earlier bonds have to be forfeited.
+Hades ist eine Funktion, die es Ihnen ermöglicht, Bonds zu kaufen und die erworbenen OHM an eine andere Adresse zu senden. Dies ist nützlich für zusätzliche Privatsphäre oder für den Kauf mehrerer Bonds, während die aktuellen Bonds noch gültig sind. Beachten Sie, dass bei mehreren Bonds auf demselben Konto die ausstehenden Belohnungen der früheren Bonds verfallen.
 
-1. Go to [Bond page](https://app.olympusdao.finance/#/bonds) and select the bond type you want to purchase.
-2. Select the amount that you would like to bond, then click on the cogwheel icon at the top right of the page.
+1. Gehen Sie zur [Bond Seite ](https://app.olympusdao.finance/#/bonds)und wählen Sie die Art des Bonds, die Sie kaufen möchten.
+2. Wählen Sie den Betrag, den Sie bonden möchten, und klicken Sie dann auf das Zahnradsymbol oben rechts auf der Seite.
 
    ![](../../.gitbook/assets/cogwheel.png)
 
-3. The Hades menu will show up. At the Recipient Address field, you can specify a different address that will receive the vested OHM. By default, it is filled with your current address.
+3. Das Hades-Menü wird eingeblendet. Im Feld Empfängeradresse können Sie eine andere Adresse angeben, an die das vested OHM gesendet werden soll. Standardmäßig ist das Feld mit Ihrer aktuellen Adresse gefüllt.
 
    ![](../../.gitbook/assets/hades.png)
 
-4. You can also modify the Slippage field to increase or decrease the likelihood of your order getting through. A higher slippage increases that likelihood, but you may get a more undesirable fill price.
-5. Close the Hades menu by clicking the cogwheel icon again.
-6. Click "Approve" and sign the transaction.
-7. After the "Approve" transaction has been processed successfully, click "Bond" and sign the transaction. Voila, you have purchased your first bond using Hades!
+4. Sie können auch das Feld "Slippage" ändern, um die Wahrscheinlichkeit zu erhöhen oder zu verringern, dass Ihr Auftrag ausgeführt wird. Eine höhere Slippage erhöht diese Wahrscheinlichkeit, aber Sie erhalten möglicherweise einen unerwünschten Füllpreis.
+5. Schließen Sie das Hades-Menü, indem Sie erneut auf das Zahnradsymbol klicken.
+6. Klicken Sie auf "Approve und unterschreiben Sie die Transaktion.
+7. Nachdem die Transaktion "Approve" erfolgreich bearbeitet wurde, klicken Sie auf "Bond" und unterschreiben die Transaktion. Voila, Sie haben Ihre erste Anleihe mit Hades gekauft!
 
-_Notes:_
+_Hinweise:_
 
-* _The "Approve" transaction is only needed when bonding for the first time; subsequent bonding only requires you to perform the "Bond" transaction._
-* _When using Hades, do not alter the bond amount after you have closed the Hades menu, as it will reset the recipient address._
+* _Die Transaktion "Approve" ist nur bei dem ersten Bond erforderlich; bei späteren Bonds müssen Sie nur noch die Transaktion "Bond" durchführen._
+* _Wenn Sie den Hades verwenden, dürfen Sie den Betrag des Bonds nicht mehr ändern, nachdem Sie das Hades-Menü geschlossen haben, da sonst die Empfängeradresse zurückgesetzt wird._
 
 ## **How to Redeem**
 
