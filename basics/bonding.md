@@ -1,10 +1,10 @@
 # Bonding
 
-## What is bonding?
+## Was ist Bonding?
 
-**Bonding is the secondary value accrual strategy of Olympus.** Bonds are a cross between a fixed income product, a futures contract, and an option. The protocol quotes the bonder with terms for a trade at a future date. These terms include a predefined amount of OHM the bonder will receive and the time when vesting is complete. The bond becomes redeemable as it vests. I.e. in a 5-day term, after 2 days into the term 40% of the rewards can be claimed.
+**Das Bonding ist die sekundäre Wertaufbaustrategie von Olympus.** Bonds sind eine Kreuzung zwischen einem festverzinslichen Produkt, einem Terminkontrakt und einer Option. Im Protokoll werden dem Bonder die Bedingungen für einen Handel zu einem zukünftigen Zeitpunkt genannt. Zu diesen Bedingungen gehören ein im Voraus festgelegter Betrag an OHM, den der Bonder erhält, und der Zeitpunkt, an dem die Unverfallbarkeit erreicht ist. Die Anleihe wird nach Ablauf der Sperrfrist rückzahlbar. D.h. bei einer 5-tägigen Laufzeit können nach 2 Tagen 40 % der Belohnungen in Anspruch genommen werden.
 
-**Bonding is an active, short-term strategy.** The price discovery mechanism of the secondary bond market renders bond discounts more or less unpredictable. Therefore bonding is considered a more active investment strategy that has to be monitored constantly in order to be more profitable as compared to staking.
+**Bonding ist eine aktive, kurzfristige Strategie.** Der Preisfindungsmechanismus des Sekundärmarktes für Anleihen macht die Abschläge für Anleihen mehr oder weniger unvorhersehbar. Daher wird das Bonding als eine aktivere Anlagestrategie betrachtet, die ständig überwacht werden muss, um im Vergleich zum Staking rentabler zu sein.
 
-**Bonding allows Olympus to accumulate its own liquidity.** We call our own liquidity [POL](../references/glossary.md#pol). More POL ensures there is always locked exit liquidity in our trading pools to facilitate market operations and protect token holders. Since Olympus becomes its own market, on top of additional certainty for OHM investors, the protocol accrues more and more revenue from LP rewards bolstering our treasury.
+**Mit Hilfe von Bonding kann Olympus seine eigene Liquidität akkumulieren.** Wir nennen unsere eigene Liquidität [POL](../references/glossary.md#pol). Mehr POL stellt sicher, dass es immer gesperrte Ausstiegsliquidität in unseren Handelspools gibt, um Marktoperationen zu erleichtern und Token-Inhaber zu schützen. Da Olympus zu einem eigenen Markt wird, bietet das Protokoll nicht nur zusätzliche Sicherheit für OHM-Investoren, sondern auch immer mehr Einnahmen aus LP-Belohnungen, die unsere Staatskasse aufstocken.
 
