@@ -1,4 +1,4 @@
-# Kaufe einen Bond \(1, 1\)
+# Kaufe Einen Bond \(1, 1\)
 
 Bonds ermöglichen es den Nutzern, OHM mit einem Abschlag vom Protokoll zu kaufen, indem sie sie gegen i\) Liquidität \(LP-Token\) oder ii\) andere Vermögenswerte eintauschen. Erstere werden als [Liquiditätsanleihen](../../references/glossary.md#liquidity-bonds) und letztere als [Reserveanleihen](../../references/glossary.md#reserve-bonds) bezeichnet. 
 
