@@ -35,39 +35,39 @@ _Hinweise:_
 * _Die Transaktion "Approve" ist nur bei dem ersten Bond erforderlich; bei späteren Bonds müssen Sie nur noch die Transaktion "Bond" durchführen._
 * _Wenn Sie den Hades verwenden, dürfen Sie den Betrag des Bonds nicht mehr ändern, nachdem Sie das Hades-Menü geschlossen haben, da sonst die Empfängeradresse zurückgesetzt wird._
 
-## **How to Redeem**
+## Einlösung
 
-Go to [Bond page](https://app.olympusdao.finance/#/bonds) and select the bond type you have purchased. Select the "Redeem" tab. Then, click "Claim Rewards" to claim all of your available rewards.
+Gehen Sie auf die Seite "[Bonds](https://app.olympusdao.finance/#/bonds)" und wählen Sie die Art des Bonds aus, die Sie erworben haben. Wählen Sie die Registerkarte "Redeem". Klicken Sie dann auf "Claim Rewards", um alle Ihre verfügbaren Rewards zu beanspruchen.
 
-## Reading the Info
+## Lesen der Informationen
 
 ![](../../.gitbook/assets/modal.png)
 
-**Balance** is your balance of SLP tokens. This is the asset used to create a bond.
+**Balance** ist Ihr Guthaben an SLP-Tokens. Dies ist der Vermögenswert, der zur Erstellung eines Bonds verwendet wird.
 
-**Bond Price** is the price of OHM you get from bonding. You can calculate the bond price using the following formulae:
+**Bond Price** ist der Preis des OHM, den Sie durch den bonding erhalten. Sie können den Bondpreis mit den folgenden Formeln berechnen:
 
-* SLP Bond: \(Value of your SLP token / OHM you'll get from bonding\)
-* DAI Bond: \(Value of your DAI token / OHM you'll get from bonding\)
+* SLP Bond: \(Wert Ihres SLP-Tokens / OHM, den Sie durch das Bonding erhalten\)
+* DAI Bond: \(Wert deines DAI-Tokens / OHM, den du durch das Bonding erhältst\)
 
-**Market Price** is the market price of OHM.
+**Market Price** ist der Marktpreis von OHM.
 
-**You Will Get** tells you how many OHM you will get from bonding.
+**You Will Get** sagt Ihnen, wie viele OHM Sie durch das Bonding erhalten werden.
 
-**Debt Ratio** measures the total amount of OHM created from bonds that have yet to be paid out by the protocol. The debt ratio is calculated differently for SLP bond and DAI bond:
+**Debt Ratio** misst den Gesamtbetrag der OHM, der durch Bonds entstanden ist, die noch nicht durch das Protokoll ausgezahlt worden sind. Die Schuldenquote wird für SLP-Anleihen und DAI-Anleihen unterschiedlich berechnet:
 
-* SLP Bond: \(OHM created from unredeemed bonds / OHM total supply\)
-* DAI Bond: \(OHM created from unredeemed bonds / OHM circulating supply\)
+* SLP Bond: \(OHM aus nicht eingelösten Bonds / OHM-Gesamtangebot\)
+* DAI Bond: \(OHM aus nicht eingelösten Anleihen / OHM aus dem Umlaufvermögen\)
 
-**Vesting Term** measures the period a bond takes to fully redeem. This number is in Ethereum blocks. 33110 blocks is approximately 5 days or 15 epochs.
+**Vesting Term** misst den Zeitraum, den ein Bond bis zur vollständigen Rückzahlung benötigt. Diese Zahl wird in Ethereum-Blöcken angegeben. 33110 Blöcke entsprechen etwa 5 Tagen oder 15 Epochen.
 
-**Discount** is the difference between the bond price and the market price. In the screenshot above, bonding would give you a 10.63% discount versus buying the same amount of OHM from the market.
+**Discount** ist die Differenz zwischen dem Bondpreis und dem Marktpreis. Im obigen Screenshot würden Sie mit einem Bond einen Rabatt von 10,63 % gegenüber dem Kauf der gleichen Menge OHM auf dem Markt erhalten.
 
 ![](../../.gitbook/assets/modal_redeem.png)
 
-**Pending Rewards** is the amount of OHM you are entitled to receive from bonding.
+**Pending Rewards** ist der OHM-Betrag, den Sie aus dem Bonding erhalten können.
 
-**Claimable Rewards** is the amount of OHM that you can claim now. This amount keeps increasing as OHM is vested to you over the bonding period.
+**Claimable Rewards** ist der Betrag des OHM, den Sie jetzt beanspruchen können. Dieser Betrag erhöht sich kontinuierlich, da Ihnen im Laufe der Bindungsfrist OHM übertragen werden.
 
-**Full Bond Maturation** refers to the Ethereum block when the bond is fully redeemable.
+**Full Bond Maturation** bezieht sich auf den Ethereum-Block, wenn der Bond vollständig rückzahlbar ist.
 
