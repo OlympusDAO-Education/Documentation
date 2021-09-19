@@ -1,22 +1,22 @@
 # OHM-FRAX LP Bond
 
-OHM-FRAX LP bond was introduced on 11 June 2021. It allows you to trade [OHM-FRAX LP token](https://v2.info.uniswap.org/pair/0x2dce0dda1c2f98e0f171de8333c3c6fe1bbf4877) in exchange for discounted OHM on Olympus.
+Die OHM-FRAX LP-Bond wurde am 11. Juni 2021 eingeführt. Sie ermöglicht es Ihnen, O[HM-FRAX LP Token](https://v2.info.uniswap.org/pair/0x2dce0dda1c2f98e0f171de8333c3c6fe1bbf4877) im Austausch für vergünstigte OHM auf Olympus zu handeln.
 
-## How to Bond
+## Wie man Bondet
 
-1. Make sure you have OHM-FRAX LP tokens in your wallet. You need to go to Uniswap and add liquidity for the [OHM-FRAX pool](https://v2.info.uniswap.org/pair/0x2dce0dda1c2f98e0f171de8333c3c6fe1bbf4877) to acquire them.
+1. Stellen Sie sicher, dass Sie OHM-FRAX LP-Token in Ihrer Wallet haben. Sie müssen zu Sushiswap gehen und Liquidität für den [OHM-FRAX-Pool](https://v2.info.uniswap.org/pair/0x2dce0dda1c2f98e0f171de8333c3c6fe1bbf4877) hinzufügen, um sie zu erwerben.
 
-2. Head to the [OHM-FRAX LP Bond page of the Olympus website](https://app.olympusdao.finance/#/bonds/ohm_frax_lp). There are two tabs: "Bond" and "Redeem". Make sure "Bond" is selected.
+2. Rufen Sie die [OHM-FRAX LP Bond-Seite auf der Olympus-Website](https://app.olympusdao.finance/#/bonds/ohm_frax_lp) auf. Dort gibt es zwei Registerkarten: "Bond" und "Redeem". Stellen Sie sicher, dass "Bond" ausgewählt ist.
 
-3. Type in the amount of OHM-FRAX LP tokens you would like to bond. Make sure you are not trying to bond more than is allowed. The **Max You Can Buy** field below shows the maximum amount of OHM you can purchase.
+3. Geben Sie den Betrag der OHM-FRAX LP Tokens ein, den Sie bonden möchten. Achten Sie darauf, dass Sie nicht versuchen, mehr zu bonden, als erlaubt ist. Das Feld **Max You Can Buy** unten zeigt die maximale Menge an OHM, die Sie kaufen können.
 
-![You can only purchase up to a certain amount of OHM](../../.gitbook/assets/max_you_can_buy.png)
+![Sie k&#xF6;nnen nur bis zu einer bestimmten Menge an OHM kaufen](../../.gitbook/assets/max_you_can_buy.png)
 
-4. If this is your first purchase, you need to approve the Olympus contract to spend your OHM-FRAX LP tokens. Click "Approve" and sign the transaction.
+4. Wenn dies Ihr erster Kauf ist, müssen Sie den Olympus-Contract genehmigen, um Ihr OHM-FRAX LP Token auszugeben. Klicken Sie auf "Approve" und unterschreiben Sie die Transaktion.
 
-5. After the "Approve" transaction has been processed successfully, refresh the page. The "Approve" button should be changed to display "Bond" by now.
+5. Nachdem die Transaktion "Approve" erfolgreich bearbeitet wurde, aktualisieren Sie die Seite. Auf der Schaltfläche "Approve" sollte nun "Bond" angezeigt werden.
 
-![Refresh the page after the token approval process](../../.gitbook/assets/bond_ohm_frax_refresh.png)
+![Aktualisieren Sie die Seite nach dem Token-Genehmigungsprozess](../../.gitbook/assets/bond_ohm_frax_refresh.png)
 
-6. Click "Bond" and sign the transaction. Voila, you have purchased your first OHM-FRAX LP bond!
+6. Klicken Sie auf "Bond" und unterschreiben Sie die Transaktion. Voila, Sie haben Ihre erste DAI-Anleihe gekauft!
 

@@ -1,6 +1,6 @@
 # OHM-DAI LP Bond
 
-Die OHM-DAI LP-Anleihe wurde am 1. April 2021 eingeführt. Sie ermöglicht es Ihnen, [OHM-DAI SLP-Token](https://app.gitbook.com/@olympusdao-1/s/olympusdocs/~/drafts/-MjxK-6bxi3DHyrtNitA/using-the-website/bonds/ohm-dai-lp-bond) im Austausch für vergünstigte OHM auf Olympus zu handeln.
+Die OHM-DAI LP-Bond wurde am 1. April 2021 eingeführt. Sie ermöglicht es Ihnen, [OHM-DAI SLP-Token](https://app.gitbook.com/@olympusdao-1/s/olympusdocs/~/drafts/-MjxK-6bxi3DHyrtNitA/using-the-website/bonds/ohm-dai-lp-bond) im Austausch für vergünstigte OHM auf Olympus zu handeln.
 
 ## Wie man Bondet
 
