@@ -1,32 +1,32 @@
 # Unstake LP Tokens
 
-OHM-DAI LP token staking has been deprecated as Olympus owns most of the liquidity now. [Staking rewards are no longer being paid](https://scattershot.page/#/olympusdao.eth/proposal/QmRhBupfD53yBothJ6EarEiL6ztVjSPSfTHRWEpVE7oq3g) to OHM-DAI LP stakers, and users are advised to unstake their OHM-DAI LP tokens from Olympus to prevent any opportunity cost.
+Das Staken von OHM-DAI LP-Token ist veraltet, da Olympus nun den größten Teil der Liquidität besitzt. [Staking-Belohnungen werden nicht mehr](https://scattershot.page/#/olympusdao.eth/proposal/QmRhBupfD53yBothJ6EarEiL6ztVjSPSfTHRWEpVE7oq3g) an OHM-DAI LP Staker gezahlt und den Nutzern wird empfohlen, ihre OHM-DAI LP Token von Olympus zu untstaken, um Opportunitätskosten zu vermeiden.
 
-As Olympus no longer supports this feature, there is no interface for users to unstake their LP tokens directly from the Olympus website. Luckily, users can still unstake their LP tokens via [Etherscan](https://etherscan.io/). The following guide will show you how.
+Da Olympus diese Funktion nicht mehr unterstützt, gibt es keine Schnittstelle für Benutzer, um ihre LP-Token direkt von der Olympus-Website zu unstaken. Glücklicherweise können Benutzer ihre LP-Token immer noch über [Etherscan](https://etherscan.io/) unstaken. Die folgende Anleitung zeigt Ihnen, wie das geht.
 
-## How to Unstake LP Tokens via Etherscan
+## Das Unstaken von LP Tokens via Etherscan
 
-1. Go to the [Write Contract section of the LP staking contract](https://etherscan.io/address/0xF11f0F078BfaF05a28Eac345Bb84fcb2a3722223#writeContract) on Etherscan.
+1. Gehen Sie zum [Write Contract des LP staking contract](https://etherscan.io/address/0xF11f0F078BfaF05a28Eac345Bb84fcb2a3722223#writeContract) auf Etherscan.
 
-![Go to the Write Contract section](../.gitbook/assets/write_contract.png)
+![Gehen Sie zum Abschnitt Write Contract](../.gitbook/assets/write_contract.png)
 
-2. Connect your wallet by pressing the **Connect to Web3** button.
+2. Verbinden Sie Ihr Wallet, indem Sie auf die Schaltfläche **Connect to Web3** klicken.
 
-![Connect your wallet](../.gitbook/assets/connect_wallet.png)
+![Verbinden Sie Ihren Wallet](../.gitbook/assets/connect_wallet.png)
 
-3. A warning prompt will pop up from Etherscan. Select **OK**.
+3. Eine Warnmeldung von Etherscan wird angezeigt. Wählen Sie **OK**.
 
-![Dismiss the warning message](../.gitbook/assets/warning.png)
+![Warnmeldung ignorieren](../.gitbook/assets/warning.png)
 
-4. When your wallet is connected, the button will be changed to show "Connected" along with your wallet address \(redacted in the following screenshot\).
+4. Wenn Ihr Wallet verbunden ist, wird die Schaltfläche "Connected" zusammen mit Ihrer Walletadresse angezeigt \(im folgenden Screenshot unkenntlich gemacht\).
 
-![Wallet is connected](../.gitbook/assets/wallet_connected.png)
+![Wallet ist verbunden](../.gitbook/assets/wallet_connected.png)
 
-5. Go to the fifth option, _unstakeLP_, and press the **Write** button.
+5. Gehen Sie zur fünften Option, unstakeLP, und drücken Sie die Schaltfläche **Write**.
 
-![Click &quot;Write&quot;](../.gitbook/assets/write.png)
+![Dr&#xFC;cke &quot;Write&quot;](../.gitbook/assets/write.png)
 
-6. Your wallet will prompt you to sign the transaction for unstaking your LP tokens. Confirm the transaction and wait for it to complete.
+6. Ihr Wallet wird Sie auffordern, die Transaktion zu unterzeichnen, um Ihre LP-Token freizugeben. Bestätigen Sie die Transaktion und warten Sie, bis sie abgeschlossen ist.
 
-7. After the transaction has been processed successfully, your LP token balance should show up correctly in your wallet.
+7. Nachdem die Transaktion erfolgreich abgewickelt wurde, sollte Ihr LP-Token-Guthaben in Ihrer Wallet korrekt angezeigt werden.
 
