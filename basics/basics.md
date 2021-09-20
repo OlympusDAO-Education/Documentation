@@ -49,7 +49,7 @@ OHM은 스테이블 코인은 아니지만, 다른 탈중앙화된 자산으로 
 
 프로토콜이 더 많은 PCV를 축적해 나가면서, 스테이커들에게는 더 많은 주로\(runway\)가 보장됩니다. 이 말인 즉, 금고가 더 많은 자금을 보유하기 때문에 스테이커들은 현재의 APY가 더 오랜 기간 동안 지속 될 것이라고 확신하게 됩니다.
 
-## 만약 올림푸스에서 예금 인출 사태가 벌어진다면 어떻게 될까요? <a id="what-will-happen-if-there-is-a-bank-run-on-olympus"></a>
+## 만약 올림푸스에서 예금 인출 사태가 벌어진다면 어떻게 될까요? <a id="https-app-gitbook-com-olympusdao-1-s-olympusdocs-basics-basics-what-will-happen-if-there-is-a-bank-run-on-olympus_kor"></a>
 
 예금자들이 모든 돈을 한꺼번에 인출하지 않기 때문에, 준비 은행 일부가 부분적으로 작동하게 됩니다. 예금자들의 은행 시스템에 대한 믿음은 규제와 연방예금보험공사\(FDIC\)와 같은 기관에 대한 신뢰를 배경으로 합니다.
 
