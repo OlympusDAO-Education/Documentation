@@ -1,32 +1,30 @@
-# Market Dynamics
+# Dynamique de marché
 
-There are several feedback mechanisms within the system. These are self-reinforcing behaviors; action 1 increases the rate of action 2 which increases the rate of action 1. Circular mechanics like this are the drivers of exponential expansion and boom and bust cycles. Loose policy states enable these dynamics while tight policy states suppress them.
+Il existe plusieurs mécanismes de rétroaction au sein du système. Il s'agit de comportements auto-renforçants : l'action 1 augmente le taux de l'action 2 qui augmente le taux de l'action 1. Les mécanismes circulaires de ce type sont les moteurs de l'expansion exponentielle et des cycles d'expansion et de ralentissement. Une politique souple favorise cette dynamique, tandis qu'une politique plus stricte la supprime.
 
-## Player Goals
+## But du jeu
 
-**Stakers care primarily about their OHM balance.** While price is important in valuing their OHM and determining the rate at which it grows, it is not the main goal. A smart staker cares only about the short and long term growth prospects of the network. That growth translates into wealth via price and balance growth.
+**Les stakers se soucient avant tout du nombre total d'OHM**. Bien que le prix soit important pour évaluer leur MHO et déterminer le taux de croissance, ce n'est pas l'objectif principal. Un staker intelligent ne se soucie que des perspectives de croissance à court et à long terme du réseau. Cette croissance se traduit en par l'augmentation du prix et du solde.
 
-**Bonders care primarily about OHM price.** When they bond, these users lock in a fixed reward in OHM. Therefore, network profitability is only helpful in calculating opportunity cost or gain; bonders have their OHM gains locked in. 
+**Les bonders se soucient principalement du prix de l'OHM.** Lorsqu'ils se lient, ces utilisateurs verrouillent une récompense fixe en OHM. Par conséquent, la rentabilité du système n'est utile que pour calculer le coût ou le gain d'opportunité ; les bonders ont verrouillé leurs gains en OHM.
 
-The ideal scenario for a bonder is for price to go up; in this case, the bonder benefits from their discount on OHM and the increase in price. 
+Le scénario idéal pour un bonder est que le prix augmente ; dans ce cas, le bonder bénéficie de sa remise sur les OHM et de l'augmentation du prix. Les bonders sont toujours satisfaits si le prix reste stable ; leur profit est la réduction de l'obligation. Comme les stakers, les bonders profitent de la stagnation autour de leur achat in via un solde positif.
 
-Bonders are still happy if price remains flat; their profit is the discount from the bond. Like stakers, bonders profit from inactivity at or around their buy in via an increasing balance.
+Les bonders ne perdent que lorsque le prix baisse au-delà de la décote de l'obligation. À ce moment-là, le bonder choisira entre l'OHM ou le SLP, selon celui qui a le plus de valeur. Les détenteurs d'obligations choisissent toujours le meilleur des deux actifs, en combinant les meilleurs éléments des profils risque/récompense des deux actifs.
 
-Bonders only lose when price goes down beyond the discount on the bond. At this point, the bonder will choose between the OHM or the SLP, depending on which one is worth more. Bonders always get to choose the better of the two assets, effectively combining the best pieces of both assets' risk to reward profiles.
+## Dynamique de marché
 
-## Market Dynamics
+L'état par défaut du système est à sa valeur intrinsèque. Après une longue période d'inactivité, le prix reviendra toujours à ce niveau. On peut imaginer que les contractions ne sont déclenchées que par des crises de liquidité à court terme.   
+  
+Puisque les détenteurs d'OHM ont la garantie que le prix reviendra finalement au-dessus de la valeur intrinsèque, les seuls vendeurs en dessous devraient être ceux qui ont besoin d'une sortie à court terme et qui sont prêts à prendre la perte supplémentaire.
 
-The default state of the network is at intrinsic value. After some long period of inactivity, price will always return to this level. 
+**Les expansions peuvent être déclenchées par une augmentation du staking ou du bonding.**
 
-Contractions are conceivably only triggered by short-term liquidity crises. Since OHM holders have a guarantee that price will come back above intrinsic value eventually, the only sellers below should be those who need a short term exit and are willing to take the extra loss.
+Une augmentation du staking sera généralement précédée d'achats sur le marché. Cela augmente le prix, ce qui permet au protocole de vendre à un prix plus élevé et augmente le rendement pour les stakers. Cela devrait permettre d'attirer davantage de stakers et de poursuivre le cycle.
 
-**Expansions can be triggered by an increase in staking or bonding.**
+Pendant ce temps, la hausse du prix augmente la décote des obligations et crée une capacité pour de nouvelles obligations. Celles-ci sont précédées de nouvelles liquidités, ce qui améliore la capacité du protocole à réaliser des ventes et augmente la liquidité de sortie disponible.  
+  
+Cette boucle de rétroaction positive prix-liquidité devrait servir à créer une période durable de croissance. Cependant, elles fonctionnent dans les deux sens. La baisse de la demande diminue les récompenses de staking et la capacité des bonds, ce qui entraîne une nouvelle baisse de la demande \(et c'est inévitable\).
 
-An increase in staking will generally be preceded by purchases from the market. That increases price, which allows the protocol to sell at a higher price and increases yield for stakers. That should serve to bring in more stakers and continue the cycle.
-
-Meanwhile, the rising price increases the bond discount and creates capacity for new bonds. These are preceded by new liquidity, which improves the protocol's ability to carry out sales and increases available exit liquidity.
-
-This positive price-liquidity feedback loop should serve to create sustainable to expansionary periods. However, they work both ways. Falling demand decreases staking rewards and bond capacity, causing demand to fall further. This is an unavoidable fact of system's like this; even the best \(i.e. Bitcoin\) are no stranger to significant declines after periods of expansion.
-
-But we can work to mitigate busts. This is where the protocol's reserves step in and to catch the market when velocity turns too far to the downside. It does so through forward guidance \(the fact that the protocol _will_ buy lowers risk the lower we go, which can mean we _don't have to_ buy\) and by buying perpetually below intrinsic value. The treasury ensures that, although bear markets and contractions can and will occur, the protocol can never die.
+Mais nous pouvons travailler pour atténuer les baisses. C'est là que les réserves du protocole interviennent en rachetant en dessous de la valeur intrinsèque. La trésorerie garantit que, même si des marchés baissiers et des pics de volatilités peuvent se produire et se produiront, le protocole ne peut jamais mourir.
 

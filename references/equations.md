@@ -6,13 +6,13 @@ $$
 deposit = withdrawal
 $$
 
-Swaps between OHM and sOHM during staking and unstaking are always honored 1:1. The amount of OHM deposited into the staking contract will always result in the same amount of sOHM. And the amount of sOHM withdrawn from the staking contract will always result in the same amount of OHM.
+Les échanges entre OHM et sOHM pendant le staking et l'unstaking sont toujours honorés 1 pour 1. La quantité d'OHM déposée dans le contrat de staking donnera toujours lieu à la même quantité de sOHM. Et la quantité de sOHM retirée du contrat de staking donnera toujours lieu à la même quantité de OHM.
 
 $$
 rebase = 1 - ( ohmDeposits / sOHMOutstanding )
 $$
 
-The treasury deposits OHM into the distributor. The distributor then deposits OHM into the staking contract, creating an imbalance between OHM and sOHM. sOHM is rebased to correct this imbalance between OHM deposited and sOHM outstanding. The rebase brings sOHM outstanding back up to parity so that 1 sOHM equals 1 staked OHM.
+Le trésorerie dépose les OHM dans le distributeur. Le distributeur dépose ensuite des OHM dans le contrat de staking, ce qui crée un déséquilibre entre les OHM et les sOHM. Les sOHM sont rebasés pour corriger ce déséquilibre entre les OHM déposés et les sOHM en circulation. Le rebase ramène les sOHM en circulation à la parité, de sorte que 1 sOHM est égal à 1 OHM stake.
 
 ## Bonding
 
@@ -20,72 +20,64 @@ $$
 bond Price = 1 + Premium
 $$
 
-OHM has an intrinsic value of 1 DAI, which is roughly equivalent to $1. In order to make a profit from bonding, Olympus charges a premium for each bond.
+L'OHM a une valeur intrinsèque de 1 DAI, ce qui équivaut approximativement à 1 $. Afin de réaliser un profit sur les obligations, Olympus demande un premium pour chaque obligation.
 
 $$
 Premium = debt Ratio * BCV
 $$
 
-The premium is derived from the debt ratio of the system and a scaling variable called [BCV](https://docs.olympusdao.finance/references/glossary#bcv). BCV allows us to control the rate at which bond prices increase.
+Le premium est dérivé du ratio d'endettement du système et d'une variable d'échelle appelée [BCV](https://docs.olympusdao.finance/references/glossary#bcv). La BCV nous permet de contrôler le taux d'augmentation du prix des obligations.
 
-The premium determines profit due to the protocol and in turn, stakers. This is because new OHM is minted from the profit and subsequently distributed among all stakers.
+Le premium détermine le profit dû au protocole et, à son tour, aux stakers. En effet, de nouveaux OHM sont frappés à partir du bénéfice et ensuite distribués à tous les stakers.
 
 $$
 debt Ratio = bondsOutstanding/ohmSupply
 $$
 
-The debt ratio is the total of all OHM promised to bonders divided by the total supply of OHM. This allows us to measure the debt of the system.
+Le ratio d'endettement est le total de tous les OHM promis aux obligataires divisé par l'offre totale d'OHM. Cela nous permet de mesurer la dette du système.
 
 $$
 bondPayout_{reserveBond} = marketValue_{asset}\ /\ bondPrice
 $$
 
-Bond payout determines the number of OHM sold to a bonder. For [reserve bonds](https://docs.olympusdao.finance/references/glossary#reserve-bonds), the market value of the assets supplied by the bonder is used to determine the bond payout. For example, if a user supplies 1000 DAI and the bond price is 250 DAI, the user will be entitled 4 OHM.
+Le paiement de l'obligation détermine le nombre d'OHM vendus à un obligataire. Pour les [reserve bonds](https://docs.olympusdao.finance/references/glossary#reserve-bonds), la valeur marchande des actifs fournis par le bonder est utilisée pour déterminer le paiement de l'obligation. Par exemple, si un utilisateur fournit 1000 DAI et que le prix du cautionnement est de 250 DAI, l'utilisateur aura droit à 4 OHM.
 
 $$
 bondPayout_{lpBond} = marketValue_{lpToken}\ /\ bondPrice
 $$
 
-For [liquidity bonds](https://docs.olympusdao.finance/references/glossary#liquidity-bonds), the market value of the LP tokens supplied by the bonder is used to determine the bond payout. For example, if a user supplies 0.001 OHM-DAI LP token which is valued at 1000 DAI at the time of bonding, and the bond price is 250 DAI, the user will be entitled 4 OHM.
+Pour [les liquidity bonds](https://app.gitbook.com/@0xmule/s/olympus-dao/~/drafts/-MiRtBb2Fh1mGoE5J5Ud/referre-ce/lexique/@merged#liquidity-bonds), la valeur marchande des jetons LP fournis par l'émetteur est utilisée pour déterminer le paiement de l'obligation. Par exemple, si un utilisateur fournit 0,001 jeton LP OHM-DAI dont la valeur est de 1000 DAI au moment de l'obligation, et que le prix de l'obligation est de 250 DAI, l'utilisateur aura droit à 4 OHM.
 
 ## OHM Supply
 
 $$
-OHM_{supplyGrowth} = OHM_{stakers} + OHM_{bonders} + OHM_{DAO} + OHM_{pohmExercise}
+OHM_{supplyGrowth} = OHM_{stakers} + OHM_{bonders} + OHM_{DAO}
 $$
 
-OHM supply does not have a hard cap. Its supply increases when:
 
-* OHM is minted and distributed to the stakers.
-* OHM is minted for the bonder. This happens whenever someone purchases a bond.
-* OHM is minted for the DAO. This happens whenever someone purchases a bond. The DAO gets the same number of OHM as the bonder.
-* OHM is minted for the team, investors, advisors, or the DAO. This happens whenever
 
-  the aforementioned party exercises their pOHM.
+La réserve totale d'OHM n'a pas de plafond fixe. Son offre augmente quand : 
+
+* Les OHM sont mint et distribués aux stakers.
+* Les OHM sont mint pour le bonder et la DAO lorsque quelqu'un achète une obligation. La DAO reçoit le même nombre de OHM que le bonder.
 
 $$
 OHM_{stakers} = OHM_{totalSupply} * rewardRate
 $$
 
-At the end of each epoch, the treasury mints OHM at a set [reward rate](https://docs.olympusdao.finance/references/glossary#reward-rate). These OHM will be distributed to all the stakers in the protocol. You can track the latest reward rate on the [Olympus Policy dashboard](https://dune.xyz/shadow/Olympus-Policy).
+A la fin de chaque epoch, la trésorerie frappe des OHM à [reward rate](https://docs.olympusdao.finance/references/glossary#reward-rate) fixé. Ces OHM seront distribués à tous les stakers du protocole. Vous pouvez suivre le dernier taux de récompense sur le [Olympus Policy dashboard](https://dune.xyz/shadow/Olympus-Policy).
 
 $$
 OHM_{bonders} = bondPayout
 $$
 
-Whenever someone purchases a bond, a set number of OHM is minted. These OHM will not be released to the bonder all at once - they are vested to the bonder linearly over time. The bond payout uses a different formula for different types of bonds. Check the [bonding section above](equations.md#bonding) to see how it is calculated.
+Chaque fois qu'une personne achète un bond, un nombre déterminé d'OHM est frappé. Ces OHM ne seront pas remis au porteur en une seule fois - ils lui sont distribué linéairement au fil du temps. Le paiement des obligations utilise une formule différente pour les différents types d'obligations. Consultez la section [bonding ](equations.md#bonding)ci-dessus pour voir comment il est calculé.
 
 $$
 OHM_{DAO} = OHM_{bonders}
 $$
 
-The DAO receives the same amount of OHM as the bonder. This represents the DAO profit.
-
-$$
-OHM_{pohmExercise} = pOHM + DAI
-$$
-
-The individual would supply 1 pOHM along with 1 DAI to mint 1 OHM. The pOHM is subsequently burned. Read [this Medium article](https://olympusdao.medium.com/what-is-poh-16b2c38a6cd6) for more information on pOHM.
+La DAO reçoit la même quantité d'OHM que le bonder. Cela représente le bénéfice du DAO.
 
 ## Backing per OHM
 
@@ -93,23 +85,23 @@ $$
 OHM_{backing} = treasuryBalance_{stablecoin} + treasuryBalance_{otherAssets}
 $$
 
-Every OHM in circulation is backed by the Olympus treasury. The assets in the treasury can be divided into two categories: stablecoin and non-stablecoin.
+Chaque OHM en circulation est soutenu par la trésorerie d'Olympus. Les actifs de la trésorerie peuvent être divisés en deux catégories : stablecoin et non-stablecoin.
 
 $$
 treasuryBalance_{stablecoin} = RFV_{reserveBond} + RFV_{lpBond}
 $$
 
-The stablecoin balance in the treasury grows when bonds are sold. [RFV](https://docs.olympusdao.finance/references/glossary#rfv) is calculated differently for different bond types.
+Le solde en stablecoin de la trésorerie augmente lorsque les obligations sont vendues. La [RFV](https://docs.olympusdao.finance/references/glossary#rfv) est calculée différemment pour les différents types d'obligations.
 
 $$
 RFV_{reserveBond} = assetSupplied
 $$
 
-For reserve bonds such as DAI bond and FRAX bond, the RFV simply equals to the amount of the underlying asset supplied by the bonder.
+Pour les reserve bonds telles que l'obligation DAI et l'obligation FRAX, la RFV est simplement égale au montant de l'actif sous-jacent fourni par l'émetteur.
 
 $$
 RFV_{lpBond} = 2sqrt(constantProduct) * (\%\ ownership\ of\ the\ pool)
 $$
 
-For LP bonds such as OHM-DAI bond and OHM-FRAX bond, the RFV is calculated differently because the protocol needs to mark down its value. Why? The LP token pair consists of OHM, and each OHM in circulation will be backed by these LP tokens - there is a cyclical dependency. To safely guarantee all circulating OHM are backed, the protocol marks down the value of these LP tokens, hence the name _risk-free_ value \(RFV\).
+Pour les obligations LP telles que l'obligation OHM-DAI et l'obligation OHM-FRAX, la RFV est calculée différemment car le protocole doit en déprécier la valeur. Pourquoi ? La paire de jetons LP est constituée de OHM, et chaque OHM en circulation sera garantie par ces jetons LP - il existe une dépendance cyclique. Pour assurer que tous les OHM en circulation sont garanties, le protocole dévalue la valeur de ces tokens LP, d'où le nom de valeur sans risque \(RFS\).
 

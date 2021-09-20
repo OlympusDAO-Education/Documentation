@@ -1,6 +1,8 @@
 # Fuse
 
-Fuse is an isolated interest rate market by Rari Capital. Each pool in Fuse can support different types of assets and use different interest rate curves. To lend out sOHM and/or use it as a collateral, users can enter [Olympus Pool Party Fuse pool](https://app.rari.capital/fuse/pool/18). In this pool, several assets are supported:
+Fuse est un marché de taux d'intérêt de Rari Capital. Chaque pool de Fuse peut supporter différents types d'actifs et utiliser différentes courbes de taux d'intérêt. Pour prêter le sOHM et/ou l'utiliser comme garantie, les utilisateurs peuvent entrer dans le pool [Olympus Pool Party Fuse](https://app.rari.capital/fuse/pool/18).   
+  
+Dans ce pool, plusieurs actifs sont pris en charge :
 
 * sOHM
 * USDC
@@ -8,20 +10,23 @@ Fuse is an isolated interest rate market by Rari Capital. Each pool in Fuse can 
 * ETH
 * FRAX
 
-## How to Supply Asset
+## Comment déposer des actifs
 
-1. Go to [Olympus Pool Party Fuse pool](https://app.rari.capital/fuse/pool/18).
-2. On the Supply panel, select the asset you want to supply.
+1. Aller sur [Olympus Pool Party Fuse pool](https://app.rari.capital/fuse/pool/18).  
+  
+2. Dans le volet _Supply_, sélectionnez l'actif que vous souhaitez déposer.  
 
-   ![The Supply panel](../../.gitbook/assets/supply.png)
+![The Supply panel](../../.gitbook/assets/supply.png)
 
-3. Enter the amount of asset that you would like to supply. If you want to use the asset as collateral in order to borrow other assets against it, turn on the "Enable As Collateral" field.
+3. Saisissez le montant de l'actif que vous souhaitez fournir. Si vous voulez utiliser l'actif comme garantie afin d'emprunter d'autres actifs contre lui, activez le champ "_Collateral_".  
+![Enable as collateral](../../.gitbook/assets/collateral.png)
 
-   ![Enable as collateral](../../.gitbook/assets/collateral.png)
-
-4. Click "Confirm". If this is your first time supplying the asset, you must approve the contract to spend your asset.
-5. After the approval transaction is completed, you need to sign a second transaction to mint fsToken. fsToken represents your share in the pool and it allows you to redeem your supplied assets when you wish to withdraw them later.
-6. When the mint transaction is completed, your asset will be supplied to the Fuse pool. This allows you to earn interest and also borrow other assets if you have enabled the supplied asset as collateral.
-
-_Note: If you wish to borrow other assets against your collateral, there is a minimum borrow amount of 1 ETH in equivalent value. Because a small account may not be worth the gas fee to liquidate, this measure ensures that a liquidation is always profitable._
+4. Cliquez sur "_Confirm_". Si c'est la première fois que vous interagissez avec le smart contract, vous devez approuver le contrat pour dépenser votre bien.  
+  
+5. Une fois la transaction approuvée vous devez signer une deuxième transaction pour mint le fsToken. fsToken représente votre part dans la pool et vous permet de racheter vos actifs lorsque vous souhaitez les retirer ultérieurement.  
+  
+6. Une fois vos fsToken mint, votre actif sera déposé dans la pool Fuse. Cela vous permet de gagner des intérêts et également d'emprunter d'autres actifs si vous avez cochez le champ "_Collateral_".  
+  
+_Remarque : si vous souhaitez emprunter d'autres actifs contre votre garantie, il y a un montant minimum d'emprunt de 1 ETH en valeur équivalente afin de garantir qu'une liquidation est toujours rentable  
+\(frais de gaz &gt; compte à liquider\)_
 

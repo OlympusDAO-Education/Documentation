@@ -1,48 +1,46 @@
 # Borrowing
 
-You can start by referring to David’s [Medium article on how to use Abracadabra](https://davidgmi.medium.com/how-to-cast-a-magic-spell-to-your-ohm-and-3-3-strategy-using-abracadabra-money-45fc6187f281) in addition to the basic explanations below.
+Vous pouvez commencer par consulter [l'article Medium ](https://davidgmi.medium.com/how-to-cast-a-magic-spell-to-your-ohm-and-3-3-strategy-using-abracadabra-money-45fc6187f281)de David sur la façon d'utiliser Abracadabra, en plus des explications de base ci-dessous.
 
-## How to Borrow MIM
+## Comment emprunter du MIM
 
-If you have [staked OHM on Olympus](../../using-the-website/staking.md), you can borrow MIM against your sOHM.
-
-1. Connect your wallet and go to [Abracadabra.money Pool 10](https://abracadabra.money/pool/10).
-
-2. Under the "WRAP" menu, wrap the amount of sOHM against which you want to borrow to wsOHM.
+Si vous avez des OHM sur Olympus vous pouvez emprunter du MIM contre votre sOHM.  
+  
+1. Connectez votre wallet sur [Abracadabra.money Pool 10](https://abracadabra.money/pool/10).  
+  
+2. Dans le menu "WRAP", wrap le montant de sOHM avec lequel vous souhaitez emprunter, pour du wsOHM. 
 
 ![](../../.gitbook/assets/screen-shot-2021-08-29-at-4.10.42-pm%20%281%29.png)
 
-3. Go to the "BORROW" menu. Type the amount of wsOHM that you want to use as collateral and type the amount of MIM you want to borrow.
-
-4. Click "ADD COLLATERAL AND BORROW" and sign the transaction. When the transaction is processed successfully, the borrowed MIM amount will appear in your wallet.
+3. Allez dans le menu "BORROW" \(emprunter\). Saisissez le montant de wsOHM que vous voulez utiliser comme garantie puis saisissez le montant de MIM que vous voulez emprunter.   
+  
+4. Cliquez sur "ADD COLLATERAL AND BORROW" et signez la transaction. Lorsque la transaction est traitée avec succès, le montant de MIM emprunté apparaît dans votre wallet.
 
 {% hint style="info" %}
-If this is your first interaction with the App, you need to approve the Abracadabra's contract to spend your token first. However, you only need to perform this once - subsequent wrapping or borrowing process doesn't require the token approval step.
+Si c'est votre première interaction avec l'application, vous devez d'abord approuver le contrat d'Abracadabra pour dépenser vos tokens.
 {% endhint %}
 
-## **How to Leverage**
-
 {% hint style="warning" %}
-Make sure you understand how leverage works in [this article from Abracadabra](https://docs.abracadabra.money/intro/leveraged-positions).
+Assurez-vous de comprendre le fonctionnement de l'effet de levier dans cet article \(anglais\) [Abracadabra](https://docs.abracadabra.money/intro/leveraged-positions).
 {% endhint %}
 
 ![](../../.gitbook/assets/screen-shot-2021-08-29-at-4.10.54-pm%20%281%29.png)
 
-1. Click on "Change leverage" and choose a loop amount.
+1. Cliquez sur "Change leverage" et choisissez un montant de boucle.
 
-2. Depending on the loop amount \(ranges between 1 to 10\), your borrow amount, leverage, and liquidation price will be updated accordingly.
+2. En fonction du montant de la boucle \(de 1 à 10\), le montant de votre emprunt, l'effet de levier et le prix de liquidation seront mis à jour en conséquence.
 
 {% hint style="danger" %}
-Liquidation price increases with loop amount, and a higher liquidation price means you can get liquidated more easily.
+Le prix de liquidation augmente avec le montant de la boucle, et un prix de liquidation plus élevé signifie que vous pouvez être liquidé plus facilement.
 {% endhint %}
 
-3. You can adjust the "Swap Tolerance". A lower value means your transaction is more likely to fail e.g. when the exchange rate of MIM token changes during the execution of your transaction.
+3. Vous pouvez ajuster la "Swap Tolerance". Une valeur plus faible signifie que votre transaction est plus susceptible d'échouer, par exemple lorsque le taux du MIM change pendant l'exécution de votre transaction.
 
-4. To use a lower gas fee, click on "Update price". Then click "ADD COLLATERAL AND BORROW" and sign the transaction to open a leverage position.
+4. Pour utiliser un prix de gaz inférieur, cliquez sur "Update price". Cliquez ensuite sur "ADD COLLATERAL AND BORROW" et signez la transaction pour ouvrir une position à effet de levier.
 
-5. Unlike a normal borrow, you will not get any MIM tokens in your wallet from this transaction because they are swapped for more wsOHM in the background.
+5. Contrairement à un emprunt normal, vous n'obtiendrez pas de jetons MIM dans votre portefeuille à la suite de cette transaction, car ils sont échangés contre plus de wsOHM \(en arrière-plan\).
 
 {% hint style="danger" %}
-You can add more collateral before the collateral price reaches the liquidation price. When you use leverage, you will forfeit all your collateral if you get liquidated.
+Vous pouvez ajouter des garanties supplémentaires \(collateral\) avant que dépôt n'atteigne le prix de liquidation. Lorsque vous utilisez l'effet de levier, vous perdez tout vos collateral si vous êtes liquidé.
 {% endhint %}
 

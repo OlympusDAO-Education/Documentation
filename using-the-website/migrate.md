@@ -1,21 +1,25 @@
-# Migrate Staked OHM
+# Migrer ses sOHM
 
-To prepare the roll-out of [Olympus v1.1](https://olympusdao.medium.com/olympus-v1-1-a5c6a48be7d1), the staking contract has been upgraded. Users need to migrate their staked OHM from the old contract to the new one in order to keep receiving rebase rewards.
+Pour préparer le déploiement d'Olympus v1.1, le contrat de staking a été mis à jour. Les utilisateurs doivent migrer leurs OHM staked de l'ancien contrat vers le nouveau afin de continuer à recevoir les récompenses de rebase.  
 
-## How to Migrate Your Staked OHM
 
-1. Go to the [Migrate page of the OlympusDAO website](https://app.olympusdao.finance/#/stake/migrate).
-2. In **Staked \(Legacy\)** field, you can see your staked OHM balance in the old contract. Click "Unstake SOHM \(Legacy\)" to unstake all of them. If this is your first time to unstake OHM, you need to approve the contract to spend your sOHM token.
+## Comment migrer ses OHM staked
 
-   ![Unstake sOHM](../.gitbook/assets/unstake.png)
+1. Aller sur [la page de migration d'Olympus](https://app.olympusdao.finance/#/stake/migrate).  
+  
+2. Dans le champ "Staked \(Legacy\)", vous pouvez voir le solde de vos OHM staked dans l'ancien contrat. Cliquez sur "Unstake sOHM \(Legacy\)" pour tout retirer. Si c'est la première fois, vous devez approuver le contrat pour dépenser votre jeton sOHM.  
 
-3. After the unstaking transaction has completed, you are now in the second stage of the migration process: restake OHM in the new contract. **Refresh the browser** to make sure your OHM balance show up correctly on the input field.
+![Unstake sOHM](../.gitbook/assets/unstake.png)
 
-   ![Restake OHM](../.gitbook/assets/restake.png)
+3. Après avoir unstake, vous êtes maintenant dans la deuxième étape du processus de migration : restake vos OHM dans le nouveau contrat. **Rafraîchissez le navigateur** pour vous assurer que votre solde d'OHM s'affiche correctement dans le champ de saisie.  
 
-4. Approve the contract to spend your OHM token and wait for the transaction to complete.
-5. Click "Stake OHM \(New\)" to restake your OHM in the new contract and wait for the transaction to complete.
-6. Congratulations! You have now completed the migration process. The **Staked \(New\)** field should show your staked OHM balance in the new contract. If it does not show the balance correctly, refresh the browser.
+![Restake OHM](../.gitbook/assets/restake.png)
 
-   ![Migration is complete](../.gitbook/assets/complete.png)
+4. Approuvez le contrat pour dépenser votre token OHM et attendez que la transaction soit terminée.   
+  
+5.Cliquez sur "Stake OHM \(New\)" pour récupérer vos OHM dans le nouveau contrat et attendez que la transaction soit terminée.   
+  
+6. Félicitations ! Vous avez maintenant terminé le processus de migration. Le champ "**Staked \(New\)**" doit afficher le solde de votre OHM dans le nouveau contrat. Si ce n'est pas le cas, actualisez votre navigateur. 
+
+![Migration is complete](../.gitbook/assets/complete.png)
 

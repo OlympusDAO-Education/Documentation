@@ -1,10 +1,10 @@
-# Purchase A Bond \(1, 1\)
+# Acheter une obligation \(1, 1\)
 
-Bonds allow users to buy OHM from the protocol at a discount by trading it with i\) liquidity \(LP tokens\) or ii\) other assets. The former is called [liquidity bonds](https://docs.olympusdao.finance/references/glossary#liquidity-bonds) and the latter [reserve bonds](https://docs.olympusdao.finance/references/glossary#reserve-bonds).
+Les obligations permettent aux utilisateurs d'acheter des OHM du protocole à un prix réduit en les échangeant contre divers actifs, les LP token \(appelé liquidity bonds\) ou du DAI & Frax \(reserve bonds\).
 
-Bonds take roughly 15 epochs to vest, and OHM tokens are vested linearly to the user over that period. Liquidity bonds help the protocol to accumulate and lock liquidity, while reserve bonds allow the protocol to grow its treasury, and thus its RFV faster.
+Les obligations prennent environ 15 epochs pour être acquises et l'utilisateur acquiert ses $OHM de manière linéaire sur cette même période. Les obligations de liquidité aident le protocole à accumuler et à bloquer des liquidités, tandis que les obligations de réserve permettent au protocole d'accroître sa trésorerie, et donc sa [RFV](https://app.gitbook.com/@olympusdao-1/s/olympusdocs/~/drafts/-MiWjJjeTgvj-6Lg0VjZ/v/francais/basics/glossary/@drafts#rfv) plus rapidement.
 
-Olympus offers five types of bonds [on its website](https://app.olympusdao.finance/#/bonds):
+Il y a 5 type de bonds sur [Olympus](https://app.olympusdao.finance/#/bonds) :
 
 * [DAI bond](bond_dai.md)
 * [FRAX bond](bond_frax.md)
@@ -14,60 +14,53 @@ Olympus offers five types of bonds [on its website](https://app.olympusdao.finan
 
 ## Hades
 
-Hades is a feature that allows you to purchase bonds while sending the acquired OHM to another address. This is useful for additional privacy, or for purchasing multiple bonds while the current bonds are still vesting. Note that if the same account holds multiple bonds, the pending rewards from the earlier bonds have to be forfeited.
+Hades est une fonctionnalité qui vous permet d'acheter des obligations tout en envoyant les OHM acquises à une autre adresse. Ceci est utile pour plus de confidentialité ou pour acheter plusieurs obligations alors que les obligations actuelles sont encore en cours d'acquisition. Notez que si le même compte détient plusieurs obligations, les récompenses en attente des obligations précédentes doivent être abandonnées. 
 
-1. Go to [Bond page](https://app.olympusdao.finance/#/bonds) and select the bond type you want to purchase.
-2. Select the amount that you would like to bond, then click on the cogwheel icon at the top right of the page.
+1. Allez sur [Bond page](https://app.olympusdao.finance/#/bonds) et sélectionnez le type d'obligation que vous souhaitez acheter.
+2. Sélectionnez le montant que vous souhaitez acheter, puis cliquez sur l'icône en forme de roue dentée en haut à droite de la page.
 
    ![](../../.gitbook/assets/cogwheel.png)
 
-3. The Hades menu will show up. At the Recipient Address field, you can specify a different address that will receive the vested OHM. By default, it is filled with your current address.
+3. Le menu Hades s'affiche. Dans le champ Adresse du destinataire, vous pouvez indiquer une adresse différente qui recevra l'OHM acquis. Par défaut, le champ est rempli avec votre adresse actuelle.
 
    ![](../../.gitbook/assets/hades.png)
 
-4. You can also modify the Slippage field to increase or decrease the likelihood of your order getting through. A higher slippage increases that likelihood, but you may get a more undesirable fill price.
-5. Close the Hades menu by clicking the cogwheel icon again.
-6. Click "Approve" and sign the transaction.
-7. After the "Approve" transaction has been processed successfully, click "Bond" and sign the transaction. Voila, you have purchased your first bond using Hades!
+4. Vous pouvez également modifier le champ slippage pour augmenter ou diminuer la probabilité que votre ordre soit exécuté. Un slippage plus élevé augmente cette probabilité, mais vous pouvez obtenir un prix de remplissage plus indésirable. 
+5. Fermez le menu Hades en cliquant à nouveau sur l'icône en forme de roue dentée. 
+6. Cliquez sur "Approve" et signez la transaction. 
+7. Une fois que la transaction "Approve" a été traitée avec succès, cliquez sur "Bond" et signez la transaction. Voilà, vous avez acheté votre première obligation en utilisant Hades !  _NB : La transaction "Approve" n'est nécessaire que lors de première interaction avec le smart contract ; pour les suivantes, il suffit d'effectuer la transaction "Bond". Lorsque vous utilisez Hades, ne modifiez pas le montant du cautionnement après avoir fermé le menu Hades, car cela réinitialiserait l'adresse du destinataire._
 
-_Notes:_
+## **Comment racheter \(redeem\)**
 
-* _The "Approve" transaction is only needed when bonding for the first time; subsequent bonding only requires you to perform the "Bond" transaction._
-* _When using Hades, do not alter the bond amount after you have closed the Hades menu, as it will reset the recipient address._
+Allez sur [Bond page](https://app.olympusdao.finance/#/bonds) et sélectionnez le type d'obligation que vous avez acheté. Sélectionnez l'onglet "Redeem". Ensuite, cliquez sur "Claim Rewards" pour réclamer toutes vos récompenses disponibles.
 
-## **How to Redeem**
-
-Go to [Bond page](https://app.olympusdao.finance/#/bonds) and select the bond type you have purchased. Select the "Redeem" tab. Then, click "Claim Rewards" to claim all of your available rewards.
-
-## Reading the Info
+## Infos
 
 ![](../../.gitbook/assets/modal.png)
 
-**Balance** is your balance of SLP tokens. This is the asset used to create a bond.
+**Balance** est votre solde de tokens SLP. C'est l'actif utilisé pour créer une obligation.   
+  
+**Bond price** est le prix de l'OHM que vous obtenez en créant une obligation. Vous pouvez calculer le prix de l'obligation en utilisant les formules suivantes : 
 
-**Bond Price** is the price of OHM you get from bonding. You can calculate the bond price using the following formulae:
+* Obligation SLP : \(Valeur de votre token SLP / OHM que vous obtiendrez en créant des obligations\) 
+* Obligation DAI : \(Valeur de votre token DAI / MH que vous obtiendrez en cautionnant\) 
 
-* SLP Bond: \(Value of your SLP token / OHM you'll get from bonding\)
-* DAI Bond: \(Value of your DAI token / OHM you'll get from bonding\)
+**Market Price** est le prix du marché des OHM.   
+  
+**You Will Get** indique combien de MHO vous obtiendrez en cautionnant. Le ratio d'endettement mesure le montant total de MHO créé à partir des obligations qui doivent encore être payées par le protocole. Le ratio d'endettement est calculé différemment pour le cautionnement SLP et le cautionnement DAI :
 
-**Market Price** is the market price of OHM.
+* Obligation SLP : \(MHO créé à partir des obligations non remboursées / approvisionnement total en MHO\) 
+* Obligation DAI : \(MRO créé à partir d'obligations non remboursées / MRO en circulation\). 
 
-**You Will Get** tells you how many OHM you will get from bonding.
+**Vesting term** mesure la période nécessaire au remboursement intégral d'une obligation. Ce nombre est exprimé en blocs d'Ethereum. 33110 blocs correspondent à environ 5 jours ou 15 époques. 
 
-**Debt Ratio** measures the total amount of OHM created from bonds that have yet to be paid out by the protocol. The debt ratio is calculated differently for SLP bond and DAI bond:
-
-* SLP Bond: \(OHM created from unredeemed bonds / OHM total supply\)
-* DAI Bond: \(OHM created from unredeemed bonds / OHM circulating supply\)
-
-**Vesting Term** measures the period a bond takes to fully redeem. This number is in Ethereum blocks. 33110 blocks is approximately 5 days or 15 epochs.
-
-**Discount** is the difference between the bond price and the market price. In the screenshot above, bonding would give you a 10.63% discount versus buying the same amount of OHM from the market.
+**Discount** est la différence entre le prix de l'obligation et le prix du marché. Dans la capture d'écran ci-dessus, l'obligation vous donnerait un rabais de 10,63% par rapport à l'achat de la même quantité d'OHM sur le marché.
 
 ![](../../.gitbook/assets/modal_redeem.png)
 
-**Pending Rewards** is the amount of OHM you are entitled to receive from bonding.
+L'OHM que vous êtes en droit de recevoir par obligation.
 
-**Claimable Rewards** is the amount of OHM that you can claim now. This amount keeps increasing as OHM is vested to you over the bonding period.
+**Claimable Rewards** sont le montant des OHM que vous pouvez réclamer maintenant. Ce montant augmente au fur et à mesure que les OHM vous sont acquis au cours de la période d'obligation.
 
-**Full Bond Maturation** refers to the Ethereum block when the bond is fully redeemable.
+**Full Bond Maturation** fait référence au bloc d'Ethereum lorsque l'obligation est entièrement remboursable.
 

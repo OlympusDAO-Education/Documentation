@@ -2,7 +2,7 @@
 
 ## DAI Bond
 
-All bond contracts are more or less the same, with the one exception of the assets or LP tokens they manage. The bond contracts handle all deposits and redemptions. Here parameters for monetary policy are configured. Such parameters are for instance the [BCV](https://docs.olympusdao.finance/references/glossary#bcv) and the max individual payout. Below are listed DAI bond contracts by version, where the latest version represents the currently active contract.
+Tous les contrats obligataires sont plus ou moins les mêmes, à l'exception des actifs ou des jetons de LP qu'ils gèrent. Les contrats obligataires gèrent tous les dépôts et les rachats. Les paramètres de la politique monétaire sont configurés ici. Ces paramètres sont par exemple la [BCV](https://app.gitbook.com/@olympusdao-1/s/olympusdocs/~/drafts/-MiWjJjeTgvj-6Lg0VjZ/v/francais/basics/glossary/@drafts#bcv) et le paiement individuel maximum. Les contrats obligataires DAI sont listés ci-dessous par version, la dernière version représentant le contrat actuellement actif.
 
 * V1 [0xa64E...2A3c](https://etherscan.io/address/0xa64ED1b66Cb2838Ef2A198D8345c0ce6967A2A3c)
 * V2 [0xd030...f045](https://etherscan.io/address/0xd03056323b7a63e2095ae97fa1ad92e4820ff045)
@@ -26,14 +26,14 @@ All bond contracts are more or less the same, with the one exception of the asse
 
 ## ETH Bond
 
-Since ETH is not an ERC-20 token itself, our ETH bonds utilize [wETH](https://weth.io/). All things being equal to our other bond types, the only exception for ETH bonds is that we do not mint OHM against wETH taken in to begin with. Below are listed ETH bond contracts by version, where the latest version represents the currently active contract.
+Puisque ETH n'est pas un jeton ERC-20, nos obligations ETH utilisent wETH. Toutes choses étant égales à nos autres types d'obligations, la seule exception pour les obligations ETH est qu'il n'y pas de mint OHM contre le wETH pris au départ. Vous trouverez ci-dessous la liste des contrats d'obligations ETH par version, où la dernière version représente le contrat actuellement actif.
 
 * V1 [0x7464...d90d](https://etherscan.io/address/0x7464a65aa3fc15a625e2adfb8b340277d804d90d)
 * V2 [0xE629...6F1c](https://etherscan.io/address/0xE6295201CD1ff13CeD5f063a5421c39A1D236F1c)
 
 ## Redeem Helper
 
-The redeem helper contract is configured with all active bond contract addresses. When calling `redeemAll` all claimable bond rewards are redeemed for the given recipient. Below are listed redeem helper contracts by version, where the latest version represents the currently active contract.
+Le contrat d'aide au rachat est configuré avec toutes les adresses de contrats d'obligations actives. Lors de l'appel de`redeemAll,` toutes les récompenses en obligations pouvant être réclamées sont rachetées pour le bénéficiaire. Vous trouverez ci-dessous une liste des contrats d'aide au rachat par version, la dernière version représentant le contrat actuellement actif.
 
 * V1 [0xE1e8...819E](https://etherscan.io/address/0xE1e83825613DE12E8F0502Da939523558f0B819E)
 

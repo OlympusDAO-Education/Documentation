@@ -1,8 +1,9 @@
-# Translations
+# Traduction
 
 Chinese-中文: [https://whosurdaddy.gitbook.io/olympus-ch/](https://whosurdaddy.gitbook.io/olympus-ch/)  
 Español: [https://ohmapollo.gitbook.io/olympus-sp/](https://ohmapollo.gitbook.io/olympus-sp/)  
-German: [https://ohmies33.gitbook.io/olympus-de/](https://ohmies33.gitbook.io/olympus-de/)
+German: [https://ohmies33.gitbook.io/olympus-de/](https://ohmies33.gitbook.io/olympus-de/)  
+Français: [https://0xmule.gitbook.io/olympus-fr/](https://0xmule.gitbook.io/olympus-fr/)
 
 
 

@@ -4,19 +4,17 @@ Olympus features policy constants that allow us to optimize the system.
 
 ## Bonds
 
-The **BCV** allows us to scale the rate at which bond premiums increase. A higher BCV means a lower discount for bonders and more protocol profit. A lower BCV means a higher discount for bonders and less protocol profit.
-
-The **vesting term** determines how long it takes for bonds to become fully redeemable. A longer term means lower inflation and lower bond demand.
+La **BCV** nous permet d'échelonner le taux d'augmentation des primes des obligations. Une BCV plus élevée signifie un rabais plus faible pour les cautions et plus de profit pour le protocole. Une **BCV** plus faible signifie un rabais plus élevé pour les obligataires et moins de profit protocolaire. Le délai d'acquisition détermine combien de temps il faut pour que les obligations deviennent entièrement remboursables. Un terme plus long signifie une inflation plus faible et une demande d'obligations plus faible.
 
 ## Sales
 
-The **DCV** allows us to scale protocol buy pressure up or down. A higher DCV means more buy pressure and higher deflation. A lower DCV means less buy pressure and a weaker floor.
+Le DCV nous permet d'augmenter ou de diminuer la pression d'achat du protocole. Un DCV plus élevé signifie une pression d'achat plus forte et une déflation plus importante. Un DCV plus faible signifie moins de pression d'achat et un plancher plus faible.
 
 ## Treasury
 
-Profit Allocations are the only treasury variable. This allows us to choose who receives profits from the protocol.
+Les allocations de bénéfices sont la seule variable de trésorerie. Cela nous permet de choisir qui reçoit les bénéfices du protocole.
 
 ## Staking
 
-There are no variables in the staking contract. OHM and sOHM are always redeemable 1:1, and profits are always distributed equally through rebase.
+Il n'y a pas de variable dans le contrat de staking. Les OHM et sOHM sont toujours remboursables 1:1, et les profits sont toujours distribués de manière égale via le rebasement.
 

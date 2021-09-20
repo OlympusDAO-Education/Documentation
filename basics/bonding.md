@@ -1,10 +1,10 @@
 # Bonding
 
-## What is bonding?
+## Qu'est ce que le bonding ? \(obligation\)
 
-**Bonding is the secondary value accrual strategy of Olympus.** Bonds are a cross between a fixed income product, a futures contract, and an option. The protocol quotes the bonder with terms for a trade at a future date. These terms include a predefined amount of OHM the bonder will receive and the time when vesting is complete. The bond becomes redeemable as it vests. I.e. in a 5-day term, after 2 days into the term 40% of the rewards can be claimed.
-
-**Bonding is an active, short-term strategy.** The price discovery mechanism of the secondary bond market renders bond discounts more or less unpredictable. Therefore bonding is considered a more active investment strategy that has to be monitored constantly in order to be more profitable as compared to staking.
-
-**Bonding allows Olympus to accumulate its own liquidity.** We call our own liquidity [POL](../references/glossary.md#pol). More POL ensures there is always locked exit liquidity in our trading pools to facilitate market operations and protect token holders. Since Olympus becomes its own market, on top of additional certainty for OHM investors, the protocol accrues more and more revenue from LP rewards bolstering our treasury.
+**Le bonding est la deuxième stratégie d'accumulation de valeur d'Olympus.** Les obligations sont un croisement entre un produit à revenu fixe, un contrat à terme et une option. Le protocole propose à l'émetteur des conditions pour une transaction à une date ultérieure. Ces conditions comprennent un montant prédéfini d'OHM que le bonder recevra et ainsi que le terme. L'obligation devient remboursable au fur et à mesure qu'elle est acquise. Par exemple, dans le cas d'une échéance de 5 jours, après 2 jours d'échéance, 40% des récompenses peuvent être réclamées.   
+  
+**Le bonding est une stratégie active à court terme.** Le mécanisme de découverte des prix du marché secondaire des obligations rend les rabais sur les obligations plus ou moins imprévisibles. C'est pourquoi le bonding est considéré comme une stratégie d'investissement plus active, qui doit être surveillée en permanence afin d'être plus rentable que le staking.   
+  
+**Le bonding permet à Olympus d'accumuler ses propres liquidités**. Nous appelons les liquidités appartenant au protocole [POL](https://app.gitbook.com/@olympusdao-1/s/olympusdocs/~/drafts/-MiWjJjeTgvj-6Lg0VjZ/v/francais/basics/glossary/@drafts#pol). Plus de POL garantit qu'il y a toujours une liquidité de sortie bloquée dans nos pools pour faciliter les opérations du marché et protéger les détenteurs de OHM. Puisque Olympus devient son propre marché, en plus de la certitude supplémentaire pour les investisseurs de l'OHM, le protocole accumule de plus en plus de revenus provenant des récompenses des LP, ce qui renforce notre trésorerie.
 

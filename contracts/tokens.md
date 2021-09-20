@@ -2,26 +2,26 @@
 
 ## OHM
 
-If you want to buy OHM on Sushiswap or any other DEX please make sure the token address of the token you purchase matches the one shown above. Never buy any OHM token which address you cannot verify yourself. Further, knowing the OHM token address you can see the list of holders and available exchanges providing liquidity for OHM on Etherscan. Below are listed OHM contracts by version, where the latest version represents the currently active contract.
+Si vous voulez acheter des jetons OHM sur [Paraswap](https://paraswap.io/#/?network=ethereum) ou tout autre aggrégateur de DEX, assurez-vous que l'adresse du token que vous achetez correspond à celle indiquée ci-dessus. N'achetez jamais un token OHM **dont vous ne pouvez pas vérifier l'adresse vous-même**. De plus, en connaissant l'adresse du token OHM, vous pouvez voir la liste des détenteurs et des échanges disponibles fournissant des liquidités pour OHM sur Etherscan. Vous trouverez ci-dessous la liste des contrats OHM par version, la dernière version représentant le contrat actuellement actif.
 
-* V1 [0x3835...a899](https://etherscan.io/address/0x383518188c0c6d7730d91b2c03a03c837814a899)
+* V1 [0x3835...a899](https://etherscan.io/address/0x383518188c0c6d7730d91b2c03a03c837814a899)​
 
-## sOHM
+## sOHM <a id="sohm"></a>
 
-You receive sOHM when you stake OHM at a 1:1 ratio. Adding this address to your wallet allows you to track your sOHM balance which increases with every rebase. Below are listed sOHM contracts by version, where the latest version represents the currently active contract.
+Vous recevez des sOHM lorsque vous mettez en jeu des OHM dans un rapport de 1:1. L'ajout de cette adresse à votre wallet vous permet de suivre votre solde de sOHM qui augmente à chaque rebase. Vous trouverez ci-dessous la liste des contrats sOHM par version, la dernière version représentant le contrat actuellement actif.
 
-* V1 [0x3193...Fbbe](https://etherscan.io/address/0x31932E6e45012476ba3A3A4953cbA62AeE77Fbbe)
-* V2 [0x04f2...111f](https://etherscan.io/address/0x04f2694c8fcee23e8fd0dfea1d4f5bb8c352111f)
+* V1 [0x3193...Fbbe](https://etherscan.io/address/0x31932E6e45012476ba3A3A4953cbA62AeE77Fbbe)​
+* V2 [0x04f2...111f](https://etherscan.io/address/0x04f2694c8fcee23e8fd0dfea1d4f5bb8c352111f)​
 
-## aOHM
+## aOHM <a id="aohm"></a>
 
-When OlympusDAO first launched, alphaOHM \(aOHM\) was used as a pre-allocation token which allowed the early participants to lay claim to OHM. Moving forward aOHM will serve as the in-game currency of [Alpha Omega](https://medium.com/@alpha_omega/alpha-omega-a-tale-of-two-cities-80a94966376b), a community-led social game that runs on the blockchain. Other than that aOHM is not relevant to OHM or the operation of OlympusDAO. Below are listed aOHM contracts by version, where the latest version represents the currently active contract.
+Lors du lancement d'OlympusDAO, alphaOHM \(aOHM\) a été utilisé comme jeton de pré-affectation, permettant aux premiers participants de revendiquer des OHM. À l'avenir, l'aOHM servira de monnaie de jeu pour [Alpha Omega](https://medium.com/@alpha_omega/alpha-omega-a-tale-of-two-cities-80a94966376b), un jeu social communautaire fonctionnant sur la blockchain. En dehors de cela, la aOHM n'est pas pertinente pour la OHM ou le fonctionnement d'OlympusDAO. Vous trouverez ci-dessous la liste des contrats du aOHM par version, la dernière version représentant le contrat actuellement actif.
 
-* V1 [0x24ec...792e](https://etherscan.io/address/0x24ecfd535675f36ba1ab9c5d39b50dc097b0792e)
+* V1 [0x24ec...792e](https://etherscan.io/address/0x24ecfd535675f36ba1ab9c5d39b50dc097b0792e)​
 
-## pOHM
+## pOHM <a id="pohm"></a>
 
-pOHM, previously known as pOLY, is the presale token of Olympus. It was used to raise funds from private investors to bootstrap Olympus. You can read more about pOHM in this [Medium article](https://olympusdao.medium.com/what-is-poh-16b2c38a6cd6). Below are listed pOHM contracts by version, where the latest version represents the currently active contract.
+pOHM, précédemment connu sous le nom de pOLY, est le jeton de prévente d'Olympus. Il a été utilisé pour lever des fonds auprès d'investisseurs privés afin de lancer Olympus. Vous pouvez en savoir plus sur pOHM dans cet article de [Medium](https://olympusdao.medium.com/what-is-poh-16b2c38a6cd6). Vous trouverez ci-dessous la liste des contrats pOHM par version, la dernière version représentant le contrat actuellement actif. 
 
 * V1 [0x3699...c800](https://etherscan.io/token/0x36994486c6e97c170065899d8659a28d7371c800)
 

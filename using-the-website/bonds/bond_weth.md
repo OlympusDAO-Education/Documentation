@@ -1,22 +1,26 @@
+---
+description: >-
+  L'obligation wETH a été introduite le 6 août 2021. Elle vous permet d'échanger
+  des wETH contre des OHM à prix réduit sur Olympus.
+---
+
 # wETH Bond
 
-wETH bond was introduced on 6 August 2021. It allows you to trade [wETH](https://weth.io/) in exchange for discounted OHM on Olympus.
+## Comment se procurer des obligations ? \(Bond\)
 
-## How to Bond
+1. Assurez-vous que vous avez des wETH dans votre wallet. Par exemple, vous pouvez aller sur [Paraswap](https://paraswap.io/#/?network=ethereum) pour échanger des DAI si vous n'en avez pas.
 
-1. Make sure you have wETH in your wallet. For example, you can [go to Sushiswap to swap for wETH](https://app.sushi.com/swap?inputCurrency=&outputCurrency=0xC02aaA39b223FE8D0A0e5C4F27eAD9083C756Cc2) if you don't have any.
-
-2. Head to the [wETH Bond page of the Olympus website](https://app.olympusdao.finance/#/bonds/eth). There are two tabs: "Bond" and "Redeem". Make sure "Bond" is selected.
-
-3. Type in the amount of wETH you would like to bond. Make sure you are not trying to bond more than is allowed. The **Max You Can Buy** field below shows the maximum amount of OHM you can purchase.
+2. Allez sur [la page des wETH Bond du site Olympus.](https://app.olympusdao.finance/#/bonds/eth) Il y a deux onglets : "Bond" et "Redeem". Assurez-vous que "Bond" est sélectionné.  
+  
+3. Saisissez la quantité de wETH que vous souhaitez céder. Assurez-vous que vous n'essayez pas d'acheter plus que ce qui est autorisé. Le champ "Max You Can Buy" ci-dessous indique la quantité maximale d'OHM que vous pouvez acheter. 
 
 ![You can only purchase up to a certain amount of OHM](../../.gitbook/assets/max_you_can_buy.png)
 
-4. If this is your first purchase, you need to approve the Olympus contract to spend your wETH. Click "Approve" and sign the transaction.
+4. Si c'est votre premier achat, vous devez approuver le contrat Olympus pour dépenser votre wETH. Cliquez sur "Approve et signez la transaction.
 
-5. After the "Approve" transaction has been processed successfully, refresh the page. The "Approve" button should be changed to display "Bond" by now.
+5. Une fois que la transaction "Approve" a été traitée avec succès, rafraîchissez la page. Le bouton "Approve" devrait maintenant afficher "Bond"
 
 ![Refresh the page after the token approval process](../../.gitbook/assets/bond_refresh.png)
 
-6. Click "Bond" and sign the transaction. Voila, you have purchased your first wETH bond!
+6. Cliquez sur "Bond" et signez la transaction. Voilà, vous avez acheté votre première obligation wETH !
 

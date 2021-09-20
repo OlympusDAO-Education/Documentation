@@ -1,10 +1,10 @@
 # Architecture
 
-## Sales
+## Sales \(ventes\)
 
 ![](../.gitbook/assets/sales.png)
 
-## Bonds
+## Bonds \(obligations\)
 
 ![](../.gitbook/assets/bonds.png)
 

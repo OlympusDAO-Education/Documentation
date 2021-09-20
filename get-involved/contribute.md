@@ -1,39 +1,42 @@
-# Contribute
+# Contribuer
 
-OlympusDAO operates autonomously, so everyone is welcome to contribute to this GitBook guide. This page outlines the contribution workflow.
+OlympusDAO fonctionne de manière autonome, donc tout le monde est le bienvenu pour contribuer à ce guide GitBook. Cette page décrit le processus de contribution.
 
-## Join Our Community
+## Rejoignez la communauté
 
-Join our [DAO Discord](https://discord.gg/42xFV68uEf) and make sure you fill up the onboarding form there. Signal your interest in content creation and you will be assigned a corresponding role. After that, you can collaborate with other members in the Content team to further improve this document.
+Rejoignez [DAO Discord](https://discord.gg/42xFV68uEf) et veillez à y remplir le formulaire d'accueil. Signalez votre intérêt pour la création de contenu et un rôle correspondant vous sera attribué. Ensuite, vous pourrez collaborer avec d'autres membres de l'équipe "Contenu" pour améliorer encore ce document.   
 
-_Note: The onboarding process might be subject to change in the future. Worry not, just ask around in the discord and our helpful community will guide you through the onboarding process._
+
+{% hint style="info" %}
+Le processus d'intégration peut être modifié à l'avenir. Ne vous inquiétez pas, il suffit de demander dans le discord et notre communauté serviable vous guidera.
+{% endhint %}
 
 ## Contributor Workflow
 
-Prerequisite: Be part of the education team in [our organization](https://github.com/OlympusDAO-Education). Not sure how? Join our community in [DAO Discord](https://discord.gg/42xFV68uEf) and find out more.
+Pré-requis : Faites partie de l'équipe chargée de l'éducation dans notre[ organisation](https://github.com/OlympusDAO-Education). Vous ne savez pas comment faire ? Rejoignez notre communauté sur DAO Discord [DAO Discord](https://discord.gg/42xFV68uEf) et découvrez-en plus.
 
-Every contributor should follow this workflow when updating the documentation. At a high level, the workflow is as follows:
+Chaque contributeur doit suivre ce flux de travail lors de la mise à jour de la documentation. De manière générale, le flux de travail est le suivant :
 
-1. Clone the GitHub repository onto your local machine.
-2. Create a local development branch.
-3. Push your branch to the repository.
-4. Perform your work in the local branch.
-5. Commit your changes and push them to the remote branch regularly as your work progresses.
-6. When the development is complete, submit a pull request on Github.
+1. Clonez le dépôt GitHub sur votre machine locale.
+2. Créez une "branch" de développement locale.
+3. Ajouter la au répertoire
+4. Réalisez votre travail en local.
+5. Validez vos changements et ajoutez les à votre "remote branch" au fur et à mesure de l'avancement de votre travail.
+6. Lorsque le développement est terminé, soumettez une demande de retrait sur Github.
 
-If you are not familiar with GitHub, check out [this guide from GitHub](https://guides.github.com/activities/hello-world/).
+Si vous n'êtes pas familier avec GitHub, consultez ce guide de [GitHub](https://guides.github.com/activities/hello-world/) \(anglais\)
 
 ### First-Time Setup
 
-1. Clone [OlympusDAO-Education/Documentation](https://github.com/OlympusDAO-Education/Documentation) GitHub repository.
+1. Clonez le répertoire GitHub [OlympusDAO-Education/Documentation](https://github.com/OlympusDAO-Education/Documentation).
 
    `git clone git@github.com:OlympusDAO-Education/Documentation.git`
 
-2. Go to the project directory where you have cloned the repository and issue this command:
+2. Allez dans le répertoire du projet où vous avez cloné le référentiel et lancez cette commande :
 
    `git status`
 
-3. You should see the following output in your terminal:
+3. Vous devriez voir la sortie suivante dans votre terminal :
 
    > On branch master
    >
@@ -41,38 +44,38 @@ If you are not familiar with GitHub, check out [this guide from GitHub](https://
    >
    > nothing to commit, working tree clean
 
-4. You have now successfully cloned the GitHub repository and you can start making changes locally.
+4. Vous avez maintenant cloné avec succès le répertoire GitHub et vous pouvez commencer à apporter des modifications localement.
 
-### Create a Branch
+### Créer une branche \("branch"\)
 
-After you have cloned the repository, you can start making changes to the documentation. All changes should be done in a separate branch before they can be merged to the master branch \(i.e. become official\).
+Après avoir cloné le répertoire, vous pouvez commencer à apporter des modifications à la documentation. Toutes les modifications doivent être effectuées dans une branche séparée avant de pouvoir être fusionnées avec la branche principale \(c'est-à-dire devenir officielles\).
 
-1. Go to the `master` branch and synchronize it with the repository.
+1. Allez à la `master` branch et synchronisez avec le répertoire.
 
    ```text
     git checkout master
     git pull
    ```
 
-2. Create a branch to work on your changes. We name it `foo` in this example.
+2. Créez une "branch" pour travailler sur vos modifications. Nous la nommons foo dans cet exemple.
 
    ```text
     git checkout -b foo
    ```
 
-3. Push your branch to the repository so that other members can collaborate with you on the same branch.
+3. Transférer votre branche dans le répertoire afin que les autres membres puissent collaborer avec vous sur la même branche.
 
    ```text
     git push -u origin HEAD
    ```
 
-4. To verify you have set up your branch correctly, check your working tree status:
+4. Pour vérifier que vous avez configuré votre branche correctement, vérifiez le statut de votre arbre de travail :
 
    ```text
     git status
    ```
 
-5. The expected output should be:
+5. Le résultat attendu devrait être :
 
    > On branch foo
    >
@@ -80,25 +83,25 @@ After you have cloned the repository, you can start making changes to the docume
    >
    > nothing to commit, working tree clean
 
-6. You can start editing files now and we will show you how to commit your changes in the next section.
+6. Vous pouvez commencer à modifier les fichiers maintenant et nous vous montrerons comment valider vos modifications dans la section suivante.
 
-### Commit Changes
+### Livrer les changements
 
-Everytime you make a change in the documentation, you can commit the change so that it is recorded by Git. You should also push the change to the repository so that other members can see what you have changed, and most importantly, the repository serves as a backup for your work.
+Chaque fois que vous apportez une modification à la documentation, vous pouvez valider la modification afin qu'elle soit enregistrée par Git. Vous devez également transférer la modification vers le dépôt afin que les autres membres puissent voir ce que vous avez modifié et, surtout, le répertoire sert de sauvegarde pour votre travail.
 
-1. Say you have made some changes to the file `bar` and you want to commit it. First you need to add it to the staging area:
+1. Disons que vous avez apporté des modifications au fichier `bar` et vous voulez le valider. D'abord, vous devez l'ajouter à la zone de transit :
 
    ```text
     git add bar
    ```
 
-2. Check your working tree status:
+2. Vérifiez le statut de votre arbre de travail :
 
    ```text
     git status
    ```
 
-3. The expected output should be:
+3. Le résultat attendu devrait être :
 
    > On branch foo
    >
@@ -110,13 +113,13 @@ Everytime you make a change in the documentation, you can commit the change so t
    >
    > modified: bar
 
-4. Once the modified file is in the staging area, you can commit it:
+4. Une fois que le fichier modifié est dans "staging area", vous pouvez l'ajouter :
 
    ```text
     git commit
    ```
 
-5. This should open your default editor. Write a message that briefly explains your changes and consummate the commit by saving and exiting the file.
+5. Cela devrait ouvrir votre éditeur par défaut. Écrivez un message qui explique brièvement vos changements et terminez la validation en enregistrant et en quittant le fichier.
 
    ![Your default editor will be opened when you make a commit](../.gitbook/assets/commit_message.png)
 
@@ -126,38 +129,41 @@ Everytime you make a change in the documentation, you can commit the change so t
     git push
    ```
 
-### Make a Pull Request
+### Emettre une requête d'ajout
 
-When you are satisfied with your modification, you can submit a pull request in order to make it official.
+Lorsque vous êtes satisfait de votre modification, vous pouvez soumettre une demande de retrait afin de la rendre officielle.
 
-1. Go to [OlympusDAO documentation GitHub repository](https://github.com/OlympusDAO-Education/Documentation).
-2. Select the branch that you are working on.
+1. Aller sur [OlympusDAO documentation GitHub repository](https://github.com/OlympusDAO-Education/Documentation).
+2. Sélectionnez la branche sur laquelle vous travaillez.
 
    ![Select your branch](../.gitbook/assets/select_branch.png)
 
-3. After selecting your branch, click on the "Pull request" button to make a pull request.
+3. Après avoir sélectionné votre branche, cliquez sur le bouton "Pull request" pour faire une demande de modification.
 
    ![Make a pull request](../.gitbook/assets/pull_request.png)
 
-4. On the pull request page, briefly describe what your modification is about.
-5. Add Education Team as reviewer so that all members of the Education Team will be notified about this pull request.
-6. Lastly, assign this pull request to yourself and submit it.
+4. Sur la page "pull request", décrivez brièvement l'objet de votre modification.
+5. Ajouter l'Équipe Éducation en tant que réviseur afin que tous les membres de l'équipe Éducation soient informés de cette demande de modification.
+6. Enfin, attribuez cette demande de modification à vous-même et soumettez-la.
 
    ![Submit the pull request](../.gitbook/assets/submit_pull_request.png)
 
-### Merge Your Changes
+### Merge vos changements
 
-After your pull request is approved by the Education Team, you can merge your changes to the master branch. This will make your modification official.
+Une fois que votre demande de modification a été approuvée par l'équipe chargée de l'éducation, vous pouvez fusionner vos modifications avec la branche master. Cela rendra votre modification officielle.
 
-1. Go to the [Pull Request section](https://github.com/OlympusDAO-Education/Documentation/pulls) and select your pull request.
+1. Allez sur [Pull Request section](https://github.com/OlympusDAO-Education/Documentation/pulls) et sélectionnez votre demande.  
 
-   ![Select your pull request](../.gitbook/assets/open_pull_request.png)
 
-2. Click "Squash and merge" after your pull request has been approved by the Education Team.
+   ![Select your pull request](../.gitbook/assets/open_pull_request.png)  
 
-   ![Merge your changes](../.gitbook/assets/merge_changes.png)
+2. Cliquez sur "Squash and merge" une fois que votre demande à été approuvé par l'Education Team.  
 
-3. Click "Confirm squash and merge" to finally merge your changes into the master branch.
+
+   ![Merge your changes](../.gitbook/assets/merge_changes.png)  
+
+3. Cliquez "Confirm squash and merge" pour finalisez la fusion avec la branche maître.  
+
 
    ![Finalize the process](../.gitbook/assets/finalize.png)
 
