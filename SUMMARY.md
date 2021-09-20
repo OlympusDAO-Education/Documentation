@@ -23,7 +23,7 @@
 
 ## Using Etherscan
 
-* [Stake Your OHM \(3, 3\)](using-etherscan/staking.md)
+* [Stake Dein OHM \(3, 3\)](using-etherscan/staking.md)
 * [Unstake sOHM](using-etherscan/unstaking.md)
 
 ## Partnership

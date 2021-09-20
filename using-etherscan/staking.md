@@ -1,6 +1,6 @@
-# Stake Your OHM \(3, 3\)
+# Stake Dein OHM \(3, 3\)
 
-Sometimes, the Olympus website might not be accessible due to [hosting issues](https://twitter.com/FleekHQ/status/1416505712222609411). Fear not, you can still interact with the Olympus contracts to perform certain actions such as staking. In this guide, we will show you how to stake OHM tokens via [Etherscan](https://etherscan.io/).
+Manchmal kann die Olympus-Website aufgrund von [Hosting-Problemen](https://twitter.com/FleekHQ/status/1416505712222609411) nicht zugänglich sein. Keine Sorge, Sie können trotzdem mit den Olympus-Verträgen interagieren, um bestimmte Aktionen durchzuführen, wie z. B. Staken. In dieser Anleitung zeigen wir Ihnen, wie Sie OHM-Token über [Etherscan](https://etherscan.io) einsetzen können.
 
 If you have never staked OHM before, there are two steps involved:
 
