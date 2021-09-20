@@ -2,12 +2,12 @@
 
 Manchmal kann die Olympus-Website aufgrund von [Hosting-Problemen](https://twitter.com/FleekHQ/status/1416505712222609411) nicht zugänglich sein. Keine Sorge, Sie können trotzdem mit den Olympus-Verträgen interagieren, um bestimmte Aktionen durchzuführen, wie z. B. Staken. In dieser Anleitung zeigen wir Ihnen, wie Sie OHM-Token über [Etherscan](https://etherscan.io) einsetzen können.
 
-If you have never staked OHM before, there are two steps involved:
+Wenn Sie noch nie einen OHM gestaked haben, sind zwei Schritte erforderlich:
 
-1. Approve the staking contract to spend your OHM tokens.
-2. Stake your OHM tokens.
+1. Genehmigen Sie den Staking-Contract, um Ihre OHM-Token auszugeben.
+2. Staken Sie Ihre OHM-Tokens.
 
-If you have staked OHM before, there is only one step to perform: Stake your OHM tokens.
+Wenn Sie schon einmal OHM gestaked haben, müssen Sie nur einen Schritt ausführen: Staken Sie Ihre OHM-Tokens.
 
 ## How to Approve OHM Spending via Etherscan
 
