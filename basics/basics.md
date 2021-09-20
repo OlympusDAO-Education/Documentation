@@ -119,7 +119,7 @@ _**배분되는 OHM = 총 공급 OHM \* 보상비율**_
 
 명확한 해답을 내리기는 어렵지만, 이는 금고의 퍼포먼스에 따라 결정될 것입니다. 예를 들면 금고가 각 OHM을 100 DAI로 지지할 수 있다면, OHM의 내재가치는 100 DAI가 될 것입니다. 이는 DAO에 의해서도 정해질 수 있는 부분입니다. 이를테면 DAO가 [OHM의 바닥 가격을 상승시키기로 결정](https://forum.olympusdao.finance/d/31-use-price-floor-as-tool-for-monetary-policy)하면, 그에 따라 내재 가치가 정해질 수도 있습니다.
 
-## 프로토콜 어떻게 높은 APY를 유지하나요? <a id="how-does-the-protocol-manage-to-maintain-the-high-staking-apy"></a>
+## 프로토콜이 어떻게 높은 APY를 유지하나요? <a id="how-does-the-protocol-manage-to-maintain-the-high-staking-apy"></a>
 
 프로토콜이 100,000%의 APY를 목표로 한다고 가정해 봅니다. 이는 리베이스 비율이 대략 0.6328% 정도가 되거나 일일 증가율이 대략 2%가 되는 것을 의미합니다. 리베이스 비율을 사용해 [어떻게 APY를 계산하는지](https://app.gitbook.com/@olympusdao-1/s/olympusdocs/v/korean/basics/basics#kor-apy-calculation)에 대해서 위의 계산법을 참고해 보세요.
 
