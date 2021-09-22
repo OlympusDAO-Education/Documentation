@@ -8,7 +8,7 @@ description: >-
 
 ## Comment se procurer des obligations ? \(Bond\)
 
-1. Assurez-vous que vous avez des FRAX dans votre wallet. Par exemple, vous pouvez aller sur [Paraswap](https://paraswap.io/#/?network=ethereum) pour échanger des DAI si vous n'en avez pas.
+1. Assurez-vous que vous avez des FRAX dans votre wallet. Par exemple, vous pouvez aller sur [Paraswap](https://paraswap.io/#/?network=ethereum) \(aggrégateur de DEX\) pour échanger des DAI si vous n'en avez pas.
 
 2. Allez sur [la page des FRAX Bond du site Olympus.](https://app.olympusdao.finance/#/bonds/frax) Il y a deux onglets : "Bond" et "Redeem". Assurez-vous que "Bond" est sélectionné.  
   

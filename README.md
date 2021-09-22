@@ -1,8 +1,8 @@
 # Introduction
 
-## Olympus, de quoi s'agit-il ? <a id="what-is-olympus"></a>
+## Présentation <a id="what-is-olympus"></a>
 
-Olympus est un protocole de réserve de monnaie décentralisée avec le OHM pour token de gouvernance. Chaque OHM est soutenu par un panier d'actifs \(DAI, LP DAI/OHM, FRAX, LP FRAX/OHM & wETH\) dans la trésorerie d'Olympus, ce qui lui donne une valeur intrinsèque en dessous de laquelle il ne peut pas descendre. Olympus introduit également une dynamique économique et de théorie des jeux unique sur le marché grâce au staking et aux obligations \(bonds\). Vous en apprendrez plus sur la "game theorie" dans [cet article](https://olympusdao.medium.com/the-game-theory-of-olympus-e4c5f19a77df).
+Olympus est un protocole de réserve de monnaie décentralisée gouverné par le token OHM. Chaque OHM est soutenu par un panier d'actifs \(DAI, LP DAI/OHM, FRAX, LP FRAX/OHM & wETH\) dans la trésorerie d'Olympus, ce qui lui donne une valeur intrinsèque en dessous de laquelle il ne peut pas descendre. Olympus introduit également une dynamique économique et de théorie des jeux unique sur le marché grâce au staking et aux obligations \(bonds\). Vous en apprendrez plus sur la _game theory_ dans [cet article](https://olympusdao.medium.com/the-game-theory-of-olympus-e4c5f19a77df).
 
 {% embed url="https://www.youtube.com/watch?v=QZOaZ9dd-ms" caption="Introductory video about Olympus" %}
 
@@ -12,13 +12,13 @@ Notre but est de construire un système monétaire dans lequel le comportement d
 
 ## Comment je participe ?
 
-Il existe deux stratégies principales pour utilisateurs : le staking et le bonding. Les "stakers" déposent leurs OHM et reçoivent des sOHM, qui compose les intérêts automatiquement, tandis que les "bonders" fournissent des tokens LP ou DAI en échange d'OHM à prix réduit après une période d'acquisition fixée.   
+Il existe deux stratégies principales pour utilisateurs : le staking et le bonding. Les _stakers_ déposent leurs OHM et reçoivent des sOHM, qui compose les intérêts automatiquement, tandis que les "bonders" fournissent des tokens LP ou DAI / FRAX / wETH en échange d'OHM à prix réduit après une période d'acquisition fixée.   
   
-Les participants à la gouvernance peuvent s'impliquer sur notre forum et par le biais de nos discords \(DAO et communauté\).   
+Les participants à la gouvernance peuvent s'impliquer sur notre forum et par le biais de nos discords \([DAO](https://discord.com/invite/42xFV68uEf) et [communauté](https://discord.com/invite/olympusdao)\).   
   
 Nous sommes toujours à la recherche de nouveaux membres de la communauté pour contribuer !
 
-## Comment générer des profits sur Olympe ?
+## Comment générer des profits sur Olympus ?
 
 Le principal avantage pour les stakers provient de la croissance de l'offre. Le protocole frappe des OHM à partir de la trésorerie, dont la majorité est distribuée aux stakers. Ainsi, le gain pour les stakers proviendra de l'autocomposition des intérêts, **bien que l'exposition au prix reste une considération importante**. En d'autres termes, si l'augmentation du solde de tokens est supérieure à la baisse potentielle du prix \(due à l'inflation\), les stakers feront un bénéfice.   
   

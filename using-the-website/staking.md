@@ -1,6 +1,6 @@
 # Stake ses OHM \(3, 3\)
 
-Le staking vous permet de gagner des OHM de manière passive via l'auto-compounding. Vos OHM staked, vous recevez des sOHM en retour à un ratio de 1:1. Ensuite, votre solde de sOHM augmentera automatiquement à chaque époque en fonction de [l'APY](https://app.gitbook.com/@olympusdao-1/s/olympusdocs/~/drafts/-MiWjJjeTgvj-6Lg0VjZ/v/francais/basics/glossary/@drafts#apy) actuel.
+Le staking vous permet de gagner des OHM de manière passive via l'auto-compounding. Vos OHM staked, vous recevez des sOHM en retour à un ratio de 1:1. Ensuite, votre solde de sOHM augmentera automatiquement à chaque époque en fonction de [l'APY](https://docs.olympusdao.finance/v/francais/basics/glossary#apy) actuel.
 
 Regardez cette vidéo \(anglais\) pour savoir comment obtenir des OHM et les investir sur Olympus :
 
@@ -36,7 +36,7 @@ _Note : La transaction "Approve" n'est nécessaire que lorsque vous échangez de
 ## Unstake
 
 1. Allez sur [OlympusDAO website](https://app.olympusdao.finance/#/). Sélectionner l'onglet "unstake".
-2. Entrez le montant des sOHM que vous souhaitez unstake dans le champ de saisie. Si vous souhaitez miser tous vos sOHM, appuyez sur le bouton "Max" et le champ de saisie sera rempli avec tout votre solde d'sOHM disponible.
+2. Entrez le montant des sOHM que vous souhaitez unstake dans le champ de saisie. Si vous souhaitez miser tous vos sOHM, appuyez sur le bouton "Max" et le champ de saisie sera rempli avec tout votre solde de sOHM disponible.
 3. Cliquez "Approve" et signer la transaction.
 4. Une fois que la transaction "Approuver" a été traitée avec succès, cliquez sur "unstake" et signez la transaction.
 
@@ -48,7 +48,7 @@ _Remarque : La transaction " Approuver " n'est nécessaire que lors du premier j
 
 **APY** vous indique le taux de rendement annualisé basé sur les récompenses. Il prend en compte l'effet de la capitalisation puisque les OHM rebase de manière exponentielle.
 
-**TVL** mesure le montant en dollars de tous les OHM stake dans Olympus.
+\*\*\*\*[**TVL**](https://docs.olympusdao.finance/v/francais/basics/glossary#tvl) mesure le montant en dollars de tous les OHM stake dans Olympus.
 
 **Current Index** permet de suivre les gains obtenus grâce au staking. L'indice part de 1 à l'époque 0, et augmente à chaque époque. Si vous avez stake à la genèse \(époque 0\) et n'avez jamais unstake d'OHM, votre solde aujourd'hui serait X fois plus élevé, où X est l'indice actuel. Vous pouvez utiliser l'indice pour suivre votre position en notant le numéro d'indice lorsque vous stake et unstake. Vous divisez le numéro d'index lorsque vous retirez des fonds par le numéro d'index lorsque vous mettez des fonds pour obtenir le ratio par lequel votre solde de sOHM a augmenté.
 

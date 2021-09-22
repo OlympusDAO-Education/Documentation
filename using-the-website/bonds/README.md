@@ -1,8 +1,8 @@
 # Acheter une obligation \(1, 1\)
 
-Les obligations permettent aux utilisateurs d'acheter des OHM du protocole à un prix réduit en les échangeant contre divers actifs, les LP token \(appelé liquidity bonds\) ou du DAI & Frax \(reserve bonds\).
+Les obligations permettent aux utilisateurs d'acheter des OHM du protocole à un prix réduit en les échangeant contre divers actifs, les LP token \(appelé [liquidity bonds](https://docs.olympusdao.finance/v/francais/basics/glossary#liquidity-bonds)\) ou du DAI & Frax \([reserve bonds](https://docs.olympusdao.finance/v/francais/basics/glossary#reserve-bonds)\).
 
-Les obligations prennent environ 15 epochs pour être acquises et l'utilisateur acquiert ses $OHM de manière linéaire sur cette même période. Les obligations de liquidité aident le protocole à accumuler et à bloquer des liquidités, tandis que les obligations de réserve permettent au protocole d'accroître sa trésorerie, et donc sa [RFV](https://app.gitbook.com/@olympusdao-1/s/olympusdocs/~/drafts/-MiWjJjeTgvj-6Lg0VjZ/v/francais/basics/glossary/@drafts#rfv) plus rapidement.
+Les obligations prennent environ 15 epochs pour être acquises et l'utilisateur acquiert ses $OHM de manière linéaire sur cette même période. Les obligations de liquidité aident le protocole à accumuler et à bloquer des liquidités, tandis que les obligations de réserve permettent au protocole d'accroître sa trésorerie, et donc sa [RFV](https://docs.olympusdao.finance/v/francais/basics/glossary#rfv) plus rapidement.
 
 Il y a 5 type de bonds sur [Olympus](https://app.olympusdao.finance/#/bonds) :
 
@@ -47,9 +47,9 @@ Allez sur [Bond page](https://app.olympusdao.finance/#/bonds) et sélectionnez l
 
 **Market Price** est le prix du marché des OHM.   
   
-**You Will Get** indique combien de MHO vous obtiendrez en cautionnant. Le ratio d'endettement mesure le montant total de MHO créé à partir des obligations qui doivent encore être payées par le protocole. Le ratio d'endettement est calculé différemment pour le cautionnement SLP et le cautionnement DAI :
+**You Will Get** indique combien de OHM vous obtiendrez en cautionnant. Le ratio d'endettement mesure le montant total de OHM créé à partir des obligations qui doivent encore être payées par le protocole. Le ratio d'endettement est calculé différemment pour le cautionnement SLP et le cautionnement DAI :
 
-* Obligation SLP : \(MHO créé à partir des obligations non remboursées / approvisionnement total en MHO\) 
+* Obligation SLP : \(OHM créé à partir des obligations non remboursées / approvisionnement total en OHM\) 
 * Obligation DAI : \(MRO créé à partir d'obligations non remboursées / MRO en circulation\). 
 
 **Vesting term** mesure la période nécessaire au remboursement intégral d'une obligation. Ce nombre est exprimé en blocs d'Ethereum. 33110 blocs correspondent à environ 5 jours ou 15 époques. 

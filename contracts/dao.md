@@ -2,7 +2,7 @@
 
 ## DAO
 
-Le contrat de la [DAO](https://app.gitbook.com/@olympusdao-1/s/olympusdocs/~/drafts/-MiWjJjeTgvj-6Lg0VjZ/v/francais/basics/glossary/@drafts#dao) est une adresse gardée par une simple implémentation gnosis safe. L'adresse de la DAO contient tous les fonds de la DAO accumulés au fil du temps. Par exemple, la DAO reçoit des OHM de chaque obligation vendue par le protocole. L'adresse de la DAO contient également des fonds provenant d'investissements stratégiques comme pKLIMA, acquis lors d'un partenariat stratégique avec KlimaDAO. Vous trouverez ci-dessous la liste des adresses DAO par version, la dernière version représentant l'adresse actuellement active.
+Le contrat de la [DAO](https://docs.olympusdao.finance/v/francais/basics/glossary#dao) est une adresse gardée par une simple implémentation gnosis safe. L'adresse de la DAO contient tous les fonds de la DAO accumulés au fil du temps. Par exemple, la DAO reçoit des OHM de chaque obligation vendue par le protocole. L'adresse de la DAO contient également des fonds provenant d'investissements stratégiques comme pKLIMA, acquis lors d'un partenariat stratégique avec [KlimaDAO](https://klimadao.finance/). Vous trouverez ci-dessous la liste des adresses DAO par version, la dernière version représentant l'adresse actuellement active.
 
 * V1 [0x245c...988B](https://etherscan.io/address/0x245cc372C84B3645Bf0Ffe6538620B04a217988B)
 
