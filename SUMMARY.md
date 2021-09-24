@@ -77,5 +77,6 @@
   * [Bonding](pro/users/bonding.md)
   * [Bond Marketplace](pro/users/bond-marketplace-guide/README.md)
     * [How to Bond](pro/users/bond-marketplace-guide/how-to-bond.md)
+    * [Claim Rewards](pro/users/bond-marketplace-guide/claim-rewards.md)
   * [FAQ](pro/users/faq.md)
 

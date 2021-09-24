@@ -10,6 +10,8 @@ The Bond Marketplace is the heart of Olympus Pro. It provides the user with a su
 
 {% page-ref page="how-to-bond.md" %}
 
+{% page-ref page="claim-rewards.md" %}
+
 ### 
 
 
