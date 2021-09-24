@@ -79,5 +79,7 @@
     * [How to Bond](pro/users/bond-marketplace-guide/how-to-bond.md)
     * [Claim Rewards](pro/users/bond-marketplace-guide/claim-rewards.md)
   * [FAQ](pro/users/faq.md)
-* [Resources](pro/resources.md)
+* [Resources](pro/resources/README.md)
+  * [Olympus Pro Article](https://olympusdao.medium.com/introducing-olympus-pro-d8db3052fca5)
+  * [OlympusDAO Discord](https://discord.com/invite/42xFV68uEf)
 
