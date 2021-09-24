@@ -4,7 +4,7 @@
 
 ## Pro
 
-* [Olympus Pro](pro/introduction.md)
+* [Olympus Pro](pro/intro.md)
 * [Partners](pro/partners/README.md)
   * [Getting Started](pro/partners/getting-started.md)
   * [Security & Audits](pro/partners/security-and-audits.md)

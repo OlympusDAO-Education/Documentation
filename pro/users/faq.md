@@ -2,7 +2,7 @@
 
 ## Why do I want to use Olympus Pro?
 
-It allows you to buy your favorite DeFi tokens at a discounted rate. Besides, you are helping the protocol to [accumulate their own liquidity](../introduction.md#benefits-of-olympus-pro-for-protocols) in the process. This keeps your goal and the protocol's aligned.
+It allows you to buy your favorite DeFi tokens at a discounted rate. Besides, you are helping the protocol to [accumulate their own liquidity](../intro.md#benefits-of-olympus-pro-for-protocols) in the process. This keeps your goal and the protocol's aligned.
 
 ## What is the relationship between Olympus Pro and OlympusDAO?
 
