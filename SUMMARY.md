@@ -72,6 +72,7 @@
 * [Partners](pro/partners/README.md)
   * [Getting Started](pro/partners/getting-started.md)
   * [Security & Audits](pro/partners/security-and-audits.md)
+  * [Support](pro/partners/support.md)
 * [Users](pro/users/README.md)
   * [Bonding](pro/users/bonding.md)
   * [Bond Marketplace Guide](pro/users/bond-marketplace-guide.md)
