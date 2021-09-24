@@ -2,23 +2,6 @@
 
 * [Introduction](README.md)
 
-## Pro
-
-* [Olympus Pro](pro/intro.md)
-* [Partners](pro/partners/README.md)
-  * [Getting Started](pro/partners/getting-started.md)
-  * [Security & Audits](pro/partners/security-and-audits.md)
-  * [Support](pro/partners/support.md)
-* [Users](pro/users/README.md)
-  * [Bonding](pro/users/bonding.md)
-  * [Bond Marketplace](pro/users/bond-marketplace-guide/README.md)
-    * [How to Bond](pro/users/bond-marketplace-guide/how-to-bond.md)
-    * [Claim Rewards](pro/users/bond-marketplace-guide/claim-rewards.md)
-  * [FAQ](pro/users/faq.md)
-* [Resources](pro/resources/README.md)
-  * [Olympus Pro Article](https://olympusdao.medium.com/introducing-olympus-pro-d8db3052fca5)
-  * [OlympusDAO Discord](https://discord.com/invite/42xFV68uEf)
-
 ## Basics
 
 * [FAQ](basics/basics.md)
