@@ -9,8 +9,8 @@ amount of purchasing power today vs. tomorrow. But this is a fallacy. The dollar
 is controlled by the US government and the Federal Reserve. This means a
 depreciation of dollar also means a depreciation of these stablecoins.
 
-OlympusDAO aims to solve this by creating a backed free floating reserve
-currency called OHM. By focusing on supply growth rather than price
+OlympusDAO aims to solve this by creating a free-floating reserve currency, OHM,
+that is backed by a basket of assets. By focusing on supply growth rather than price
 appreciation, OlympusDAO hopes that OHM can function as a currency that is able
 to hold its purchasing power regardless of market volatility.
 
