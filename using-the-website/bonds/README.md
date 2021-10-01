@@ -1,73 +1,73 @@
-# Purchase A Bond \(1, 1\)
+# Membeli Obligasi \(bonding\) \(1, 1\)
 
-Bonds allow users to buy OHM from the protocol at a discount by trading it with i\) liquidity \(LP tokens\) or ii\) other assets. The former is called [liquidity bonds](https://docs.olympusdao.finance/references/glossary#liquidity-bonds) and the latter [reserve bonds](https://docs.olympusdao.finance/references/glossary#reserve-bonds).
+Bonding memungkinkan pengguna untuk membeli OHM dari protokol dengan harga diskon dengan memperdagangkannya melaui i\) likuiditas \(token LP\) atau ii\) aset lainnya. Yang pertama disebut [bonding likuiditas](https://docs.olympusdao.finance/references/glossary#liquidity-bonds) dan yang kedua disebut [bonding cadangan](https://docs.olympusdao.finance/references/glossary#reserve-bonds) atau bonding aset.
 
-Bonds take roughly 15 epochs to vest, and OHM tokens are vested linearly to the user over that period. Liquidity bonds help the protocol to accumulate and lock liquidity, while reserve bonds allow the protocol to grow its treasury, and thus its RFV faster.
+Bonding membutuhkan waktu sekitar 15 epoch untuk bisa diberikan, dan token OHM diberikan secara linier kepada pengguna selama periode tersebut. Bonding likuiditas membantu protokol untuk mengakumulasi dan mengunci likuiditas, sementara bonding cadangan memungkinkan protokol untuk menumbuhkan perbendaharaan, dan dengan demikian RFV-nya lebih cepat.
 
-Olympus offers five types of bonds [on its website](https://app.olympusdao.finance/#/bonds):
+Olympus menawarkan lima jenis bond atau obligasi di situsnya:
 
-* [DAI bond](bond_dai.md)
-* [FRAX bond](bond_frax.md)
-* [wETH bond](bond_weth.md)
-* [OHM-DAI LP bond](ohm-dai-lp-bond.md)
-* [OHM-FRAX LP bond](bond_ohm_frax.md)
+* [Bon DAI](https://app.gitbook.com/@olympusdao-1/s/olympusdocs/~/drafts/-MiUWy5CllkavdxoRULJ/v/indonesian/using-the-website/bonds/bond_dai)
+* [Bon FRAX](https://app.gitbook.com/@olympusdao-1/s/olympusdocs/~/drafts/-MiUWy5CllkavdxoRULJ/v/indonesian/using-the-website/bonds/bond_frax)
+* [Bon wETH](https://app.gitbook.com/@olympusdao-1/s/olympusdocs/~/drafts/-MiUWy5CllkavdxoRULJ/v/indonesian/using-the-website/bonds/bond_weth)
+* [Bon OHM-DAI LP](ohm-dai-lp-bond.md)
+* [Bon OHM-FRAX LP](bond_ohm_frax.md)
 
 ## Hades
 
-Hades is a feature that allows you to purchase bonds while sending the acquired OHM to another address. This is useful for additional privacy, or for purchasing multiple bonds while the current bonds are still vesting. Note that if the same account holds multiple bonds, the pending rewards from the earlier bonds have to be forfeited.
+Hades adalah fitur yang memungkinkan Anda untuk membeli obligasi saat mengirim OHM yang diperoleh ke alamat lain. Ini berguna untuk privasi tambahan, atau untuk membeli beberapa bond saat bond saat ini masih vesting. Sebagai catatan bahwa jika akun yang sama memiliki banyak bond, hadiah yang tertunda dari bond sebelumnya harus dibatalkan.
 
-1. Go to [Bond page](https://app.olympusdao.finance/#/bonds) and select the bond type you want to purchase.
-2. Select the amount that you would like to bond, then click on the cogwheel icon at the top right of the page.
+1. Buka [halaman Bond](https://app.olympusdao.finance/#/bonds) dan pilih jenis bond yang ingin Anda beli.
+2. Pilih jumlah yang ingin Anda bond, lalu klik ikon roda gigi di kanan atas halaman.
 
    ![](../../.gitbook/assets/cogwheel.png)
 
-3. The Hades menu will show up. At the Recipient Address field, you can specify a different address that will receive the vested OHM. By default, it is filled with your current address.
+3. Menu Hades akan muncul. Di bagian Recipient Address atau Alamat Penerima, Anda dapat mengisi alamat berbeda untuk menerima OHM saat vesting. Secara default maksudnya bagian itu diisi dengan alamat Anda saat ini.
 
    ![](../../.gitbook/assets/hades.png)
 
-4. You can also modify the Slippage field to increase or decrease the likelihood of your order getting through. A higher slippage increases that likelihood, but you may get a more undesirable fill price.
-5. Close the Hades menu by clicking the cogwheel icon again.
-6. Click "Approve" and sign the transaction.
-7. After the "Approve" transaction has been processed successfully, click "Bond" and sign the transaction. Voila, you have purchased your first bond using Hades!
+4. Anda juga dapat memodifikasi bidang slippage untuk menambah atau mengurangi kemungkinan pesanan Anda berhasil. Slippage yang lebih tinggi meningkatkan kemungkinan berhasil lebih besar, tetapi Anda mungkin mendapatkan harga pengisian yang lebih dan tidak diinginkan.
+5. Tutup menu Hades dengan mengklik ikon roda gigi lagi.
+6. Klik "Setuju" atau "Approve" dan tanda tangani transaksi.
+7. Setelah transaksi "Setuju" atau "Approve" berhasil diproses, klik "Bond" dan tanda tangani transaksi. Voila, Anda telah membeli bond pertama Anda menggunakan Hades
 
-_Notes:_
+_Catatan:_
 
-* _The "Approve" transaction is only needed when bonding for the first time; subsequent bonding only requires you to perform the "Bond" transaction._
-* _When using Hades, do not alter the bond amount after you have closed the Hades menu, as it will reset the recipient address._
+* Transaksi "Setuju" atau "Approve" hanya diperlukan saat bonding pertama kali; bond berikutnya hanya mengharuskan Anda untuk melakukan transaksi "Bond".
+* Saat menggunakan Hades, jangan mengubah jumlah bond setelah Anda menutup menu Hades, karena ini akan mengatur ulang alamat penerima.
 
-## **How to Redeem**
+## Cara Menukar atau Redeem
 
-Go to [Bond page](https://app.olympusdao.finance/#/bonds) and select the bond type you have purchased. Select the "Redeem" tab. Then, click "Claim Rewards" to claim all of your available rewards.
+Buka [halaman Bond](https://app.olympusdao.finance/#/bonds) dan pilih jenis bond yang telah Anda beli. Pilih tab "Redeem" atau "Tukarkan". Kemudian, klik "Claim Rewards" atau "Klaim Hadiah" untuk mengklaim semua hadiah yang tersedia.
 
-## Reading the Info
+## Membaca Info
 
 ![](../../.gitbook/assets/modal.png)
 
-**Balance** is your balance of SLP tokens. This is the asset used to create a bond.
+**Balance** adalah saldo token SLP Anda. Ini adalah aset yang digunakan untuk membuat obligasi atau Bond.
 
-**Bond Price** is the price of OHM you get from bonding. You can calculate the bond price using the following formulae:
+**Bond Price** adalah harga OHM yang Anda dapatkan dari bonding. Anda dapat menghitung harga obligasi menggunakan rumus berikut:
 
-* SLP Bond: \(Value of your SLP token / OHM you'll get from bonding\)
-* DAI Bond: \(Value of your DAI token / OHM you'll get from bonding\)
+* SLP Bond: \(Nilai token SLP Anda / OHM yang akan Anda dapatkan dari bonding\)
+* DAI Bond: \(Nilai token DAI Anda / OHM yang akan Anda dapatkan dari bonding\)
 
-**Market Price** is the market price of OHM.
+**Market Price** adalah harga pasar OHM.
 
-**You Will Get** tells you how many OHM you will get from bonding.
+**You Will Get** memberi tahu Anda berapa banyak OHM yang akan Anda dapatkan dari bonding.
 
-**Debt Ratio** measures the total amount of OHM created from bonds that have yet to be paid out by the protocol. The debt ratio is calculated differently for SLP bond and DAI bond:
+**Debt Ratio** mengukur jumlah total OHM yang dibuat dari obligasi yang belum dibayarkan oleh protokol. Rasio utang dihitung secara berbeda untuk obligasi SLP dan obligasi DAI:
 
-* SLP Bond: \(OHM created from unredeemed bonds / OHM total supply\)
-* DAI Bond: \(OHM created from unredeemed bonds / OHM circulating supply\)
+* SLP Bond: \(OHM dibuat dari bond yang belum ditukarkan / total suplai OHM\)
+* DAI Bond: \(OHM dibuat dari bond yang tidak ditukarkan / suplai OHM yang beredar\)
 
-**Vesting Term** measures the period a bond takes to fully redeem. This number is in Ethereum blocks. 33110 blocks is approximately 5 days or 15 epochs.
+**Vesting Term** mengukur periode yang diperlukan satu bond untuk ditukarkan sepenuhnya. Angka periode ini tertera di blok Ethereum. Untuk 33110 blok adalah sekitar 5 hari atau 15 epoch.
 
-**Discount** is the difference between the bond price and the market price. In the screenshot above, bonding would give you a 10.63% discount versus buying the same amount of OHM from the market.
+**Discount** adalah selisih antara harga obligasi dan harga pasar. Pada tangkapan layar di atas, bonding akan memberi Anda diskon 10,63% dibandingkan membeli OHM dalam jumlah yang sama dari pasar.
 
 ![](../../.gitbook/assets/modal_redeem.png)
 
-**Pending Rewards** is the amount of OHM you are entitled to receive from bonding.
+**Pending Rewards** adalah jumlah OHM yang berhak Anda terima dari bonding.
 
-**Claimable Rewards** is the amount of OHM that you can claim now. This amount keeps increasing as OHM is vested to you over the bonding period.
+**Claimable Rewards** adalah jumlah OHM yang bisa kamu claim sekarang. Jumlah ini terus meningkat karena OHM terus divesting kepada Anda selama periode bonding.
 
-**Full Bond Maturation** refers to the Ethereum block when the bond is fully redeemable.
+**Full Bond Maturation** mengacu pada blok Ethereum ketika obligasi dapat ditukarkan sepenuhnya.
 

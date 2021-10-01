@@ -1,196 +1,167 @@
-# FAQ
+# Pertanyaan Yang Sering Diajukan
 
-## Why do we need OlympusDAO in the first place?
+## Mengapa kita membutuhkan OlympusDAO?
 
-Dollar-pegged stablecoins have become an essential part of crypto due to their
-lack of volatility as compared to tokens such as Bitcoin and Ether. Users are
-comfortable with transacting using stablecoins knowing that they hold the same
-amount of purchasing power today vs. tomorrow. But this is a fallacy. The dollar
-is controlled by the US government and the Federal Reserve. This means a
-depreciation of dollar also means a depreciation of these stablecoins.
+Stablecoin yang dipatok dolar telah menjadi bagian penting dari kripto karena kurangnya volatilitas \(jarak antara naik dan turunnya harga saham atau valas\) dibandingkan dengan token seperti Bitcoin dan Ether. Pengguna merasa percaya diri bertransaksi menggunakan stablecoin karena mengetahui bahwa mereka memiliki jumlah daya beli yang sama hari ini vs. besok. Tapi ini adalah kekeliruan. Dolar dikendalikan oleh pemerintah AS dan Federal Reserve. Ini berarti depresiasi dolar juga berarti depresiasi stablecoin ini..
 
-OlympusDAO aims to solve this by creating a free-floating reserve currency, OHM,
-that is backed by a basket of assets. By focusing on supply growth rather than price
-appreciation, OlympusDAO hopes that OHM can function as a currency that is able
-to hold its purchasing power regardless of market volatility.
+OlympusDAO bertujuan untuk menyelesaikan ini dengan membuat stablecoin yang tidak dipatok yang disebut OHM. Dengan berfokus pada pertumbuhan pasokan daripada apresiasi harga, OlympusDAO berharap OHM dapat berfungsi sebagai mata uang yang mampu menahan daya belinya tanpa bergantung pada volatilitas pasar.
 
-## Is OHM a stable coin?
+## Apakah OHM koin yang stabil?
 
-No, OHM is not a stable coin. Rather, OHM aspires to become an algorithmic reserve currency backed by other decentralized assets. Similar to the idea of the gold standard, OHM provides free floating value its users can always fall back on, simply because of the fractional treasury reserves OHM draws its intrinsic value from.
+Bukan, OHM bukanlah koin yang stabil. Harapannya, OHM bisa menjadi mata uang cadangan algoritmik yang didukung oleh aset terdesentralisasi lainnya. Serupa dengan ide standar emas, OHM memberikan nilai mengambang bebas yang selalu dapat diandalkan\(digunakan kembali\) oleh penggunanya, hal ini bisa terjadi hanya karena cadangan perbendaharaan fraksional OHM mengambil nilai intrinsiknya sendiri.
 
-## OHM is backed, not pegged.
+## OHM dicadangkan \(backed\), bukan dipatok \(pegged\).
 
-Each OHM is backed by 1 DAI, not pegged to it. Because the treasury backs every OHM with at least 1 DAI, the protocol would buy back and burn OHM when it trades below 1 DAI. This has the effect of pushing OHM price back up to 1 DAI. OHM could always trade above 1 DAI because there is no upper limit imposed by the protocol. Think pegged == 1, while backed &gt;= 1.
+Setiap OHM dicadangkan atau di oleh 1 DAI, tidak dipatok. Karena perbendaharaan mencadangkan setiap OHM dengan setidaknya 1 DAI, protokol akan membeli kembali dan membakar OHM ketika diperdagangkan di bawah 1 DAI. Hal ini berdampak mendorong harga OHM kembali naik hingga 1 DAI. OHM selalu bisa berdagang di atas 1 DAI karena tidak ada batas atas yang diberlakukan oleh protokol. Pikirkan dipatok == 1, sementara dicadang &gt; = 1.
 
-You might say that the OHM floor price or intrinsic value is 1 DAI. We believe that the actual price will always be 1 DAI + premium, but in the end that is up to the market to decide.
+Anda mungkin mengatakan bahwa harga dasar atau nilai intrinsik OHM adalah 1 DAI. Kami percaya bahwa harga sebenarnya akan selalu 1 DAI + premium, tetapi pada akhirnya terserah pasar untuk memutuskan.
 
-## How does it work?
+## Bagaimana Cara Kerjanya?
 
-At a high level, OlympusDAO consists of its protocol managed treasury, protocol owned liquidity \([POL](../references/glossary.md#pol)\), bond mechanism, and staking rewards that are designed to control supply expansion.
+Pada tahap yang lebih tinggi, OlympusDAO terdiri dari perbendaharaan \(treasury\) yang dikelola oleh protokolnya, likuiditas yang dimiliki oleh protokol, mekanisme obligasi, dan imbalan taruhan tinggi yang dirancang untuk mengontrol ekspansi \(perluasan\) pasokan.
 
-Bond sales generate profit for the protocol, and the treasury uses the profit to mint OHM and distribute them to stakers. With [liquidity bonds](../references/glossary.md#liquidity-bonds), the protocol is able to accumulate its own liquidity. Check out the entry below on [the importance of POL](basics.md#why-is-pol-important).
+Obligasi menghasilkan keuntungan untuk protokol, dan perbendaharaan menggunakan keuntungan tersebut untuk mencetak OHM dan mendistribusikannya kepada para pelaku staking \(staker\). Dengan LP bond, protokol mampu mengakumulasi likuiditas untuk memastikan stabilitas sistem.
 
-## What is the deal with \(3,3\) and \(1,1\)?
+## Apa masalahnya dengan \(3, 3\) dan \(1, 1\)?
 
-\(3,3\) is the idea that, if everyone cooperated in Olympus, it would generate the greatest gain for everyone \(from a [game theory](https://en.wikipedia.org/wiki/Game_theory) standpoint\). Currently, there are three actions a user can take:
+\(3, 3\) adalah gagasan bahwa, jika semua orang bekerja sama di Olympus, itu akan menghasilkan keuntungan terbesar bagi semua orang \(dari sudut pandang[ teori permainan](https://en.wikipedia.org/wiki/Game_theory) \). Saat ini, ada tiga tindakan yang dapat dilakukan pengguna:
 
-* Staking \(+2\)
-* Bonding \(+1\)
-* Selling \(-2\)
+* Mempertaruhkan \(staking\) \(+2\)
+* Mengikatkan \(bonding\) \(+1\)
+* Menjual \(selling\) \(-2\)
 
-Staking and bonding are considered beneficiary to the protocol, while selling is considered detrimental. Staking and selling will also cause a price move, while bonding does not \(we consider buying OHM from the market as a prerequisite of staking, thus causing a price move\). If both actions are beneficiary, the actor who moves price also gets half of the benefit \(+1\). If both actions are contradictory, the bad actor who moves price gets half of the benefit \(+1\), while the good actor who moves price gets half of the downside \(-1\). If both actions are detrimental, which implies both actors are selling, they both get half of the downside \(-1\).
+Staking dan bonding dianggap menguntungkan protokol \(positif\), sedangkan menjual dianggap merugikan \(negatif\). Staking dan selling juga akan menciptakan pergerakan harga, sedangkan bonding tidak \(kami menganggap membeli OHM dari pasar sebagai prasyarat staking, sehingga bisa menciptakan pergerakan harga\). Jika kedua tindakan yang dilakukan sama-sama menguntungkan \(positif\), pelaku yang menggerakkan harga juga mendapat setengah dari keuntungan \(+1\). Jika kedua tindakan tersebut bertentangan\(positif dan negatif\), pelaku negatif \(bad actor: sell\) yang menggerakkan harga mendapat setengah dari keuntungan \(+1\), sedangkan pelaku positif\(aktor baik: bond dan stake\) yang menggerakkan harga mendapat setengah dari kerugian \(-1\). Jika kedua tindakan tersebut merugikan, yang berarti kedua pelaku menjual, keduanya mendapatkan setengah dari kerugian \(-1\).
 
-Thus, given two actors, all scenarios of what they could do and the effect on the protocol are shown here:
+Jadi, terkait dengan adanya dua aktor, semua skenario tentang apa yang dapat mereka lakukan dan efeknya pada protokol ditampilkan di sini:
 
 ![](../.gitbook/assets/game_theory.png)
 
-* If we both stake \(3, 3\), it is the best thing for both of us and the protocol \(3 + 3 = 6\).
-* If one of us stakes and the other one bonds, it is also great because staking takes OHM off the market and put it into the protocol, while bonding provides liquidity and DAI for the treasury \(3 + 1 = 4\).
-* When one of us sells, it diminishes effort of the other one who stakes or bonds \(1 - 1 = 0\).
-* When we both sell, it creates the worst outcome for both of us and the protocol \(-3 - 3 = -6\).
+* Jika dua pihak sama-sama staking \(3, 3\), ini merupakan hal terbaik bagi kedua belah pihak dan juga protokol \(3 + 3 = 6\).
+* · Jika salah satu melakukan staking dan yang satu lagi melakukan bonding, hal ini juga bagus karena staking mengeluarkan OHM dari pasar dan memasukkannya ke dalam protokol, sementara bonding menyediakan likuiditas dan DAI untuk treasury \(perbendaharaan\) \(3 + 1 = 4\).
+* · Ketika salah satu melakukan selling, hal ini mengurangi upaya pihak satu lagi yang melakukan staking ataupun bonding \(1 - 1 = 0\).
+* · Ketika kedua belah pihak menjual atau selling, hal ini menciptakan hasil terburuk bagi kedua belah pihak dan juga protokol \(-3 - 3 = -6\).
 
-## Why is PCV important?
+## Mengapa PCV penting?
 
-As the protocol controls the funds in its treasury, OHM can only be minted or burned by the protocol. This also guarantees that the protocol can always back 1 OHM with 1 DAI. You can easily define the risk of your investment because you can be confident that the protocol will indefinitely buy OHM below 1 DAI with the treasury assets until no one is left to sell. You can't trust the FED but you can trust the code.
+Karena protokol mengontrol dana dalam perbendaharaannya, maka OHM hanya dapat dicetak \(minted\) atau dibakar \(burned\) oleh protokol sendiri. Ini juga menjamin bahwa protokol akan selalu dapat mencadangkan 1 OHM dengan 1 DAI. Kamu dapat dengan mudah memperkirakan risiko investasimu karena kamu yakin bahwa protokol akan membeli OHM kapanpun di bawah 1 DAI dengan aset dari treasury hingga tidak ada lagi yang tersisa untuk dijual. kamu tidak bisa mempercayai FED tetapi kamu bisa mempercayai kodenya.
 
-As the protocol accumulates more PCV, more runway is guaranteed for the stakers. This means the stakers can be confident that the current staking APY can be sustained for a longer term because more funds are available in the treasury.
+Karena protokol mengakumulasi lebih banyak PCV, maka lebih banyak landasan pacu yang dijamin untuk para pelaku staking atau staker. Ini berarti para staker dapat memastikan bahwa APY staking saat ini dapat dipertahankan untuk jangka waktu yang lama karena lebih banyak dana yang tersedia di perbendaharaan \(treasury\).
 
-## Why is POL important?
+## Apa yang akan terjadi jika ada bank run \(penarikan secara besar-besaran\) di Olympus?
 
-Olympus [owns most of its liquidity](https://dune.xyz/shadow/Olympus-%28OHM%29) thanks to its bond mechanism. This has several benefits:
+Perbankan cadangan fraksional bisa berjalan karena deposan tidak menarik dana mereka sekaligus. Kepercayaan deposan dalam sistem perbankan bertumpu pada peraturan dan lembaga seperti Federal Deposit Insurance Corporation \(FDIC\).
 
-* Olympus does not have to pay out high farming rewards to incentivize liquidity
+OHM tidak memiliki asuransi FDIC tetapi OHM memiliki struktur insentif atau kompensasi untuk melindungi pelaku staker. Mari kita lihat bagaimana cara kerjanya ketika terjadi bank run. Dalam skenario ini, kami menganggap bahwa mayoritas pemegang saham \(staker\) akan panik dan melepas token mereka dari Olympus - persentase staking yang sebelumnya mencapai 92% sekarang dengan cepat turun menjadi 3,3%, dan hanya menyisakan 55.000 OHM yang dipertaruhkan \(tersisa di perbendaharaan\).
 
-  providers a.k.a renting liquidity.
+Selanjutnya, kami menganggap aliran masuk Risk-Free Value \(RFV\) ke perbendaharaan \(treasury\) benar-benar mengering. Sesuai konteks, RFV saat ini tumbuh sekitar $1 juta setiap 3 hari. Namun, selama masa bank run maka pertumbuhan angka ini kemungkinan akan berhenti
 
-* Olympus guarantees the market that the liquidity is always there to facilitate
-
-  sell or buy transaction.
-
-* By being the largest LP \(liquidity provider\), it earns most of the LP fees which
-
-  represents another source of income to the treasury.
-
-* All POL can be used to back OHM. The LP tokens are marked down to their risk-free
-
-  value for this purpose. You can read more about the rationale behind this in this
-
-  [Medium article](https://olympusdao.medium.com/dai-bonds-a-more-effective-sales-mechanism-c9a57586f1f7).
-
-## What will happen if there is a bank run on Olympus?
-
-Fractional reserve banking works because depositors don’t withdraw their funds all at once. A depositor’s faith in the banking system rests on regulations and agencies like Federal Deposit Insurance Corporation \(FDIC\).
-
-OHM does not have FDIC insurance but it has an incentive structure that protects stakers. Let’s take a look at how it performs during a hypothetical bank run. In this scenario, we assume the majority of stakers would panic and unstake their tokens from Olympus - the staking percentage which stands at 92% now quickly collapses to 3.3%, leaving only 55,000 OHM staked.
-
-Next, we assume the Risk-Free Value \(RFV\) inflows to the treasury completely dry up. For context, RFV is currently growing at [about $1 million every 2 days](https://dune.xyz/queries/29153/58862). However, during a bank run this growth will likely stop.
-
-Finally, we assume that those last standing stakers bought in at a price of $500 per OHM. The initial investment of these stakers would be:
+Akhirnya, anggaplah bahwa pemegang saham terakhir yang bertahan membeli dengan harga $500 per OHM. Investasi awal dari para staker ini adalah:
 
 $$
 \$500/OHM * 55,000\ OHM = \$27.5\ million
 $$
 
-As of September 15 2021, the total OHM supply is 2,082,553 and the RFV is $47,041,833. Remember that 1 OHM is backed by 1 USD \(DAI or FRAX\). By subtracting these two numbers, we know 44,959,280 OHM will eventually get issued to the remaining stakers. In roughly a year, these stakers who are holding 55,000 OHM will have:
+Per 15 September 2021, total pasokan OHM adalah 2,082,553 dan RFV adalah $47,041,833. Ingat bahwa 1 OHM dicadangkan dalam 1 USD \(DAI atau FRAX\). Dengan mengurangkan dua angka ini, kita tahu 44,959,280 OHM pada akhirnya akan diberikan kepada para staker yang tersisa. Kira-kira dalam setahun, para staker yang memegang 55,000 OHM ini akan memiliki:
 
 $$
 55,000 + 44,959,280 = 45,014,280\ OHM
 $$
 
-$27.5 million investment made by these stakers will turn into about $45 million based on cash flow alone if they stay staked \(recall that 1 OHM is backed by 1 USD\). In this bank run scenario, the stakers who stay staked not only get their money back, but also make some profit. Therefore, [\(3,3\)](basics.md#what-is-the-deal-with-3-3-and-1-1) isn’t just a popular meme, it is actually a dominant strategy.
+Investasi $ 27.5 juta yang dilakukan oleh para staker ini akan berubah menjadi sekitar $ 45 juta berdasarkan arus kas saja jika mereka tetap distaking \(ingat bahwa 1 OHM didukung oleh 1 USD\). Dalam skenario bank run, para staker yang tetap staking tidak hanya mendapatkan uang mereka kembali, tetapi juga mendapatkan keuntungan. Oleh karena itu, \(3,3\) bukan hanya meme populer, tetapi juga merupakan strategi yang dominan.
 
-The above scenario is unlikely to play out because when other people find out that extremely high rewards are being paid to the stakers, they will copy the strategy by buying and staking OHM. This is also why the percentage of OHM staked in Olympus has consistently remained over 90% since launch.
+Skenario di atas tidak mungkin terjadi karena jika orang lain mengetahui bahwa imbalan yang sangat tinggi dibayarkan kepada para staker, mereka akan menyalin strategi dengan membeli \(buy\) dan mempertaruhkan \(stake\) OHM. Ini juga mengapa persentase OHM yang dipertaruhkan di Olympus secara konsisten tetap lebih dari 90% sejak diluncurkan.
 
-_Note: Most of the data referenced above are taken from_ [_this Dune Analytics page_](https://duneanalytics.com/shadow/Olympus-%28OHM%29)_._
+Catatan: Sebagian besar data yang dirujuk di atas diambil dari[ laman Dune Analytics ini](https://duneanalytics.com/shadow/Olympus-%28OHM%29) .
 
-## Why is the market price of OHM so volatile?
+## Mengapa harga pasar OHM begitu fluktuatif?
 
-It is extremely important to understand how early in development the OlympusDAO protocol is. A large amount of discussion has centered around the current price and expected a stable value moving forward. The reality is that these characteristics are not yet determined. The network is currently tuned for expansion of OHM supply, which when paired with the staking, bonding, and yield mechanics of OlympusDAO, result in a fair amount of volatility.
+Sangat penting untuk memahami seberapa awal pengembangan protokol OlympusDAO. Sangat banyak diskusi yang membahas seputaran harga saat ini dan mengharapkan nilai yang selalu stabil untuk bergerak maju. Kenyataannya adalah bahwa karakteristik ini belum dipastikan. Jaringan saat ini disetel untuk perluasan pasokan OHM, yang ketika dipasangkan dengan mekanisme staking, bonding, dan yield dari OlympusDAO akan menghasilkan volatilitas yang cukup besar.
 
-OHM could trade at a very high price because the market is ready to pay a hefty premium to capture a percentage of the current market capitalization. However, the price of OHM could also drop to a large degree if the market sentiment turns bearish. We would expect significant price volatility during our growth phase so please **do your own research** whether this project suits your goals.
+OHM dapat berdagang dengan harga yang sangat tinggi karena pasar siap membayar premi yang besar untuk menangkap persentase dari kapitalisasi pasar saat ini. Namun, harga OHM juga bisa turun cukup besar jika sentimen pasar berubah menjadi bearish \(pasar bear atau turun\). Kami mengharapkan volatilitas harga yang signifikan selama fase pertumbuhan kami, jadi silakan lakukan penelitianmu sendiri apakah proyek ini sesuai dengan tujuanmu.
 
-## What is the point of buying it now when OHM trades at a very high premium?
+## Apa gunanya membelinya sekarang ketika OHM diperdagangkan dengan premi yang sangat tinggi?
 
-When you buy and stake OHM, you capture a percentage of the supply \(market cap\) which will remain close to a constant. This is because your staked OHM balance also increases along with the circulating supply. The implication is that if you buy OHM when the market cap is low, you would be capturing a larger percentage of the market cap.
+Saat Anda membeli dan mempertaruhkan OHM, Anda menangkap persentase pasokan \(kapitalisasi pasar\) yang akan tetap mendekati konstan. Hal ini terjadi karena saldo OHM yang Anda pertaruhkan \(stake\) juga meningkat seiring dengan pasokan yang beredar. Implikasinya adalah jika Anda membeli OHM saat kapitalisasi pasar rendah, Anda akan menangkap persentase kapitalisasi pasar yang lebih besar.
 
-## What is a rebase?
+## Apa itu rebase?
 
-Rebase is a mechanism by which your staked OHM balance increases automatically. When new OHM are minted by the protocol, a large portion of it goes to the stakers. Because stakers only see staked OHM balance instead of OHM, the protocol utilizes the rebase mechanism to increase the staked OHM balance so that 1 staked OHM is always redeemable for 1 OHM.
+Rebase adalah mekanisme di mana saldo OHM \(sOHM\), milikmu yang dipertaruhkan \(stake\) meningkat secara otomatis. Ketika OHM baru dicetak oleh protokol, sebagian besar masuk kepada staker. Karena staker hanya melihat saldo OHM yang distaking \(sOHM\), bukan OHM, protokol menggunakan mekanisme rebase untuk meningkatkan saldo OHM yang distaking sehingga 1 OHM yang distaking \(sOHM\) selalu dapat ditukarkan dengan 1 OHM.
 
-## What is reward yield?
+## Apa itu yield?
 
-Reward yield is the percentage by which your staked OHM balance increases on the next epoch. It is also known as _rebase rate_. You can find this number on the [Olympus staking page](https://app.olympusdao.finance/#/stake).
+Yield atau imbalan adalah persentase peningkatan saldo OHM Anda yang dipertaruhkan pada epoch berikutnya. Hal ini juga dikenal sebagai rebase rate. Anda dapat menemukan angka ini di halaman Olympus staking.
 
-## What is APY?
+## Apa itu APY?
 
-APY stands for annual percentage yield. It measures the real rate of return on your principal by taking into account the effect of compounding interest. In the case of OlympusDAO, your staked OHM represents your principal, and the compound interest is added periodically on every epoch \(2200 Ethereum blocks, or around 8 hours\) thanks to the rebase mechanism.
+APY adalah singkatan dari annual percentage yield atau persentase hasil tahunan. APY mengukur tingkat pengembalian riil atas modal pokok Anda dengan memperhitungkan efek bunga majemuk. Dalam kasus OlympusDAO, OHM Anda yang distaking mewakili pokok Anda, dan bunga majemuk ditambahkan secara berkala pada setiap epoch \(2200 blok Ethereum, atau sekitar 8 jam\) berkat mekanisme rebase.
 
-One interesting fact about APY is that your balance will grow not linearly but exponentially over time! Assuming a daily compound interest of 2%, if you start with a balance of 1 OHM on day 1, after a year, your balance will grow to about 1377. That is a lot!
+Satu fakta menarik tentang APY adalah bahwa saldo Anda akan tumbuh tidak secara linier tetapi secara eksponensial dari waktu ke waktu! Dengan asumsi bunga majemuk harian 2%, jika Anda mulai dengan saldo 1 OHM pada hari ke-1, setelah satu tahun, saldo Anda akan tumbuh menjadi sekitar 1377. Sangat banyak!v
 
 ![The power of compounding](../.gitbook/assets/apy.png)
 
-## How is the APY calculated?
+## Bagaimana APY dihitung?
 
-The APY is calculated from the reward yield \(a.k.a rebase rate\) using the following equation:
+APY dihitung dari hasil reward \(alias rebase rate\) menggunakan persamaan berikut:
 
 $$
 APY = ( 1 + rewardYield )^{1095}
 $$
 
-It raises to the power of 1095 because a rebase happens 3 times daily. Consider there are 365 days in a year, this would give a rebase frequency of 365 \* 3 = 1095.
+Pangkat 1095 terjadi karena rebase terjadi 3 kali sehari. Perhitungannya adalah 365 hari dalam setahun, maka frekuensi rebase 365 \* 3 = 1095.
 
-Reward yield is determined by the following equation:
+Hasil imbalannya \(yield\) ditentukan oleh persamaan berikut:
 
 $$
 rewardYield = OHM_{distributed} / OHM_{totalStaked}
 $$
 
-The number of OHM distributed to the staking contract is calculated from OHM total supply using the following equation:
+Jumlah OHM yang didistribusikan ke kontrak staking dihitung dari total supplyatau pasokan OHM dengan menggunakan persamaan berikut:
 
 $$
 OHM_{distributed} = OHM_{totalSupply} \times rewardRate
 $$
 
-Note that the reward rate is subject to change by the protocol. For example, it has been revised due to [this latest proposal](https://forum.olympusdao.finance/d/77-oip-18-reward-rate-framework-and-reduction).
+Perhatikan bahwa tingkat hadiah atau imbalan dapat berubah sesuai protokol. Misalnya, telah direvisi karena[ proposal terbaru ini](https://forum.olympusdao.finance/d/77-oip-18-reward-rate-framework-and-reduction) .
 
-## Why does the price of OHM become irrelevant in long term?
+## Mengapa harga OHM menjadi tidak relevan dalam jangka panjang?
 
-As illustrated above, your OHM balance will grow exponentially over time thanks to the power of compounding. Let's say you buy an OHM for $400 now and the market decides that in 1 year time, the intrinsic value of OHM will be $2. Assuming a daily compound interest rate of 2%, your balance would grow to about 1377 OHMs by the end of the year, which is worth around $2754. That is a cool $2354 profit! By now, you should understand that you are paying a premium for OHM now in exchange for a long-term benefit. Thus, you should have a long time horizon to allow your OHM balance to grow exponentially and make this a worthwhile investment.
+Seperti diilustrasikan di atas, saldo OHM Anda akan tumbuh secara eksponensial dari waktu ke waktu berkat kekuatan compounding \(bunga majemuk\). Katakanlah Anda membeli satu OHM seharga $400 saat ini dan pasar memutuskan bahwa dalam waktu 1 tahun, nilai intrinsik satu OHM akan menjadi $2. Dengan asumsi tingkat bunga majemuk \(compound\) harian sebesar 2%, saldo Anda akan tumbuh menjadi sekitar 1377 OHM pada akhir tahun, yang bernilai sekitar $2754. Itu adalah keuntungan $2354 yang luar biasa! Nah Sekarang, Anda bisa memahami bahwa Anda membayar premi untuk OHM pada saat ini dengan imbalan yaitu manfaat jangka panjang. Dengan demikian, maka jika Anda meletakkan token dalam jangka waktu yang lama sehingga memungkinkan saldo OHM Anda tumbuh secara eksponensial dan menjadikannya sebagai investasi yang berharga. Anda masih akan tetap untung.
 
-## What will be OHM's intrinsic value in the future?
+## Apa yang akan menjadi nilai intrinsik OHM di masa depan?
 
-There is no clear answer for this, but the intrinsic value can be determined by the treasury performance. For example, if the treasury could guarantee to back every OHM with 100 DAI, the intrinsic value will be 100 DAI. It can also be decided by the DAO. For example, if the DAO decides to [raise the price floor of OHM](https://forum.olympusdao.finance/d/31-use-price-floor-as-tool-for-monetary-policy), its intrinsic value will rise accordingly.
+Tidak ada jawaban yang pasti dan jelas untuk ini, akan tetapi nilai intrinsik dapat ditentukan oleh kinerja treasury. Misalnya, jika treasury dapat menjamin untuk mendukung setiap OHM dengan 100 DAI, nilai intrinsiknya adalah 100 DAI. Hal tersebut juga bisa ditentukan oleh DAO. Misalnya, jika DAO memutuskan untuk[ menaikkan harga dasar OHM](https://forum.olympusdao.finance/d/31-use-price-floor-as-tool-for-monetary-policy) , nilai intrinsiknya akan ikut naik.
 
-## How does the protocol manage to maintain the high staking APY?
+## Bagaimana protokol mengelola APY dengan staking tinggi?
 
-Let’s say the protocol targets an APY of 100,000%. This would translate to a rebase rate of about 0.6328%, or a daily growth of about 2%. Please refer to the equation above to learn [how APY is calculated from the rebase rate](basics.md#how-is-the-apy-calculated).
+Katakanlah protokol menargetkan APY 100.000%. Ini akan diterjemahkan ke rebase rate sekitar 0,6328%, atau pertumbuhan harian sekitar 2%. Silakan lihat persamaan di atas untuk mempelajari bagaimana APY dihitung dari rebase rate .
 
-If there are 100,000 of OHM staked right now, the protocol would need to mint an additional 2000 OHM to achieve this daily growth. This is achievable if the protocol can bring in at least 2000 DAI daily from bond sales. If the protocol fails to achieve this, the APY of 100,000% cannot be guaranteed.
+Jika ada 100.000 OHM yang dipertaruhkan sekarang, protokol perlu mencetak 2000 OHM tambahan untuk mencapai pertumbuhan harian ini. Hal ini dapat dicapai jika protokol tersebut dapat mendatangkan setidaknya 2000 DAI setiap hari dari penjualan obligasi \(bond sales\). Jika protokol gagal mencapai ini, APY 100.000% tidak bisa dijamin.
 
-## Do I have to unstake and stake OHM on every epoch to get my rebase rewards?
+## Apakah saya harus meng-unstake dan stake OHM di setiap epoch untuk mendapatkan imbalan rebase saya?
 
-No. Once you have staked OHM with OlympusDAO, your staked OHM balance will auto-compound on every epoch. That increase in balance represents your rebase rewards.
+Tidak. Setelah Anda mempertaruhkan OHM dengan OlympusDAO, saldo OHM yang Anda pertaruhkan akan digabungkan secara otomatis di setiap epoch. Peningkatan saldo itu mewakili atau melambangkan imbalan rebase Anda.
 
-## How do I track my rebase rewards?
+## Bagaimana cara melacak hadiah rebase saya?
 
-You can track your rebase rewards by calculating the increase in your staked OHM balance.
+Anda dapat melacak imbalan rebase Anda dengan menghitung peningkatan saldo OHM yang Anda stake.
 
-1. Record down the Current Index value on the [staking page](https://app.olympusdao.finance/#/) when you first stake your OHM. Let's call this the Start Index.
+1. Catat nilai Current Index pada halaman staking saat pertama kali melakukan staking OHM. Sebut saja ini Indeks Mula atau Start Indeks.
 
 ![](../.gitbook/assets/index_old.png)
 
-1. After staking for some time, if you want to determine by how much your balance has increased, check the Current Index value again. Let's call this the End Index.
+ 2. Setelah melakukan staking beberapa saat, jika ingin mengetahui berapa kenaikan saldo  anda, periksa kembali nilai Current Index. Sebut saja ini Indeks Akhir atau End Index.
 
 ![](../.gitbook/assets/index_new.png)
 
-1. By dividing the End Index by Start Index, you would get the ratio by which your staked OHM balance has increased.
+3. Dengan membagi Indeks Akhir dengan Indeks Awal, Anda akan mendapatkan rasio peningkatan saldo OHM Anda yang dipertaruhkan.
 
 $$
 ratio = endIndex / startIndex
 $$
 
-1. In this example, the OHM balance has grown by 1.5 times.
+4. Dalam contoh ini, saldo OHM bertambah 1,5 kali lipat.
 
 $$
 ratio = 13.2\ /\ 8.8\newline = 1.5
 $$
+

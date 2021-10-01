@@ -1,8 +1,10 @@
-# Stake LP Tokens
+# Stake Token LP
 
-Staking LP tokens on OlympusDAO allows you to earn OHM passively. Each day, a fixed amount of OHM will be distributed among the stakers based on their pro rata share of staked LP tokens.
+Staking token LP di OlympusDAO memungkinkan Anda untuk mendapatkan OHM secara pasif. Setiap hari, jumlah pasti OHM akan didistribusikan ke pada para staker berdasarkan secara pro rata dari token LP yang dipertaruhkan.
 
 {% hint style="warning" %}
-**Note:** As OlympusDAO [owns most of the liquidity](https://dune.xyz/shadow/Olympus-%28OHM%29) now, it no longer depends on the liquidity provided by other users. Hence, this feature has been discontinued_._
+Catatan: Karena OlympusDAO[ memiliki sebagian besar likuiditas](https://dune.xyz/shadow/Olympus-%28OHM%29) sekarang, tidak lagi bergantung pada likuiditas yang disediakan oleh pengguna lain. Oleh karena itu, fitur ini telah dihentikan .
 {% endhint %}
+
+
 

@@ -1,22 +1,22 @@
 # DAI Bond
 
-DAI bond was introduced on 21 April 2021. It allows you to trade [DAI](https://www.coingecko.com/en/coins/dai) in exchange for discounted OHM on Olympus.
+Bond DAI diperkenalkan pada 21 April 2021. Ini memungkinkan Anda untuk memperdagangkan[ DAI](https://www.coingecko.com/en/coins/dai) dengan imbalan OHM yang didiskon di Olympus.
 
-## How to Bond
+## **Bagaimana cara Bond?**
 
-1. Make sure you have DAI in your wallet. For example, you can [go to Sushiswap to swap for DAI](https://app.sushi.com/swap?inputCurrency=&outputCurrency=0x6b175474e89094c44da98b954eedeac495271d0f) if you don't have any.
+1. Pastikan Anda memiliki DAI di dompet Anda. Sebagai contoh, Anda dapat[ pergi ke Sushiswap untuk menukar DAI](https://app.sushi.com/swap?inputCurrency=&outputCurrency=0x6b175474e89094c44da98b954eedeac495271d0f) jika Anda tidak memiliki bond DAI.
 
-2. Head to the [DAI Bond page of the Olympus website](https://app.olympusdao.finance/#/bonds/dai). There are two tabs: "Bond" and "Redeem". Make sure "Bond" is selected.
+2. Buka halaman [DAI Bond di situs web Olympus](https://app.olympusdao.finance/#/bonds/dai) . Ada dua tab: "Bond" dan "Redeem". Pastikan "Bond dipilih.
 
-3. Type in the amount of DAI you would like to bond. Make sure you are not trying to bond more than is allowed. The **Max You Can Buy** field below shows the maximum amount of OHM you can purchase.
+3. Ketik jumlah DAI yang ingin Anda bondingkan. Pastikan Anda tidak mencoba bonding lebih dari yang diizinkan. Kolom **Max You Can Buy** di bawah ini menunjukkan jumlah maksimum OHM yang dapat Anda beli.
 
-![You can only purchase up to a certain amount of OHM](../../.gitbook/assets/max_you_can_buy.png)
+![Anda hanya dapat membeli hingga jumlah OHM tertentu](../../.gitbook/assets/max_you_can_buy.png)
 
-4. If this is your first purchase, you need to approve the Olympus contract to spend your DAI. Click "Approve" and sign the transaction.
+4. Jika ini adalah pembelian pertama Anda, Anda harus menyetujui kontrak Olympus untuk membelanjakan DAI Anda. Klik "Approve" dan tanda tangani transaksi.
 
-5. After the "Approve" transaction has been processed successfully, refresh the page. The "Approve" button should be changed to display "Bond" by now.
+5. Setelah transaksi "Approve" berhasil diproses, refresh halaman. Tombol "Approve" seharusnya sudah menampilkan "Bond" sekarang.
 
 ![Refresh the page after the token approval process](../../.gitbook/assets/bond_dai_refresh%20%281%29.png)
 
-6. Click "Bond" and sign the transaction. Voila, you have purchased your first DAI bond!
+6. Klik "Bond" dan tanda tangani transaksi. Anda telah membeli Bond DAI pertama Anda!
 

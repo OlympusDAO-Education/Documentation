@@ -1,32 +1,32 @@
-# Unstake LP Tokens
+# Unstake Token LP
 
-OHM-DAI LP token staking has been deprecated as Olympus owns most of the liquidity now. [Staking rewards are no longer being paid](https://scattershot.page/#/olympusdao.eth/proposal/QmRhBupfD53yBothJ6EarEiL6ztVjSPSfTHRWEpVE7oq3g) to OHM-DAI LP stakers, and users are advised to unstake their OHM-DAI LP tokens from Olympus to prevent any opportunity cost.
+Stake token OHM-DAI LP telah ditinggalkan karena Olympus memiliki sebagian besar likuiditas sekarang. Hadiah staking tidak lagi dibayarkan kepada staker OHM-DAI LP, dan pengguna disarankan untuk melepas token OHM-DAI LP mereka dari Olympus untuk mencegah biaya peluang.
 
-As Olympus no longer supports this feature, there is no interface for users to unstake their LP tokens directly from the Olympus website. Luckily, users can still unstake their LP tokens via [Etherscan](https://etherscan.io/). The following guide will show you how.
+Karena Olympus tidak lagi mendukung fitur ini, tidak ada antarmuka bagi pengguna untuk melepas token LP mereka langsung dari situs web Olympus. Untungnya, pengguna masih dapat melepas token LP mereka melalui[ Etherscan](https://etherscan.io/) . Panduan berikut akan menunjukkan caranya.
 
-## How to Unstake LP Tokens via Etherscan
+## Cara Unstake Token LP melalui Etherscan
 
-1. Go to the [Write Contract section of the LP staking contract](https://etherscan.io/address/0xF11f0F078BfaF05a28Eac345Bb84fcb2a3722223#writeContract) on Etherscan.
+1. Buka bagian [Write Contract dari kontrak staking LP](https://etherscan.io/address/0xF11f0F078BfaF05a28Eac345Bb84fcb2a3722223#writeContract) di Etherscan.
 
-![Go to the Write Contract section](../.gitbook/assets/write_contract.png)
+![Pergi ke bagian Tulis Kontrak](../.gitbook/assets/write_contract.png)
 
-2. Connect your wallet by pressing the **Connect to Web3** button.
+2. Hubungkan dompet Anda dengan menekan tombol **Connect to Web3.**
 
-![Connect your wallet](../.gitbook/assets/connect_wallet.png)
+![Hubungkan dompet Anda](../.gitbook/assets/connect_wallet.png)
 
-3. A warning prompt will pop up from Etherscan. Select **OK**.
+3. Prompt peringatan akan muncul dari Etherscan. Pilih Oke .
 
-![Dismiss the warning message](../.gitbook/assets/warning.png)
+![Abaikan pesan peringatan](../.gitbook/assets/warning.png)
 
-4. When your wallet is connected, the button will be changed to show "Connected" along with your wallet address \(redacted in the following screenshot\).
+4. Saat dompet Anda terhubung, tombol akan diubah untuk menunjukkan "Terhubung" atau "Connected" bersamaan dengan alamat dompet Anda \(dihapus pada tangkapan layar berikut\).
 
 ![Wallet is connected](../.gitbook/assets/wallet_connected.png)
 
-5. Go to the fifth option, _unstakeLP_, and press the **Write** button.
+5.Pergi ke opsi kelima, unstakeLP , dan tekan tombol **Write**.
 
-![Click &quot;Write&quot;](../.gitbook/assets/write.png)
+![Klik &quot;Write&quot;](../.gitbook/assets/write.png)
 
-6. Your wallet will prompt you to sign the transaction for unstaking your LP tokens. Confirm the transaction and wait for it to complete.
+6. Dompet Anda akan meminta Anda untuk menandatangani transaksi untuk unstake token LP Anda. Konfirmasikan transaksi dan tunggu sampai selesai.
 
-7. After the transaction has been processed successfully, your LP token balance should show up correctly in your wallet.
+7. Setelah transaksi berhasil diproses, saldo token LP Anda akan muncul dengan benar di dompet Anda.
 

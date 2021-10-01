@@ -1,6 +1,6 @@
 # Fuse
 
-Fuse is an isolated interest rate market by Rari Capital. Each pool in Fuse can support different types of assets and use different interest rate curves. To lend out sOHM and/or use it as a collateral, users can enter [Olympus Pool Party Fuse pool](https://app.rari.capital/fuse/pool/18). In this pool, several assets are supported:
+Fuse adalah pasar suku bunga terisolasi oleh Rari Capital. Setiap kumpulan \(pool\) di Fuse dapat mendukung berbagai jenis aset dan menggunakan kurva suku bunga yang berbeda. Untuk meminjamkan sOHM dan/atau menggunakannya sebagai jaminan, pengguna dapat lihat pada[ kolam Olympus Pool Party Fuse](https://app.rari.capital/fuse/pool/18) . Di dalam pool ini, ada beberapa aset didukung:
 
 * sOHM
 * USDC
@@ -8,20 +8,20 @@ Fuse is an isolated interest rate market by Rari Capital. Each pool in Fuse can 
 * ETH
 * FRAX
 
-## How to Supply Asset
+## Bagaimana Menyuplai Aset
 
-1. Go to [Olympus Pool Party Fuse pool](https://app.rari.capital/fuse/pool/18).
-2. On the Supply panel, select the asset you want to supply.
+1. Pergi ke[ kolam Olympus Pool Party Fuse](https://app.rari.capital/fuse/pool/18) .
+2. Pada panel Supply, pilih aset yang ingin Anda suplai.
 
    ![The Supply panel](../../.gitbook/assets/supply.png)
 
-3. Enter the amount of asset that you would like to supply. If you want to use the asset as collateral in order to borrow other assets against it, turn on the "Enable As Collateral" field.
+3. Masukkan jumlah aset yang ingin Anda berikan. Jika Anda ingin menggunakan aset sebagai jaminan untuk meminjam aset lain, aktifkan bidang "Aktifkan Sebagai Jaminan" atau "Enable As Collateral".
 
    ![Enable as collateral](../../.gitbook/assets/collateral.png)
 
-4. Click "Confirm". If this is your first time supplying the asset, you must approve the contract to spend your asset.
-5. After the approval transaction is completed, you need to sign a second transaction to mint fsToken. fsToken represents your share in the pool and it allows you to redeem your supplied assets when you wish to withdraw them later.
-6. When the mint transaction is completed, your asset will be supplied to the Fuse pool. This allows you to earn interest and also borrow other assets if you have enabled the supplied asset as collateral.
+4. Klik "Konfirmasi" atau "Confirm" . Jika ini adalah pertama kalinya Anda menyuplai aset, Anda harus menyetujui kontrak untuk membelanjakan atau menggunakan aset Anda.
+5. Setelah transaksi persetujuan selesai, Anda perlu menandatangani transaksi kedua ke mint fsToken. fsToken mewakili bagian Anda di dalam pool dan memungkinkan Anda untuk menebus aset yang diberikan saat Anda ingin menariknya nanti.
+6. Ketika transaksi mint selesai, aset Anda akan dipasok ke Fuse pool. Ini memungkinkan Anda untuk mendapatkan bunga dan juga meminjam aset lain jika Anda telah mengaktifkan aset yang disediakan sebagai jaminan.
 
 _Note: If you wish to borrow other assets against your collateral, there is a minimum borrow amount of 1 ETH in equivalent value. Because a small account may not be worth the gas fee to liquidate, this measure ensures that a liquidation is always profitable._
 

@@ -1,30 +1,30 @@
-# Stake Your OHM \(3, 3\)
+# Stake OHM Anda \(3, 3\)
 
-Sometimes, the Olympus website might not be accessible due to [hosting issues](https://twitter.com/FleekHQ/status/1416505712222609411). Fear not, you can still interact with the Olympus contracts to perform certain actions such as staking. In this guide, we will show you how to stake OHM tokens via [Etherscan](https://etherscan.io/).
+Terkadang, situs web Olympus mungkin tidak dapat diakses karena[ masalah hosting](https://twitter.com/FleekHQ/status/1416505712222609411) . Jangan takut, Anda masih dapat berinteraksi dengan kontrak Olympus untuk melakukan tindakan tertentu seperti staking. Dalam panduan ini, kami akan menunjukkan caranya agar bisa stake token OHM melalui[ Etherscan](https://etherscan.io/) .
 
-If you have never staked OHM before, there are two steps involved:
+Jika Anda belum pernah mempertaruhkan OHM sebelumnya, ada dua langkah yang harus dilakukan:
 
-1. Approve the staking contract to spend your OHM tokens.
-2. Stake your OHM tokens.
+1. Setujui kontrak taruhan untuk menggunakan token OHM Anda.
+2. Stake token OHM Anda.
 
-If you have staked OHM before, there is only one step to perform: Stake your OHM tokens.
+Jika Anda telah pernah staking OHM sebelumnya, hanya ada satu langkah yang harus dilakukan: Stake token OHM Anda.
 
-## How to Approve OHM Spending via Etherscan
+## Bagaimana Cara Menyetujui Penggunaan OHM melalui Etherscan
 
-1. Go to the [Write Contract section of the OHM token contract](https://etherscan.io/address/0x383518188c0c6d7730d91b2c03a03c837814a899#writeContract).
-2. Check and ensure your selected network is "Ethereum Mainnet" in your wallet. Then press **Connect to Web3** to connect your wallet if you haven't done so.
-3. Once it is connected, select the third option _approve_.
-4. On the _spender \(address\)_ field, we would fill in the [staking contract address](../contracts/staking.md#staking). Enter this value: **0xC8C436271f9A6F10a5B80c8b8eD7D0E8f37a612d**
-5. On the _amount \(uint256\)_ field, fill in the amount of OHM you would like the staking contract to spend on your behalf, and multiply it by 1e9. Alternatively, you can use [this calculator](https://docs.google.com/spreadsheets/d/1vm48OCBnVh8uah0-3Xa7HqFwmfxgcrMIWPrOllSFIvA/edit?usp=sharing) to perform the conversion for you. If you don't want to repeat this step whenever you want to stake, you can choose a very large value. Let's say you want to allow the contract to spend up to 1e9 OHM on your behalf, you would enter: **1000000000000000000**
-6. Click **Write**.
-7. Sign the transaction on Metamask and wait for it to complete.
+1. Buka [bagian Kontrak Tulis dari kontrak token OHM](https://etherscan.io/address/0x383518188c0c6d7730d91b2c03a03c837814a899#writeContract).
+2. Periksa dan pastikan jaringan yang Anda pilih adalah "Ethereum Mainnet" pada dompet Anda. Kemudian tekan **Hubungkan ke Web3** atau **Connect to Web3** untuk menghubungkan dompet Anda jika Anda belum pernah melakukannya.
+3. Setelah terhubung, pilih opsi ketiga "_Approve_" .
+4. Di bidang _spender \(address\)_ , kami akan mengisi [alamat kontrak taruhan](https://app.gitbook.com/@olympusdao-1/s/olympusdocs/~/drafts/-MiUWy5CllkavdxoRULJ/v/indonesian/contracts/staking#staking) . Masukkan nilai berikut: **0xC8C436271f9A6F10a5B80c8b8eD7D0E8f37a612d**
+5. Pada bidang _amount \(uint256\)_ , isikan jumlah OHM yang Anda inginkan untuk digunakan oleh kontrak taruhan atas nama Anda, dan kalikan dengan 1e9. Atau, Anda dapat menggunakan[ kalkulator ini](https://docs.google.com/spreadsheets/d/1vm48OCBnVh8uah0-3Xa7HqFwmfxgcrMIWPrOllSFIvA/edit?usp=sharing) untuk melakukan konversi Anda sendiri. Jika Anda tidak ingin mengulangi langkah ini pada setiap kali Anda ingin staking, Anda dapat memasukkan nilai yang sangat besar. Katakanlah Anda ingin mengizinkan kontrak untuk menggunakan jumlah OHM hingga 1e9 OHM atas nama Anda, Anda bisa memasukkan: **1000000000000000000**
+6. Klik Tulis atau **Write**.
+7. Tanda tangani transaksi di Metamask dan tunggu sampai selesai.
 
-## How to Stake OHM via Etherscan
+## Bagaimana Cara Staking OHM melalui Etherscan
 
-1. Go to the [Write Contract section of the staking contract](https://etherscan.io/address/0xC8C436271f9A6F10a5B80c8b8eD7D0E8f37a612d#writeContract).
-2. Check and ensure your selected network is "Ethereum Mainnet" in your wallet. Then press **Connect to Web3** to connect your wallet if you haven't done so.
-3. Once it is connected, select the _stake_ option.
-4. On the _\_amount \(uint256\)_ field, fill in the amount you wish to stake, and multiply it by 1e9. Alternatively, you can use [this calculator](https://docs.google.com/spreadsheets/d/1vm48OCBnVh8uah0-3Xa7HqFwmfxgcrMIWPrOllSFIvA/edit?usp=sharing) to perform the conversion for you. For example, if you want to stake 1 OHM, fill in the value: **1000000000**
-5. Click **Write**.
-6. Sign the transaction on Metamask and wait for it to complete.
+1. Pergi ke bagian [Write Contract dari kontrak staking](https://etherscan.io/address/0x383518188c0c6d7730d91b2c03a03c837814a899#writeContract).
+2. Periksa dan pastikan jaringan yang Anda pilih adalah "Ethereum Mainnet" pada dompet Anda. Kemudian tekan **Hubungkan ke Web3** atau **Connect to Web3** untuk menghubungkan dompet Anda jika Anda belum melakukannya.
+3. Setelah terhubung, pilih opsi "stake".
+4. Pada bidang _\_amount \(uint256\)_ , isi jumlah yang ingin Anda pertaruhkan atau stake, dan kalikan dengan 1e9. Atau, Anda dapat menggunakan[ kalkulator ini](https://docs.google.com/spreadsheets/d/1vm48OCBnVh8uah0-3Xa7HqFwmfxgcrMIWPrOllSFIvA/edit?usp=sharing) untuk melakukan konversi untuk Anda. Misalnya, jika Anda ingin mempertaruhkan 1 OHM, isikan nilainya: **1000000000**
+5. Klik tulis atau **Write**.
+6. Tanda tangani transaksi di Metamask dan tunggu sampai selesai.
 

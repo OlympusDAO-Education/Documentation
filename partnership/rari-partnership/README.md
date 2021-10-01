@@ -1,4 +1,4 @@
 # Rari Capital
 
-OlympusDAO has collaborated with [Rari Capital](https://rari.capital/) to create a Fuse pool that allows users to use their sOHM as collateral and borrow other assets against it.
+OlympusDAO telah berkolaborasi dengan[ Rari Capital](https://rari.capital/) untuk membuat Fusepool yang memungkinkan pengguna untuk menggunakan sOHM mereka sebagai jaminan dan meminjam aset lain untuk itu.
 

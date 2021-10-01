@@ -1,70 +1,68 @@
-# Stake Your OHM \(3, 3\)
+# Stake OHM Anda \(3, 3\)
 
-Staking allows you to earn OHM passively via auto-compounding. By staking your OHM with OlympusDAO, you receive sOHM \(staked OHM\) in return at a 1:1 ratio. After that, your sOHM balance will increase automatically on every epoch based on the current APY.
+Staking memungkinkan Anda untuk mendapatkan OHM secara pasif melalui auto-compounding. Dengan mempertaruhkan OHM Anda dengan OlympusDAO, Anda menerima sOHM \(OHM yang dipertaruhkan\) sebagai imbalannya dengan rasio 1:1. Setelah itu, saldo sOHM Anda akan meningkat secara otomatis di setiap epoch berdasarkan APY saat ini.
 
-Check out this video on how to get OHM and stake it on Olympus:
+Lihat video ini tentang cara mendapatkan OHM dan mempertaruhkannya di Olympus:
 
-{% embed url="https://www.youtube.com/watch?v=aXAE1ikVMpM" caption="How to get OHM and stake it on Olympus" %}
+{% embed url="https://www.youtube.com/watch?v=aXAE1ikVMpM" caption="" %}
 
-## How to Buy OHM
+## Cara Membeli OHM
 
-{% hint style="warning" %}
-There are several venues to purchase OHM: [Sushiswap](https://app.sushi.com/swap), [Uniswap](https://app.uniswap.org/#/swap), or DEX aggregators such as [matcha](https://matcha.xyz/). Make sure to **check the slippage first** before buying OHM, as some venue offers worse rate than the others due to low liquidity.
-{% endhint %}
+Ada beberapa tempat untuk membeli OHM:[ Sushiswap](https://app.sushi.com/swap) , Uniswap , atau agregator DEX seperti[ matcha](https://matcha.xyz/) . Pastikan untuk memeriksa slippage terlebih dahulu sebelum membeli OHM, karena beberapa tempat menawarkan rate yang lebih buruk daripada yang lain karena likuiditas yang rendah.
 
-1. Go to [this Sushiswap swap page](https://app.sushi.com/swap?outputCurrency=0x383518188c0c6d7730d91b2c03a03c837814a899). We use Sushiswap as an example here. It is recommended to compare the exchange rate across different DEXes to ensure you are getting the best price.
+1. Buka[ halaman swap Sushiswap ini](https://app.sushi.com/swap?outputCurrency=0x383518188c0c6d7730d91b2c03a03c837814a899).
 
-2. Make sure the output currency is OHM. You can also copy and paste the [OHM contract address](../contracts/tokens.md#ohm) into the output currency field to ensure you are swapping for the right token.
+2. Pastikan mata uang keluaran adalah OHM. Anda juga dapat menyalin dan menempelkan [alamat kontrak OHM](https://docs.olympusdao.finance/contracts/tokens) ke bidang mata uang keluaran untuk memastikan Anda menukar token yang tepat.
 
 ![Paste OHM contract address](../.gitbook/assets/ohm_contract.png)
 
-3. You can select any input currency based on your available wallet balance. It is recommended to use DAI as the input currency to minimize the slippage.
+3. Anda dapat memilih mata uang input apa pun berdasarkan saldo dompet yang tersedia. Disarankan untuk menggunakan DAI sebagai mata uang input untuk meminimalisir slippage.
 
 ![Make sure the output currency is OHM](../.gitbook/assets/buy_ohm.png)
 
-4. Select the amount of OHM you want to swap for. Then click "Approve" and sign the transaction.
+4. Pilih jumlah OHM yang ingin Anda tukarkan. Kemudian klik "Setuju" atau "Approve" dan tanda tangani transaksi.
 
-5. After the "Approve" transaction has been processed successfully, click "Swap" and sign the transaction.
+5. Setelah transaksi "Setuju" atau "Approve" berhasil diproses, klik "Tukar" atau "Swap" dan tanda tangani transaksi.
 
-6. You should see OHM in your wallet balance now after the swap transaction is successful. If you cannot find it in your wallet, add [OHM contract address](../contracts/tokens.md#ohm) to your wallet.
+6. Anda akan melihat OHM di saldo dompet Anda sekarang setelah transaksi swap berhasil. Jika Anda tidak dapat menemukannya di dompet Anda, tambahkan [alamat kontrak OHM](https://docs.olympusdao.finance/contracts/tokens) ke dompet Anda.
 
-{% hint style="info" %}
-The "Approve" transaction is only needed when you swap OHM for the first time; subsequent swapping only requires you to perform the "Swap" transaction.
-{% endhint %}
+_Catatan: Transaksi "Setuju" atau "Approve" hanya diperlukan saat Anda menukar OHM untuk pertama kalinya; swapping berikutnya hanya mengharuskan Anda untuk melakukan transaksi "Swap"._
 
-## How to Stake
+## Bagaimana cara Staking?
 
-1. Go to the [Stake page of the OlympusDAO website](https://app.olympusdao.finance/#/). Select the "Stake" tab.
-2. Enter the amount of OHM that you would like to stake in the input field. If you would like to stake all your OHM, press the "Max" button and the input field will be populated with all your available OHM balance.
-3. Click "Approve" and sign the transaction.
-4. After the "Approve" transaction has been processed successfully, click "Stake" and sign the transaction. Voila, you have staked your OHM!
+1. Buka halaman [Stake di situs web OlympusDAO](https://app.olympusdao.finance/#/stake) . Pilih tab "Stake".
+2. Masukkan jumlah OHM yang ingin Anda stake di kolom input. Jika Anda ingin men-staking semua saldo OHM Anda yang anda miliki, klik tombol "Max"‚ dan kolom input akan diisi dengan semua saldo OHM Anda yang tersedia.
+3. Klik "Approve" dan tanda tangani transaksi.
+4. Setelah transaksi "Approve" berhasil diproses, klik "Stake" dan tanda tangani transaksi. Voila, Anda telah mempertaruhkan OHM Anda!
 
-## How to Unstake
+ _Catatan: Jika kamu tidak melihat sOHM di dompetmu, kamu bisa menambahkannya ke dalam dompetmu dengan_ [_alamat kontrak sOHM_](https://docs.olympusdao.finance/contracts/tokens)_._
 
-1. Go to the [Stake page of the OlympusDAO website](https://app.olympusdao.finance/#/). Select the "Unstake" tab.
-2. Enter the amount of sOHM that you would like to unstake in the input field. If you would like to unstake all your sOHM, press the "Max" button and the input field will be populated with all your available sOHM balance.
-3. Click "Approve" and sign the transaction.
-4. After the "Approve" transaction has been processed successfully, click "Unstake" and sign the transaction.
+## Cara Unstake
 
-_Note: The "Approve" transaction is only needed when staking/unstaking for the first time; subsequent staking/unstaking only requires you to perform the "Stake" or "Unstake" transaction._
+1. Buka [halaman Taruhan di situs web OlympusDAO](https://app.olympusdao.finance/#/stake) . Pilih tab "Unstake".
+2. Masukkan jumlah sOHM yang ingin Anda unstake di kolom input. Jika Anda ingin melepas semua sOHM Anda, tekan tombol "Maks" dan kolom input akan diisi dengan semua saldo sOHM Anda yang tersedia.
+3. Klik "Approve" dan tanda tangani transaksi.
+4. Setelah transaksi "Approve" berhasil diproses, klik "Unstake" dan tanda tangani transaksi.
+
+_Catatan: Transaksi "Approve" hanya diperlukan saat melakukan staking/unstaking untuk pertama kalinya; staking/unstaking berikutnya hanya mengharuskan Anda untuk melakukan transaksi "Stake" atau "Unstake"._
 
 ## Reading the Info
 
 ![The staking page](../.gitbook/assets/staking_page_index.png)
 
-**APY** tells you the annualized rate of return based on the reward yield. It takes into account the effect of compounding since sOHM rebases exponentially.
+**APY** menjelaskan tingkat pengembalian tahunan berdasarkan hasil imbalan. Ini memperhitungkan efek bunga majemuk karena sOHM rebase secara eksponensial.
 
-**TVL** measures the dollar amount of all the staked OHM in Olympus.
+**TVL** mengukur jumlah dolar dari semua OHM yang distake di Olympus.
 
-**Current Index** allows you to track your gain from staking. The index started from 1 at epoch 0, and increases every epoch. If you staked at genesis \(epoch 0\) and never unstaked any OHM, your balance today would be X times greater, where X is the current index. You can use the index to track your position by marking down the index number when you stake and unstake. You divide the index number when you unstake by the index number when you stake to get the ratio by which your sOHM balance has increased.
+**Indeks saat ini** atau **Current Index** memungkinkan Anda untuk melacak keuntungan Anda dari staking. Indeks dimulai dari 1 pada epoch 0, dan meningkat setiap epochnya. Jika Anda staking pada genesis \(Epoch 0\) dan tidak pernah unstake OHM apa pun, saldo Anda hari ini akan menjadi X kali lebih besar, di mana X adalah indeks saat ini. Anda dapat menggunakan indeks untuk melacak posisi Anda dengan menandai nomor indeks saat Anda stake dan unstake. Anda membagi nomor indeks saat Anda unstake dengan nomor indeks saat Anda stake untuk mendapatkan rasio peningkatan saldo sOHM Anda.
 
-**Your Balance** tells you how many unstaked OHM are in your wallet. This is the maximum amount that you can stake.
+**Saldo Anda** atau **Your Balance** menggambarkan berapa banyak OHM yang tidak di stake di dompet Anda. Ini adalah jumlah maksimum yang dapat Anda stake..
 
-**Your Staked Balance** tells you how many staked OHM are in your wallet. This is the maximum amount that you can unstake.
+**Saldo Taruhan Anda** atau **Your Staked Balance** menjelaskan ada berapa banyak staked OHM di dompet Anda. Ini adalah jumlah maksimum yang dapat Anda unstake.
 
-**Next Rebase** tells you the remaining time until the next rebase.
+**Next Rebase** memberi tahu Anda waktu yang tersisa hingga rebase berikutnya.
 
-**Reward Yield** tells you how much your sOHM balance will increase when the next epoch begins. For example, if you stake 100 OHM and the upcoming rebase is 0.5427%, your sOHM balance would increase from 100 to 100.5427.
+Reward Yield Menjelaskan ada berapa banyak saldo sOHM Anda akan meningkat ketika epoch berikutnya dimulai. Misalnya, jika Anda mempertaruhkan 100 OHM dan rebase yang akan datang adalah 0,5427%, saldo sOHM Anda akan meningkat dari 100 menjadi 100.5427.
 
-**ROI \(5-Day Rate\)** estimates how much your sOHM balance will increase after 5 days, if the reward yield stays the same during this period. For example, if you stake 100 OHM and the rate is 8.4577%, your sOHM balance would increase from 100 to 108.4577 after 5 days.
+**ROI \(Tarif 5 Hari\)** memperkirakan ada berapa banyak saldo sOHM Anda akan meningkat setelah 5 hari, jika hasil imbalan \(reward yield\) tetap sama selama periode ini. Misalnya, jika Anda memasang 100 OHM dan tarifnya 8,4577%, saldo sOHM Anda akan meningkat dari 100 menjadi 108,4577 setelah 5 hari.
 

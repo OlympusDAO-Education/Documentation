@@ -1,31 +1,31 @@
 # Unstake sOHM
 
-Sometimes, the Olympus website might not be accessible due to [hosting issues](https://twitter.com/FleekHQ/status/1416505712222609411). Fear not, you can still interact with the Olympus contracts to perform certain actions such as unstaking. In this guide, we will show you how to unstake sOHM tokens via [Etherscan](https://etherscan.io/).
+Terkadang, situs web Olympus mungkin tidak dapat diakses karena[ masalah hosting](https://twitter.com/FleekHQ/status/1416505712222609411) . Jangan takut, Anda masih bisa berinteraksi dengan kontrak Olympus untuk melakukan tindakan tertentu seperti unstake. Dalam panduan ini, kami akan menunjukkan kepada Anda cara melepas token sOHM melalui[ Etherscan](https://etherscan.io/) .
 
-If you have never unstaked sOHM before, there are two steps involved:
+Jika Anda belum pernah unstaking sOHM sebelumnya, ada dua langkah yang harus dilakukan:
 
-1. Approve the staking contract to spend your sOHM tokens.
-2. Unstake your sOHM tokens.
+1. Setujui kontrak taruhan untuk membelanjakan token sOHM Anda.
+2. Lepaskan \(unstake\) token sOHM Anda.
 
-If you have unstaked sOHM before, there is only one step to perform: Unstake your sOHM tokens.
+Jika Anda sudah pernah unstaking sOHM sebelumnya, hanya ada satu langkah yang harus dilakukan: Unstake token sOHM Anda.
 
-## How to Approve sOHM Spending via Etherscan
+## Bagaimana Cara Menyetujui Penggunaan sOHM melalui Etherscan
 
-1. Go to the [Write Contract section of the sOHM token contract](https://etherscan.io/address/0x04f2694c8fcee23e8fd0dfea1d4f5bb8c352111f#writeContract).
-2. Check and ensure your selected network is "Ethereum Mainnet" in your wallet. Then press **Connect to Web3** to connect your wallet if you haven't done so.
-3. Once it is connected, select the first option _approve_.
-4. On the _spender \(address\)_ field, we would fill in the [staking contract address](../contracts/staking.md#staking). Enter this value: **0xFd31c7d00Ca47653c6Ce64Af53c1571f9C36566a**
-5. On the _amount \(uint256\)_ field, fill in the amount of sOHM you would like the staking contract to spend on your behalf, and multiply it by 1e9. Alternatively, you can use [this calculator](https://docs.google.com/spreadsheets/d/1vm48OCBnVh8uah0-3Xa7HqFwmfxgcrMIWPrOllSFIvA/edit?usp=sharing) to perform the conversion for you. If you don't want to repeat this step whenever you want to unstake, you can choose a very large value. Let's say you want to allow the contract to spend up to 1e9 sOHM on your behalf, you would enter: **1000000000000000000**
-6. Click **Write**.
-7. Sign the transaction on Metamask and wait for it to complete.
+1. Buka [bagian Kontrak Tulis dari kontrak token sOHM](https://etherscan.io/address/0x04f2694c8fcee23e8fd0dfea1d4f5bb8c352111f#writeContract).
+2. Periksa dan pastikan jaringan yang Anda pilih adalah "Ethereum Mainnet" pada dompet Anda. Kemudian tekan **Hubungkan ke Web3** atau **Connect to Web3** untuk menghubungkan dompet Anda jika Anda belum pernah melakukannya.
+3. Setelah terhubung, pilih opsi pertama "_approve_" .
+4. Di bidang _spender \(address\)_, kami akan mengisi [alamat kontrak stake](https://app.gitbook.com/@olympusdao-1/s/olympusdocs/~/drafts/-MiUWy5CllkavdxoRULJ/v/indonesian/contracts/staking#staking) . Masukkan nilai ini: **0xFd31c7d00Ca47653c6Ce64Af53c1571f9C36566a**
+5. Pada bidang _amount \(uint256\)_ , isi jumlah sOHM yang Anda ingin kontrak stake gunakan atas nama Anda, dan kalikan dengan 1e9. Atau, Anda dapat menggunakan[ kalkulator ini](https://docs.google.com/spreadsheets/d/1vm48OCBnVh8uah0-3Xa7HqFwmfxgcrMIWPrOllSFIvA/edit?usp=sharing) untuk melakukan konversi untuk Anda. Jika Anda tidak ingin mengulangi langkah ini setiap kali Anda ingin membatalkan taruhan, Anda bisa memilih nilai yang sangat besar. Katakanlah Anda ingin mengizinkan kontrak menggunakan hingga 1e9 sOHM atas nama Anda, Anda bisa memasukkan**1000000000000000000**
+6. Klik Tulis atau **Write**.
+7. Tanda tangani transaksi di Metamask dan tunggu sampai selesai.
 
-## How to Unstake sOHM via Etherscan
+## Bagaimana Cara Unstake sOHM melalui Etherscan
 
-1. Go to the [Write Contract section of the staking contract](https://etherscan.io/address/0xFd31c7d00Ca47653c6Ce64Af53c1571f9C36566a#writeContract).
-2. Check and ensure your selected network is "Ethereum Mainnet" in your wallet. Then press **Connect to Web3** to connect your wallet if you haven't done so.
-3. Once it is connected, select the last option _unstake_.
-4. On the _\_amount \(uint256\)_ field, fill in the amount you wish to unstake, and multiply it by 1e9. Alternatively, you can use [this calculator](https://docs.google.com/spreadsheets/d/1vm48OCBnVh8uah0-3Xa7HqFwmfxgcrMIWPrOllSFIvA/edit?usp=sharing) to perform the conversion for you. For example, if you want to unstake 1 sOHM, fill in the value: **1000000000**
-5. On the _\_trigger \(bool\)_ field, fill in the value: **true**
-6. Click **Write**.
-7. Sign the transaction on Metamask and wait for it to complete.
+1. Pergi ke bagian [Write Contract dari kontrak staking](https://etherscan.io/address/0xFd31c7d00Ca47653c6Ce64Af53c1571f9C36566a#writeContract).
+2. Periksa dan pastikan jaringan yang Anda pilih adalah "Ethereum Mainnet" di dompet Anda. Kemudian tekan **Hubungkan ke Web3** untuk menghubungkan dompet Anda jika Anda belum melakukannya.
+3. Setelah terhubung, pilih opsi terakhir _unstake_.
+4. Pada bidang _\_amount \(uint256\)_ , isi jumlah yang ingin Anda batalkan taruhannya \(unstake\), dan kalikan dengan 1e9. Atau, Anda bisa menggunakan[ kalkulator ini](https://docs.google.com/spreadsheets/d/1vm48OCBnVh8uah0-3Xa7HqFwmfxgcrMIWPrOllSFIvA/edit?usp=sharing) untuk melakukan konversi untuk Anda. Misalnya, jika Anda ingin meng-unstake 1 sOHM, isikan nilainya: **1000000000**
+5. Pada kolom _\_trigger \(bool\)_ , isikan nilai: _true_
+6. Klik Tulis atau **Write**.
+7. Tanda tangani transaksi di Metamask dan tunggu sampai selesai.
 

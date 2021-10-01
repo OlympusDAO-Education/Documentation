@@ -1,22 +1,22 @@
-# FRAX Bond
+# Bond FRAX
 
-FRAX bond was introduced on 16 June 2021. It allows you to trade [FRAX](https://www.coingecko.com/en/coins/frax) in exchange for discounted OHM on Olympus.
+Bond FRAX diperkenalkan pada 16 Juni 2021. Bond ini memungkinkan Anda untuk memperdagangkan[ FRAX](https://www.coingecko.com/en/coins/frax) dengan imbalan OHM yang didiskon di Olympus.
 
-## How to Bond
+## **Bagaimana cara bond?**
 
-1. Make sure you have FRAX in your wallet. For example, you can [go to Uniswap to swap for FRAX](https://app.uniswap.org/#/swap?outputCurrency=0x853d955acef822db058eb8505911ed77f175b99e) if you don't have any.
+1. Pastikan Anda memiliki FRAX di dompet Anda. Contohnya, Anda dapat [pergi ke Uniswap untuk menukar FRAX](https://app.uniswap.org/#/swap?outputCurrency=0x853d955acef822db058eb8505911ed77f175b99e) jika Anda tidak memilikinya.
 
-2. Head to the [FRAX Bond page of the Olympus website](https://app.olympusdao.finance/#/bonds/frax). There are two tabs: "Bond" and "Redeem". Make sure "Bond" is selected.
+2. Buka halaman [FRAX Bond di situs web Olympus](https://app.olympusdao.finance/#/bonds/frax). Ada dua tab: "Bond" dan "Redeem". Pastikan "Bond" dipilih.
 
-3. Type in the amount of FRAX you would like to bond. Make sure you are not trying to bond more than is allowed. The **Max You Can Buy** field below shows the maximum amount of OHM you can purchase.
+3. Ketik jumlah FRAX yang ingin Anda bond. Pastikan Anda tidak mencoba membonding lebih dari yang diizinkan. Kolom **Max You Can Buy** di bawah ini menunjukkan jumlah maksimum OHM yang dapat Anda beli.
 
-![You can only purchase up to a certain amount of OHM](../../.gitbook/assets/max_you_can_buy.png)
+![Anda hanya dapat membeli hingga jumlah OHM tertentu](../../.gitbook/assets/max_you_can_buy.png)
 
-4. If this is your first purchase, you need to approve the Olympus contract to spend your FRAX. Click "Approve" and sign the transaction.
+4. Jika ini adalah pembelian pertama Anda, Anda harus menyetujui kontrak Olympus untuk membelanjakan FRAX Anda. Klik "Approve" dan tanda tangani transaksi.
 
-5. After the "Approve" transaction has been processed successfully, refresh the page. The "Approve" button should be changed to display "Bond" by now.
+5. Setelah transaksi "Approve" berhasil diproses, refresh halaman. Tombol "Approve" seharusnya sudah menampilkan "Bond" sekarang.
 
-![Refresh the page after the token approval process](../../.gitbook/assets/bond_frax_refresh.png)
+![Segarkan halaman setelah proses persetujuan token](../../.gitbook/assets/bond_frax_refresh.png)
 
-6. Click "Bond" and sign the transaction. Voila, you have purchased your first FRAX bond!
+6. Klik "Bond" dan tanda tangani transaksi. Anda telah membeli obligasi FRAX pertama Anda!
 

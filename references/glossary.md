@@ -1,74 +1,77 @@
-# Glossary
+# Glosarium
 
 ## APR
 
-Annual Percentage Rate, is the annualized interest rate without taking the effect of compounding into account.
+Annual Percentage Rate atau Tingkat Persentase Tahunan, adalah tingkat bunga tahunan tanpa memperhitungkan efek compounding.
 
 ## APY
 
-Annual Percentage Yield, is the normalized representation of an interest rate, based on a compounding period over one year. Note that APYs provided are rather ballpark level indicators and not so much precise future results.
+Annual Percentage Yield atau Hasil Persentase Tahunan, adalah representasi tingkat bunga yang dinormalisasi, berdasarkan periode compounding selama satu tahun. Catat bahwa APY yang disediakan adalah indikator tingkat rata-rata dan bukanlah hasil di masa depan yang begitu akurat.
 
 ## BCV
 
-Bond Control Variable, is the scaling factor at which bond prices change. A higher BCV means a lower discount for bonders and higher inflation by the protocol. A lower BCV means a higher discount for bonders and lower inflation by the protocol.
+Bond Control Variable atau Variabel Kontrol Bond, adalah faktor skala di mana harga bond berubah. BCV yang lebih tinggi berarti diskon yang lebih rendah untuk bonders dan inflasi yang lebih tinggi menurut protokol. BCV yang lebih rendah berarti diskon yang lebih tinggi untuk bonders dan inflasi yang lebih rendah menurut protokol.
 
 ## DAO
 
-Decentralized Autonomous Organization, is a governance mechanism for making decisions in a more trustless and collaborative way. Voting rights are often bound to a governance token. In OlympusDAO the governance token is sOHM.
+Decentralized Autonomous Organization atau Organisasi Otonom Terdesentralisasi, adalah mekanisme tata kelola untuk membuat keputusan dengan cara yang anda tidak harus percaya sepenuhnya atau wajib dan kolaboratif. Hak suara sering terikat pada token tata kelola. Di OlympusDAO, token tata kelolanya adalah soHM.
 
 ## DCV
 
-Deflation Control Variable, is the scaling factor at which protocol defined buy pressure changes. A higher DCV means more buy pressure from the protocol, resulting in a higher deflation. A lower DCV means less buy pressure from the protocol, resulting in a lower deflation.
+Deflation Control Variable atau Variabel Kontrol Deflasi, adalah faktor penskalaan di mana protokol mendefinisikan perubahan tekanan beli. DCV yang lebih tinggi berarti lebih banyak tekanan beli dari protokol, menghasilkan deflasi yang lebih tinggi. DCV yang lebih rendah berarti lebih sedikit tekanan beli dari protokol, menghasilkan deflasi yang lebih rendah.
 
 ## EVM
 
-Ethereum Virtual Machine, is a state machine in which all Ethereum accounts and smart contracts live. At any given block in the chain, Ethereum has one and only one canonical state, and the EVM is what defines the rules for computing a new valid state from block to block.
+Ethereum Virtual Machine atau Mesin Virtual Ethereum adalah mesin status tempat semua akun Ethereum dan kontrak pintar hidup. Pada blok mana pun dalam rantai \(blockchain\), Ethereum memiliki satu dan hanya satu status kanonik, dan EVM adalah yang mendefinisikan aturan untuk menghitung status valid baru dari blok ke blok.
 
-## Liquidity Bonds
+## Bond Likuiditas 
 
-Liquidity bonds are LP token bonds. Examples are OHM-DAI LP bonds and OHM-FRAX LP bonds.
+Liquidity bonds atau bond likuiditas adalah bond token LP. Contohnya adalah bond OHM-DAI LP dan bond OHM-FRAX LP.
 
 ## PCV
 
-Protocol Controlled Value, is the amount of funds the treasury owns and controls. The more PCV the better for the protocol and its users.
+Protocol Controlled Value, adalah jumlah dana yang dimiliki dan dikendalikan oleh perbendaharaan. Semakin banyak PCV semakin baik untuk protokol dan penggunanya.
 
 ## POL
 
-Protocol Owned Liquidity, is the amount of LP the treasury owns and controls. The more POL the better for the protocol and its users.
+Protocol Owned Liquidity, adalah jumlah LP yang dimiliki dan dikendalikan perbendaharaan. Semakin banyak POL semakin baik bagi protokol dan penggunanya.
 
 ## PoR
 
-Proof of Reserve, is the mechanism of strengthening the reserve of OlympusDAO treasury via the sales of bonds. Bonders provide liquidity to the treasury, thereby building its reserve. In return for their service, bonders get paid in OHM.
+Proof of Reserve, adalah mekanisme penguatan cadangan perbendaharaan OlympusDAO melalui penjualan bond. Bonder menyediakan likuiditas ke perbendaharaan, sehingga membangun cadangannya sendiri. Sebagai imbalan atas layanan mereka, bonder dibayarkan dalam OHM.  
 
-## Reserve Bonds
 
-Reserve bonds are single asset bonds. They are sometimes referred to as "naked" bonds. Examples are DAI bonds and FRAX bonds.
+## Bond Cadangan
+
+Reserve bonds adalah bond aset tunggal. Mereka kadang-kadang disebut sebagai bond "telanjang". Contohnya adalah bond DAI dan bond FRAX
 
 ## Reward Rate
 
-Reward rate is the configured percentage of OHM distributed to all stakers on each rebase relative to the total supply. The reward rate is precisely set by the policy team.
+Reward rate atau tingkat hadiah adalah persentase terkonfigurasi dari OHM yang didistribusikan ke semua staker pada setiap rebase relatif terhadap total suplai. Tingkat imbalan ditentukan secara akurat oleh tim kebijakan.
 
 ## Reward Yield
 
-Reward yield refers to the actual amount of OHM received by each staker on each rebase. The reward yield is a rough target from a policy point of view. It can almost never be maintained precisely due to e.g. fluctuating amounts of OHM staked.
+Reward yield atau hasil hadiah mengacu pada jumlah aktual OHM yang diterima oleh setiap staker pada setiap rebase. Hasil imbalan adalah target kasar dari sudut pandang kebijakan. Hasil hadiah hampir tidak pernah dapat diperkirakan selalu sama justru karena misalnya jumlah OHM yang dipertaruhkan berfluktuasi.
 
 ## RFV
 
-Risk Free Value, is the amount of funds the treasury guarantees to use for backing OHM.
+Risk Free Value, adalah jumlah dana yang dijamin perbendaharaan untuk digunakan sebagai pencadang OHM.
 
 ## SLP
 
-Sushiswap Liquidity Provider, is the token received when providing liquidity on Sushiswap. For instance LP bonds require SLP tokens of the OHM / DAI pair.
+Sushiswap Liquidity Provider atau Penyedia Likuiditas Sushiswap, adalah token yang diterima saat menyediakan likuiditas di Sushiswap. Misalnya bond LP memerlukan token SLP dari pasangan OHM / DAI.
 
 ## TVL
 
-Total Value Locked, is the dollar amount of all OHM staked in the protocol. This metric is often used as growth or health indicator in DeFi projects.
+Total Value Locked, adalah jumlah dolar dari semua OHM yang dipertaruhkan \(distake\) dalam protokol. Metrik ini sering digunakan sebagai indikator pertumbuhan atau kesehatan dalam proyek DeFi.  
+
 
 ## TaaS
 
-Treasury as a Service, is the business model of decentralized custody of partnership funds. OlympusDAO is designed for TaaS by selling bonds and absorbing partners' liquidity into its treasury as a result.
+Treasury as a Service, adalah model bisnis penyimpanan dana kemitraan yang terdesentralisasi. OlympusDAO dirancang untuk TaaS dengan menjual bond dan sebagai hasilnya menyerap likuiditas mitra ke dalam perbendaharaannya.
 
 ## TWAP
 
-Time Weighted Average Price, is the average price of an asset over a specified time. TWAPs are used to represent the fair value of an asset as defined by the market.
+Time Weighted Average Price, adalah harga rata-rata suatu aset selama waktu tertentu. TWAP digunakan untuk mewakili nilai wajar sebuah aset seperti yang didefinisikan oleh pasar.  
+
 

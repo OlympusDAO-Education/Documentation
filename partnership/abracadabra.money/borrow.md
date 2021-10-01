@@ -1,48 +1,48 @@
-# Borrowing
+# Peminjaman
 
-You can start by referring to David’s [Medium article on how to use Abracadabra](https://davidgmi.medium.com/how-to-cast-a-magic-spell-to-your-ohm-and-3-3-strategy-using-abracadabra-money-45fc6187f281) in addition to the basic explanations below.
+Anda bisa mulai dengan merujuk kepada[ artikel](https://davidgmi.medium.com/how-to-cast-a-magic-spell-to-your-ohm-and-3-3-strategy-using-abracadabra-money-45fc6187f281) David[ Medium tentang cara menggunakan Abracadabra](https://davidgmi.medium.com/how-to-cast-a-magic-spell-to-your-ohm-and-3-3-strategy-using-abracadabra-money-45fc6187f281) selain penjelasan dasar di bawah ini.
 
-## How to Borrow MIM
+## Cara Meminjam MIM
 
-If you have [staked OHM on Olympus](../../using-the-website/staking.md), you can borrow MIM against your sOHM.
+Jika Anda telah pernah[ mempertaruhkan OHM di Olympus](https://docs.olympusdao.finance/using-the-website/staking) , Anda dapat meminjam MIM dengan sOHM Anda.
 
-1. Connect your wallet and go to [Abracadabra.money Pool 10](https://abracadabra.money/pool/10).
+1. Hubungkan dompet Anda dan buka[ Abracadabra.money Pool 10](https://abracadabra.money/pool/10) .
 
-2. Under the "WRAP" menu, wrap the amount of sOHM against which you want to borrow to wsOHM.
+2. Di bawah menu "WRAP", bungkus atau wrap jumlah sOHM yang ingin Anda pinjam ke wsOHM.
 
 ![](../../.gitbook/assets/screen-shot-2021-08-29-at-4.10.42-pm%20%281%29.png)
 
-3. Go to the "BORROW" menu. Type the amount of wsOHM that you want to use as collateral and type the amount of MIM you want to borrow.
+3. Masuk ke menu "BORROW". Ketik jumlah wsOHM yang ingin Anda gunakan sebagai jaminan dan ketik jumlah MIM yang ingin Anda pinjam.
 
-4. Click "ADD COLLATERAL AND BORROW" and sign the transaction. When the transaction is processed successfully, the borrowed MIM amount will appear in your wallet.
+4. Klik "ADD COLLATERAL AND BORROW" dan tandatangani transaksi. Ketika transaksi berhasil diproses, jumlah MIM yang dipinjam akan muncul di dompet Anda.
 
 {% hint style="info" %}
-If this is your first interaction with the App, you need to approve the Abracadabra's contract to spend your token first. However, you only need to perform this once - subsequent wrapping or borrowing process doesn't require the token approval step.
+Jika ini adalah interaksi pertama Anda menggunakan Aplikasi, Anda harus menyetujui kontrak Abracadabra untuk menggunakan token Anda terlebih dahulu. Namun, Anda hanya perlu melakukan ini sekali - proses pembungkusan \(wrapping\) atau peminjaman \(borrowing\) berikutnya tidak memerlukan langkah persetujuan token lagi.
 {% endhint %}
 
-## **How to Leverage**
+## Bagaimana Cara **Leverage**
 
 {% hint style="warning" %}
-Make sure you understand how leverage works in [this article from Abracadabra](https://docs.abracadabra.money/intro/leveraged-positions).
+Leverage bisa diartikan menggunakan pinjaman untuk menghasilkan keuntungan. Pastikan Anda memahami cara kerja leverage dalam[ artikel dari Abracadabra ini](https://docs.abracadabra.money/intro/leveraged-positions) .
 {% endhint %}
 
 ![](../../.gitbook/assets/screen-shot-2021-08-29-at-4.10.54-pm%20%281%29.png)
 
-1. Click on "Change leverage" and choose a loop amount.
+1. Klik "Ubah leverage" atau "Change Leverage" dan pilih jumlah putaran.
 
-2. Depending on the loop amount \(ranges between 1 to 10\), your borrow amount, leverage, and liquidation price will be updated accordingly.
+2. Tergantung pada jumlah loop \(berkisar antara 1 hingga 10\), jumlah pinjaman, leverage, dan harga likuidasi Anda akan diperbarui dengan sesuai.
 
 {% hint style="danger" %}
-Liquidation price increases with loop amount, and a higher liquidation price means you can get liquidated more easily.
+Harga likuidasi meningkat dengan jumlah loop, dan harga likuidasi yang lebih tinggi berarti Anda bisa dilikuidasi dengan lebih mudah.
 {% endhint %}
 
-3. You can adjust the "Swap Tolerance". A lower value means your transaction is more likely to fail e.g. when the exchange rate of MIM token changes during the execution of your transaction.
+3. Anda dapat menyesuaikan "Swap Tolerance". Nilai yang lebih rendah berarti transaksi Anda lebih mungkin gagal misalnya ketika nilai tukar token MIM berubah selama pelaksanaan transaksi Anda.
 
-4. To use a lower gas fee, click on "Update price". Then click "ADD COLLATERAL AND BORROW" and sign the transaction to open a leverage position.
+4. Untuk menggunakan biaya gas yang lebih rendah, klik "Perbarui harga" atau "Update Price". Kemudian klik "ADD COLLATERAL AND BORROW" dan tanda tangani transaksi untuk membuka posisi leverage.
 
-5. Unlike a normal borrow, you will not get any MIM tokens in your wallet from this transaction because they are swapped for more wsOHM in the background.
+5. Tidak seperti pinjaman biasa, Anda tidak akan mendapatkan token MIM di dompet Anda dari transaksi ini karena ditukar dengan lebih banyak wsOHM di latar belakang.
 
 {% hint style="danger" %}
-You can add more collateral before the collateral price reaches the liquidation price. When you use leverage, you will forfeit all your collateral if you get liquidated.
+Anda dapat menambahkan lebih banyak jaminan sebelum harga jaminan mencapai harga likuidasi. Ketika Anda menggunakan leverage, Anda akan kehilangan semua jaminan Anda jika Anda dilikuidasi.
 {% endhint %}
 

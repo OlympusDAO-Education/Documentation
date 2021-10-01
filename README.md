@@ -1,32 +1,32 @@
-# Introduction
+# Pengantar
 
-## What is Olympus?
+## Apa itu Olympus?
 
-Olympus is a decentralized reserve currency protocol based on the OHM token. Each OHM token is backed by a basket of assets \(e.g. DAI, FRAX\) in the Olympus treasury, giving it an intrinsic value that it cannot fall below. Olympus also introduces unique economic and game-theoretic dynamics into the market through staking and bonding. Read more about the game theory aspect of Olympus in [one of our blog posts](https://olympusdao.medium.com/the-game-theory-of-olympus-e4c5f19a77df).
+Olympus adalah protokol mata uang cadangan terdesentralisasi berdasarkan token OHM. Setiap token OHM didukung oleh sekeranjang aset \(seperti DAI, FRAX\) di dalam perbendaharaan Olympus, sehingga memberikan nilai intrinsik yang tidak dapat jatuh di bawah nilai intrinsiknya. Olympus juga memperkenalkan dinamika ekonomi dan teori permainan yang unik ke pasar melalui staking dan bonding. Baca lebih lanjut tentang aspek teori permainan Olympus di[ salah satu posting blog kami](https://olympusdao.medium.com/the-game-theory-of-olympus-e4c5f19a77df) .
 
 {% embed url="https://www.youtube.com/watch?v=QZOaZ9dd-ms" caption="Introductory video about Olympus" %}
 
-## What is the point of Olympus?
+## Apa gunanya Olympus?
 
-Our goal is to build a policy-controlled currency system, in which the behavior of the OHM token is controlled at a high level by the DAO. In the long term, we believe this system can be used to optimize for stability and consistency so that OHM can function as a global unit-of-account and medium-of-exchange currency. In the short term, we intend to optimize the system for growth and wealth creation.
+Tujuan kami adalah membangun sistem mata uang yang dikendalikan oleh kebijakan di mana perilaku token OHM dikendalikan pada tingkat tinggi oleh DAO. Dalam jangka panjang, kami yakin sistem ini dapat digunakan untuk mengoptimalkan stabilitas dan konsistensi sehingga OHM dapat berfungsi sebagai mata uang unit-of-account dan medium-of-exchange global. Dalam jangka pendek, kami bermaksud untuk mengoptimalkan sistem pertumbuhan dan penciptaan kekayaan.
 
-## How do I participate in Olympus?
+## Bagaimana cara saya berpartisipasi di Olympus?
 
-There are two main strategies for market participants: [staking](basics/staking.md) and [bonding](basics/bonding.md). Stakers stake their OHM tokens in return for more OHM tokens, while bonders provide LP or DAI tokens in exchange for discounted OHM tokens after a fixed vesting period.
+Ada dua strategi utama bagi pelaku pasar: staking dan bonding . Staker mempertaruhkan token OHM mereka dengan imbalan token OHM yang lebih banyak, sementara bonder memberikan token LP atau DAI dengan imbalan token OHM yang didiskon setelah periode vesting tetap.
 
-Governance participants can get involved on our [forum](https://forum.olympusdao.finance) and through discussions on our [community discord](https://discord.com/invite/olympusdao) and [DAO discord](https://discord.com/invite/42xFV68uEf) servers respectively. We are always looking for new community members to contribute!
+Peserta anggota dapat terlibat di[ forum](https://forum.olympusdao.finance/) kami dan melalui diskusi di server[ Komunitas Discord](https://discord.com/invite/olympusdao)  dan[ DAO kami](https://discord.com/invite/42xFV68uEf) . Kami selalu mencari anggota komunitas baru untuk berkontribusi!
 
-## How can I benefit from Olympus?
+## Bagaimana saya bisa mendapatkan keuntungan dari Olympus?
 
-The main benefit for stakers comes from supply growth. The protocol mints new OHM tokens from the treasury, the majority of which are distributed to the stakers. Thus, the gain for stakers will come from their auto-compounding balances, though price exposure remains an important consideration. That is, if the increase in token balance outpaces the potential drop in price \(due to inflation\), stakers would make a profit.
+Keuntungan utama bagi pelaku staking berasal dari pertumbuhan pasokan \(jumlah OHM\). Protokol mencetak token OHM baru dari perbendaharaan, yang sebagian besar didistribusikan ke para pelaku staking. Dengan demikian, keuntungan bagi pelaku staking akan datang dari saldo auto-compounding mereka, meskipun eksposur harga tetap menjadi pertimbangan penting. Artinya, jika kenaikan saldo token melebihi potensi penurunan harga \(karena inflasi\), para pemegang saham akan mendapat untung.
 
-The main benefit for bonders comes from price consistency. Bonders commit a capital upfront and are promised a fixed return at a set point in time; that return is in OHM and thus the bonder's profit would depend on OHM price when the bond matures. Bonders benefit from a rising or static OHM price.
+Keuntungan utama bagi pelaku bonding berasal dari konsistensi harga. Pelaku bonding memberikan modal dimuka dan dijanjikan pengembalian tetap pada titik waktu yang ditentukan; pengembalian itu dalam OHM dan dengan demikian keuntungan pelaku bonding akan tergantung pada harga OHM ketika jatuh tempo obligasi. Pelaku Bonding mendapat keuntungan dari kenaikan ataupun harga OHM yang statis.
 
-## Who created Olympus?
+## Siapa yang menciptakan Olympus?
 
-Olympus was ideated by Zeus and built by a distributed pseudo-anonymous team.
+Olympus digagas oleh Zeus dan dibangun oleh tim pseudo-anonimus.
 
-## Who runs Olympus?
+## Siapa yang menjalankan Olympus?
 
-No one. Olympus is DAO-governed. All decisions are formed by community members on the forum and made by token holders through snapshot voting.
+Tidak ada. Olympus diatur oleh DAO. Semua keputusan dibentuk oleh anggota komunitas di forum dan dibuat oleh pemegang token melalui voting snapshot.
 

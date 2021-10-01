@@ -1,12 +1,12 @@
-# Policy
+# Kebijakan
 
-## Policy
+## Kebijakan
 
-The policy contract is an address guarded by a simple gnosis safe implementation. The policy address manages adjustments of the monetary policy of the Olympus DAO protocol. This includes BCV and reward rate adjustments. Below are listed policy addresses by version, where the latest version represents the currently active address.
+Kontrak kebijakan adalah alamat yang dijaga oleh implementasi aman gnosis sederhana. Alamat kebijakan mengelola penyesuaian kebijakan moneter dari protokol DAO Olympus. Ini termasuk BCV dan penyesuaian tingkat hadiah. Di bawah ini tercantum alamat kebijakan berdasarkan versi, di mana versi terbaru mewakili alamat yang sedang aktif.
 
 * V1 [0x0cf3...6b2E](https://etherscan.io/address/0x0cf30dc0d48604A301dF8010cdc028C055336b2E)
 
-The policy contract is guarded by a 3 of 5 multisig. That means any transaction for making policy changes must be approved by at least 3 signers, of which we have 5 signers in total. The operation security for our monetary policy is thus protected from a single actor going rogue, because it takes a quorum of 3 to authorize any transaction like adjusting the reward rate. The 5 signing addresses for our monetary policy are listed below.
+Kontrak kebijakan dijaga oleh 3 dari 5 multi-sig. Itu berarti setiap transaksi untuk membuat perubahan kebijakan harus disetujui oleh setidaknya 3 penandatangan, di mana kami memiliki total 5 penandatangan. Dengan demikian keamanan operasi untuk kebijakan moneter kami terlindungi dari setiap aktor yang nakal, karena dibutuhkan paling tidak 3 suara untuk mengotorisasi transaksi apa pun seperti menyesuaikan tingkat hadiah. 5 alamat penandatanganan untuk kebijakan moneter kami tercantum di bawah ini.
 
 1. [0x1664...4033](https://etherscan.io/address/0x1664852674e93268Ef7704B7c345b20a876d4033)
 2. [0x4Da7...091C](https://etherscan.io/address/0x4Da7EB21fd6c918b57f61B15109133C069FA091C)

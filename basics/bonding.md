@@ -1,10 +1,10 @@
 # Bonding
 
-## What is bonding?
+## Apa itu bonding?
 
-**Bonding is the secondary value accrual strategy of Olympus.** Bonds are a cross between a fixed income product, a futures contract, and an option. The protocol quotes the bonder with terms for a trade at a future date. These terms include a predefined amount of OHM the bonder will receive and the time when vesting is complete. The bond becomes redeemable as it vests. I.e. in a 5-day term, after 2 days into the term 40% of the rewards can be claimed.
+**Bonding adalah strategi akrual nilai sekunder dari Olympus.** Bonding atau obligasi adalah persilangan antara produk pendapatan tetap, kontrak berjangka, dan sebuah opsi. Protokol mengutip bonder dengan persyaratan untuk perdagangan di masa mendatang. Persyaratan ini mencakup jumlah OHM yang telah ditentukan sebelumnya yang akan diterima oleh bonder dan waktu saat vesting selesai. Obligasi menjadi dapat ditebus saat vests. Yaitu dalam jangka waktu 5 hari, setelah 2 hari memasuki jangka waktu 40% dari imbalan dapat diklaim.
 
-**Bonding is an active, short-term strategy.** The price discovery mechanism of the secondary bond market renders bond discounts more or less unpredictable. Therefore bonding is considered a more active investment strategy that has to be monitored constantly in order to be more profitable as compared to staking.
+**Bonding adalah strategi jangka pendek yang aktif.** Mekanisme penemuan harga pasar obligasi sekunder membuat diskon bond kurang lebih tidak dapat diprediksi. Oleh karena itu bonding dianggap sebagai strategi investasi yang lebih aktif yang harus dipantau terus-menerus agar lebih menguntungkan dibandingkan dengan staking.
 
-**Bonding allows Olympus to accumulate its own liquidity.** We call our own liquidity [POL](../references/glossary.md#pol). More POL ensures there is always locked exit liquidity in our trading pools to facilitate market operations and protect token holders. Since Olympus becomes its own market, on top of additional certainty for OHM investors, the protocol accrues more and more revenue from LP rewards bolstering our treasury.
+**Bonding memungkinkan Olympus mengakumulasi likuiditasnya sendiri.** Kami menyebut likuiditas kami sendiri POL . Dengan lebih banyaknya POL, memastikan selalu ada likuiditas keluar yang terkunci di pool perdagangan kami untuk memfasilitasi operasi pasar dan melindungi pemegang token. Sejak Olympus menjadi pasarnya sendiri, di atas kepastian tambahan bagi investor OHM, protokol tersebut memperoleh lebih banyak pendapatan dari imbalan LP yang memperkuat perbendaharaan kami.
 

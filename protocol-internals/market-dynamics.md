@@ -1,32 +1,41 @@
-# Market Dynamics
+# Dinamika Pasar
 
-There are several feedback mechanisms within the system. These are self-reinforcing behaviors; action 1 increases the rate of action 2 which increases the rate of action 1. Circular mechanics like this are the drivers of exponential expansion and boom and bust cycles. Loose policy states enable these dynamics while tight policy states suppress them.
+Ada beberapa mekanisme umpan balik dalam sistem. Ini adalah perilaku yang memperkuat diri; aksi 1 meningkatkan laju aksi 2 yang mana juga meningkatkan laju aksi 1. Mekanika melingkar seperti ini adalah pendorong ekspansi eksponensial serta siklus boom dan bust. Status kebijakan yang longgar memungkinkan dinamika ini terjadi sementara status kebijakan yang ketat akan menekannya.  
 
-## Player Goals
 
-**Stakers care primarily about their OHM balance.** While price is important in valuing their OHM and determining the rate at which it grows, it is not the main goal. A smart staker cares only about the short and long term growth prospects of the network. That growth translates into wealth via price and balance growth.
 
-**Bonders care primarily about OHM price.** When they bond, these users lock in a fixed reward in OHM. Therefore, network profitability is only helpful in calculating opportunity cost or gain; bonders have their OHM gains locked in. 
 
-The ideal scenario for a bonder is for price to go up; in this case, the bonder benefits from their discount on OHM and the increase in price. 
+## Capaian Pemain
 
-Bonders are still happy if price remains flat; their profit is the discount from the bond. Like stakers, bonders profit from inactivity at or around their buy in via an increasing balance.
+**Staker yang peduli terutama terhadap saldo OHM mereka.** Meskipun harga merupakan hal penting dalam menilai OHM dan menentukan tingkat pertumbuhannya, namun itu bukanlah tujuan utama. Seorang staker yang cerdas hanya peduli tentang prospek pertumbuhan jangka pendek dan jangka panjang dari jaringan. Pertumbuhan itu diterjemahkan menjadi kekayaan melalui pertumbuhan harga dan keseimbangan.  
 
-Bonders only lose when price goes down beyond the discount on the bond. At this point, the bonder will choose between the OHM or the SLP, depending on which one is worth more. Bonders always get to choose the better of the two assets, effectively combining the best pieces of both assets' risk to reward profiles.
 
-## Market Dynamics
+**Bonder yang  peduli terutama terhadap harga OHM.** Saat mereka mem-bond, para pengguna tersebut mengunci imbalan pasti di OHM. Oleh karena itu, profitabilitas jaringan hanya membantu dalam menghitung biaya peluang atau keuntungan; bonders memiliki imbalan OHM yang sudah terkunci.  
 
-The default state of the network is at intrinsic value. After some long period of inactivity, price will always return to this level. 
 
-Contractions are conceivably only triggered by short-term liquidity crises. Since OHM holders have a guarantee that price will come back above intrinsic value eventually, the only sellers below should be those who need a short term exit and are willing to take the extra loss.
+Skenario yang ideal untuk bonder adalah harga OHM yang menanjak naik; dalam hal ini, bonder mendapatkan keuntungan dari diskon harga OHM dan kenaikan harganya.  
 
-**Expansions can be triggered by an increase in staking or bonding.**
 
-An increase in staking will generally be preceded by purchases from the market. That increases price, which allows the protocol to sell at a higher price and increases yield for stakers. That should serve to bring in more stakers and continue the cycle.
+Bonders masih bisa senang jika harga tetap datar; keuntungannya masih didapat dari diskon bond. Seperti staker, bonder mendapat untung dari ketidakaktifan pada atau sekitar pembelian bond mereka melalui saldo yang meningkat.  
 
-Meanwhile, the rising price increases the bond discount and creates capacity for new bonds. These are preceded by new liquidity, which improves the protocol's ability to carry out sales and increases available exit liquidity.
 
-This positive price-liquidity feedback loop should serve to create sustainable to expansionary periods. However, they work both ways. Falling demand decreases staking rewards and bond capacity, causing demand to fall further. This is an unavoidable fact of system's like this; even the best \(i.e. Bitcoin\) are no stranger to significant declines after periods of expansion.
+Bonders hanya rugi ketika harga turun melampaui diskon bond. Pada titik ini, bonder akan memilih antara OHM atau SLP, tergantung mana yang lebih berharga. Bonders selalu bisa memilih mana yang lebih baik dari dua aset, secara efektif menggabungkan bagian terbaik dari risiko kedua aset untuk menghargai profil.  
 
-But we can work to mitigate busts. This is where the protocol's reserves step in and to catch the market when velocity turns too far to the downside. It does so through forward guidance \(the fact that the protocol _will_ buy lowers risk the lower we go, which can mean we _don't have to_ buy\) and by buying perpetually below intrinsic value. The treasury ensures that, although bear markets and contractions can and will occur, the protocol can never die.
+
+## Dinamika Pasar
+
+Status default dari jaringan terletak pada nilai intrinsik. Setelah beberapa lama tidak aktif, harga akan selalu kembali ke level ini.
+
+Kontraksi diperkirakan hanya dipicu oleh krisis likuiditas jangka pendek. Karena pemegang OHM memiliki jaminan bahwa pada akhirnya harga akan kembali di atas nilai intrinsik, satu-satunya yang menjadi  penjual di bawah ini adalah mereka yang membutuhkan jalan keluar jangka pendek dan bersedia menerima kerugian ekstra.
+
+**Ekspansi dapat dipicu oleh peningkatan staking atau bonding.**
+
+Peningkatan staking umumnya akan didahului dengan pembelian dari pasar. Hal tersebut bisa meningkatkan harga, yang memungkinkan protokol untuk menjual dengan harga lebih tinggi dan meningkatkan hasil bagi \(yield\) kepada staker. Hal tersebut seharusnya berfungsi untuk membawa lebih banyak staker dan melanjutkan siklus.
+
+Sementara itu, kenaikan harga meningkatkan diskon bond dan menciptakan kapasitas untuk bond baru. Hal ini didahului oleh likuiditas baru, yang meningkatkan kemampuan protokol untuk melakukan penjualan dan meningkatkan likuiditas keluar yang tersedia.
+
+Lingkaran umpan balik \(feedback\) harga-likuiditas positif ini harus berfungsi untuk menciptakan periode ekspansi yang berkelanjutan. Meskipun begitu, mereka bekerja dua arah. Menurunnya permintaan maka menurunkan staking rewards dan kapasitas bond, menyebabkan permintaan turun lebih jauh. Ini adalah fakta yang tidak dapat dihindari dari sistem seperti ini; bahkan yang terbaik sekalipun \(yaitu Bitcoin\) tidak asing lagi dengan penurunan yang signifikan setelah periode ekspansi.
+
+Tapi kita bisa bekerja untuk mengurangi kegagalan \(bust\). Di sinilah cadangan protokol masuk dan menangkap pasar ketika kecepatan berubah terlalu jauh ke bawah. Hal itu dilakukan melalui panduan ke depan \(fakta bahwa protokol _akan_ membeli bisa menurunkan risiko semakin rendahnya kita pergi, yang dapat berarti kita _tidak harus membeli_\) dan dengan membeli terus-menerus di bawah nilai intrinsik. Perbendaharaan memastikan bahwa, meskipun situasi pasar bear \(turun\) dan kontraksi yang mana dapat dan akan terjadi, protokol tidak akan pernah mati.  
+
 

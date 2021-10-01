@@ -1,4 +1,4 @@
-# Translations
+# Terjemahan
 
 Chinese-中文: [https://whosurdaddy.gitbook.io/olympus-ch/](https://whosurdaddy.gitbook.io/olympus-ch/)  
 Español: [https://ohmapollo.gitbook.io/olympus-sp/](https://ohmapollo.gitbook.io/olympus-sp/)  

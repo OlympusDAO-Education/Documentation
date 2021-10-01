@@ -1,36 +1,40 @@
-# Initial Network State
+# Status Jaringan Awal
 
-**Our initial goal is not to find a stable price.** This may seem antithetical to our currency aspirations, but we ensure you it is not. Olympus can be tuned to optimize for different things. The main tradeoff is volatility and profitability versus stability and consistency. With volatility and profit comes growth; this is what we want early on.
+**Tujuan awal kami bukanlah untuk menemukan harga yang stabil.** Hal ini mungkin terlihat bertentangan dengan aspirasi mata uang kami, tetapi kami pastikan bukanlah  demikian. Olympus dapat disetel untuk mengoptimalkan berbagai hal. Tradeoff utama adalah volatilitas dan profitabilitas versus stabilitas dan konsistensi. Dengan volatilitas dan keuntungan yang mendatangkan pertumbuhan; inilah yang kita inginkan sejak dini.  
 
-With tight policy and scale, Olympus should function well as a stable asset. Upward and downward pressures should stabilize at some non-intrinsic value. With loose policy, regardless of scale, Olympus has the potential to act as a wealth creation machine. The market premium of the token measures the positive sum of the game; all extrinsic value is new wealth created.
 
-## Alpha State
+Dengan kebijakan dan skala yang ketat, Olympus mestinya berfungsi dengan baik sebagai aset yang stabil. Tekanan ke atas dan ke bawah harus stabil pada beberapa nilai non-intrinsik. Dengan kebijakan yang longgar, terlepas dari skalanya, Olympus memiliki potensi untuk bertindak sebagai mesin pembuat kekayaan. Premi pasar token mengukur jumlah positif dari permainan; semua nilai ekstrinsik adalah kekayaan baru yang diciptakan.
 
-The initial network features a one-way treasury \(money goes in, none comes out\), the bonding contract \(through which supply increases and profits are produced\), and the staking contract \(where profits are distributed\).
+## Status Alpha
 
-The following are the initial policy states:
+Jaringan awal atau The initial network  menampilkan perbendaharaan satu arah \(uang masuk, tidak ada yang keluar\), kontrak bonding \(di mana pasokan meningkat dan keuntungan diproduksi\), dan kontrak staking \(di mana keuntungan didistribusikan\).  
+
+
+Berikut ini adalah status kebijakan awal:  
+
 
 * **BCV**
 
-  [BCV](https://docs.olympusdao.finance/references/glossary#bcv) varies based on bond types. It is tuned regularly by the Policy team to meet the protocol goals. For example, if the protocol wants to accumulate more liquidity into its treasury, it can lower the BCV for [liquidity bonds](https://docs.olympusdao.finance/references/glossary#liquidity-bonds) to increase their bond capacity. To view the BCV targets for different bond types, visit the [Olympus Policy Dune page](https://dune.xyz/shadow/Olympus-Policy).
+  [BCV](https://docs.olympusdao.finance/references/glossary#bcv) bervariasi berdasarkan jenis obligasi atau tipe bond. Ini disetel secara teratur oleh tim Kebijakan untuk memenuhi tujuan protokol. Misalnya, jika protokol ingin mengakumulasi lebih banyak likuiditas ke dalam perbendaharaannya, protokol tersebut dapat menurunkan BCV untuk[ likuiditas bond](https://docs.olympusdao.finance/references/glossary#liquidity-bonds) guna meningkatkan kapasitas bond mereka. Untuk melihat target BCV untuk berbagai jenis bond, kunjungi halaman [Laman Bukit Kebijakan Olympus](https://dune.xyz/shadow/Olympus-Policy)
 
-* **Bond vesting term**
+* **Jangka waktu vesting bond**
 
-  It is set to 33110 Ethereum blocks or approximately five days for all bond types.
+  Ini diatur ke 33110 blok Ethereum atau sekitar lima hari untuk semua jenis obligasi.
 
-* **OHM distribution**
+* **Distribusi OHM**
 
-  Every time someone purchases a bond, the proceed will go to the [Olympus treasury](https://docs.olympusdao.finance/references/contracts#treasury). A corresponding amount of OHM will be minted and distributed to three parties:
+  Setiap kali seseorang membeli bond, hasilnya akan masuk ke[ perbendaharaan Olympus](https://docs.olympusdao.finance/references/contracts#treasury) . Jumlah OHM yang sesuai akan dicetak dan didistribusikan ke tiga pihak:  
+  :
 
   * Bonder
 
-    The bond purchaser will receive the quoted amount of OHM linearly over the vesting term.
+    Pembeli bond akan menerima jumlah kuotasi OHM secara linier selama jangka waktu vesting.
 
   * DAO
 
-    The DAO receives the same amount of OHM as the bonder. This represents the DAO profit.
+    DAO menerima jumlah OHM yang sama dengan bonder. Ini mewakili keuntungan DAO.
 
   * Stakers
 
-    After accounting for the OHM distributed to the bonder and the DAO, the rest will be distributed among all stakers in the protocol.
+    Setelah memperhitungkan OHM yang didistribusikan ke bonder dan DAO, sisanya akan didistribusikan di antara semua staker di dalam protokol.
 

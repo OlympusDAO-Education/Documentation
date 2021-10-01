@@ -1,22 +1,25 @@
-# Policy
+# Kebijakan
 
-Olympus features policy constants that allow us to optimize the system.
+Olympus menampilkan konstanta kebijakan yang memungkinkan kami mengoptimalkan sistem.
 
-## Bonds
+## Bond
 
-The **BCV** allows us to scale the rate at which bond premiums increase. A higher BCV means a lower discount for bonders and more protocol profit. A lower BCV means a higher discount for bonders and less protocol profit.
+**BCV** memungkinkan kami mengukur tingkat kenaikan premi obligasi. BCV yang lebih tinggi berarti diskon yang lebih rendah untuk bonders dan lebih banyak keuntungan protokol. BCV yang lebih rendah berarti diskon yang lebih tinggi untuk bonders dan keuntungan protokol yang lebih sedikit.
 
-The **vesting term** determines how long it takes for bonds to become fully redeemable. A longer term means lower inflation and lower bond demand.
+**Jangka waktu vesting** menentukan berapa lama waktu yang dibutuhkan untuk bond bisa sepenuhnya ditebus. Semakin lama menandakan semakin rendahnya inflasi dan semakin rendahnya permintaan bond.  
 
-## Sales
 
-The **DCV** allows us to scale protocol buy pressure up or down. A higher DCV means more buy pressure and higher deflation. A lower DCV means less buy pressure and a weaker floor.
+## Penjualan
 
-## Treasury
+**DCV** memungkinkan kami mengatur protokol naik turunnya tekanan beli. DCV yang lebih tinggi berarti tekanan beli juga tinggi dan deflasi juga tinggi. DCV yang rendah berarti tekanan beli berkurang dan floor juga melemah.  
 
-Profit Allocations are the only treasury variable. This allows us to choose who receives profits from the protocol.
+
+## Perbendaharaan
+
+Alokasi Laba adalah satu-satunya variabel perbendaharaan. Hal ini memungkinkan kami untuk memilih siapa yang akan menerima laba dari protokol.  
+
 
 ## Staking
 
-There are no variables in the staking contract. OHM and sOHM are always redeemable 1:1, and profits are always distributed equally through rebase.
+Tidak ada variabel dalam kontrak staking. OHM dan sOHM selalu dapat ditukarkan 1:1, dan laba selalu didistribusikan secara merata melalui rebase.
 
