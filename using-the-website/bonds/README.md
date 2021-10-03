@@ -12,6 +12,10 @@ Olympus offers five types of bonds [on its website](https://app.olympusdao.finan
 * [OHM-DAI LP bond](ohm-dai-lp-bond.md)
 * [OHM-FRAX LP bond](bond_ohm_frax.md)
 
+Check out this video on how to get a bond from Olympus:
+
+{% embed url="https://www.youtube.com/watch?v=BJFLCDBsrlc" caption="How to get a bond from Olympus" %}
+
 ## Hades
 
 Hades is a feature that allows you to purchase bonds while sending the acquired OHM to another address. This is useful for additional privacy, or for purchasing multiple bonds while the current bonds are still vesting. Note that if the same account holds multiple bonds, the pending rewards from the earlier bonds have to be forfeited.
