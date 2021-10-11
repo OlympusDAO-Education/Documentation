@@ -1,0 +1,3 @@
+# Allow all bots to crawl entire site
+User-agent: *
+Allow: /
