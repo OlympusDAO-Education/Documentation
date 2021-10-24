@@ -46,7 +46,7 @@ equilibrium, just to a lesser degree than the internal coordination equilibrium.
 
 In order to have an adequate theory of economic productivity in digital economy,
 we must have a good description and explanation of internal coordination or (3, 3),
-and a good explanation of exactly why it is more significant than price coordination
+and a good explanation of exactly why it is more significant than price coordination,
 (1, 1). In order to do this, we look at the history of economic theories of value.
 We show that value and productivity in digital economy, first fully realized and
 expressed in OlympusDAO, is a certain kind of synthesis of prior value theories.
