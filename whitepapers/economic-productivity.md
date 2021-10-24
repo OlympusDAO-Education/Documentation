@@ -35,12 +35,12 @@ The idea that internal coordination is more significant than price coordination
 is expressed very concisely in the (3, 3) meme. The (3, 3) is one outcome in a game
 theoretic payoff matrix that describes the incentive structure of OlympusDAO. The
 (3, 3) is a win-win situation in which both players stake their OHM tokens; this
-is internal coordination. The (1, 1) payoff is also a win-win situation, to a lesser
+is *internal* coordination. The (1, 1) payoff is also a win-win situation, to a lesser
 degree, which happens when a buyer purchases OHM tokens from the protocol at a
 discount, and provides another asset (a stable coin or LP token) to the protocol
-treasury in return; this is price coordination. The (3, 3) meme basically expresses
-the idea that internal coordination- universally agreed upon, positive sum, cooperative
-behavior- is more economically productive than price coordination- divisive, zero
+treasury in return; this is *price* coordination. The (3, 3) meme basically expresses
+the idea that internal coordination - universally agreed upon, positive sum, cooperative
+behavior - is more economically productive than price coordination - divisive, zero
 sum, competitive behavior. Price coordination (supply and demand) is still a win-win
 equilibrium, just to a lesser degree than the internal coordination equilibrium.
 
