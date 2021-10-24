@@ -10,7 +10,7 @@ If you want to buy OHM on Sushiswap or any other DEX please make sure the token 
 
 You receive sOHM when you stake OHM at a 1:1 ratio. Adding this address to your wallet allows you to track your sOHM balance which increases with every rebase. Below are listed sOHM contracts by version, where the latest version represents the currently active contract.
 
-* DEPRICATED: V1 [0x3193...Fbbe](https://etherscan.io/address/0x31932E6e45012476ba3A3A4953cbA62AeE77Fbbe)
+* DEPRECATED: V1 [0x3193...Fbbe](https://etherscan.io/address/0x31932E6e45012476ba3A3A4953cbA62AeE77Fbbe)
 * Current: V2 [0x04f2...111f](https://etherscan.io/address/0x04f2694c8fcee23e8fd0dfea1d4f5bb8c352111f)
 
 ## wsOHM
