@@ -5,8 +5,8 @@ nf.carlo.acutis
 ## Abstract
 
 OlympusDAO is the first organization to explicitly realize and implement the idea
-that, in digital economy, internal coordination is more significant than price
-coordination. This is succinctly expressed in the (3, 3) versus (1, 1) game theory
+that, in digital economy, *internal coordination* is more significant than *price
+coordination*. This is succinctly expressed in the (3, 3) versus (1, 1) game theory
 meme. In digital economy, the dynamics of internal coordination versus price coordination
 are the fundamental economic forces, as opposed to the older notions of supply
 versus demand (which only describe price coordination). In the older style of industrial
