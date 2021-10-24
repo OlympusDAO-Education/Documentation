@@ -37,7 +37,7 @@ theoretic payoff matrix that describes the incentive structure of OlympusDAO. Th
 (3, 3) is a win-win situation in which both players stake their OHM tokens; this
 is *internal* coordination. The (1, 1) payoff is also a win-win situation, to a lesser
 degree, which happens when a buyer purchases OHM tokens from the protocol at a
-discount, and provides another asset (a stable coin or LP token) to the protocol
+discount, and provides another asset (e.g. a stablecoin) to the protocol
 treasury in return; this is *price* coordination. The (3, 3) meme basically expresses
 the idea that internal coordination - universally agreed upon, positive sum, cooperative
 behavior - is more economically productive than price coordination - divisive, zero
