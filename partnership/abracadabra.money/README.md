@@ -1,6 +1,7 @@
 # Abracadabra.money
 
-[Abracadabra.money](https://abracadabra.money/) is a lending platform using interest-bearing otkens\(ibTKNs\) as collateral to borrow a UDS pegged stablecoin\($MIM; Magic Internet Money\)
+[Abracadabra.money](https://abracadabra.money/) is a lending platform which allows
+users to deposit interest-bearing tokens as collateral and borrow its native,
+USD-pegged stablecoin [MIM](https://www.coingecko.com/en/coins/magic-internet-money).
 
-$wsOHM is released on 22th Aug 2021. To learn how to use it, please check the next page.
-
+On 22 August 2021, the platform starts to accept [wsOHM](../../contracts/tokens.md#wsohm) as collateral.
