@@ -15,19 +15,23 @@ You receive sOHM when you stake OHM at a 1:1 ratio. Adding this address to your 
 
 ## wsOHM
 
-wsOhm is wrapped staked ohm.  The non-rebasing wrapper is used to package up staked ohm in a non-rebasing container that can be transferred between chains.  Currently, this token is supported on Ethereum, Arbitrum, and Avalanche networks.  Please double check the network for the address you are adding.
+wsOhm is wrapped staked OHM.  The non-rebasing wrapper is used to package up staked
+OHM in a non-rebasing container that can be transferred between chains.  Currently,
+this token is supported on Ethereum, Arbitrum, and Avalanche (AVAX) networks.
+Below are listed wsOHM contracts by version and network, where the latest version
+represents the currently active contract.
 
 ETH Mainnet:
 
-* [0xca76543cf381ebbb277be79574059e32108e3e65](https://etherscan.io/address/0xca76543cf381ebbb277be79574059e32108e3e65)
+* V1 [0xca76...3e65](https://etherscan.io/address/0xca76543cf381ebbb277be79574059e32108e3e65)
 
 Arbitrum L2:
 
-* [0x739ca6D71365a08f584c8FC4e1029045Fa8ABC4B](https://arbiscan.io/token/0x739ca6d71365a08f584c8fc4e1029045fa8abc4b)
+* V1 [0x739c...BC4B](https://arbiscan.io/token/0x739ca6d71365a08f584c8fc4e1029045fa8abc4b)
 
-Avax (Avalanche) Chain:
+AVAX Chain:
 
-* [0x8CD309e14575203535EF120b5b0Ab4DDeD0C2073](https://cchain.explorer.avax.network/token/0x8CD309e14575203535EF120b5b0Ab4DDeD0C2073/token-transfers)
+* V1 [0x8CD3...2073](https://cchain.explorer.avax.network/token/0x8CD309e14575203535EF120b5b0Ab4DDeD0C2073/token-transfers)
 
 ### Historical Tokens
 
