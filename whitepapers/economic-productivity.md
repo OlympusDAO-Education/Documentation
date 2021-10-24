@@ -25,9 +25,9 @@ And in that context, price coordination determines the optimal distribution of
 those goods. But in digital economy, price coordination cannot determine the optimal
 distribution of what is being produced, because what is being produced are ideas,
 incentives, and infrastructures, which are not tangible or finite supply in the
-same way. Price is only one kind of idea, incentive, and infrastructure, and not
+same way. Price is only one *kind* of idea, incentive, and infrastructure, and not
 necessarily the most predictive or determinate motivating factor. And therefore
-internal coordination is more important than price coordination, in digital economy.
+internal coordination is more important than price coordination in digital economy.
 It is only once a certain threshold of internal coordination is reached that the
 economic productivity of ideas is then externalized into price coordination.
 
