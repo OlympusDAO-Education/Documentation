@@ -2,12 +2,7 @@
 
 ## Why do we need OlympusDAO in the first place?
 
-Dollar-pegged stablecoins have become an essential part of crypto due to their
-lack of volatility as compared to tokens such as Bitcoin and Ether. Users are
-comfortable with transacting using stablecoins knowing that they hold the same
-amount of purchasing power today vs. tomorrow. But this is a fallacy. The dollar
-is controlled by the US government and the Federal Reserve. This means a
-depreciation of dollar also means a depreciation of these stablecoins.
+Dollar-pegged stable-coins have become an essential part of crypto due to their lack of volatility. Users are comfortable with transacting using stable-coins believing they hold the same amount of purchasing power today vs. tomorrow. But this is a fallacy. The dollar is controlled by the US government and the Federal Reserve. This means a depreciation of dollar also means a depreciation of these stable-coins.
 
 OlympusDAO aims to solve this by creating a free-floating reserve currency, OHM,
 that is backed by a basket of assets. By focusing on supply growth rather than price
@@ -49,13 +44,13 @@ Thus, given two actors, all scenarios of what they could do and the effect on th
 * When one of us sells, it diminishes effort of the other one who stakes or bonds \(1 - 1 = 0\).
 * When we both sell, it creates the worst outcome for both of us and the protocol \(-3 - 3 = -6\).
 
-## Why is PCV important?
+## Why is PCV (Protocl Controlled Value)important?
 
 As the protocol controls the funds in its treasury, OHM can only be minted or burned by the protocol. This also guarantees that the protocol can always back 1 OHM with 1 DAI. You can easily define the risk of your investment because you can be confident that the protocol will indefinitely buy OHM below 1 DAI with the treasury assets until no one is left to sell. You can't trust the FED but you can trust the code.
 
 As the protocol accumulates more PCV, more runway is guaranteed for the stakers. This means the stakers can be confident that the current staking APY can be sustained for a longer term because more funds are available in the treasury.
 
-## Why is POL important?
+## Why is POL (Protocol Owned Liquidity) important?
 
 Olympus [owns most of its liquidity](https://dune.xyz/shadow/Olympus-%28OHM%29) thanks to its bond mechanism. This has several benefits:
 
@@ -91,7 +86,7 @@ $$
 \$500/OHM * 55,000\ OHM = \$27.5\ million
 $$
 
-As of September 15 2021, the total OHM supply is 2,082,553 and the RFV is $47,041,833. Remember that 1 OHM is backed by 1 USD \(DAI or FRAX\). By subtracting these two numbers, we know 44,959,280 OHM will eventually get issued to the remaining stakers. In roughly a year, these stakers who are holding 55,000 OHM will have:
+As of October 23, 2021, the total OHM supply is 2,082,553 and the RFV is $47,041,833. Remember that 1 OHM is backed by 1 USD \(DAI or FRAX\). By subtracting these two numbers, we know 44,959,280 OHM will eventually get issued to the remaining stakers. In roughly a year, these stakers who are holding 55,000 OHM will have:
 
 $$
 55,000 + 44,959,280 = 45,014,280\ OHM
@@ -115,7 +110,7 @@ When you buy and stake OHM, you capture a percentage of the supply \(market cap\
 
 ## What is a rebase?
 
-Rebase is a mechanism by which your staked OHM balance increases automatically. When new OHM are minted by the protocol, a large portion of it goes to the stakers. Because stakers only see staked OHM balance instead of OHM, the protocol utilizes the rebase mechanism to increase the staked OHM balance so that 1 staked OHM is always redeemable for 1 OHM.
+A rebase occurs every epoch; 2200 ETH blocks (approximately every 8 hours.  During a rebase, all sOHM receives the Next Reward Yield (whether or not they're in a wsOHM wrapper).  This rebasing is done to match the quantity of sOHM held with the OHM emitted at the close of the epoch.  The protocol does this so that 1 OHM is always redeemable for 1 sOHM.
 
 ## What is reward yield?
 
@@ -155,7 +150,7 @@ Note that the reward rate is subject to change by the protocol. For example, it 
 
 ## Why does the price of OHM become irrelevant in long term?
 
-As illustrated above, your OHM balance will grow exponentially over time thanks to the power of compounding. Let's say you buy an OHM for $400 now and the market decides that in 1 year time, the intrinsic value of OHM will be $2. Assuming a daily compound interest rate of 2%, your balance would grow to about 1377 OHMs by the end of the year, which is worth around $2754. That is a cool $2354 profit! By now, you should understand that you are paying a premium for OHM now in exchange for a long-term benefit. Thus, you should have a long time horizon to allow your OHM balance to grow exponentially and make this a worthwhile investment.
+As illustrated above, your OHM balance will grow exponentially over time thanks to the power of compounding. Let's say you buy an OHM for $1000 now and the market decides that in 1 year time, the intrinsic value of OHM will be $30 (which is below the current RFV). Assuming a daily compound interest rate of 1.2%, your balance would grow to about 72 OHMs by the end of the year, which is worth around $2160. That is a cool $1160 profit! By now, you should understand that you are paying a premium for OHM now in exchange for a long-term benefit. Thus, you should have a long time horizon to allow your OHM balance to grow exponentially and make this a worthwhile investment.
 
 ## What will be OHM's intrinsic value in the future?
 
@@ -163,13 +158,15 @@ There is no clear answer for this, but the intrinsic value can be determined by 
 
 ## How does the protocol manage to maintain the high staking APY?
 
-Let’s say the protocol targets an APY of 100,000%. This would translate to a rebase rate of about 0.6328%, or a daily growth of about 2%. Please refer to the equation above to learn [how APY is calculated from the rebase rate](basics.md#how-is-the-apy-calculated).
+Currently the APY is around 8000%. This would translate to a rebase rate of about 0.4%, or a daily growth of about 1.2%. Please refer to the equation above to learn [how APY is calculated from the rebase rate](basics.md#how-is-the-apy-calculated).
 
-If there are 100,000 of OHM staked right now, the protocol would need to mint an additional 2000 OHM to achieve this daily growth. This is achievable if the protocol can bring in at least 2000 DAI daily from bond sales. If the protocol fails to achieve this, the APY of 100,000% cannot be guaranteed.
+There are currently about 3.1 million staked OHM. the protocol needs to mint an additional 37,200 OHM to achieve this daily growth. This is achievable if the protocol can bring in at least 37,200 DAI daily from bond sales. If the protocol fails to achieve this, the APY of 8000% cannot be guaranteed.
+
+The 7 day average for DAI bonds is around $500,000/day at this time (10/23/21).  This provides plenty of overhead for a much higher APY.
 
 ## Do I have to unstake and stake OHM on every epoch to get my rebase rewards?
 
-No. Once you have staked OHM with OlympusDAO, your staked OHM balance will auto-compound on every epoch. That increase in balance represents your rebase rewards.
+No. So long as the staked OHM (sOHM) remain in your wallet, there's nothing else you need to do to receive rewards.  The same is true for wsOHM (which will be getting a name change to gOHM whem V2 launches near the end of November 2021).  Your rewards will automatically accrue each epoch/rebase so long as wsOHM and/or sOHM are held in your wallet.
 
 ## How do I track my rebase rewards?
 
