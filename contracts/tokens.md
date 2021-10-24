@@ -34,7 +34,7 @@ AVAX Chain:
 
 * V1 [0x8CD3...2073](https://cchain.explorer.avax.network/token/0x8CD309e14575203535EF120b5b0Ab4DDeD0C2073/token-transfers)
 
-### Historical Tokens
+# Historical Tokens
 
 The tokens below are only relevant if you've had OHM from the genesis block.  They're still of interest to everyone.
 
