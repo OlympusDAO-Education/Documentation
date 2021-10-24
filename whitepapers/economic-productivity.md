@@ -11,8 +11,8 @@ meme. In digital economy, the dynamics of internal coordination versus price coo
 are the fundamental economic forces, as opposed to the older notions of supply
 versus demand (which only describe price coordination). In the older style of industrial
 production, price coordination (supply and demand) was the primary motivator for
-starting a business. One would start a business in order to profit from price in
-efficiencies. And from this primary motivation, would then organize internal coordination
+starting a business. One would start a business in order to profit from price inefficiencies.
+And from this primary motivation, would then organize internal coordination
 around the productive task. By contrast, in digital economy, internal coordination
 is the primary motivator, and only if internal coordination is significant enough,
 can price coordination come into the picture through network effects. The dynamics
