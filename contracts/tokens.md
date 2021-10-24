@@ -19,7 +19,8 @@ wsOhm is wrapped staked OHM.  The non-rebasing wrapper is used to package up sta
 OHM in a non-rebasing container that can be transferred between chains.  Currently,
 this token is supported on Ethereum, Arbitrum, and Avalanche (AVAX) networks.
 Below are listed wsOHM contracts by version and network, where the latest version
-represents the currently active contract.
+represents the currently active contract. **Please double check the network** for
+the address you are adding.
 
 ETH Mainnet:
 
