@@ -10,8 +10,8 @@ If you want to buy OHM on Sushiswap or any other DEX please make sure the token 
 
 You receive sOHM when you stake OHM at a 1:1 ratio. Adding this address to your wallet allows you to track your sOHM balance which increases with every rebase. Below are listed sOHM contracts by version, where the latest version represents the currently active contract.
 
-* V1 [0x3193...Fbbe](https://etherscan.io/address/0x31932E6e45012476ba3A3A4953cbA62AeE77Fbbe)
-* V2 [0x04f2...111f](https://etherscan.io/address/0x04f2694c8fcee23e8fd0dfea1d4f5bb8c352111f)
+* DEPRICATED: V1 [0x3193...Fbbe](https://etherscan.io/address/0x31932E6e45012476ba3A3A4953cbA62AeE77Fbbe)
+* Current: V2 [0x04f2...111f](https://etherscan.io/address/0x04f2694c8fcee23e8fd0dfea1d4f5bb8c352111f)
 
 ## aOHM
 
@@ -24,4 +24,17 @@ When OlympusDAO first launched, alphaOHM \(aOHM\) was used as a pre-allocation t
 pOHM, previously known as pOLY, is the presale token of Olympus. It was used to raise funds from private investors to bootstrap Olympus. You can read more about pOHM in this [Medium article](https://olympusdao.medium.com/what-is-poh-16b2c38a6cd6). Below are listed pOHM contracts by version, where the latest version represents the currently active contract.
 
 * V1 [0x3699...c800](https://etherscan.io/token/0x36994486c6e97c170065899d8659a28d7371c800)
+
+## wsOHM
+
+wsOhm is wrapped staked ohm.  The non-rebasing wrapper is used to package up staked ohm in a non-rebasing container that can be transferred between chains.  Currently, this token is supported on Ethereum, Arbitrum, and Avalanche networks.  Please double check the network for the address you are adding.
+
+wsOHM Contract on ETH Mainnet:
+* [0xca76543cf381ebbb277be79574059e32108e3e65](https://etherscan.io/address/0xca76543cf381ebbb277be79574059e32108e3e65)
+
+wsOHM Contract on Arbitrum L2:
+* [0x739ca6D71365a08f584c8FC4e1029045Fa8ABC4B](https://arbiscan.io/token/0x739ca6d71365a08f584c8fc4e1029045fa8abc4b)
+
+wsOHM Contract on Avax (Avalanche) Chain:
+* [0x8CD309e14575203535EF120b5b0Ab4DDeD0C2073](https://cchain.explorer.avax.network/token/0x8CD309e14575203535EF120b5b0Ab4DDeD0C2073/token-transfers)
 
