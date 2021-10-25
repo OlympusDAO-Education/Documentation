@@ -40,6 +40,10 @@
 * [Policy](protocol-internals/policy.md)
 * [Market Dynamics](protocol-internals/market-dynamics.md)
 
+## Whitepapers
+
+* [Economic Productivity](whitepapers/economic-productivity.md)
+
 ## Contracts
 
 * [Allocators](contracts/allocators.md)
