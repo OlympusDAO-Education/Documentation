@@ -44,6 +44,7 @@
 ## Whitepapers
 
 * [Economic Productivity](whitepapers/economic-productivity.md)
+* [Olympus Game Theory](whitepapers/game-theory.md)
 
 ## Contracts
 
