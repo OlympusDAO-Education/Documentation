@@ -84,8 +84,10 @@ Using a payoff matrix allows us to condense all the information into an easy-to-
 
 ![](../.gitbook/assets/matrix_1.png)
 
-Player 1’s available strategies are the rows (Quiet or Confess) and their corresponding payoffs are the first numbers in each cell. 
-Players 2’s available strategies are the columns and their corresponding payoffs are the second numbers in the cells. 
+Player 1’s available strategies are the rows (Quiet or Confess) and their corresponding payoffs are the first numbers in each cell.
+
+Players 2’s available strategies are the columns and their corresponding payoffs are the second numbers in the cells.
+
 If player 1 stays Quiet and player 2 stays Quiet the game ends in the top left corner of the matrix. If both players Confess the game ends in the bottom right corner of the matrix and so on. 
 
 ### Strategies
