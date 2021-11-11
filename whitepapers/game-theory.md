@@ -119,6 +119,7 @@ Once again it looks like Confess should be the chosen strategy even if player 2 
 **Player 2 is also better off confessing regardless of player 1’s strategy.**
 
 ### Assumptions and Conclusions
+
 - We assumed that both players' preferences were to minimise their jail time 
 - We assumed both players were self-interested (i.e they don't care about their friends’ fate)
 - We assumed only one interaction
