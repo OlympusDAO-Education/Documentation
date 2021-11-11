@@ -106,10 +106,12 @@ Again it seems that player 1 should Confess as it leads to 8 months jail time ra
 Putting this together we reach an important conclusion:  
 **Player 1 is better off confessing regardless of player 2’s strategy.**  
 
-Let’s look at player 2’s perspective, assuming he thinks player 1 will stay quiet:    
+Let’s look at player 2’s perspective, assuming he thinks player 1 will stay quiet:
+
 ![](../.gitbook/assets/matrix_4.png)
 
-Looking at the second numbers now we can see that like player 1, player 2 should confess as well: he will be set free instead of getting 1 month in jail.     
+Looking at the second numbers now we can see that like player 1, player 2 should confess as well: he will be set free instead of getting 1 month in jail.
+
 ![](../.gitbook/assets/matrix_5.png)
 
 Once again it looks like Confess should be the chosen strategy even if player 2 thinks player 1 will also Confess. 
