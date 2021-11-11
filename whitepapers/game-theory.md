@@ -97,8 +97,10 @@ To see which strategy each player will choose we should look at each move in iso
 
 ![](../.gitbook/assets/matrix_2.png)
 
-We can see that player 1 should Confess because if he stays Quiet he will get one month in jail and we have already stated that both players prefer less time in jail. 
-What about if player 1 thought that player 2 was going to Confess?    
+We can see that player 1 should Confess because if he stays Quiet he will get one month in jail and we have already stated that both players prefer less time in jail.
+
+What about if player 1 thought that player 2 was going to Confess?
+
 ![](../.gitbook/assets/matrix_3.png)
 
 Again it seems that player 1 should Confess as it leads to 8 months jail time rather than the 12 on offer if player 1 stays Quiet.
