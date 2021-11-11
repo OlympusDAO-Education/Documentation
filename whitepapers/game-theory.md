@@ -87,7 +87,7 @@ If player 1 stays Quiet and player 2 stays Quiet the game ends in the top left c
 
 ### Strategies
 To see which strategy each player will choose we should look at each move in isolation. From player 1’s perspective, what should he do if he thinks player 2 will stay Quiet?    
-![](../.gitbook/assets/matrix_2.png)
+![](../.gitbook/assets/matrix_2_correct.png)
 
 We can see that player 1 should Confess because if he stays Quiet he will get one month in jail and we have already stated that both players prefer less time in jail. 
 What about if player 1 thought that player 2 was going to Confess?    
