@@ -46,6 +46,7 @@ We can see that no one wants to be in the pessimistic outcome and yet still this
 outcome is very plausible. To understand why, we use game theory.
 
 ### The Model
+
 In essence a game theoretic model has the following components:
 
 **Players**  
