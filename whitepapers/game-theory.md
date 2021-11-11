@@ -66,8 +66,10 @@ The best way to get to grips with the power of game theory, is with an example.
 
 ## The Prisoner's Dilemma - A Simultaneous Game
 
-The first game any student of game theory learns is the prisoner's dilemma.  This is due to its simplicity and it's applications to a wide variety of strategic situations. Once you see and understand this game, you will see it at play everywhere.   
-### Context  
+The first game any student of game theory learns is the prisoner's dilemma.  This is due to its simplicity and it's applications to a wide variety of strategic situations. Once you see and understand this game, you will see it at play everywhere.
+
+### Context
+
 The story goes like this; Two thieves plan to rob a store. As they approach the door, the police arrest them for trespassing. The police suspect that the pair planned to rob the store but they lack the evidence to prove it. They therefore require a confession to charge the suspects with the more serious crime.
 The interrogator separates the suspects and tells them each:
 
