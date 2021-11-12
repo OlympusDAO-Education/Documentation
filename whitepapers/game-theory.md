@@ -12,6 +12,11 @@ from the perspective of analysing human interaction.
 There are many fields that have something to say about human interaction but the
 field of study we will focus on here will be game theory - the study of strategic interdependence.
 
+It is our belief that Olympus is solving the problem of how to create a new currency without the use of force. At its core this is an example of a [prisoner's dilemma](https://en.wikipedia.org/wiki/Prisoner%27s_dilemma). A prisoner's dilemma is a situation where an individual's self interest is in conflict with a common goal, leading to the players within the game not cooperating despite it being in their best interests to cooperate. In the case of Olympus, it is in each individual's best interest to use the most liquid, widely used and stable currency which are dollar denominated stablecoins. The ‘common goal’ in this context is to remove reliance on centralised fiat currency, something which stablecoins do not achieve. No individual acting alone can achieve this. It takes mass coordination and alignment of incentives. This is what Olympus facilitates.   
+
+We will begin by outlining the essentials of game theory, and analysing the prisoner's dilemma from a purely abstract perspective. We will then delve into the specific components of Olympus. We will take no shortcuts. Olympus is a complex protocol that is the first of its kind and is deserving of deep and thorough analysis. 
+
+
 This is a collaborative piece of work that will be iterated on over time. It is aimed at a broad range of readers and if you would like to offer feedback or contribute to future sections, please join the Olympus DAO discord and reach out to the Community and Content team. 
 
 ## Game Theory Essentials
@@ -95,7 +100,7 @@ If player 1 stays Quiet and player 2 stays Quiet the game ends in the top left c
 
 To see which strategy each player will choose we should look at each move in isolation. From player 1’s perspective, what should he do if he thinks player 2 will stay Quiet?
 
-![](../.gitbook/assets/matrix_2.png)
+![](../.gitbook/assets/matrix_2_correct.png)
 
 We can see that player 1 should Confess because if he stays Quiet he will get one month in jail and we have already stated that both players prefer less time in jail.
 
