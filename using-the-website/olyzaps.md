@@ -19,8 +19,10 @@ for this transaction**.
 
 ![Token approval](../.gitbook/assets/using-the-website/olyzaps/approve.png)
 
-4. After the "Approve" transaction has been processed successfully, click "Zap"
-and sign the transaction.
+4. After the "Approve" transaction has been processed successfully, click "Zap-Stake"
+and sign the transaction. **You need to pay gas again for this transaction**.
+
+![Zap and stake](../.gitbook/assets/using-the-website/olyzaps/zap.png)
 
 5. Your sOHM balance should be updated once the zap operation is successful. If
 you cannot find sOHM in your wallet, please add the [sOHM contract address](../contracts/tokens.md#sohm)
