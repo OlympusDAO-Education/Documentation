@@ -19,7 +19,7 @@ for this transaction**.
 
 ![Token approval](../.gitbook/assets/using-the-website/olyzaps/approve.png)
 
-4. After the "Approve" transaction has been processed successfully, click "Zap-Stake"
+4. After the "Approve" transaction has been processed successfully, click "Zap-Stake OHM"
 and sign the transaction. **You need to pay gas again for this transaction**.
 
 ![Zap and stake](../.gitbook/assets/using-the-website/olyzaps/zap.png)
