@@ -14,7 +14,10 @@ enter an amount.
 
 ![Select a token](../.gitbook/assets/using-the-website/olyzaps/select_token.png)
 
-3. Click "Approve" and sign the transaction on your wallet.
+3. Click "Approve" and sign the transaction on your wallet. **You need to pay gas
+for this transaction**.
+
+![Token approval](../.gitbook/assets/using-the-website/olyzaps/approve.png)
 
 4. After the "Approve" transaction has been processed successfully, click "Zap"
 and sign the transaction.
