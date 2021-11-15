@@ -12,6 +12,8 @@ operation. This is convenient for users who want to take a position quickly.
 2. On the "You Pay" field, select the token that you wish to zap into sOHM, and
 enter an amount.
 
+![Select a token](../.gitbook/assets/using-the-website/olyzaps/select_token.png)
+
 3. Click "Approve" and sign the transaction on your wallet.
 
 4. After the "Approve" transaction has been processed successfully, click "Zap"
