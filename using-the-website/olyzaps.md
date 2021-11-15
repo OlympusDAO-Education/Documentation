@@ -28,6 +28,8 @@ and sign the transaction. **You need to pay gas again for this transaction**.
 you cannot find sOHM in your wallet, please add the [sOHM contract address](../contracts/tokens.md#sohm)
 to your wallet.
 
+![Balance is updated](../.gitbook/assets/using-the-website/olyzaps/balance.png)
+
 {% hint style="info" %}
 The "Approve" transaction is not needed when you zap from the *same token* next
 time.
