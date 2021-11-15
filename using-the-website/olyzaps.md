@@ -5,7 +5,9 @@ operation. This is convenient for users who want to take a position quickly.
 
 ## How to Zap into sOHM
 
-1. Go to the OlyZaps page. Make sure the sOHM tab is selected.
+1. Go to the OlyZaps page.
+
+![OlyZaps page](../.gitbook/assets/using-the-website/olyzaps/main.png)
 
 2. On the "You Pay" field, select the token that you wish to zap into sOHM, and
 enter an amount.
