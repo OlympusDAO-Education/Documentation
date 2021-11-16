@@ -25,7 +25,7 @@ wsOHM Contract on Arbitrum L2:
 * [0x739ca6D71365a08f584c8FC4e1029045Fa8ABC4B](https://arbiscan.io/token/0x739ca6d71365a08f584c8fc4e1029045fa8abc4b)
 
 wsOHM Contract on Avax (Avalanche) Chain:
-* [0x8CD309e14575203535EF120b5b0Ab4DDeD0C2073](https://cchain.explorer.avax.network/token/0x8CD309e14575203535EF120b5b0Ab4DDeD0C2073/token-transfers)
+* [0x8CD309e14575203535EF120b5b0Ab4DDeD0C2073](https://cchain.explorer.avax.network/token/0x8CD309e14575203535EF120b5b0Ab4DDeD0C2073)
 
 ### Historical Tokens
 
