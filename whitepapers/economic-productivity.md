@@ -1,3 +1,5 @@
+
+
 # Economic Productivity and Intrinsic Value in Digital Media #
 ## A General Theory; with Special Reference to OlympusDAO and Defi 2.0 ##
 
@@ -124,45 +126,38 @@ The reigning dogma would have it that problems with social norms cannot be addre
 
 **8. Literature Review**
 
-*Game theory:*
-1. Thomas Schelling "Strategy of Conflict" (1960)
-2. David Lewis, "Convention" (1970)
-3. Robert Axelrod, "The Evolution of Cooperation" (1984)
+1. *Game theory:*
+- Thomas Schelling "Strategy of Conflict" (1960)
+- David Lewis, "Convention" (1970)
+- Robert Axelrod, "The Evolution of Cooperation" (1984)
 
-*Transaction cost economics:*
+2. *Transaction cost economics:*
+- Ronald Coase, “The Nature of the Firm” (1937)
+- Douglass North, “Transaction Costs, Institutions, Economics” (1992)
 
-4. Ronald Coase, “The Nature of the Firm” (1937)
-5. Douglass North, “Transaction Costs, Institutions, Economics” (1992)
+3. *Reflexivity / Mimesis:*
+- George Soros "Alchemy of Finance" (1987)
+- Rene Girard, "I See Satan Fall Like Lightning" (2001)
 
-*Reflexivity / Mimesis:*
+4. *Distributism:*
+- Hillaire Belloc, "An Essay on the Restoration of Property" (1936)
 
-6. George Soros "Alchemy of Finance" (1987)
-7. Rene Girard, "I See Satan Fall Like Lightning" (2001)
+5. *Tacit Knowledge / Spontaneous Order:*
+- Michael Polanyi, "The Tacit Dimension" (1966)
+- Friedrich Hayek, "The Use of Knolwedge in Society" (1945)
 
-*Distributism:*
+6. *Classical Political Economy:*
+- Adam Smith, "An Inquiry into the Nature and Causes of The Wealth of Nations" (1776)
 
-8. Hillaire Belloc, "An Essay on the Restoration of Property" (1936)
+7. *Digital Asset Fundamental Valuation:*
+- Joel Monegro, "Fat Protocols Thesis" (2016)
+- Nick Szabo, "Money, Blockchains, and Social Scalability" (2017)
+- John Pfeffer, "An Institutional Investor's Take on Crypto-Assets" (2017)
+- Kyle Samani, "Crypto Mega Theses" (2019)
+- Hasseeb Qoreshi, "Why Decentralization Isn't As Important As You Think" (2020)
+- Raoul Pal, "The Inconvenient Truth About Crypto Currencies" (2021)
 
-*Tacit Knowledge / Spontaneous Order:*
-
-9. Michael Polanyi, "The Tacit Dimension" (1966)
-10. Friedrich Hayek, "The Use of Knolwedge in Society" (1945)
-
-*Classical Political Economy:*
-
-11. Adam Smith, "An Inquiry into the Nature and Causes of The Wealth of Nations" (1776)
-
-*Digital Asset Fundamental Valuation:*
-
-12. Joel Monegro, "Fat Protocols Thesis" (2016)
-13. Nick Szabo, "Money, Blockchains, and Social Scalability" (2017)
-14. John Pfeffer, "An Institutional Investor's Take on Crypto-Assets" (2017)
-15. Kyle Samani, "Crypto Mega Theses" (2019)
-16. Hasseeb Qoreshi, "Why Decentralization Isn't As Important As You Think" (2020)
-17. Raoul Pal, "The Inconvenient Truth About Crypto Currencies" (2021)
-
-*Foundations of internal coordination theory / objective situational analysis:*
-
-18. Aristotle, "Nichomachean Ethics"
-19. St. Thomas Aquinas, "Summa Theologiae" (1485)
-20. Wilhelm Gottfried Leibniz, "Discourse on Metaphysics" (1686)
+8. *Foundations of internal coordination theory / objective situational analysis:*
+- Aristotle, "Nichomachean Ethics"
+- St. Thomas Aquinas, "Summa Theologiae" (1485)
+- Wilhelm Gottfried Leibniz, "Discourse on Metaphysics" (1686)
