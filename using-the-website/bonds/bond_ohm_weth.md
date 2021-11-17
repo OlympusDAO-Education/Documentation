@@ -1,6 +1,6 @@
 # OHM-WETH LP Bond
 
-OHM-WETH LP bond was introduced on 4th August 2021. It allows you to trade [OHM-WETH LP token](https://app.sushi.com/add/0x383518188c0c6d7730d91b2c03a03c837814a899/0xc02aaa39b223fe8d0a0e5c4f27ead9083c756cc2) in exchange for discounted OHM on Olympus.
+OHM-WETH LP bond was introduced on 26th October 2021. It allows you to trade [OHM-WETH LP token](https://app.sushi.com/add/0x383518188c0c6d7730d91b2c03a03c837814a899/0xc02aaa39b223fe8d0a0e5c4f27ead9083c756cc2) in exchange for discounted OHM on Olympus.
 
 ## How to Bond
 
@@ -18,4 +18,4 @@ OHM-WETH LP bond was introduced on 4th August 2021. It allows you to trade [OHM-
 
 ![Refresh the page after the token approval process](../../.gitbook/assets/bond_ohm_frax_refresh.png)
 
-6. Click "Bond" and sign the transaction. Voila, you have purchased your first OHM-FRAX LP bond!
+6. Click "Bond" and sign the transaction. Voila, you have purchased your first OHM-WETH LP bond!
