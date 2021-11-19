@@ -23,8 +23,8 @@ platforms.
 When the migration is live, the Olympus front-end will be updated to allow the
 migration of all your v1 OHM tokens (i.e. OHM, sOHM, and wsOHM) to gOHM.
 
-The migration process requires two steps: one to approve the contract to spend
-your v1 tokens, and another that actually migrates all your tokens to gOHM.
+The migration process requires two steps: one to approve the contract for each
+of your v1 tokens, and another that actually migrates all your tokens to gOHM.
 
 {% hint style="info" %}
 Each v1 token type requires its own approval step. For example, if you have OHM
