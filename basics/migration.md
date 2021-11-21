@@ -39,3 +39,12 @@ No. You can either migrate all your v1 tokens or none at all.
 ## Can I switch back to v1 tokens after migrating them to gOHM?
 
 No.
+
+## How are bonds affected after the migration?
+
+In V2, you can purchase multiple bonds of the same type without resetting the
+bond vesting period.
+
+There is no need to claim bond rewards and stake them manually, as this process
+will be automated. The bonders will receive their entitled sOHM at the end of the
+vesting period.
