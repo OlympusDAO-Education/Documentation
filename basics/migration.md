@@ -58,6 +58,6 @@ your gOHM.
 In V2, you can purchase multiple bonds of the same type without resetting the
 bond vesting period.
 
-There is no need to claim bond rewards and stake them manually, as this process
+Also, there is no need to claim bond rewards and stake them manually, as this process
 will be automated. The bonders will receive their entitled sOHM at the end of the
 vesting period.
