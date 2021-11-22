@@ -39,3 +39,25 @@ No. You can either migrate all your v1 tokens or none at all.
 ## Can I switch back to v1 tokens after migrating them to gOHM?
 
 No.
+
+## Can you walk me through an example of how much gOHM I can expect from the migration?
+
+Assuming you have 20 OHM, 20 sOHM, and 20 wsOHM, and the [Current Index](https://docs.olympusdao.finance/main/basics/basics#how-do-i-track-my-rebase-rewards)
+is 10.
+
+- 20 OHM = 2 gOHM. Take your 20 OHM and divide it by the Current Index to get your
+gOHM.
+
+- 20 sOHM = 2 gOHM. Take your 20 sOHM and divide it by the Current Index to get
+your gOHM.
+
+- 20 wsOHM = 20 gOHM. 1 wsOHM is equivalent to 1 gOHM.
+
+## How are bonds affected after the migration?
+
+In V2, you can purchase multiple bonds of the same type without resetting the
+bond vesting period.
+
+Also, there is no need to claim bond rewards and stake them manually, as this process
+will be automated. The bonders will receive their entitled sOHM at the end of the
+vesting period.
