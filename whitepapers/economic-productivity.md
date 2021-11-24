@@ -161,3 +161,5 @@ The reigning dogma would have it that problems with social norms cannot be addre
 - Aristotle, "Nichomachean Ethics"
 - St. Thomas Aquinas, "Summa Theologiae" (1485)
 - Wilhelm Gottfried Leibniz, "Discourse on Metaphysics" (1686)
+
+*Thanks to kleb, Jalamedaresearch, kschan, and JFry4 for review and comments. (Minor updates are still ongoing)*
