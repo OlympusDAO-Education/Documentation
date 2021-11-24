@@ -21,6 +21,7 @@
 * [Stake LP Tokens](using-the-website/staking_lp.md)
 * [Unstake LP Tokens](using-the-website/unstaking_lp.md)
 * [Migrate Staked OHM](using-the-website/migrate.md)
+* [OlyZaps](using-the-website/olyzaps.md)
 
 ## Using Etherscan
 
