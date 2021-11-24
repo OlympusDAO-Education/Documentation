@@ -34,3 +34,10 @@ to your wallet.
 The "Approve" transaction is not needed when you zap from the *same token* next
 time.
 {% endhint %}
+
+## How to Zap into Bonds
+
+{% hint style="info" %}
+OlyZaps also allows users to zap into Olympus bonds (e.g. OHM-DAI bonds, CVX bonds)
+from any assets. This feature is currently **in the works**.
+{% endhint %}
