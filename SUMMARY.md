@@ -44,7 +44,7 @@
 
 ## Whitepapers
 
-* [Economic Productivity in Digital Economy](whitepapers/economic-productivity.md)
+* [Productivity in Digital Economy](whitepapers/economic-productivity.md)
 * [Olympus Game Theory](whitepapers/game-theory.md)
 
 ## Contracts
