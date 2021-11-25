@@ -5,6 +5,7 @@
 ## Basics
 
 * [FAQ](basics/basics.md)
+  * [OlyZaps](basics/olyzaps.md)
   * [V2 Migration](basics/migration.md)
 * [Staking](basics/staking.md)
 * [Bonding](basics/bonding.md)
