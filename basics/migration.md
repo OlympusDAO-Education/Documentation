@@ -73,6 +73,18 @@ your gOHM.
 
 - 20 wsOHM = 20 gOHM. 1 wsOHM is equivalent to 1 gOHM.
 
+## Will my gOHM still earn rebase rewards?
+
+Yes. Although gOHM does not rebase like sOHM does, it still earns you rebase rewards.
+This is because the price of gOHM is tied to the Current Index:
+
+$$
+gOHM_{price} = OHM_{price} * CurrentIndex
+$$
+
+Every rebase event will cause the Current Index to go up, and your gOHM is worth
+more as a result (provided that OHM's price stays constant).
+
 ## How are bonds affected after the migration?
 
 In V2, you can purchase multiple bonds of the same type without resetting the
