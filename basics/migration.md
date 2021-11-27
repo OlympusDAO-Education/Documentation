@@ -6,6 +6,26 @@ You don't have to, but we recommend you to do so. V2 migration introduces new
 features such as on-chain governance and auto-staking for bonds. You can read
 more about this on the [Olympus Medium page](https://olympusdao.medium.com/introducing-olympus-v2-c4ade14e9fe).
 
+## What is the TLDR?
+
+- The wrapped sOHM token (wsOHM) will be replaced by Governance OHM (gOHM). They
+function exactly the same, but gOHM is set up for on-chain governance.
+
+- OHM and sOHM tokens will have their identical v2 counterparts. OHM becomes v2
+OHM, and sOHM becomes v2 sOHM.
+
+- gOHM will roll out first ahead of v2 OHM and v2 sOHM.
+
+- After the migration, OHM pools such as OHM-DAI will utilize v2 OHM. This applies
+to new bonds as well. Partners like Abracadabra will only accept new deposits in
+gOHM. So, you will need to migrate if you want to use these features. Otherwise,
+you can sit tight and migrate only when you want to.
+
+{% hint style="info" %}
+If you don't migrate, your sOHM balance will stop rebasing, but the difference
+will be honored when you migrate.
+{% endhint %}
+
 ## Gas fees are high now, will I lose my rebase rewards if I delay the migration?
 
 No, you can migrate at your leisure once it goes live. The smart contract will
@@ -52,6 +72,18 @@ gOHM.
 your gOHM.
 
 - 20 wsOHM = 20 gOHM. 1 wsOHM is equivalent to 1 gOHM.
+
+## Will my gOHM still earn rebase rewards?
+
+Yes. Although gOHM does not rebase like sOHM does, it still earns you rebase rewards.
+This is because the price of gOHM is tied to the Current Index:
+
+$$
+gOHM_{price} = OHM_{price} * CurrentIndex
+$$
+
+Every rebase event will cause the Current Index to go up, and your gOHM is worth
+more as a result (provided that OHM's price stays constant).
 
 ## How are bonds affected after the migration?
 
