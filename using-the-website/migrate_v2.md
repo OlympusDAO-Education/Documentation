@@ -10,8 +10,9 @@ can learn more about the v2 migration from this [FAQ page](../basics/migration.m
 can wrap their v1 sOHM tokens into gOHM tokens as part of the v2 migration.
 
 1\. Go to the [Wrap section of Olympus App](https://app.olympusdao.finance/#/wrap).
+Select gOHM under the drop-down menu.
 
-![The Wrap section](../.gitbook/assets/using-the-website/migration_v2/wrap.png)
+![Select gOHM](../.gitbook/assets/using-the-website/migration_v2/select_gohm.png)
 
 2\. If this is your first time wrapping sOHM, you need to approve the smart contract
 to use your token. Click "Approve" and confirm the transaction on your wallet.
