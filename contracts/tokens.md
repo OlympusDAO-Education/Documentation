@@ -1,5 +1,14 @@
 # Tokens
 
+## gOHM
+
+gOHM stands for Governance OHM. It supersedes [wsOHM](#wsOHM) as part of the [v2
+migration](../basics/migration.md).
+Below are listed gOHM contracts by version, where the latest version represents
+the currently active contract.
+
+* V1 [0x0ab8...a52f](https://etherscan.io/address/0x0ab87046fBb341D058F17CBC4c1133F25a20a52f)
+
 ## OHM
 
 If you want to buy OHM on Sushiswap or any other DEX please make sure the token address of the token you purchase matches the one shown above. Never buy any OHM token which address you cannot verify yourself. Further, knowing the OHM token address you can see the list of holders and available exchanges providing liquidity for OHM on Etherscan. Below are listed OHM contracts by version, where the latest version represents the currently active contract.
