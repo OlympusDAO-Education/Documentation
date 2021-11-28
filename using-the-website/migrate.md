@@ -1,4 +1,4 @@
-# Migrate Staked OHM
+# Migrate Tokens (v1.1)
 
 To prepare the roll-out of [Olympus v1.1](https://olympusdao.medium.com/olympus-v1-1-a5c6a48be7d1), the staking contract has been upgraded. Users need to migrate their staked OHM from the old contract to the new one in order to keep receiving rebase rewards.
 
