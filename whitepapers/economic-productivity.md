@@ -126,30 +126,30 @@ The reigning dogma would have it that problems with social norms cannot be addre
 
 **8. Literature Review**
 
-1. *Game theory:*
+*Game theory:*
 - Thomas Schelling "Strategy of Conflict" (1960)
 - David Lewis, "Convention" (1970)
 - Robert Axelrod, "The Evolution of Cooperation" (1984)
 
-2. *Transaction cost economics:*
+*Transaction cost economics:*
 - Ronald Coase, “The Nature of the Firm” (1937)
 - Douglass North, “Transaction Costs, Institutions, Economics” (1992)
 
-3. *Reflexivity / Mimesis:*
+*Reflexivity / Mimesis:*
 - George Soros "Alchemy of Finance" (1987)
 - Rene Girard, "I See Satan Fall Like Lightning" (2001)
 
-4. *Distributism:*
+*Distributism:*
 - Hillaire Belloc, "An Essay on the Restoration of Property" (1936)
 
-5. *Tacit Knowledge / Spontaneous Order:*
+*Tacit Knowledge / Spontaneous Order:*
 - Michael Polanyi, "The Tacit Dimension" (1966)
 - Friedrich Hayek, "The Use of Knolwedge in Society" (1945)
 
-6. *Classical Political Economy:*
+*Classical Political Economy:*
 - Adam Smith, "An Inquiry into the Nature and Causes of The Wealth of Nations" (1776)
 
-7. *Digital Asset Fundamental Valuation:*
+*Digital Asset Fundamental Valuation:*
 - Joel Monegro, "Fat Protocols Thesis" (2016)
 - Nick Szabo, "Money, Blockchains, and Social Scalability" (2017)
 - John Pfeffer, "An Institutional Investor's Take on Crypto-Assets" (2017)
@@ -157,7 +157,7 @@ The reigning dogma would have it that problems with social norms cannot be addre
 - Hasseeb Qoreshi, "Why Decentralization Isn't As Important As You Think" (2020)
 - Raoul Pal, "The Inconvenient Truth About Crypto Currencies" (2021)
 
-8. *Foundations of internal coordination theory / objective situational analysis:*
+*Foundations of internal coordination theory / objective situational analysis:*
 - Aristotle, "Nichomachean Ethics"
 - St. Thomas Aquinas, "Summa Theologiae" (1485)
 - Wilhelm Gottfried Leibniz, "Discourse on Metaphysics" (1686)
