@@ -24,14 +24,18 @@ OHM, and sOHM becomes v2 sOHM.
 
 - gOHM will roll out first ahead of v2 OHM and v2 sOHM.
 
+- When migrating v1 OHM and/or v1 sOHM, you will get gOHM in return. Although
+the token balance will be different (gOHM price is calculated differently, which
+is based on the Current Index), the **dollar amount remains the same.**
+
 - After the migration, OHM pools such as OHM-DAI will utilize v2 OHM. This applies
 to new bonds as well. Partners like Abracadabra will only accept new deposits in
 gOHM. So, you will need to migrate if you want to use these features. Otherwise,
 you can sit tight and migrate only when you want to.
 
 {% hint style="info" %}
-If you don't migrate, your sOHM balance will stop rebasing, but the difference
-will be honored when you migrate.
+You have **two months to migrate.** If you don't, your sOHM balance will stop
+rebasing, but the difference will be honored when you migrate.
 {% endhint %}
 
 ## Gas fees are high now, will I lose my rebase rewards if I delay the migration?
