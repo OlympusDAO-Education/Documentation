@@ -2,9 +2,17 @@
 
 ## Why do I need to migrate?
 
-You don't have to, but we recommend you to do so. V2 migration introduces new
-features such as on-chain governance and auto-staking for bonds. You can read
-more about this on the [Olympus Medium page](https://olympusdao.medium.com/introducing-olympus-v2-c4ade14e9fe).
+V2 migration introduces new features such as on-chain governance and auto-staking
+for bonds.
+
+Transitioning from sOHM to gOHM allows for multiple bonds to be taken at one time,
+as opposed to one bond per vesting period as it was in v1.
+
+Partial liquidity will remain for v1 OHM while the migration is in progress. This
+provides sufficient liquidity for borrowers to close or move their borrowing
+position.
+
+You can read more about this on the [Olympus Medium page](https://olympusdao.medium.com/introducing-olympus-v2-c4ade14e9fe).
 
 ## What is the TLDR?
 
