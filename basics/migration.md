@@ -62,15 +62,15 @@ keep track of your entitled rebase rewards so you wouldn't miss any of them.
 ## What is the migration process?
 
 When the migration is live, the Olympus front-end will be updated to allow the
-migration of all your v1 OHM tokens (i.e. OHM, sOHM, and wsOHM) to gOHM.
+migration of all your V1 tokens (i.e. OHM, sOHM, and wsOHM) to gOHM.
 
 The migration process requires two steps: one to approve the contract for each
-of your v1 tokens, and another that actually migrates all your tokens to gOHM.
+of your V1 tokens, and another that actually migrates all your tokens to gOHM.
 
 {% hint style="info" %}
-Each v1 token type requires its own approval step. For example, if you have OHM
-and sOHM in your wallet, you need to perform two token approvals, but only one
-migration operation.
+Each V1 token type requires its own approval step. For example, if you have OHM
+V1 and sOHM V1 in your wallet, you need to perform two token approvals, but only
+one migration operation (three transactions in total).
 {% endhint %}
 
 ## Can I migrate a specific type of v1 token and leave out the others?
