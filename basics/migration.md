@@ -78,9 +78,9 @@ one migration operation (three transactions in total).
 No. You can either migrate all your V1 tokens (i.e. OHM, sOHM, and wsOHM) or none
 at all.
 
-## Can I switch back to v1 tokens after migrating them to gOHM?
+## Can I switch back to V1 tokens after migrating them to gOHM?
 
-No.
+No, you can't switch back from gOHM to V1 tokens through our migration tool.
 
 ## Can you walk me through an example of how much gOHM I can expect from the migration?
 
