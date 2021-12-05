@@ -122,3 +122,5 @@ bond vesting period.
 Also, there is no need to claim bond rewards and stake them manually, as this process
 will be automated. The bonders will receive their entitled sOHM at the end of the
 vesting period.
+
+Learn more about how bonds will behave in V2 from the [Olympus Medium page](https://olympusdao.medium.com/introducing-olympus-v2-c4ade14e9fe).
