@@ -73,9 +73,10 @@ V1 and sOHM V1 in your wallet, you need to perform two token approvals, but only
 one migration operation (three transactions in total).
 {% endhint %}
 
-## Can I migrate a specific type of v1 token and leave out the others?
+## Can I migrate a specific type of V1 token and leave out the others?
 
-No. You can either migrate all your v1 tokens or none at all.
+No. You can either migrate all your V1 tokens (i.e. OHM, sOHM, and wsOHM) or none
+at all.
 
 ## Can I switch back to v1 tokens after migrating them to gOHM?
 
