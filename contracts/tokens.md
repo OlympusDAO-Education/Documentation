@@ -12,7 +12,7 @@ $$
 
 You still collect rebase rewards just as if you had sOHM, but you won't see your
 token balance increase because the increase in value is based on the Current Index
-at the time of purchase and sale. See [this FAQ](../basics/basics.md#how-do-i-track-my-rebase-rewards)
+at the time of purchase and sale. [See this FAQ](../basics/basics.md#how-do-i-track-my-rebase-rewards)
 for more details.
 
 Below are listed gOHM contracts by version, where the latest version represents
