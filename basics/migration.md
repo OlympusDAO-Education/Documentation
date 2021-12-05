@@ -124,3 +124,9 @@ will be automated. The bonders will receive their entitled sOHM at the end of th
 vesting period.
 
 Learn more about how bonds will behave in V2 from the [Olympus Medium page](https://olympusdao.medium.com/introducing-olympus-v2-c4ade14e9fe).
+
+## Is Olympus V2 audited?
+
+All V2-related contracts are live, and some of them are still under audit process.
+We are working with Runtime Verification for the audit, and the results will be
+published once they become available.
