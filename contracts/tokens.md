@@ -26,7 +26,7 @@ Arbitrum One:
 
 * V1 [0x8D9b...5FB1](https://arbiscan.io/token/0x8D9bA570D6cb60C7e3e0F31343Efe75AB8E65FB1)
 
-AVAX Chain:
+Avalanche:
 
 * V1 [0x321e...4251](https://snowtrace.io/token/0x321e7092a180bb43555132ec53aaa65a5bf84251)
 
