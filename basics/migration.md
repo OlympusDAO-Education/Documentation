@@ -21,7 +21,7 @@ balance will stop rebasing, but the difference will be honored when you migrate.
 
 {% hint style="info" %}
 For this article, we added V1 and V2 after each token name to help you differentiate
-between the old and new tokens. Partner wbsites, price aggregators, or your wallet
+between the old and new tokens. Partner websites, price aggregators, or your wallet
 will not display the version information.
 {% endhint %}
 
