@@ -84,16 +84,22 @@ No, you can't switch back from gOHM to V1 tokens through our migration tool.
 
 ## Can you walk me through an example of how much gOHM I can expect from the migration?
 
-Assuming you have 20 OHM, 20 sOHM, and 20 wsOHM, and the [Current Index](https://docs.olympusdao.finance/main/basics/basics#how-do-i-track-my-rebase-rewards)
+Assuming you have 20 OHM V1, 20 sOHM V1, and 20 wsOHM, and the [Current Index](https://docs.olympusdao.finance/main/basics/basics#how-do-i-track-my-rebase-rewards)
 is 10.
 
-- 20 OHM = 2 gOHM. Take your 20 OHM and divide it by the Current Index to get your
-gOHM.
-
-- 20 sOHM = 2 gOHM. Take your 20 sOHM and divide it by the Current Index to get
+- 20 OHM V1 = 2 gOHM. Take your 20 OHM and divide it by the Current Index to get
 your gOHM.
 
+- 20 sOHM V1 = 2 gOHM. Take your 20 sOHM and divide it by the Current Index to
+get your gOHM.
+
 - 20 wsOHM = 20 gOHM. 1 wsOHM is equivalent to 1 gOHM.
+
+{% hint style="info" %}
+As a reminder, if you're migrating from a non-index-based token (OHM, sOHM) to an
+index-based token (gOHM), you won't receive the same amount of tokens after the
+migration, but they still worth the same in dollar term.
+{% endhint %}
 
 ## Will my gOHM still earn rebase rewards?
 
