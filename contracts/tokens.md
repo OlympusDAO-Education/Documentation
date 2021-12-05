@@ -18,7 +18,7 @@ for more details.
 Below are listed gOHM contracts by version, where the latest version represents
 the currently active contract.
 
-ETH Mainnet:
+Ethereum:
 
 * V1 [0x0ab8...a52f](https://etherscan.io/address/0x0ab87046fBb341D058F17CBC4c1133F25a20a52f)
 
