@@ -5,14 +5,25 @@
 V2 migration introduces new features such as on-chain governance and auto-staking
 for bonds.
 
-Transitioning from sOHM to gOHM allows for multiple bonds to be taken at one time,
-as opposed to one bond per vesting period as it was in v1.
+Transitioning from sOHM V1 to gOHM allows for multiple bonds to be taken at one
+time, as opposed to one bond per vesting period as it was in v1.
 
 Partial liquidity will remain for v1 OHM while the migration is in progress. This
 provides sufficient liquidity for borrowers to close or move their borrowing
 position.
 
 You can read more about this on the [Olympus Medium page](https://olympusdao.medium.com/introducing-olympus-v2-c4ade14e9fe).
+
+{% hint style="info" %}
+You have **two months to migrate after V2 launch.** If you don't, your sOHM V1
+balance will stop rebasing, but the difference will be honored when you migrate.
+{% endhint %}
+
+{% hint style="info" %}
+For this article, we added V1 and V2 after each token name to help you differentiate
+between the old and new tokens. Partner wbsites, price aggregators, or your wallet
+will not display the version information.
+{% endhint %}
 
 ## What is the TLDR?
 
