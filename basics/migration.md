@@ -103,8 +103,9 @@ migration, but they still worth the same in dollar term.
 
 ## Will my gOHM still earn rebase rewards?
 
-Yes. Although gOHM does not rebase like sOHM does, it still earns you rebase rewards.
-This is because the price of gOHM is tied to the Current Index:
+Yes. Although gOHM does not change in quantity upon rebase like sOHM does, it
+still earns you rebase rewards. This is because the price of gOHM is tied to the
+Current Index:
 
 $$
 gOHM_{price} = OHM_{price} * CurrentIndex
