@@ -27,27 +27,25 @@ will not display the version information.
 
 ## What is the TLDR?
 
-- The wrapped sOHM token (wsOHM) will be replaced by Governance OHM (gOHM). They
+- wsOHM V1 (wrapped, staked OHM) will be replaced by gOHM (Governance OHM). They
 function exactly the same, but gOHM is set up for on-chain governance.
 
-- OHM and sOHM tokens will have their identical v2 counterparts. OHM becomes v2
-OHM, and sOHM becomes v2 sOHM.
+- OHM and sOHM tokens will have their identical V2 counterparts. OHM V1 becomes
+OHM V2, and sOHM V1 becomes sOHM V2.
 
-- gOHM will roll out first ahead of v2 OHM and v2 sOHM.
+- Token tickers will remain the same for V1 tokens. For example, after migration,
+your wallet will show "OHM" instead of "OHM V1". Make sure to update the token
+contract in your wallet with the [V2 addresses](../contracts/tokens.md) to show
+your balances.
 
-- When migrating v1 OHM and/or v1 sOHM, you will get gOHM in return. Although
+- When migrating OHM V1 and/or sOHM V1, you will get gOHM in return. Although
 the token balance will be different (gOHM price is calculated differently, which
 is based on the Current Index), the **dollar amount remains the same.**
 
-- After the migration, OHM pools such as OHM-DAI will utilize v2 OHM. This applies
+- After the migration, OHM V1 pools such as OHM-DAI will utilize OHM V2. Thisapplies
 to new bonds as well. Partners like Abracadabra will only accept new deposits in
 gOHM. So, you will need to migrate if you want to use these features. Otherwise,
 you can sit tight and migrate only when you want to.
-
-{% hint style="info" %}
-You have **two months to migrate.** If you don't, your sOHM balance will stop
-rebasing, but the difference will be honored when you migrate.
-{% endhint %}
 
 ## What if I don't migrate?
 
