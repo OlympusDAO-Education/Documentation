@@ -8,7 +8,7 @@ The policy contract is an address guarded by a simple gnosis safe implementation
 
 The policy contract is guarded by a 3 of 5 multisig. That means any transaction for making policy changes must be approved by at least 3 signers, of which we have 5 signers in total. The operation security for our monetary policy is thus protected from a single actor going rogue, because it takes a quorum of 3 to authorize any transaction like adjusting the reward rate. The 5 signing addresses for our monetary policy are listed below.
 
-1. [0x1664...4033](https://etherscan.io/address/0x1664852674e93268Ef7704B7c345b20a876d4033)
+1. [0xa816...A592](https://etherscan.io/address/0xa81636AaCE97783AAC45764B873793bE081dA592)
 2. [0x4Da7...091C](https://etherscan.io/address/0x4Da7EB21fd6c918b57f61B15109133C069FA091C)
 3. [0xe643...812D](https://etherscan.io/address/0xe6435E2D1De6e3D3a9e90B2e80e7956ce59A812D)
 4. [0x8d34...290E](https://etherscan.io/address/0x8d34EA6fb1Ed6B60F94ac6CD01dD1181ef12290E)
