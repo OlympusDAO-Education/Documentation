@@ -2,12 +2,52 @@
 
 ## gOHM
 
-gOHM stands for Governance OHM. It supersedes [wsOHM](#wsOHM) as part of the [v2
-migration](../basics/migration.md).
+gOHM stands for Governance OHM. It supersedes [wsOHM](#wsohm) as part of the [v2
+migration](../basics/migration.md). gOHM is wrapped sOHM V2, which allows you to
+use sOHM V2 on different blockchains. It is priced exactly the same as wsOHM:
+
+$$
+gOHM_{price} = OHM_{price} * CurrentIndex
+$$
+
+You still collect rebase rewards just as if you had sOHM, but you won't see your
+token balance increase because the increase in value is based on the Current Index
+at the time of purchase and sale. See [this FAQ](../basics/basics.md#how-do-i-track-my-rebase-rewards)
+for more details.
+
 Below are listed gOHM contracts by version, where the latest version represents
 the currently active contract.
 
+ETH Mainnet:
+
 * V1 [0x0ab8...a52f](https://etherscan.io/address/0x0ab87046fBb341D058F17CBC4c1133F25a20a52f)
+
+Arbitrum One:
+
+* V1 [0x8D9b...5FB1](https://arbiscan.io/token/0x8D9bA570D6cb60C7e3e0F31343Efe75AB8E65FB1)
+
+AVAX Chain:
+
+* V1 [0x321e...4251](https://snowtrace.io/token/0x321e7092a180bb43555132ec53aaa65a5bf84251)
+
+Fantom:
+
+* V1 [0x91fa...3FDc](https://ftmscan.com/token/0x91fa20244Fb509e8289CA630E5db3E9166233FDc)
+
+Polygon:
+
+* V1 [0xd8cA...5195](https://polygonscan.com/token/0xd8cA34fd379d9ca3C6Ee3b3905678320F5b45195)
+
+{% hint style="info" %}
+**Current Index explanation / Why does it show less OHM for me during migration?**
+
+The Current Index is how many OHM one would have if they staked 1 OHM since the
+protocol inception. Check out the [Olympus dashboard](https://app.olympusdao.finance/#/dashboard)
+for the Current Index value.
+
+Unsure about the gOHM balance you get after the V2 migration? [Read the FAQ](../basics/migration.md#can-you-walk-me-through-an-example-of-how-much-gohm-i-can-expect-from-the-migration)
+for more details about the calculation.
+{% endhint %}
 
 ## OHM
 
