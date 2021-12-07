@@ -154,21 +154,21 @@ Nein. Sobald OHM einmal bei OlympusDAO gestaked ist, wird das hinterlegte OHM in
 
 Die Zinsentwicklung ergibt sich aus dem Zuwachs des gestakten OHM-Guthabens.
 
-1. Dazu notiert man sich den Wert des Current Index auf der [Staking Seite](https://app.olympusdao.finance/#/), wenn man zum ersten Mal OHM staket. Das wollen wir den Start-Index nennen.&#x20;
+1\. Dazu notiert man sich den Wert des Current Index auf der [Staking Seite](https://app.olympusdao.finance/#/), wenn das OHM zum ersten Mal gestaked wird. Das wollen wir den Start-Index nennen.
 
 ![](../../.gitbook/assets/index\_old.png)
 
-1. Hat man OHM für einige Zeit gestaked und will wissen, um wie viel das Guthaben gestiegen ist, notiert man sich wieder den Wert des Current Index. Das wollen wir den End-Index nennen.
+2\. Hat man OHM für einige Zeit gestaked und will wissen, um wie viel das Guthaben gestiegen ist, notiert man sich wieder den Wert des Current Index. Das wollen wir den End-Index nennen.
 
 ![](../../.gitbook/assets/index\_new.png)
 
-1. Indem man den End-Index durch den Start-Index teilt, erhält man den Faktor, um den sich das gestakte OHM-Guthaben vermehrt hat.
+3\. Indem man den End-Index durch den Start-Index teilt, erhält man den Faktor, um den sich das gestakte OHM-Guthaben vermehrt hat.
 
 $$
 ratio = endIndex / startIndex
 $$
 
-1. In diesem Beispiel ist das OHM-Guthaben um den Faktor 1,5 gewachsen.
+4\. In diesem Beispiel ist das OHM-Guthaben um den Faktor 1,5 gewachsen.
 
 $$
 ratio = 13.2\ /\ 8.8\newline = 1.5
