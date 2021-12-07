@@ -14,17 +14,16 @@ Les bonders ne perdent que lorsque le prix baisse au-delà de la décote de l'ob
 
 ## Dynamique de marché
 
-L'état par défaut du système est à sa valeur intrinsèque. Après une longue période d'inactivité, le prix reviendra toujours à ce niveau. On peut imaginer que les contractions ne sont déclenchées que par des crises de liquidité à court terme.   
-  
+L'état par défaut du système est à sa valeur intrinsèque. Après une longue période d'inactivité, le prix reviendra toujours à ce niveau. On peut imaginer que les contractions ne sont déclenchées que par des crises de liquidité à court terme. \
+\
 Puisque les détenteurs d'OHM ont la garantie que le prix reviendra finalement au-dessus de la valeur intrinsèque, les seuls vendeurs en dessous devraient être ceux qui ont besoin d'une sortie à court terme et qui sont prêts à prendre la perte supplémentaire.
 
 **Les expansions peuvent être déclenchées par une augmentation du staking ou du bonding.**
 
 Une augmentation du staking sera généralement précédée d'achats sur le marché. Cela augmente le prix, ce qui permet au protocole de vendre à un prix plus élevé et augmente le rendement pour les stakers. Cela devrait permettre d'attirer davantage de stakers et de poursuivre le cycle.
 
-Pendant ce temps, la hausse du prix augmente la décote des obligations et crée une capacité pour de nouvelles obligations. Celles-ci sont précédées de nouvelles liquidités, ce qui améliore la capacité du protocole à réaliser des ventes et augmente la liquidité de sortie disponible.  
-  
-Cette boucle de rétroaction positive prix-liquidité devrait servir à créer une période durable de croissance. Cependant, elles fonctionnent dans les deux sens. La baisse de la demande diminue les récompenses de staking et la capacité des bonds, ce qui entraîne une nouvelle baisse de la demande \(et c'est inévitable\).
+Pendant ce temps, la hausse du prix augmente la décote des obligations et crée une capacité pour de nouvelles obligations. Celles-ci sont précédées de nouvelles liquidités, ce qui améliore la capacité du protocole à réaliser des ventes et augmente la liquidité de sortie disponible.\
+\
+Cette boucle de rétroaction positive prix-liquidité devrait servir à créer une période durable de croissance. Cependant, elles fonctionnent dans les deux sens. La baisse de la demande diminue les récompenses de staking et la capacité des bonds, ce qui entraîne une nouvelle baisse de la demande (et c'est inévitable).
 
 Mais nous pouvons travailler pour atténuer les baisses. C'est là que les réserves du protocole interviennent en rachetant en dessous de la valeur intrinsèque. La trésorerie garantit que, même si des marchés baissiers et des pics de volatilités peuvent se produire et se produiront, le protocole ne peut jamais mourir.
-

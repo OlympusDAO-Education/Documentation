@@ -1,4 +1,4 @@
-# FAQ \(en\)
+# FAQ (en)
 
 ## Why do we need OlympusDAO in the first place?
 
@@ -12,7 +12,7 @@ No, OHM is not a stable coin. Rather, OHM aspires to become an algorithmic reser
 
 ## OHM is backed, not pegged.
 
-Each OHM is backed by 1 DAI, not pegged to it. Because the treasury backs every OHM with at least 1 DAI, the protocol would buy back and burn OHM when it trades below 1 DAI. This has the effect of pushing OHM price back up to 1 DAI. OHM could always trade above 1 DAI because there is no upper limit imposed by the protocol. Think pegged == 1, while backed &gt;= 1.
+Each OHM is backed by 1 DAI, not pegged to it. Because the treasury backs every OHM with at least 1 DAI, the protocol would buy back and burn OHM when it trades below 1 DAI. This has the effect of pushing OHM price back up to 1 DAI. OHM could always trade above 1 DAI because there is no upper limit imposed by the protocol. Think pegged == 1, while backed >= 1.
 
 You might say that the OHM floor price or intrinsic value is 1 DAI. We believe that the actual price will always be 1 DAI + premium, but in the end that is up to the market to decide.
 
@@ -22,24 +22,24 @@ At a high level, OlympusDAO consists of its protocol managed treasury, protocol 
 
 Bond generates profit for the protocol, and the treasury uses the profit to mint OHM and distribute them to stakers. With LP bond, the protocol is able to accumulate liquidity to ensure the system stability.
 
-## What is the deal with \(3,3\) and \(1,1\)?
+## What is the deal with (3,3) and (1,1)?
 
-\(3,3\) is the idea that, if everyone cooperated in Olympus, it would generate the greatest gain for everyone \(from a [game theory](https://en.wikipedia.org/wiki/Game_theory) standpoint\). Currently, there are three actions a user can take:
+(3,3) is the idea that, if everyone cooperated in Olympus, it would generate the greatest gain for everyone (from a [game theory](https://en.wikipedia.org/wiki/Game\_theory) standpoint). Currently, there are three actions a user can take:
 
-* Staking \(+2\)
-* Bonding \(+1\)
-* Selling \(-2\)
+* Staking (+2)
+* Bonding (+1)
+* Selling (-2)
 
-Staking and bonding are considered beneficiary to the protocol, while selling is considered detrimental. Staking and selling will also cause a price move, while bonding does not \(we consider buying OHM from the market as a prerequisite of staking, thus causing a price move\). If both actions are beneficiary, the actor who moves price also gets half of the benefit \(+1\). If both actions are contradictory, the bad actor who moves price gets half of the benefit \(+1\), while the good actor who moves price gets half of the downside \(-1\). If both actions are detrimental, which implies both actors are selling, they both get half of the downside \(-1\).
+Staking and bonding are considered beneficiary to the protocol, while selling is considered detrimental. Staking and selling will also cause a price move, while bonding does not (we consider buying OHM from the market as a prerequisite of staking, thus causing a price move). If both actions are beneficiary, the actor who moves price also gets half of the benefit (+1). If both actions are contradictory, the bad actor who moves price gets half of the benefit (+1), while the good actor who moves price gets half of the downside (-1). If both actions are detrimental, which implies both actors are selling, they both get half of the downside (-1).
 
 Thus, given two actors, all scenarios of what they could do and the effect on the protocol are shown here:
 
-![](../.gitbook/assets/game_theory.png)
+![](../.gitbook/assets/game\_theory.png)
 
-* If we both stake \(3, 3\), it is the best thing for both of us and the protocol \(3 + 3 = 6\).
-* If one of us stakes and the other one bonds, it is also great because staking takes OHM off the market and put it into the protocol, while bonding provides liquidity and DAI for the treasury \(3 + 1 = 4\).
-* When one of us sells, it diminishes effort of the other one who stakes or bonds \(1 - 1 = 0\).
-* When we both sell, it creates the worst outcome for both of us and the protocol \(-3 - 3 = -6\).
+* If we both stake (3, 3), it is the best thing for both of us and the protocol (3 + 3 = 6).
+* If one of us stakes and the other one bonds, it is also great because staking takes OHM off the market and put it into the protocol, while bonding provides liquidity and DAI for the treasury (3 + 1 = 4).
+* When one of us sells, it diminishes effort of the other one who stakes or bonds (1 - 1 = 0).
+* When we both sell, it creates the worst outcome for both of us and the protocol (-3 - 3 = -6).
 
 ## Why is PCV important?
 
@@ -49,11 +49,11 @@ As the protocol accumulates more PCV, more runway is guaranteed for the stakers.
 
 ## What will happen if there is a bank run on Olympus?
 
-Fractional reserve banking works because depositors don’t withdraw their funds all at once. A depositor’s faith in the banking system rests on regulations and agencies like Federal Deposit Insurance Corporation \(FDIC\).
+Fractional reserve banking works because depositors don’t withdraw their funds all at once. A depositor’s faith in the banking system rests on regulations and agencies like Federal Deposit Insurance Corporation (FDIC).
 
 OHM does not have FDIC insurance but it has an incentive structure that protects stakers. Let’s take a look at how it performs during a hypothetical bank run. In this scenario, we assume the majority of stakers would panic and unstake their tokens from Olympus - the staking percentage which stands at 92% now quickly collapses to 3.3%, leaving only 20,000 OHM staked.
 
-Next, we assume the Risk-Free Value \(RFV\) inflows to the treasury completely dry up. For context, RFV is currently growing at about $1 million every 3 days. However, during a bank run this growth will likely stop.
+Next, we assume the Risk-Free Value (RFV) inflows to the treasury completely dry up. For context, RFV is currently growing at about $1 million every 3 days. However, during a bank run this growth will likely stop.
 
 Finally, we assume that those last standing stakers bought in at a price of $500 per OHM. The initial investment of these stakers would be:
 
@@ -61,17 +61,17 @@ $$
 \$500/OHM * 20,000\ OHM = \$10\ million
 $$
 
-As of July 12 2021, the total OHM supply is 734,421 and the RFV is $13,905,970. Remember that 1 OHM is backed by 1 USD \(DAI or FRAX\). By subtracting these two numbers, we know 13,171,549 OHM will eventually get issued to the remaining stakers. In roughly a year, these stakers who are holding 20,000 OHM will have:
+As of July 12 2021, the total OHM supply is 734,421 and the RFV is $13,905,970. Remember that 1 OHM is backed by 1 USD (DAI or FRAX). By subtracting these two numbers, we know 13,171,549 OHM will eventually get issued to the remaining stakers. In roughly a year, these stakers who are holding 20,000 OHM will have:
 
 $$
 20,000 + 13,171,549 = 13,191,549\ OHM
 $$
 
-$10 million investment made by these stakers will turn into about $13.2 million based on cash flow alone if they stay staked \(recall that 1 OHM is backed by 1 USD\). In this bank run scenario, the stakers who stay staked not only get their money back, but also make some profit. Therefore, [\(3,3\)](basics.md#what-is-the-deal-with-3-3-and-1-1) isn’t just a popular meme, it is actually a dominant strategy.
+$10 million investment made by these stakers will turn into about $13.2 million based on cash flow alone if they stay staked (recall that 1 OHM is backed by 1 USD). In this bank run scenario, the stakers who stay staked not only get their money back, but also make some profit. Therefore, [(3,3)](basics.md#what-is-the-deal-with-3-3-and-1-1) isn’t just a popular meme, it is actually a dominant strategy.
 
 The above scenario is unlikely to play out because when other people find out that extremely high rewards are being paid to the stakers, they will copy the strategy by buying and staking OHM. This is also why the percentage of OHM staked in Olympus has consistently remained over 90% since launch.
 
-_Note: Most of the data referenced above are taken from_ [_this Dune Analytics page_](https://duneanalytics.com/shadow/Olympus-%28OHM%29)_._
+_Note: Most of the data referenced above are taken from_ [_this Dune Analytics page_](https://duneanalytics.com/shadow/Olympus-\(OHM\))_._
 
 ## Why is the market price of OHM so volatile?
 
@@ -81,7 +81,7 @@ OHM could trade at a very high price because the market is ready to pay a hefty 
 
 ## What is the point of buying it now when OHM trades at a very high premium?
 
-When you buy and stake OHM, you capture a percentage of the supply \(market cap\) which will remain close to a constant. This is because your staked OHM balance also increases along with the circulating supply. The implication is that if you buy OHM when the market cap is low, you would be capturing a larger percentage of the market cap.
+When you buy and stake OHM, you capture a percentage of the supply (market cap) which will remain close to a constant. This is because your staked OHM balance also increases along with the circulating supply. The implication is that if you buy OHM when the market cap is low, you would be capturing a larger percentage of the market cap.
 
 ## What is a rebase?
 
@@ -93,7 +93,7 @@ Reward yield is the percentage by which your staked OHM balance increases on the
 
 ## What is APY?
 
-APY stands for annual percentage yield. It measures the real rate of return on your principal by taking into account the effect of compounding interest. In the case of OlympusDAO, your staked OHM represents your principal, and the compound interest is added periodically on every epoch \(2200 Ethereum blocks, or around 8 hours\) thanks to the rebase mechanism.
+APY stands for annual percentage yield. It measures the real rate of return on your principal by taking into account the effect of compounding interest. In the case of OlympusDAO, your staked OHM represents your principal, and the compound interest is added periodically on every epoch (2200 Ethereum blocks, or around 8 hours) thanks to the rebase mechanism.
 
 One interesting fact about APY is that your balance will grow not linearly but exponentially over time! Assuming a daily compound interest of 2%, if you start with a balance of 1 OHM on day 1, after a year, your balance will grow to about 1377. That is a lot!
 
@@ -101,7 +101,7 @@ One interesting fact about APY is that your balance will grow not linearly but e
 
 ## How is the APY calculated?
 
-The APY is calculated from the reward yield \(a.k.a rebase rate\) using the following equation:
+The APY is calculated from the reward yield (a.k.a rebase rate) using the following equation:
 
 $$
 APY = ( 1 + rewardYield )^{1095}
@@ -145,23 +145,22 @@ No. Once you have staked OHM with OlympusDAO, your staked OHM balance will auto-
 
 You can track your rebase rewards by calculating the increase in your staked OHM balance.
 
-1. Record down the Current Index value on the [staking page](https://app.olympusdao.finance/#/) when you first stake your OHM. Let's call this the Start Index.
+1\. Record down the Current Index value on the [staking page](https://app.olympusdao.finance/#/) when you first stake your OHM. Let's call this the Start Index.
 
-![](../.gitbook/assets/index_old.png)
+![](../.gitbook/assets/index\_old.png)
 
-2. After staking for some time, if you want to determine by how much your balance has increased, check the Current Index value again. Let's call this the End Index.
+2\. After staking for some time, if you want to determine by how much your balance has increased, check the Current Index value again. Let's call this the End Index.
 
-![](../.gitbook/assets/index_new.png)
+![](../.gitbook/assets/index\_new.png)
 
-3. By dividing the End Index by Start Index, you would get the ratio by which your staked OHM balance has increased.
+3\. By dividing the End Index by Start Index, you would get the ratio by which your staked OHM balance has increased.
 
 $$
 ratio = endIndex / startIndex
 $$
 
-4. In this example, the OHM balance has grown by 1.5 times.
+4\. In this example, the OHM balance has grown by 1.5 times.
 
 $$
 ratio = 13.2\ /\ 8.8\newline = 1.5
 $$
-
