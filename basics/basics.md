@@ -108,67 +108,67 @@ Eine interessante Folge der APY ist, dass das Guthaben im Verlauf der Zeit nicht
 
 ![The power of compounding](../.gitbook/assets/apy.png)
 
-## How is the APY calculated?
+## Wie wird die APY berechnet?
 
-The APY is calculated from the reward yield (a.k.a rebase rate) using the following equation:
+Die jährliche Ertragsrate (APY) errechnet sich aus dem Belohnungsertrag (reward yield bzw. rebase rate) nach folgender Formel:
 
 $$
 APY = ( 1 + rewardYield )^{1095}
 $$
 
-It raises to the power of 1095 because a rebase happens 3 times daily. Consider there are 365 days in a year, this would give a rebase frequency of 365 \* 3 = 1095.
+Der Exponent 1095 ergibt sich, weil eine Ausschüttung dreimal täglich stattfindet. Rechnet man mit 365 Tagen pro Jahr, dann wäre die Häufigkeit der Ausschüttung 365\*3 = 1095.
 
-Reward yield is determined by the following equation:
+Der Belohnungsertrag (reward yield) wiederum entspricht dem Verhältnis von ausgeschüttetem OHM (OHM distributed) und gestaktem OHM (OHM total staked) nach folgender Formel:
 
 $$
 rewardYield = OHM_{distributed} / OHM_{totalStaked}
 $$
 
-The number of OHM distributed to the staking contract is calculated from OHM total supply using the following equation:
+Die Menge an OHM schließlich, die an den Staking-Vertrag ausgeschüttet wird (OHM distributed), berechnet sich aus dem Gesamtbestand an OHM (OHM total supply) und der Belohnungsrate (reward rate) nach folgender Formel:
 
 $$
 OHM_{distributed} = OHM_{totalSupply} \times rewardRate
 $$
 
-Note that the reward rate is subject to change by the protocol. For example, it has been revised due to [this latest proposal](https://forum.olympusdao.finance/d/77-oip-18-reward-rate-framework-and-reduction).
+Es sei darauf hingewiesen, dass die Belohnungsrate vom Protokoll festgelegt ist und verändert werden kann. Sie wurde beispielsweise entsprechend [dieses Vorschlags](https://forum.olympusdao.finance/d/77-oip-18-reward-rate-framework-and-reduction) angepasst.
 
-## Why does the price of OHM become irrelevant in long term?
+## Warum ist der Preis von OHM auf lange Sicht unerheblich?
 
-As illustrated above, your OHM balance will grow exponentially over time thanks to the power of compounding. Let's say you buy an OHM for $400 now and the market decides that in 1 year time, the intrinsic value of OHM will be $2. Assuming a daily compound interest rate of 2%, your balance would grow to about 1377 OHMs by the end of the year, which is worth around $2754. That is a cool $2354 profit! By now, you should understand that you are paying a premium for OHM now in exchange for a long-term benefit. Thus, you should have a long time horizon to allow your OHM balance to grow exponentially and make this a worthwhile investment.
+Wie bereits oben beschrieben wächst das OHM-Guthaben dank des Zinseszins-Effektes mit der Zeit exponentiell. Nehmen wir an, jemand kauft heute 1 OHM zum Preis von 400 US$ und im Verlauf eines Jahres entscheidet der Markt, dass der intrinsische Wert von 1 OHM nur 2 US$ beträgt. Eine tägliche Verzinsung von 2% vorausgesetzt, würde das Guthaben von 1 OHM in einem Jahr auf 1.377 OHM anwachsen und wäre dann 2.754 US$ wert. Das sind coole 2.354 US$ Gewinn! Das macht noch einmal verständlich, warum Investoren bereit sind, einen Aufpreis für die spätere Wertentwicklung zu bezahlen. Man sollte also einen langfristigen Anlagehorizont haben, damit das OHM-Guthaben wachsen und eine lohnende Anlage daraus werden kann.
 
-## What will be OHM's intrinsic value in the future?
+## Wie hoch wird in der Zukunft der intrinsische Wert von OHM sein?
 
-There is no clear answer for this, but the intrinsic value can be determined by the treasury performance. For example, if the treasury could guarantee to back every OHM with 100 DAI, the intrinsic value will be 100 DAI. It can also be decided by the DAO. For example, if the DAO decides to [raise the price floor of OHM](https://forum.olympusdao.finance/d/31-use-price-floor-as-tool-for-monetary-policy), its intrinsic value will rise accordingly.
+Darauf gibt es keine eindeutige Antwort, aber der intrinsische Wert lässt sich aus der Wertentwicklung des Olympus-Vermögens ableiten. Wenn dieses Vermögen beispielsweise garantieren würde, dass für jedes OHM 100 DAI hinterlegt sind, dann hätte 1 OHM den intrinsischen Wert von 100 DAI. Das kann auch von der DAO bestimmt werden. Wenn die DAO z.B. entscheidet, den [Mindestpreis für OHM anzuheben](https://forum.olympusdao.finance/d/31-use-price-floor-as-tool-for-monetary-policy), wird dessen intrinsischer Wert steigen.
 
-## How does the protocol manage to maintain the high staking APY?
+## Wie finanziert das Protokoll die hohen Zinserträge für das Staken?
 
-Let’s say the protocol targets an APY of 100,000%. This would translate to a rebase rate of about 0.6328%, or a daily growth of about 2%. Please refer to the equation above to learn [how APY is calculated from the rebase rate](basics.md#how-is-the-apy-calculated).
+Nehmen wir an, das Protokoll will die jährliche Ertragsrate (APY) im Bereich von 1.000% bis 10.000% halten (siehe [OIP-18](https://forum.olympusdao.finance/d/77-oip-18-reward-rate-framework-and-reduction) für weitere Details). Das bedeutet, der Belohnungsertrag (reward yield) würde mindestens bei etwa 0,2105% liegen und das tägliche Zinswachstum bei etwa 0,6328%. Wie sich die APY aus dem Belohnungsertrag errechnet wird [weiter oben](basics.md#how-is-the-apy-calculated) erklärt.
 
-If there are 100,000 of OHM staked right now, the protocol would need to mint an additional 2000 OHM to achieve this daily growth. This is achievable if the protocol can bring in at least 2000 DAI daily from bond sales. If the protocol fails to achieve this, the APY of 100,000% cannot be guaranteed.
+Wenn derzeit 100.000 OHM gestaked wären, dann müsste das Protokoll zusätzliche 632,8 OHM pro Tag münzen, um dieses tägliche Wachstum zu erreichen. Das erfordert, dass das Protokoll mindestens 632,80 US$ täglich durch den Verkauf von Anleihen (Bonds) einnimmt. Doch selbst wenn das Protokoll weniger Zuflüsse haben sollte, kann es diese APY von 1.000% dennoch über einen längeren Zeitraum aufrecht erhalten (diesen Spielraum zeigt z.B. die sogenannte [Runway Chart](https://dune.xyz/queries/102766/207436)), einfach durch den Überschuss an Reserven im Olympus-Vermögen.
 
-## Do I have to unstake and stake OHM on every epoch to get my rebase rewards?
+## Muss ich mein OHM in jeder Epoche unstaken und wieder staken, um meine Zinsen zu erhalten?
 
-No. Once you have staked OHM with OlympusDAO, your staked OHM balance will auto-compound on every epoch. That increase in balance represents your rebase rewards.
+Nein. Sobald OHM einmal bei OlympusDAO gestaked ist, wird das hinterlegte OHM in jeder Epoche automatisch verzinst. Der resultierende Anstieg im Guthaben an OHM entspricht der regelmäßigen Zinsausschüttung.
 
-## How do I track my rebase rewards?
+## Wie kann ich meine Zinsentwicklung verfolgen?
 
-You can track your rebase rewards by calculating the increase in your staked OHM balance.
+Die Zinsentwicklung ergibt sich aus dem Zuwachs des gestakten OHM-Guthabens.
 
-1. Record down the Current Index value on the [staking page](https://app.olympusdao.finance/#/) when you first stake your OHM. Let's call this the Start Index.
+1. Dazu notiert man sich den Wert des Current Index auf der [Staking Seite](https://app.olympusdao.finance/#/), wenn man zum ersten Mal OHM staket. Das wollen wir den Start-Index nennen.&#x20;
 
 ![](../.gitbook/assets/index\_old.png)
 
-1. After staking for some time, if you want to determine by how much your balance has increased, check the Current Index value again. Let's call this the End Index.
+1. Hat man OHM für einige Zeit gestaked und will wissen, um wie viel das Guthaben gestiegen ist, notiert man sich wieder den Wert des Current Index. Das wollen wir den End-Index nennen.
 
 ![](../.gitbook/assets/index\_new.png)
 
-1. By dividing the End Index by Start Index, you would get the ratio by which your staked OHM balance has increased.
+1. Indem man den End-Index durch den Start-Index teilt, erhält man den Faktor, um den sich das gestakte OHM-Guthaben vermehrt hat.
 
 $$
 ratio = endIndex / startIndex
 $$
 
-1. In this example, the OHM balance has grown by 1.5 times.
+1. In diesem Beispiel ist das OHM-Guthaben um den Faktor 1,5 gewachsen.
 
 $$
 ratio = 13.2\ /\ 8.8\newline = 1.5
