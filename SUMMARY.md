@@ -2,7 +2,7 @@
 
 * [Einführung](README.md)
 
-## Basics
+## Grundlagen <a href="#basics" id="basics"></a>
 
 * [FAQ](basics/basics.md)
 * [Staking](basics/staking.md)
