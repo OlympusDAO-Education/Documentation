@@ -1,32 +1,33 @@
-# Introduction
+# Einführung
 
-## What is Olympus?
+## Was ist Olympus?
 
-Olympus is a decentralized reserve currency protocol based on the OHM token. Each OHM token is backed by a basket of assets \(e.g. DAI, FRAX\) in the Olympus treasury, giving it an intrinsic value that it cannot fall below. Olympus also introduces unique economic and game-theoretic dynamics into the market through staking and bonding. Read more about the game theory aspect of Olympus in [one of our blog posts](https://olympusdao.medium.com/the-game-theory-of-olympus-e4c5f19a77df).
+Olympus ist ein dezentrales Protokoll für eine Reservewährung, die auf dem OHM-Token basiert. Jeder OHM-Token wird von einem Fundus von Assets (z.B. DAI, FRAX) im Olympus-Vermögen gestützt, wodurch er einen Mindestwert besitzt, unter den er nicht fallen kann. Olympus führt außerdem mit Bonding und Staking neue wirtschaftliche und spieltheroretische Kräfte in den Markt ein. Mehr über den spieltheoretischen Aspekt von Olympus steht in einem unserer [Blogbeiträge](https://olympusdao.medium.com/the-game-theory-of-olympus-e4c5f19a77df).
 
-{% embed url="https://www.youtube.com/watch?v=QZOaZ9dd-ms" caption="Introductory video about Olympus" %}
+{% embed url="https://www.youtube.com/watch?v=QZOaZ9dd-ms" %}
+Einführendes Video über Olympus
+{% endembed %}
 
-## What is the point of Olympus?
+## Was will Olympus erreichen?
 
-Our goal is to build a policy-controlled currency system, in which the behavior of the OHM token is controlled at a high level by the DAO. In the long term, we believe this system can be used to optimize for stability and consistency so that OHM can function as a global unit-of-account and medium-of-exchange currency. In the short term, we intend to optimize the system for growth and wealth creation.
+Unser Ziel ist es, ein Währungssystem zu schaffen, das auf festen Regeln beruht und in dem das Verhalten des OHM-Tokens auf einer übergeordneten Ebene von der [DAO](contracts/dao.md) kontrolliert wird (der Dezentralen Autonomen Organisation hinter Olympus). Auf lange Sicht glauben wir, dass Stabilität und Konsistenz dieses Systems so optimiert werden können, dass OHM weltweit als Wertmaßstab und Zahlungsmittel fungiert. Kurzfristig setzen wir vor allem auf Wachstum und das Schaffen von Vermögensbeständen.
 
-## How do I participate in Olympus?
+## Wie kann ich bei Olympus mitmachen?
 
-There are two main strategies for market participants: [staking](basics/staking.md) and [bonding](basics/bonding.md). Stakers stake their OHM tokens in return for more OHM tokens, while bonders provide LP or DAI tokens in exchange for discounted OHM tokens after a fixed vesting period.
+Marktteilnehmer können zwischen zwei Hauptstrategien wählen: [Bonding](basics/bonding.md) und [Staking](contracts/staking.md). Staker hinterlegen ihre OHM-Token als Sicherheit und erhalten dafür neue OHM-Token; Bonder überlassen LP- oder DAI-Token im Tausch gegen verbilligte OHM-Token nach einer festen Anlagedauer.&#x20;
 
-Governance participants can get involved on our [forum](https://forum.olympusdao.finance) and through discussions on our [community discord](https://discord.com/invite/olympusdao) and [DAO discord](https://discord.com/invite/42xFV68uEf) servers respectively. We are always looking for new community members to contribute!
+Wer sich an der Verwaltung und Organisation beteiligen möchte, kann sich in unserem [Forum](https://forum.olympusdao.finance) zu Wort melden oder zu den Diskussionen im [Community Discord](https://discord.com/invite/olympusdao)- und [DAO Discord](https://discord.com/invite/42xFV68uEf)-Server beitragen.
 
-## How can I benefit from Olympus?
+## Welche Vorteile bringt Olympus?
 
-The main benefit for stakers comes from supply growth. The protocol mints new OHM tokens from the treasury, the majority of which are distributed to the stakers. Thus, the gain for stakers will come from their auto-compounding balances, though price exposure remains an important consideration. That is, if the increase in token balance outpaces the potential drop in price \(due to inflation\), stakers would make a profit.
+Der Hauptvorteil für Staker liegt im Bestandswachstum: Das Protokoll prägt neue OHM-Token aus dem Olympus-Vermögen und schüttet den größten Teil davon an die Staker aus. Der Wertzuwachs für Staker ergibt sich daher aus ihrem selbstverzinsenden Guthaben, wobei Preisschwankungen natürlich ebenfalls eine wichtige Rolle spielen. Das heißt, so lange der Wert des wachsenden Token-Guthabens den Preisverfall (infolge Inflation) ausgleicht, machen Staker Gewinn.&#x20;
 
-The main benefit for bonders comes from price consistency. Bonders commit a capital upfront and are promised a fixed return at a set point in time; that return is in OHM and thus the bonder's profit would depend on OHM price when the bond matures. Bonders benefit from a rising or static OHM price.
+Bei Bondern liegt der Hauptvorteil in der Preisstabilität. Bonder hinterlegen vorab Kapital und erhalten später einen festen Gegenwert zu einem bestimmten Zeitpunkt. Dieser Gegenwert wird in OHM ausgezahlt, daher hängt der Gewinn des Bonders vom OHM-Preis zur Zeit der Ausschüttung ab. Bonder profitieren von steigenden oder stabilen OHM-Preisen.
 
-## Who created Olympus?
+## Wer hat Olympus erfunden?
 
-Olympus was ideated by Zeus and built by a distributed pseudo-anonymous team.
+Die Idee für Olympus wurde von Zeus entwickelt und von einem dezentralisierten pseudo-anonymen Team umgesetzt.
 
-## Who runs Olympus?
+## Wer betreibt Olympus?
 
-No one. Olympus is DAO-governed. All decisions are formed by community members on the forum and made by token holders through snapshot voting.
-
+Niemand. Olympus wird von einer DAO verwaltet. Alle Entscheidungen werden gemeinschaftlich im Forum vorbereitet und von den Token-Besitzern durch ein Snapshot-Wahlverfahren beschlossen.
