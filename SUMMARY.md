@@ -5,6 +5,7 @@
 ## Grundlagen <a href="#basics" id="basics"></a>
 
 * [FAQ](basics/basics.md)
+* [V2-Migration](basics/v2-migration.md)
 * [Staking](basics/staking.md)
 * [Bonding](basics/bonding.md)
 
