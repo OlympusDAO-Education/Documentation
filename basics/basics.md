@@ -56,31 +56,31 @@ Protokoll-eigene Liquidität (Protocol Owned Liquidity, POL) ist die Menge an LP
 * Als größter Liquiditäts-Provider (LP) verdient Olympus den Löwenanteil der LP-Gebühren, eine weitere Einkommensquelle für das Gemeinschaftsvermögen.
 * Die gesamte POL kann genutzt werden, um OHM zu stützen. Die LP-Token werden dazu mit ihrem Risiko-freien Wert (RFV, Risk Free Value), sprich dem garantierten Kapital angesetzt. Mehr über die Beweggründe dazu findet sich in diesem [Medium-Artikel](https://olympusdao.medium.com/dai-bonds-a-more-effective-sales-mechanism-c9a57586f1f7).
 
-## What will happen if there is a bank run on Olympus?
+## Was würde im Fall eines Kassenansturms bei Olympus passieren?
 
-Fractional reserve banking works because depositors don’t withdraw their funds all at once. A depositor’s faith in the banking system rests on regulations and agencies like Federal Deposit Insurance Corporation (FDIC).
+Bankensysteme mit Mindestreserven funktionieren, weil nicht alle Anleger gleichzeitig ihr Geld abheben. Das Vertrauen eines Anlegers in das Bankensystem beruht auf Reglementierung und auf Sicherungssystemen wie der Federal Deposit Insurance Corporation (FDIC), der Bundeseinlagenversicherungsgesellschaft der USA.
 
-OHM does not have FDIC insurance but it has an incentive structure that protects stakers. Let’s take a look at how it performs during a hypothetical bank run. In this scenario, we assume the majority of stakers would panic and unstake their tokens from Olympus - the staking percentage which stands at 92% now quickly collapses to 3.3%, leaving only 55,000 OHM staked.
+OHM hat zwar keine Einlagensicherung, aber dafür ein Anreizsystem, das Staker schützt. Ein Blick auf einen hypothetischen Ansturm auf die Bank soll zeigen, wie das funktioniert. Für dieses Szenario nehmen wir an, dass die Mehrzahl der Staker in Panik gerät und ihre Token auf Olympus unstaken wird, also abhebt. Der Anteil an gestaktem OHM fällt von 92% abrupt auf 3,3%, und es bleiben nur 55.000 OHM gestaked.
 
-Next, we assume the Risk-Free Value (RFV) inflows to the treasury completely dry up. For context, RFV is currently growing at [about $1 million every 2 days](https://dune.xyz/queries/29153/58862). However, during a bank run this growth will likely stop.
+Außerdem nehmen wir an, dass Zuflüsse an garantiertem Kapital (RFV, Risk Free Value) in das Protokoll-Vermögen komplett versiegen. Um einen Vergleich zu nennen: Derzeit wächst das RFV um [etwa 1 Million US$ alle zwei Tage](https://dune.xyz/queries/29153/58862). Während eines Kassensturms würde dies allerdings sehr wahrscheinlich aufhören.
 
-Finally, we assume that those last standing stakers bought in at a price of $500 per OHM. The initial investment of these stakers would be:
-
-$$
-\$500/OHM * 55,000\ OHM = \$27.5\ million
-$$
-
-As of September 15 2021, the total OHM supply is 2,082,553 and the RFV is $47,041,833. Remember that 1 OHM is backed by 1 USD (DAI or FRAX). By subtracting these two numbers, we know 44,959,280 OHM will eventually get issued to the remaining stakers. In roughly a year, these stakers who are holding 55,000 OHM will have:
+Schließlich nehmen wir weiter an, dass die letzten verbleibenden Staker zu einem Preis von 500 US$ pro OHM eingekauft haben. Die Anfangsinvestition dieser Staker wäre dann:
 
 $$
-55,000 + 44,959,280 = 45,014,280\ OHM
+\$500/OHM * 55.000\ OHM = \$27,5\ Millionen
 $$
 
-$27.5 million investment made by these stakers will turn into about $45 million based on cash flow alone if they stay staked (recall that 1 OHM is backed by 1 USD). In this bank run scenario, the stakers who stay staked not only get their money back, but also make some profit. Therefore, [(3,3)](basics.md#what-is-the-deal-with-3-3-and-1-1) isn’t just a popular meme, it is actually a dominant strategy.
+Am 15. September 2021 betrug der gesamte Bestand an OHM 2.082.553 und das RFV 47.041.833 US$. Erinnern wir uns daran, dass für jedes 1 OHM stets 1 US$ hinterlegt ist (in Form von DAI oder FRAX). Ziehen wir die beiden vorstehenden Zahlen voneinander ab, erhalten wir einen Wert von 44.959.280 OHM, die früher oder später an die verbleibenden Staker ausgeschüttet werden. In etwa einem Jahr werden diese Staker, die derzeit 55.000 OHM halten, folgende Menge besitzen:
 
-The above scenario is unlikely to play out because when other people find out that extremely high rewards are being paid to the stakers, they will copy the strategy by buying and staking OHM. This is also why the percentage of OHM staked in Olympus has consistently remained over 90% since launch.
+$$
+55.000 + 44.959.280 = 45.014.280\ OHM
+$$
 
-_Note: Most of the data referenced above are taken from_ [_this Dune Analytics page_](https://duneanalytics.com/shadow/Olympus-\(OHM\))_._
+Wenn sie weiter staken, verwandelt sich eine Anfangsinvestition von 27,5 Millionen US$ in ein Vermögen von etwa 45 Millionen US$, allein aufgrund des Cash Flows (denn 1 OHM ist jederzeit von 1 US$ gestützt). In diesem Szenario eines hypothetischen Kassensturms bekommen die Staker, die ihre Position halten, nicht nur ihr Geld zurück, sondern machen auch noch Gewinn. Aus diesem Grund ist [(3,3)](basics.md#what-is-the-deal-with-3-3-and-1-1) nicht nur ein beliebtes Meme, sondern tatsächlich die am weitesten verbreitete OHM-Strategie
+
+Es ist sehr unwahrscheinlich, dass sich das obige Szenario tatsächlich so abspielt, denn sobald andere Investoren merken, dass die verbleibenden Staker extrem hohe Gewinne machen, werden sie die Strategie imitieren und OHM kaufen und staken. Das ist auch der Grund, warum der Anteil an gestaktem OHM seit dem Launch konstant über 90% lag.
+
+Anmerkung: Die meisten Daten in obigem Beispiel stammen von [dieser Dune Analytics Seite](https://duneanalytics.com/shadow/Olympus-\(OHM\)).
 
 ## Why is the market price of OHM so volatile?
 
