@@ -18,9 +18,9 @@ Man könnte auch sagen, der Mindestpreis oder intrinsische Wert von OHM ist 1 DA
 
 ## Wie funktioniert das Ganze?
 
-Grundsätzlich setzt sich OlympusDAO zusammen aus dem vom Protokoll verwalteten Vermögen, der Protokoll-eigenen Liquidität (Protocol Owned Liquidity, [POL](../references/glossary.md#pol)), den Bond-Mechanismen und den Vergütungen für das Staking, die auf die Vergrößerung des OHM-Bestands ausgelegt sind.
+Grundsätzlich setzt sich OlympusDAO zusammen aus dem vom Protokoll verwalteten Vermögen, der Protokoll-eigenen Liquidität (Protocol Owned Liquidity, [POL](../../references/glossary.md#pol)), den Bond-Mechanismen und den Vergütungen für das Staking, die auf die Vergrößerung des OHM-Bestands ausgelegt sind.
 
-Die Verkäufe von Bonds führen zu Einnahmen, die das Protokoll nutzt, um OHM zu prägen und an die Staker auszuschütten. Durch [Liquiditäts-Anleihen](../references/glossary.md#liquidity-bonds) kann das Protokoll eigene Liquidität anhäufen. Der Punkt "[Warum ist POL wichtig?](basics.md#why-is-pol-important)" erklärt das weiter unten noch genauer.
+Die Verkäufe von Bonds führen zu Einnahmen, die das Protokoll nutzt, um OHM zu prägen und an die Staker auszuschütten. Durch [Liquiditäts-Anleihen](../../references/glossary.md#liquidity-bonds) kann das Protokoll eigene Liquidität anhäufen. Der Punkt "[Warum ist POL wichtig?](./#why-is-pol-important)" erklärt das weiter unten noch genauer.
 
 ## Was hat es mit (3,3) und (1,1) auf sich?
 
@@ -34,7 +34,7 @@ Staken und Bonden sind vorteilhaft für das Protokoll, während Verkaufen als na
 
 Für zwei Akteure ergibt sich daraus folgendes Schema, das zeigt, welche Möglichkeiten beide haben und welche Folgen dies jeweils hat:
 
-![](../.gitbook/assets/game\_theory.png)
+![](../../.gitbook/assets/game\_theory.png)
 
 * Wenn beide staken (3, 3), dann ist das am besten sowohl für die Akteure als auch für das Protokoll (3 + 3 = 6).
 * Wenn einer von beiden staked und der andere bondet, dann ist das auch gut, denn Staken nimmt OHM vom Markt und hinterlegt es im Protokoll, während Bonden dem Olympus-Vermögen Liquidität und DAI beschert (3 + 1 = 4).
@@ -76,7 +76,7 @@ $$
 55.000 + 44.959.280 = 45.014.280\ OHM
 $$
 
-Wenn sie weiter staken, verwandelt sich eine Anfangsinvestition von 27,5 Millionen US$ in ein Vermögen von etwa 45 Millionen US$, allein aufgrund des Cash Flows (denn 1 OHM ist jederzeit von 1 US$ gestützt). In diesem Szenario eines hypothetischen Kassensturms bekommen die Staker, die ihre Position halten, nicht nur ihr Geld zurück, sondern machen auch noch Gewinn. Aus diesem Grund ist [(3,3)](basics.md#what-is-the-deal-with-3-3-and-1-1) nicht nur ein beliebtes Meme, sondern tatsächlich die am weitesten verbreitete OHM-Strategie
+Wenn sie weiter staken, verwandelt sich eine Anfangsinvestition von 27,5 Millionen US$ in ein Vermögen von etwa 45 Millionen US$, allein aufgrund des Cash Flows (denn 1 OHM ist jederzeit von 1 US$ gestützt). In diesem Szenario eines hypothetischen Kassensturms bekommen die Staker, die ihre Position halten, nicht nur ihr Geld zurück, sondern machen auch noch Gewinn. Aus diesem Grund ist [(3,3)](./#what-is-the-deal-with-3-3-and-1-1) nicht nur ein beliebtes Meme, sondern tatsächlich die am weitesten verbreitete OHM-Strategie
 
 Es ist sehr unwahrscheinlich, dass sich das obige Szenario tatsächlich so abspielt, denn sobald andere Investoren merken, dass die verbleibenden Staker extrem hohe Gewinne machen, werden sie die Strategie imitieren und OHM kaufen und staken. Das ist auch der Grund, warum der Anteil an gestaktem OHM seit dem Launch konstant über 90% lag.
 
@@ -106,7 +106,7 @@ Die jährliche Ertragsrate (Annual Percentage Yield, APY) gibt die tatsächliche
 
 Eine interessante Folge der APY ist, dass das Guthaben im Verlauf der Zeit nicht linear, sondern exponentiell wächst. Nimmt man beispielsweise eine tägliche Zinsrate von 2% an, dann wächst ein Startguthaben von 1 OHM nach einem Jahr auf etwa 1377 OHM an. Das ist sehr viel!
 
-![The power of compounding](../.gitbook/assets/apy.png)
+![The power of compounding](../../.gitbook/assets/apy.png)
 
 ## Wie wird die APY berechnet?
 
@@ -142,7 +142,7 @@ Darauf gibt es keine eindeutige Antwort, aber der intrinsische Wert lässt sich 
 
 ## Wie finanziert das Protokoll die hohen Zinserträge für das Staken?
 
-Nehmen wir an, das Protokoll will die jährliche Ertragsrate (APY) im Bereich von 1.000% bis 10.000% halten (siehe [OIP-18](https://forum.olympusdao.finance/d/77-oip-18-reward-rate-framework-and-reduction) für weitere Details). Das bedeutet, der Belohnungsertrag (reward yield) würde mindestens bei etwa 0,2105% liegen und das tägliche Zinswachstum bei etwa 0,6328%. Wie sich die APY aus dem Belohnungsertrag errechnet wird [weiter oben](basics.md#how-is-the-apy-calculated) erklärt.
+Nehmen wir an, das Protokoll will die jährliche Ertragsrate (APY) im Bereich von 1.000% bis 10.000% halten (siehe [OIP-18](https://forum.olympusdao.finance/d/77-oip-18-reward-rate-framework-and-reduction) für weitere Details). Das bedeutet, der Belohnungsertrag (reward yield) würde mindestens bei etwa 0,2105% liegen und das tägliche Zinswachstum bei etwa 0,6328%. Wie sich die APY aus dem Belohnungsertrag errechnet wird [weiter oben](./#how-is-the-apy-calculated) erklärt.
 
 Wenn derzeit 100.000 OHM gestaked wären, dann müsste das Protokoll zusätzliche 632,8 OHM pro Tag münzen, um dieses tägliche Wachstum zu erreichen. Das erfordert, dass das Protokoll mindestens 632,80 US$ täglich durch den Verkauf von Anleihen (Bonds) einnimmt. Doch selbst wenn das Protokoll weniger Zuflüsse haben sollte, kann es diese APY von 1.000% dennoch über einen längeren Zeitraum aufrecht erhalten (diesen Spielraum zeigt z.B. die sogenannte [Runway Chart](https://dune.xyz/queries/102766/207436)), einfach durch den Überschuss an Reserven im Olympus-Vermögen.
 
@@ -156,11 +156,11 @@ Die Zinsentwicklung ergibt sich aus dem Zuwachs des gestakten OHM-Guthabens.
 
 1. Dazu notiert man sich den Wert des Current Index auf der [Staking Seite](https://app.olympusdao.finance/#/), wenn man zum ersten Mal OHM staket. Das wollen wir den Start-Index nennen.&#x20;
 
-![](../.gitbook/assets/index\_old.png)
+![](../../.gitbook/assets/index\_old.png)
 
 1. Hat man OHM für einige Zeit gestaked und will wissen, um wie viel das Guthaben gestiegen ist, notiert man sich wieder den Wert des Current Index. Das wollen wir den End-Index nennen.
 
-![](../.gitbook/assets/index\_new.png)
+![](../../.gitbook/assets/index\_new.png)
 
 1. Indem man den End-Index durch den Start-Index teilt, erhält man den Faktor, um den sich das gestakte OHM-Guthaben vermehrt hat.
 
