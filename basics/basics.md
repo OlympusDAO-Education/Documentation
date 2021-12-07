@@ -22,49 +22,39 @@ Grundsätzlich setzt sich OlympusDAO zusammen aus dem vom Protokoll verwalteten 
 
 Die Verkäufe von Bonds führen zu Einnahmen, die das Protokoll nutzt, um OHM zu prägen und an die Staker auszuschütten. Durch [Liquiditäts-Anleihen](../references/glossary.md#liquidity-bonds) kann das Protokoll eigene Liquidität anhäufen. Der Punkt "[Warum ist POL wichtig?](basics.md#why-is-pol-important)" erklärt das weiter unten noch genauer.
 
-## What is the deal with (3,3) and (1,1)?
+## Was hat es mit (3,3) und (1,1) auf sich?
 
-(3,3) is the idea that, if everyone cooperated in Olympus, it would generate the greatest gain for everyone (from a [game theory](https://en.wikipedia.org/wiki/Game\_theory) standpoint). Currently, there are three actions a user can take:
+(3,3) veranschaulicht die Idee, dass ein kooperatves Verhalten aller Teilnehmer den größtmöglichen Gewinn für alle Beteiligten erzeugt (aus spieltheoretischer Sicht). Derzeit gibt es drei Möglichkeiten, wie sich ein Teilnehmer verhalten kann:
 
-* Staking (+2)
-* Bonding (+1)
-* Selling (-2)
+* Staken (+2)
+* Bonden (+1)
+* Verkaufen (-2)
 
-Staking and bonding are considered beneficiary to the protocol, while selling is considered detrimental. Staking and selling will also cause a price move, while bonding does not (we consider buying OHM from the market as a prerequisite of staking, thus causing a price move). If both actions are beneficiary, the actor who moves price also gets half of the benefit (+1). If both actions are contradictory, the bad actor who moves price gets half of the benefit (+1), while the good actor who moves price gets half of the downside (-1). If both actions are detrimental, which implies both actors are selling, they both get half of the downside (-1).
+Staken und Bonden sind vorteilhaft für das Protokoll, während Verkaufen als nachteilig gilt. Staken und Verkaufen beeinflusst außerdem den Preis, während Bonden keine Auswirkung darauf hat (wir nehmen an, dass OHM zunächst auf dem Markt gekauft wird, bevor es gestaked werden kann, daher der Einfluss auf den Preis). Sind im Fall von zwei Akteuren beide Aktionen vorteilhaft, dann erhält jeder, der für eine Preisbewegung sorgt, auch die Hälfte des Nutzens (+1). Sind die Aktionen gegenläufig, erhält der schädliche Akteur die Hälfte des Gewinns (+1) und der hilfreiche Akteur trägt die Hälfte des Verlustes (-1). Wenn beide Aktionen nachteilig sind, also beide Akteure verkaufen, trägt jeder die Hälfte des Verlustes (-1).
 
-Thus, given two actors, all scenarios of what they could do and the effect on the protocol are shown here:
+Für zwei Akteure ergibt sich daraus folgendes Schema, das zeigt, welche Möglichkeiten beide haben und welche Folgen dies jeweils hat:
 
 ![](../.gitbook/assets/game\_theory.png)
 
-* If we both stake (3, 3), it is the best thing for both of us and the protocol (3 + 3 = 6).
-* If one of us stakes and the other one bonds, it is also great because staking takes OHM off the market and put it into the protocol, while bonding provides liquidity and DAI for the treasury (3 + 1 = 4).
-* When one of us sells, it diminishes effort of the other one who stakes or bonds (1 - 1 = 0).
-* When we both sell, it creates the worst outcome for both of us and the protocol (-3 - 3 = -6).
+* Wenn beide staken (3, 3), dann ist das am besten sowohl für die Akteure als auch für das Protokoll (3 + 3 = 6).
+* Wenn einer von beiden staked und der andere bondet, dann ist das auch gut, denn Staken nimmt OHM vom Markt und hinterlegt es im Protokoll, während Bonden dem Olympus-Vermögen Liquidität und DAI beschert (3 + 1 = 4).
+* Wenn einer von beiden verkauft, dann mindert es die positiven Auswirkungen des anderen, der staked oder bondet (1 - 1 = 0).
+* Wenn beide verkaufen, hat das die schlechtesten Auswirkungen, sowohl für die Akteure als auch für das Protokoll (-3 - 3 = -6).
 
-## Why is PCV important?
+## Warum ist PCV wichtig?
 
-As the protocol controls the funds in its treasury, OHM can only be minted or burned by the protocol. This also guarantees that the protocol can always back 1 OHM with 1 DAI. You can easily define the risk of your investment because you can be confident that the protocol will indefinitely buy OHM below 1 DAI with the treasury assets until no one is left to sell. You can't trust the FED but you can trust the code.
+Protocol Controlled Value (PCV) ist die Menge an Assets, die das Olympus-Vermögen besitzt und kontrolliert. Da das Protokoll die Werte in seinem Vermögen besitzt, kann OHM nur vom Protokoll geprägt oder vernichtet werden. Das stellt auch sicher, dass das Protokoll für 1 OHM stets 1 DAI garantieren kann. Das Risiko einer Investition ist daher einfach abzuschätzen, da jeder sicher sein kann, dass das Protokoll OHM, das unter 1 DAI fällt, mit Mitteln aus seinem Vermögen so lange zurückkaufen wird, bis keines mehr übrig ist. Man muss nicht notwendigerweise der Zentralbank vertrauen, aber man kann sich immer auf den Programmcode verlassen.
 
-As the protocol accumulates more PCV, more runway is guaranteed for the stakers. This means the stakers can be confident that the current staking APY can be sustained for a longer term because more funds are available in the treasury.
+Indem das Protokoll mehr PCV anhäuft, kann es eine längere Zeitspanne an Ausschüttungen garantieren. Die Staker können daher sicher sein, dass die gegenwärtige Zinsrate für das Staken länger aufrecht erhalten werden kann, weil das Olympus-Vermögen über mehr Werte verfügt.
 
-## Why is POL important?
+## Warum ist POL wichtig?
 
-Olympus [owns most of its liquidity](https://dune.xyz/shadow/Olympus-\(OHM\)) thanks to its bond mechanism. This has several benefits:
+Protokoll-eigene Liquidität (Protocol Owned Liquidity, POL) ist die Menge an LP(Liquiditäts-Provider)-Token (z.B. OHM-DAI LP-Bonds) im Olympus-Vermögen. Dank des Anleihe-Mechanismus ist Olympus [Eigentümer des größten Teils seiner Liquidität](https://dune.xyz/shadow/Olympus-\(OHM\)). Das hat mehrere Vorteile:
 
-*   Olympus does not have to pay out high farming rewards to incentivize liquidity
-
-    providers a.k.a renting liquidity.
-*   Olympus guarantees the market that the liquidity is always there to facilitate
-
-    sell or buy transaction.
-*   By being the largest LP (liquidity provider), it earns most of the LP fees which
-
-    represents another source of income to the treasury.
-*   All POL can be used to back OHM. The LP tokens are marked down to their risk-free
-
-    value for this purpose. You can read more about the rationale behind this in this
-
-    [Medium article](https://olympusdao.medium.com/dai-bonds-a-more-effective-sales-mechanism-c9a57586f1f7).
+* Olympus muss keine hohen Farming-Zinsen ausschütten, um Liquidität von Geldgebern anzulocken, sprich Liquidität zu mieten.
+* Olympus garantiert dem Markt, dass stets Liquidität vorhanden ist, um Kauf- oder Verkaufs-Transaktionen zu ermöglichen.
+* Als größter Liquiditäts-Provider (LP) verdient Olympus den Löwenanteil der LP-Gebühren, eine weitere Einkommensquelle für das Gemeinschaftsvermögen.
+* Die gesamte POL kann genutzt werden, um OHM zu stützen. Die LP-Token werden dazu mit ihrem Risiko-freien Wert (RFV, Risk Free Value), sprich dem garantierten Kapital angesetzt. Mehr über die Beweggründe dazu findet sich in diesem [Medium-Artikel](https://olympusdao.medium.com/dai-bonds-a-more-effective-sales-mechanism-c9a57586f1f7).
 
 ## What will happen if there is a bank run on Olympus?
 
