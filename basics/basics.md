@@ -82,29 +82,29 @@ Es ist sehr unwahrscheinlich, dass sich das obige Szenario tatsächlich so abspi
 
 Anmerkung: Die meisten Daten in obigem Beispiel stammen von [dieser Dune Analytics Seite](https://duneanalytics.com/shadow/Olympus-\(OHM\)).
 
-## Why is the market price of OHM so volatile?
+## Warum ist der Marktpreis von OHM so volatil?
 
-It is extremely important to understand how early in development the OlympusDAO protocol is. A large amount of discussion has centered around the current price and expected a stable value moving forward. The reality is that these characteristics are not yet determined. The network is currently tuned for expansion of OHM supply, which when paired with the staking, bonding, and yield mechanics of OlympusDAO, result in a fair amount of volatility.
+Man sollte auf keinen Fall vergessen, dass die Entwicklung von OHM noch ganz am Anfang steht. Die aktuelle Diskussion geht oft davon aus, dass sich der Preis auf einen stabilen Wert einpendelt. In Wirklichkeit ist diese Eigenschaft noch alles andere als geklärt. OlympusDAO ist derzeit vor allem darauf ausgelegt, den OHM Bestand zu erhöhen, was im Zusammenspiel mit Staking, Bonding und Ertragsmechanismen zu einer erheblichen Volatilität führt.
 
-OHM could trade at a very high price because the market is ready to pay a hefty premium to capture a percentage of the current market capitalization. However, the price of OHM could also drop to a large degree if the market sentiment turns bearish. We would expect significant price volatility during our growth phase so please **do your own research** whether this project suits your goals.
+OHM könnte für einen hohen Preis gehandelt werden, weil Marktteilnehmer bereit sind, einen deutlichen Aufschlag dafür zu zahlen, dass sie einen Anteil an der gegenwärtigen Marktkapitalisierung erhalten. Im Gegensatz dazu könnte der Preis aber auch stark sinken, wenn die Stimmung am Markt in Pessimismus umschlägt. Wir erwarten deutliche Preisschwankungen während der Wachstumsphase. Jeder Anleger sollte **sich umfassend informieren** und dann entscheiden, ob dieses Projekt für die eigene Anlagestrategie geeignet ist.
 
-## What is the point of buying it now when OHM trades at a very high premium?
+## Warum sollte ich OHM gerade jetzt mit hohem Aufschlag kaufen?
 
-When you buy and stake OHM, you capture a percentage of the supply (market cap) which will remain close to a constant. This is because your staked OHM balance also increases along with the circulating supply. The implication is that if you buy OHM when the market cap is low, you would be capturing a larger percentage of the market cap.
+Wer OHM kauft und staked, erwirbt einen Anteil am gesamten OHM-Bestand (an der Marktkapitalisierung), der annähernd konstant bleibt. Der Grund dafür ist, dass die gestakte Menge an OHM gemeinsam mit dem im Umlauf befindlichen Bestand wächst. Das bedeutet, je früher man OHM kauft, desto größer ist der Anteil an der Marktkapitalisierung, die man erwirbt.
 
-## What is a rebase?
+## Was ist eine Rebase?
 
-Rebase is a mechanism by which your staked OHM balance increases automatically. When new OHM are minted by the protocol, a large portion of it goes to the stakers. Because stakers only see staked OHM balance instead of OHM, the protocol utilizes the rebase mechanism to increase the staked OHM balance so that 1 staked OHM is always redeemable for 1 OHM.
+Regelmäßige Ausschüttungsrunden, so genannte Rebases, sind der Mechanismus, durch den sich das gestakte OHM-Guthaben automatisch vermehrt. Wenn neues OHM vom Protokoll geprägt und in Umlauf gebracht wird, geht ein Großteil davon an die Staker. Staker sehen ihr gestaktes OHM-Guthaben und nicht mehr ihren früheren Bestand an OHM. Durch den Rebasing-Mechanismus erhöht das Protokoll das gestakte OHM-Guthaben, und 1 gestaktes OHM ist stets für 1 OHM einlösbar.
 
-## What is reward yield?
+## Was ist die Reward Yield?
 
-Reward yield is the percentage by which your staked OHM balance increases on the next epoch. It is also known as _rebase rate_. You can find this number on the [Olympus staking page](https://app.olympusdao.finance/#/stake).
+Der Belohnungsertrag (reward yield) ist der Prozentsatz, um den sich das gestakte OHM Guthaben in der nächsten Epoche erhöht. Er wird auch Ausschüttungsrate (rebase rate) genannt. Der aktuelle Wert ist auf der [Olympus Staking Seite](https://app.olympusdao.finance/#/stake) angegeben.
 
-## What is APY?
+## Was ist die APY?
 
-APY stands for annual percentage yield. It measures the real rate of return on your principal by taking into account the effect of compounding interest. In the case of OlympusDAO, your staked OHM represents your principal, and the compound interest is added periodically on every epoch (2200 Ethereum blocks, or around 8 hours) thanks to the rebase mechanism.
+Die jährliche Ertragsrate (Annual Percentage Yield, APY) gibt die tatsächliche Ertragsrate für das eingesetzte Kapital an, unter Berücksichtigung von Zins und Zinseszins. Im Fall von OlympusDAO steht das gestakte OHM für das eingesetzte Kapital, und die Zinsen werden durch den Ausschüttungs-Mechanismus regelmäßig hinzu gefügt, am Ende jeder Epoche (alle 2200 Ethereum-Blöcke oder in etwa alle 8 Stunden).
 
-One interesting fact about APY is that your balance will grow not linearly but exponentially over time! Assuming a daily compound interest of 2%, if you start with a balance of 1 OHM on day 1, after a year, your balance will grow to about 1377. That is a lot!
+Eine interessante Folge der APY ist, dass das Guthaben im Verlauf der Zeit nicht linear, sondern exponentiell wächst. Nimmt man beispielsweise eine tägliche Zinsrate von 2% an, dann wächst ein Startguthaben von 1 OHM nach einem Jahr auf etwa 1377 OHM an. Das ist sehr viel!
 
 ![The power of compounding](../.gitbook/assets/apy.png)
 
