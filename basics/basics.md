@@ -183,21 +183,21 @@ No. Once you have staked OHM with OlympusDAO, your staked OHM balance will auto-
 
 You can track your rebase rewards by calculating the increase in your staked OHM balance.
 
-1. Record down the Current Index value on the [staking page](https://app.olympusdao.finance/#/) when you first stake your OHM. Let's call this the Start Index.
+1\. Record down the Current Index value on the [staking page](https://app.olympusdao.finance/#/) when you first stake your OHM. Let's call this the Start Index.
 
 ![](../.gitbook/assets/index_old.png)
 
-1. After staking for some time, if you want to determine by how much your balance has increased, check the Current Index value again. Let's call this the End Index.
+2\. After staking for some time, if you want to determine by how much your balance has increased, check the Current Index value again. Let's call this the End Index.
 
 ![](../.gitbook/assets/index_new.png)
 
-1. By dividing the End Index by Start Index, you would get the ratio by which your staked OHM balance has increased.
+3\. By dividing the End Index by Start Index, you would get the ratio by which your staked OHM balance has increased.
 
 $$
 ratio = endIndex / startIndex
 $$
 
-1. In this example, the OHM balance has grown by 1.5 times.
+4\. In this example, the OHM balance has grown by 1.5 times.
 
 $$
 ratio = 13.2\ /\ 8.8\newline = 1.5
