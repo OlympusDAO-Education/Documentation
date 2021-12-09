@@ -1,5 +1,17 @@
 # Bonds
 
+## CVX Bond
+
+All bond contracts are more or less the same, with the one exception of the
+assets or LP tokens they manage. The bond contracts handle all deposits and
+redemptions. Here parameters for monetary policy are configured. Such parameters
+are for instance the
+[BCV](https://docs.olympusdao.finance/references/glossary#bcv) and the max
+individual payout. Below are listed CVX bond contracts by version, where the
+latest version represents the currently active contract.
+
+* V1 [0x767e...e0a9](https://etherscan.io/address/0x767e3459a35419122e5f6274fb1223d75881e0a9)
+
 ## DAI Bond
 
 All bond contracts are more or less the same, with the one exception of the
