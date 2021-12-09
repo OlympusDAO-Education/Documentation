@@ -57,7 +57,7 @@
 
 * [Architecture](references/architecture.md)
 * [Equations](references/equations.md)
-* [Glossary](references/glossary.md)
+* [Glossar](references/glossary.md)
 * [Links](references/links.md)
 * [Translations](references/translations.md)
 

@@ -1,74 +1,73 @@
-# Glossary
+# Glossar
 
 ## APR
 
-Annual Percentage Rate, is the annualized interest rate without taking the effect of compounding into account.
+Der nominale Jahreszins (Annual Percentage Rate, APR) ist die auf das Jahr berechnete Zinsrate, ohne Zinseszinsen in Betracht zu ziehen.
 
 ## APY
 
-Annual Percentage Yield, is the normalized representation of an interest rate, based on a compounding period over one year. Note that APYs provided are rather ballpark level indicators and not so much precise future results.
+Die jährliche Ertragsrate (Annual Percentage Yield, APY) gibt die tatsächliche Zinsrate an, unter Einbeziehung der Zinseszinsen über den Zeitraum von einem Jahr. Die angegebenen Werte für APY sind lediglich Orientierungswerte und keine verlässlichen zukünftigen Ergebnisse.
 
 ## BCV
 
-Bond Control Variable, is the scaling factor at which bond prices change. A higher BCV means a lower discount for bonders and higher inflation by the protocol. A lower BCV means a higher discount for bonders and lower inflation by the protocol.
+Die Kontroll-Variable für Anleihen (Bond Control Variable, BCV) gibt den Umrechnungsfaktor an, um den sich der Preis von Anleihen verändert. Eine höhere BCV bedeutet eine geringeren Preisnachlass für Bonder und höhere Inflation für das Protokoll. Eine niedrigere BCV bedeutet einen höheren Preisnachlass für Bonder und geringere Inflation für das Protokoll.
 
 ## DAO
 
-Decentralized Autonomous Organization, is a governance mechanism for making decisions in a more trustless and collaborative way. Voting rights are often bound to a governance token. In OlympusDAO the governance token is sOHM.
+DAO steht für Dezentrale Autonome Organisation. Sie nutzt einen Mechanismus zur Entscheidungsfindung auf vertrauensfreier und kollaborativer Basis. Wahlrechte sind meist an einen Beteiligungs-Token gebunden. Im Fall von OlympusDAO ist dies der sOHM-Token.
 
 ## DCV
 
-Deflation Control Variable, is the scaling factor at which protocol defined buy pressure changes. A higher DCV means more buy pressure from the protocol, resulting in a higher deflation. A lower DCV means less buy pressure from the protocol, resulting in a lower deflation.
+Die Kontroll-Variable für Deflation (Deflation Control Variable, DCV) gibt den Umrechnungsfaktor an, um den sich der vom Protokoll festgelegte Nachfragedruck verändert. Eine höhere DCV bedeutet eine höhere Nachfrage durch das Protokoll, was zu steigender Deflation führt. Eine niedrigere DCV bedeutet eine geringere Nachfrage durch das Protokoll, was zu sinkender Deflation führt.
 
 ## EVM
 
-Ethereum Virtual Machine, is a state machine in which all Ethereum accounts and smart contracts live. At any given block in the chain, Ethereum has one and only one canonical state, and the EVM is what defines the rules for computing a new valid state from block to block.
+Die Virtuelle Ethereum Maschine (Ethereum Virtual Machine, EVM) ist eine virtuelle Laufzeitumgebung, in der alle Ethereum Accounts und Smart Contracts ausgeführt werden. Für jeden Block in der Blockchain hat Ethereum einen und nur einen kanonischen Zustand, und die EVM definiert die Regeln, um von Block zu Block einen jeweils neuen gültigen Zustand zu berechnen.
 
-## Liquidity Bonds
+## Liquiditäts-Anleihen
 
-Liquidity bonds are LP token bonds. Examples are OHM-DAI LP bonds and OHM-FRAX LP bonds.
+Liquiditäts-Anleihen (liquidity bonds) sind Anleihen auf der Basis von Liquiditäts-Provider-Token (LP token). Beispiele dafür sind OHM-DAI-LP-Anleihen und OHM-FRAX-LP-Anleihen.
 
 ## PCV
 
-Protocol Controlled Value, is the amount of funds the treasury owns and controls. The more PCV the better for the protocol and its users.
+Der vom Protokoll kontrollierte Wert (Protocol Controlled Value, PCV) ist der Gesamtwert aller Mittel, die das Olympus-Vermögen besitzt und kontrolliert. Je mehr PCV; desto besser für das Protokoll und dessen Teilnehmer.
 
 ## POL
 
-Protocol Owned Liquidity, is the amount of LP the treasury owns and controls. The more POL the better for the protocol and its users.
+Die Protokoll-eigene Liquidität ist die Menge an flüssigen Mitteln (in Form von Liquiditäts-Provider-Token), die das Olympus-Vermögen besitzt und kontrolliert. Auch hier gilt: Je mehr POL, desto besser für das Protokoll und dessen Teilnehmer.
 
 ## PoR
 
-Proof of Reserve, is the mechanism of strengthening the reserve of OlympusDAO treasury via the sales of bonds. Bonders provide liquidity to the treasury, thereby building its reserve. In return for their service, bonders get paid in OHM.
+Bei Proof-of-Reserve handelt es sich um einen Mechanismus, der die Reserven des OlympusDAO-Vermögens durch den Verkauf von Anleihen vermehrt. Bonder überlassen dem Olympus-Vermögen Liquidität und stocken damit dessen Reserven auf. Als Gegenleistung werden Bonder für ihre Dienste in OHM bezahlt.
 
-## Reserve Bonds
+## Reserve-Anleihen
 
-Reserve bonds are single asset bonds. They are sometimes referred to as "naked" bonds. Examples are DAI bonds and FRAX bonds.
+Reserve-Anleihen (reserve bonds) sind Anleihen auf der Basis einzelner Assets. Sie werden auch "nackte" Anleihen genannt. Beispiele dafür sind DAI-Anleihen und FRAX-Anleihen.
 
 ## Reward Rate
 
-Reward rate is the configured percentage of OHM distributed to all stakers on each rebase relative to the total supply. The reward rate is precisely set by the policy team.
+Die Belohnungsrate (reward rate) ist der vorbestimmte Prozentsatz an OHM, bezogen auf die OHM-Gesamtmenge, der in jeder Ausschüttungsrunde (rebase) neu geprägt und an alle Staker verteilt wird. Die Ausschüttungsrate wird vom Leitlinien-Team der OlympusDAO genau festgelegt.
 
-## Reward Yield
+## Reward yield
 
-Reward yield refers to the actual amount of OHM received by each staker on each rebase. The reward yield is a rough target from a policy point of view. It can almost never be maintained precisely due to e.g. fluctuating amounts of OHM staked.
+Der Belohnungsertrag (reward yield oder rebase rate) bezieht sich auf die konkrete Menge an OHM, die jeder Staker in jeder Ausschüttungsrunde erhält. Aus Leitlinien-Sicht handelt es sich bei diesem Belohnungsertrag um einen ungefähren Wert. Dieser Wert wird fast nie exakt erreicht, da er u.a. von der (schwankenden) Menge an gestaktem OHM abhängt.
 
 ## RFV
 
-Risk Free Value, is the amount of funds the treasury guarantees to use for backing OHM.
+Der Risiko-freie Wert (Risk Free Value, RFV) entspricht dem garantierten Kapital, also der Menge an Mitteln, mit denen das Olympus-Vermögen OHM stützt.
 
 ## SLP
 
-Sushiswap Liquidity Provider, is the token received when providing liquidity on Sushiswap. For instance LP bonds require SLP tokens of the OHM / DAI pair.
+Wer auf SushiSwap Liquidität bereitstellt, erhält dafür SLP-Token (SushiSwap-Liquidity-Provider-Token). LP-Anleihen erfordern beispielsweise SLP-Token des OHM / DAI-Paars.
 
 ## TVL
 
-Total Value Locked, is the dollar amount of all OHM staked in the protocol. This metric is often used as growth or health indicator in DeFi projects.
+Das angelegte Gesamtvermögen (Total Value Locked, TVL) ist der Wert aller gestaketen OHM in US-Dollar. Diese Zahl dient oft als Hinweis auf Zustand und Wachstum eines DeFi-Protokolls.
 
 ## TaaS
 
-Treasury as a Service, is the business model of decentralized custody of partnership funds. OlympusDAO is designed for TaaS by selling bonds and absorbing partners' liquidity into its treasury as a result.
+Vermögen als Dienstleistung (Treasury as a Service, TaaS) bezeichnet das Geschäftsmodell einer dezentralen Verwahrung des Kapitals von Geschäftspartnern. OlympusDAO ist ganz auf TaaS ausgelegt, indem es Anleihen verkauft und die Liquidität der Investoren in das eigene Vermögen überführt.
 
 ## TWAP
 
-Time Weighted Average Price, is the average price of an asset over a specified time. TWAPs are used to represent the fair value of an asset as defined by the market.
-
+Der zeitgewichtete Durchschnittspreis (Time Weighted Average Price, TWAP) ist der durchschnittliche Preis eines Assets über einen festgelegten Zeitraum. TWAPs werden oft genutzt, um den angemessenen Marktwert eines Assets zu bestimmen.
