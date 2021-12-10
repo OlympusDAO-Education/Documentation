@@ -9,7 +9,7 @@ charity causes or to any wallet of their choosing (e.g. a friend or family membe
 
 When Olympus Give goes live, you can follow these steps to set up the donation:
 
-1. [Acquire gOHM tokens](../using-the-website/migrate_v2.md#how-to-migrate-sohm-to-gohm).
+1. [Acquire sOHM tokens](../using-the-website/staking.md).
 They earn you rebase rewards that can be redirected to the causes.
 
 2. Head over to the Give section of the Olympus App.
@@ -20,7 +20,7 @@ have partnered with.
 4. You can also donate to any **verified wallet** of your choosing - family, friends,
 or organizations in your community.
 
-5. Once you have selected a recipient, determine the gOHM amount that you wish to
+5. Once you have selected a recipient, determine the sOHM amount that you wish to
 pledge. The recipient will receive all the rebase rewards from the pledged tokens
 **indefinitely**, until all the principle is pulled out.
 
