@@ -12,7 +12,8 @@ the currently active contract.
 
 ## CVX Bond
 
-* V1 [0x767e...e0a9](https://etherscan.io/address/0x767e3459a35419122e5f6274fb1223d75881e0a9)
+* V1 [0x6754...1920](https://etherscan.io/address/0x6754c69fe02178f54ADa19Ebf1C5569826021920)
+* V2 [0x767e...e0a9](https://etherscan.io/address/0x767e3459a35419122e5f6274fb1223d75881e0a9)
 
 ## DAI Bond
 
