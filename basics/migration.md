@@ -39,8 +39,8 @@ is based on the Current Index), the **dollar amount remains the same.**
 
 - After the migration, OHM V1 pools such as OHM-DAI will utilize OHM V2. This applies
 to new bonds as well. Partners like Abracadabra will only accept new deposits in
-gOHM. So, you will need to migrate if you want to use these features. Otherwise,
-you can sit tight and migrate only when you want to.
+gOHM. So, you will need to migrate if you want to use these features. **Otherwise,
+you can sit tight and migrate only when you want to.**
 
 ## What if I don't migrate?
 
