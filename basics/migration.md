@@ -49,6 +49,12 @@ Rari Capital will only accept V2 tokens once they are deployed, so you would
 need to migrate if you want to spend more tokens (e.g. make new deposits) on these
 platforms.
 
+{% hint style="info" %}
+Again, you would not miss any rebase rewards if you don't migrate during the migration
+phase. Even if you chose to migrate way later, you will receive the same amount
+of gOHM that you would have received had you migrated immediately.
+{% endhint %}
+
 ## Gas fees are high now, will I lose my rebase rewards if I delay the migration?
 
 No, you can migrate at your leisure once it goes live. The smart contract will
