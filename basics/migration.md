@@ -50,9 +50,9 @@ need to migrate if you want to spend more tokens (e.g. make new deposits) on the
 platforms.
 
 {% hint style="info" %}
-Again, you would not miss any rebase rewards if you don't migrate during the migration
-phase. Even if you chose to migrate way later, you will receive the same amount
-of gOHM that you would have received had you migrated immediately.
+You would not miss any rebase rewards if you don't migrate. Even if you chose to
+migrate after the migration phase, you will receive the same amount of gOHM that
+you would have received had you migrated immediately.
 {% endhint %}
 
 ## Gas fees are high now, will I lose my rebase rewards if I delay the migration?
