@@ -2,9 +2,11 @@
 
 ## 올림푸스란 무엇인가요?
 
-올림푸스는 OHM 토큰을 기반으로 한 탈중앙화된 준비 통화 프로토콜 입니다. 각 OHM 토큰은 올림푸스의 금고 안에 있는 여러 자산\(예: DAI, FRAX\)의 묶음들로 부터 지지되며, 아래로 떨어지지 않는 내재 가치를 부여합니다. 또한 올림푸스는 스테이킹과 본딩을 통해서 시장에 고유한 경제구조와 게임 이론에 근거한 다이내믹을 제안합니다. 올림푸스의 게임 이론에 관해서는 [블로그 포스트](https://olympusdao.medium.com/the-game-theory-of-olympus-e4c5f19a77df)를 통해 더 알아보세요.
+올림푸스는 OHM 토큰을 기반으로 한 탈중앙화된 준비 통화 프로토콜 입니다. 각 OHM 토큰은 올림푸스의 금고 안에 있는 여러 자산(예: DAI, FRAX)의 묶음들로 부터 지지되며, 아래로 떨어지지 않는 내재 가치를 부여합니다. 또한 올림푸스는 스테이킹과 본딩을 통해서 시장에 고유한 경제구조와 게임 이론에 근거한 다이내믹을 제안합니다. 올림푸스의 게임 이론에 관해서는 [블로그 포스트](https://olympusdao.medium.com/the-game-theory-of-olympus-e4c5f19a77df)를 통해 더 알아보세요.
 
-{% embed url="https://www.youtube.com/watch?v=QZOaZ9dd-ms" caption="올림푸스에 관한 영상 소개" %}
+{% embed url="https://www.youtube.com/watch?v=QZOaZ9dd-ms" %}
+올림푸스에 관한 영상 소개
+{% endembed %}
 
 ## 올림푸스의 핵심은 무엇인가?
 
@@ -12,13 +14,13 @@
 
 ## 올림푸스에는 어떻게 참여하나요?
 
-시장에 참여하기 위해서는 크게 두 가지 방법이 존재합니다. 바로 [스테이킹](https://app.gitbook.com/@olympusdao-1/s/olympusdocs/~/drafts/-Mi591LA4MoieccDq3sf/v/korean/basics/staking)과 [본딩](https://app.gitbook.com/@olympusdao-1/s/olympusdocs/~/drafts/-Mi591LA4MoieccDq3sf/v/korean/basics/bonding) 입니다. 스테이커는 OHM 토큰을 스테이크 해서 더 많은 OHM 토큰을 받게 되고, 본더는 거래소에 LP 또는 DAI 토큰을 제공하면 지정된 기간 이후 OHM 토큰을 할인된 가격 구입할 수 있습니다.
+시장에 참여하기 위해서는 크게 두 가지 방법이 존재합니다. 바로 [스테이킹](https://app.gitbook.com/@olympusdao-1/s/olympusdocs/\~/drafts/-Mi591LA4MoieccDq3sf/v/korean/basics/staking)과 [본딩](https://app.gitbook.com/@olympusdao-1/s/olympusdocs/\~/drafts/-Mi591LA4MoieccDq3sf/v/korean/basics/bonding) 입니다. 스테이커는 OHM 토큰을 스테이크 해서 더 많은 OHM 토큰을 받게 되고, 본더는 거래소에 LP 또는 DAI 토큰을 제공하면 지정된 기간 이후 OHM 토큰을 할인된 가격 구입할 수 있습니다.
 
-거버넌스 참여자들은 [포럼](https://forum.olympusdao.finance/)을 통해 관여하거나 [커뮤니티 디스코드](https://discord.com/invite/olympusdao), 그리고 [DAO 디스코드](https://discord.com/invite/42xFV68uEf) 서버를 통해 토론에 참여하실 수 있습니다. 우리는 항상 커뮤니티에 기여할 새 멤버 분들을 기다리고 있습니다! 
+거버넌스 참여자들은 [포럼](https://forum.olympusdao.finance)을 통해 관여하거나 [커뮤니티 디스코드](https://discord.com/invite/olympusdao), 그리고 [DAO 디스코드](https://discord.com/invite/42xFV68uEf) 서버를 통해 토론에 참여하실 수 있습니다. 우리는 항상 커뮤니티에 기여할 새 멤버 분들을 기다리고 있습니다!&#x20;
 
 ## 올림푸스에서 어떻게 이익을 보나요?
 
-스테이커가 받을 수 있는 가장 큰 이익은 전체 공급이 성장할 때 발생합니다. 프로토콜은 금고에서 OHM 토큰을 발행하며, 그 대부분은 스테이커들에게 배분됩니다. 가격 노출이 중요한 고려사항으로 남아있긴 하지만, 이로써 스테이커들은 자동 복리 적립을 통해 이득을 보게 됩니다. 이 말인 즉, 스테이커들은 토큰 잔고의 증가가 잠재적인 가격 하락을 상회하는 경우\(인플레이션으로 인한\) 이익을 보게 됩니다.
+스테이커가 받을 수 있는 가장 큰 이익은 전체 공급이 성장할 때 발생합니다. 프로토콜은 금고에서 OHM 토큰을 발행하며, 그 대부분은 스테이커들에게 배분됩니다. 가격 노출이 중요한 고려사항으로 남아있긴 하지만, 이로써 스테이커들은 자동 복리 적립을 통해 이득을 보게 됩니다. 이 말인 즉, 스테이커들은 토큰 잔고의 증가가 잠재적인 가격 하락을 상회하는 경우(인플레이션으로 인한) 이익을 보게 됩니다.
 
 본더가 받을 수 있는 가장 큰 이득은 가격 일관성에서 발생합니다. 본더는 먼저 자산을 예탁하고, 정해진 시점에 약속된 수익을 보장받습니다. 그 보상은 OHM으로 지급되므로, 본드의 만기가 도래하면 본더의 수익 OHM의 격에 따라 결정됩니다. 본더들은 OHM 가격이 상승하거나 고정됨에 따라서 이익을 보게 됩니다.
 
@@ -29,6 +31,4 @@
 ## 올림푸스는 누가 운영하나요?
 
 올림푸스는 특정인이나 단체의 소유가 아니라 DAO에 의해 운영됩니다. 모든 의사 결정은 커뮤니티 멤버들과 함께 포럼에서 이뤄지고 토큰 홀더들의 스냅샷 투표를 통해 결정됩니다.
-
-
 
