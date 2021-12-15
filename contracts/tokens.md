@@ -51,16 +51,25 @@ for more details about the calculation.
 
 ## OHM
 
-If you want to buy OHM on Sushiswap or any other DEX please make sure the token address of the token you purchase matches the one shown above. Never buy any OHM token which address you cannot verify yourself. Further, knowing the OHM token address you can see the list of holders and available exchanges providing liquidity for OHM on Etherscan. Below are listed OHM contracts by version, where the latest version represents the currently active contract.
+If you want to buy OHM on Sushiswap or any other DEX please make sure the token address of the token you purchase matches the one shown above. Never buy any OHM token which address you cannot verify yourself. Further, knowing the OHM token address you can see the list of holders and available exchanges providing liquidity for OHM on Etherscan.
+
+Below are listed OHM contracts by version, where the V2 token is the token in use
+after the [V2 migration](https://olympusdao.medium.com/introducing-olympus-v2-c4ade14e9fe).
 
 * V1 [0x3835...a899](https://etherscan.io/address/0x383518188c0c6d7730d91b2c03a03c837814a899)
+* V2 [0x64aa...f1D5](https://etherscan.io/address/0x64aa3364F17a4D01c6f1751Fd97C2BD3D7e7f1D5)
 
 ## sOHM
 
-You receive sOHM when you stake OHM at a 1:1 ratio. Adding this address to your wallet allows you to track your sOHM balance which increases with every rebase. Below are listed sOHM contracts by version, where the latest version represents the currently active contract.
+You receive sOHM when you stake OHM at a 1:1 ratio. Adding this address to your wallet allows you to track your sOHM balance which increases with every rebase.
 
-* DEPRECATED: V1 [0x3193...Fbbe](https://etherscan.io/address/0x31932E6e45012476ba3A3A4953cbA62AeE77Fbbe)
-* Current: V2 [0x04f2...111f](https://etherscan.io/address/0x04f2694c8fcee23e8fd0dfea1d4f5bb8c352111f)
+Below are listed sOHM contracts by version. We have two V2 tokens, the older version
+is for the [previous migration](https://olympusdao.medium.com/olympus-v1-1-whats-in-it-293843a8d4dc),
+while the newer one is used for the [latest V2 migration](https://olympusdao.medium.com/introducing-olympus-v2-c4ade14e9fe).
+
+* V1 [0x3193...Fbbe](https://etherscan.io/address/0x31932E6e45012476ba3A3A4953cbA62AeE77Fbbe)
+* V2 old [0x04f2...111f](https://etherscan.io/address/0x04f2694c8fcee23e8fd0dfea1d4f5bb8c352111f)
+* V2 [0x0490...d460](https://etherscan.io/address/0x04906695D6D12CF5459975d7C3C03356E4Ccd460)
 
 ## wsOHM
 
