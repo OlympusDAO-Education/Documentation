@@ -31,7 +31,7 @@ if you can't see it.
 
 ## How to Migrate to V2
 
-With our V2 migration tool, you can migrate OHM V1, sOHM V1, and wsOHM v1 to
+With our V2 migration tool, you can migrate OHM V1, sOHM V1, and wsOHM V1 to
 [gOHM](../contracts/tokens.md#gohm).
 
 1\. Go to the [Stake section of Olympus App](https://app.olympusdao.finance/#/stake).
@@ -43,7 +43,7 @@ You will see a notification on top if you have assets to migrate.
 
 ![Migration UI](../.gitbook/assets/using-the-website/migration_v2/ui2.png)
 
-3\. Approve each of the available token and sign the transaction in your wallet.
+3\. Approve each of the available tokens and sign the transaction in your wallet.
 
 4\. Once all the tokens have been approved, click "Migrate" and sign the transaction.
 
