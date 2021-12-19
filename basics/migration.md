@@ -51,7 +51,7 @@ platforms.
 
 {% hint style="info" %}
 You would not miss any rebase rewards if you don't migrate. Even if you chose to
-migrate after the migration phase, you will receive the same amount of gOHM that
+migrate at a later time, you will receive the same amount of gOHM that
 you would have received had you migrated immediately.
 {% endhint %}
 
