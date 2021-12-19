@@ -15,11 +15,6 @@ position.
 You can read more about this on the [Olympus Medium page](https://olympusdao.medium.com/introducing-olympus-v2-c4ade14e9fe).
 
 {% hint style="info" %}
-You have **two months to migrate after V2 launch.** If you don't, your sOHM V1
-balance will stop rebasing, but the difference will be honored when you migrate.
-{% endhint %}
-
-{% hint style="info" %}
 For this article, we added V1 and V2 after each token name to help you differentiate
 between the old and new tokens. Partner websites, price aggregators, or your wallet
 will not display the version information.
@@ -44,8 +39,8 @@ is based on the Current Index), the **dollar amount remains the same.**
 
 - After the migration, OHM V1 pools such as OHM-DAI will utilize OHM V2. This applies
 to new bonds as well. Partners like Abracadabra will only accept new deposits in
-gOHM. So, you will need to migrate if you want to use these features. Otherwise,
-you can sit tight and migrate only when you want to.
+gOHM. So, you will need to migrate if you want to use these features. **Otherwise,
+you can sit tight and migrate only when you want to.**
 
 ## What if I don't migrate?
 
@@ -53,6 +48,12 @@ You don't get to enjoy the new features introduced by V2. Some partners such as
 Rari Capital will only accept V2 tokens once they are deployed, so you would
 need to migrate if you want to spend more tokens (e.g. make new deposits) on these
 platforms.
+
+{% hint style="info" %}
+You would not miss any rebase rewards if you don't migrate. Even if you chose to
+migrate at a later time, you will receive the same amount of gOHM that
+you would have received had you migrated immediately.
+{% endhint %}
 
 ## Gas fees are high now, will I lose my rebase rewards if I delay the migration?
 
