@@ -22,9 +22,9 @@ Deflation Control Variable atau Variabel Kontrol Deflasi, adalah faktor penskala
 
 ## EVM
 
-Ethereum Virtual Machine atau Mesin Virtual Ethereum adalah mesin status tempat semua akun Ethereum dan kontrak pintar hidup. Pada blok mana pun dalam rantai \(blockchain\), Ethereum memiliki satu dan hanya satu status kanonik, dan EVM adalah yang mendefinisikan aturan untuk menghitung status valid baru dari blok ke blok.
+Ethereum Virtual Machine atau Mesin Virtual Ethereum adalah mesin status tempat semua akun Ethereum dan kontrak pintar hidup. Pada blok mana pun dalam rantai (blockchain), Ethereum memiliki satu dan hanya satu status kanonik, dan EVM adalah yang mendefinisikan aturan untuk menghitung status valid baru dari blok ke blok.
 
-## Bond Likuiditas 
+## Bond Likuiditas&#x20;
 
 Liquidity bonds atau bond likuiditas adalah bond token LP. Contohnya adalah bond OHM-DAI LP dan bond OHM-FRAX LP.
 
@@ -38,7 +38,7 @@ Protocol Owned Liquidity, adalah jumlah LP yang dimiliki dan dikendalikan perben
 
 ## PoR
 
-Proof of Reserve, adalah mekanisme penguatan cadangan perbendaharaan OlympusDAO melalui penjualan bond. Bonder menyediakan likuiditas ke perbendaharaan, sehingga membangun cadangannya sendiri. Sebagai imbalan atas layanan mereka, bonder dibayarkan dalam OHM.  
+Proof of Reserve, adalah mekanisme penguatan cadangan perbendaharaan OlympusDAO melalui penjualan bond. Bonder menyediakan likuiditas ke perbendaharaan, sehingga membangun cadangannya sendiri. Sebagai imbalan atas layanan mereka, bonder dibayarkan dalam OHM.\
 
 
 ## Bond Cadangan
@@ -63,7 +63,7 @@ Sushiswap Liquidity Provider atau Penyedia Likuiditas Sushiswap, adalah token ya
 
 ## TVL
 
-Total Value Locked, adalah jumlah dolar dari semua OHM yang dipertaruhkan \(distake\) dalam protokol. Metrik ini sering digunakan sebagai indikator pertumbuhan atau kesehatan dalam proyek DeFi.  
+Total Value Locked, adalah jumlah dolar dari semua OHM yang dipertaruhkan (distake) dalam protokol. Metrik ini sering digunakan sebagai indikator pertumbuhan atau kesehatan dalam proyek DeFi.\
 
 
 ## TaaS
@@ -72,6 +72,4 @@ Treasury as a Service, adalah model bisnis penyimpanan dana kemitraan yang terde
 
 ## TWAP
 
-Time Weighted Average Price, adalah harga rata-rata suatu aset selama waktu tertentu. TWAP digunakan untuk mewakili nilai wajar sebuah aset seperti yang didefinisikan oleh pasar.  
-
-
+Time Weighted Average Price, adalah harga rata-rata suatu aset selama waktu tertentu. TWAP digunakan untuk mewakili nilai wajar sebuah aset seperti yang didefinisikan oleh pasar.\

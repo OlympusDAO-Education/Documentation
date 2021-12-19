@@ -4,17 +4,21 @@
 
 * V1 [0x34d7...ef7c](https://etherscan.io/address/0x34d7d7Aaf50AD4944B70B320aCB24C95fa2def7c)
 
-## Perbendaharaan
+## Treasury
 
-Kontrak perbendaharaan adalah sebuah implementasi kubah sederhana yang menampung semua dana yang dikumpulkan oleh protokol. Jika misalnya pengguna membeli bond DAI, DAI yang tebonding sepenuhnya diambil oleh perbendaharaan atau treasury dengan imbalan setara pasar OHM yang dibond. OHM baru akan dicetak berdasarkan RFV aset treasury. Di bawah ini tercantum kontrak perbendaharaan menurut versi, di mana versi terbaru mewakili kontrak yang sedang aktif.
+Kontrak perbendaharaan atau treasury adalah implementasi kubah sederhana yang menampung semua dana yang dikumpulkan oleh protokol. Jika misalnya pengguna membeli obligasi DAI, DAI terikat sepenuhnya diambil oleh perbendaharaan dengan imbalan setara pasar OHM yang diikat. OHM baru akan dicetak berdasarkan RFV aset treasury. Di bawah ini tercantum kontrak perbendaharaan menurut versi, di mana versi terbaru mewakili kontrak yang sedang aktif.
 
 * V1 [0x886C...399D](https://etherscan.io/address/0x886CE997aa9ee4F8c2282E182aB72A705762399D)
 * V2 [0x31F8...46E8](https://etherscan.io/address/0x31F8Cc382c9898b273eff4e0b7626a6987C846E8)
 
-Kontrak perbendaharaan dijaga oleh 2 dari 4 multi-sig. Itu berarti setiap transaksi untuk treasury harus disetujui oleh setidaknya 2 penandatangan, dimana kami memiliki total 4 penandatangan. Keamanan operasi untuk aset perbendaharaan kami dengan demikian terlindungi dari setiap aktor yang nakal, karena dibutuhkan setidaknya 2 suara untuk mengotorisasi transaksi apa pun seperti memindahkan dana masuk dan keluar. 4 alamat penandatanganan untuk perbendaharaan kami tercantum di bawah ini.
+Kontrak perbendaharaan dijaga oleh 4 dari 7 multisig. Itu berarti setiap transaksi untuk treasury harus disetujui oleh setidaknya 4 penandatangan, dimana kami memiliki total 7 penandatangan. Keamanan operasi untuk aset perbendaharaan kami dengan demikian dilindungi dari satu aktor yang nakal, karena dibutuhkan kuorum 4 untuk mengotorisasi transaksi apa pun seperti memindahkan dana masuk dan keluar. 7 alamat penandatanganan untuk perbendaharaan kami tercantum di bawah ini.
+
+Perlu diingat bahwa penandatangan DAO dan Treasury atau perbendaharaan adalah sama, karena DAO adalah menejer dari kontrak Treasury
 
 1. [0x1774...55eB](https://etherscan.io/address/0x1774B6106d7E969d467396a5e90089FeaD6E55eB)
 2. [0x131b...bf80](https://etherscan.io/address/0x131bd1A2827ccEb2945B2e3B91Ee1Bf736cCbf80)
 3. [0x3524...7dd3](https://etherscan.io/address/0x3524c03D39A13D51485419A17586286A6b617dd3)
 4. [0x8d34...290E](https://etherscan.io/address/0x8d34EA6fb1Ed6B60F94ac6CD01dD1181ef12290E)
-
+5. [0x21Da...39b9](https://etherscan.io/address/0x21Daa251F1eE3ebEB3F2C25BC262de56C9A639b9)
+6. [0x4702...47dC](https://etherscan.io/address/0x4702D39c499236A43654c54783c3f24830E247dC)
+7. [0x17e0...c96e](https://etherscan.io/address/0x17e06ce6914E3969f7BD37D8b2a563890cA1c96e)

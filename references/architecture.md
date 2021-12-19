@@ -1,6 +1,6 @@
 # Arsitektur
 
-## Sales
+## Sales atau Penjualan
 
 ![](../.gitbook/assets/sales.png)
 
@@ -11,4 +11,3 @@
 ## Staking
 
 ![](../.gitbook/assets/staking.png)
-
