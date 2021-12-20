@@ -15,6 +15,8 @@ token balance increase because the increase in value is based on the Current Ind
 at the time of purchase and sale. [See this FAQ](../basics/basics.md#how-do-i-track-my-rebase-rewards)
 for more details.
 
+![gOHM](g-OHMsplainer2-01-01-01-01.png)
+
 Below are listed gOHM contracts by version, where the latest version represents
 the currently active contract.
 
