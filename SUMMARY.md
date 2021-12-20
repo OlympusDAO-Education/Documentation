@@ -5,7 +5,9 @@
 ## Basics
 
 * [FAQ](basics/basics.md)
-  * [V2 Migration](basics/migration.md)
+  * [Olympus Give](basics/olympusgive.md)
+  * [OlyZaps](basics/olyzaps.md)
+* [V2 Migration](basics/migration.md)
 * [Staking](basics/staking.md)
 * [Bonding](basics/bonding.md)
 
@@ -20,7 +22,9 @@
   * [OHM-FRAX LP Bond](using-the-website/bonds/bond_ohm_frax.md)
 * [Stake LP Tokens](using-the-website/staking_lp.md)
 * [Unstake LP Tokens](using-the-website/unstaking_lp.md)
-* [Migrate Staked OHM](using-the-website/migrate.md)
+* [Migrate Tokens \(v1.1\)](using-the-website/migrate.md)
+* [Migrate Tokens \(v2\)](using-the-website/migrate_v2.md)
+* [OlyZaps](using-the-website/olyzaps.md)
 
 ## Using Etherscan
 
@@ -43,7 +47,7 @@
 
 ## Whitepapers
 
-* [Economic Productivity](whitepapers/economic-productivity.md)
+* [Economic Productivity in Digital Media](whitepapers/economic-productivity.md)
 * [Olympus Game Theory](whitepapers/game-theory.md)
 
 ## Contracts
