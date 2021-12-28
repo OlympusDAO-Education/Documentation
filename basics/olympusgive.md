@@ -21,7 +21,7 @@ have partnered with.
 or organizations in your community.
 
 5. Once you have selected a recipient, determine the sOHM amount that you wish to
-pledge/deposit into the Give Pool for that recipient.
+pledge/deposit into the Give Vault for that recipient.
 
 6. The recipient will receive all the rebase rewards from the pledged tokens
 **indefinitely** --- until you withdraw your principle from the pool.
