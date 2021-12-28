@@ -128,7 +128,7 @@ The reigning dogma would have it that problems with social norms cannot be addre
 
 *Game theory:*
 - Thomas Schelling "Strategy of Conflict" (1960)
-- David Lewis, "Convention" (1970)
+- David Lewis, "Convention: A Philosophical Study" (1969)
 - Robert Axelrod, "The Evolution of Cooperation" (1984)
 
 *Transaction cost economics:*
