@@ -170,7 +170,7 @@ or a daily growth of about 0.6577%. Please refer to the equation above to learn
 
 If there are 100,000 of OHM staked right now, the protocol would need to mint an
 additional 657.7 OHM to achieve this daily growth. This is achievable if the protocol
-can bring in at least $632.70 of daily revenue from bond sales. Even if the protocol
+can bring in at least $657.70 of daily revenue from bond sales. Even if the protocol
 doesn't bring in that much revenue, it can still sustain 1,000% APY for a considerable
 amount of time (see the [runway chart](https://dune.xyz/queries/102766/207436)
 for instance) due to the excess reserve in the treasury.
