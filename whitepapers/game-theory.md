@@ -199,30 +199,33 @@ This leads us to the idea of a mutually beneficial exchange, where both parties 
 
 [Nick Szabo](https://unenumerated.blogspot.com/2017/02/money-blockchains-and-social-scalability.html) defines social scalability as the ability of an institution to overcome its shortcomings or constraints that limit how many can successfully participate. Szabo argues that the main social scalability benefit of the internet has been to increase matchmaking in markets meaning that anyone with an internet connection can successfully participate which greatly increases the opportunities for mutually beneficial exchanges.  
 
-No one goes into an exchange willingly giving away a good without expecting to receive one in return. This is the core of reciprocity. We can see this idea of mutually beneficial exchange and reciprocity in the iterated prisoner's dilemma. Tit-forTat succeeds because it rewards players who cooperate with it, and quickly punishes those who don't. Over many interactions, this strategy wins out. 
+No one goes into an exchange willingly giving away a good without expecting to receive one in return. This is the core of reciprocity. We can see this idea of mutually beneficial exchange and reciprocity in the iterated prisoner's dilemma. Tit-for-Tat succeeds because it rewards players who cooperate with it, and quickly punishes those who don't. Over many interactions, this strategy wins out. 
 
 ### Reciprocity - Olympus
 
-The most obvious feature of Olympus which promotes reciprocity is staking. By staying staked, OHM holders are essentially cooperating to withhold supply of OHM from the market, and therefore maintaining its price. A consequence of this is the protocol is able to sell OHM (via bonds) at a profit (difference between price of bonded OHM and 1 $DAI) which increases the protocol treasury, a proportion of which is distributed to stakers every 8 hours as sOHM via rebases. The exact equations can be found ['here'](https://docs.olympusdao.finance/main/references/equations). The reciprocal relationship is thus: I stay staked so the protocol makes a profit, and I receive sOHM in return. 
+The most obvious feature of Olympus which promotes reciprocity is staking. By staying staked, OHM holders are essentially cooperating to withhold supply of OHM from the market, and therefore maintaining its price. A consequence of this is the protocol is able to sell OHM (via bonds) at a profit (difference between price of bonded OHM and 1 $DAI) which increases the protocol treasury, a proportion of which is distributed to stakers every 8 hours as sOHM via rebases. The exact equations can be found [here](https://docs.olympusdao.finance/main/references/equations). The reciprocal relationship is thus: I stay staked so the protocol makes a profit, and I receive sOHM in return. 
 
 Initially many people view this dynamic as similar to a ponzi scheme. The claim is that older stakers are rewarded with newer stakers money and that this dynamic will fall apart once older stakers decide to cash out and leave. This is a false assessment for three reasons:
 
-Stakers are rewarded with newly minted OHM, not whichever asset new entrants used to purchase their OHM. The protocol guarantees to back each OHM with 1 $DAI. Its ability to keep this promise is verifiable by anyone on-chain. The fact that OHM trades at a premium to 1 $DAI is a feature of market sentiment. 
-In a ponzi there is no good or service being created, just money changing hands. Olympus has marketable services in the form of owned liquidity and bonding services for other protocols. As the treasury grows more opportunities will arise for Olympus to generate income. 
-If large quantities of stakers suddenly decided to sell, they would first have to unstake. This raises APY for remaining stakers, limiting the volume of selling but if we imagine a doomsday scenario where everyone continued to sell, those last stakers would still get out with their initial investment and likely some profit (see ['Asfi’s bankrun scenario'](https://twitter.com/ishaheen10/status/1413369807450247168?s=21)).
+- Stakers are rewarded with newly minted OHM, not whichever asset new entrants used to purchase their OHM. The protocol guarantees to back each OHM with 1 $DAI. Its ability to keep this promise is verifiable by anyone on-chain. The fact that OHM trades at a premium to 1 $DAI is a feature of market sentiment.  
+
+- In a ponzi there is no good or service being created, just money changing hands. Olympus has marketable services in the form of owned liquidity and bonding services for other protocols. As the treasury grows more opportunities will arise for Olympus to generate income.  
+
+- If large quantities of stakers suddenly decided to sell, they would first have to unstake. This raises APY for remaining stakers, limiting the volume of selling but if we imagine a doomsday scenario where everyone continued to sell, those last stakers would still get out with their initial investment and likely some profit (see [Asfi’s bankrun scenario](https://twitter.com/ishaheen10/status/1413369807450247168?s=21)).
 
 Bonding can also be thought of through the lens of reciprocity. 
 
 Bonders buy OHM from the protocol at a discount to the market price. This benefits the protocol by increasing its treasury or protocol owned liquidity (depending on the type of bond purchased). Naturally bonders can also become stakers once they have received their OHM.
 The reciprocal relationship is thus: I buy a bond so the protocol increases its treasury, and I receive discounted OHM in return. 
 
-A mutually beneficial exchange has been established between the Olympus protocol and bonders/stakers. 
+A mutually beneficial exchange has been established between the Olympus protocol, bonders and stakers. 
 
 ### Risks to Reciprocity in Olympus
 
 Stakers are incentivised by a high APY. Bonders are incentivised by discounted OHM. Can these incentives break? If so, how likely is it that the reciprocal relationship breaks down? 
 
-Stakers Reciprocity
+#### Stakers Reciprocity  
+
 First let's examine the necessary equations determining APY:
 
 $$
@@ -245,19 +248,19 @@ $$
 
 The reward rate is subject to change by community vote and can be thought of as the amount that OHMsupply increases per epoch that is then given to stakers. OHM total staked is decided by stakers. OHM total supply is a function of bond sales, staking rewards and minting for the DAO. These variables are exogenous as they are decided by forces outside of the model, so we should examine what happens to reward yield if any of them change and all other variables remain the same.  
 
-If $$rewardRate$$ **falls** $$rewardYield$$ **falls**. 
-If $$OHMtotalStaked$$ **falls** $$rewardYield$$ **rises**. 
-If $$OHMtotalSupply$$ **rises** (but total staked stays constant i.e the percentage of staked OHM falls) $$rewardYield$$ **rises**.
+If $$ rewardRate $$ **falls** $$ rewardYield $$ **falls**. 
+If $$ OHMtotalStaked $$ **falls** $$ rewardYield $$ **rises**. 
+If $$ OHMtotalSupply $$ **rises** (but total staked stays constant i.e the percentage of staked OHM falls) $$ rewardYield $$ **rises**.
 
 OHM supply growth is itself a function of staking and bonding. This leaves two scenarios where staking reciprocity could break down: staked percentage falls and/or reward rate falls. 
 
 ### Staked Percentage Falls
 
-A break in the reciprocal relationship for staking would be evident by a drop in % staked. The fact that APY **rises** if staked OHM **falls** is a powerful feature which rewards stakers who stay staked and is the likely reason we have not seen OHM total staked fall below 90% (see ['Dune dashboard'](https://dune.xyz/shadow/Olympus-(OHM))).
+A break in the reciprocal relationship for staking would be evident by a drop in % staked. The fact that APY **rises** if staked OHM **falls** is a powerful feature which rewards stakers who stay staked and is the likely reason we have not seen OHM total staked fall below 90% (see [Dune dashboard](https://dune.xyz/shadow/Olympus-(OHM))).
 
 ### Reward Rate Fall
 
-The other way for the reciprocal relationship in staking to seemingly break down would be for the reward rate to drop thereby bringing down APY. Drops in the reward rate are in fact planned as laid out in ['OIP-18'](https://forum.olympusdao.finance/d/77-oip-18-reward-rate-framework-and-reduction). 
+The other way for the reciprocal relationship in staking to seemingly break down would be for the reward rate to drop thereby bringing down APY. Drops in the reward rate are in fact planned as laid out in [OIP-18](https://forum.olympusdao.finance/d/77-oip-18-reward-rate-framework-and-reduction). 
 
 ![](../.gitbook/assets/rrate_table.png)
 
