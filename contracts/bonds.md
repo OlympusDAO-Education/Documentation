@@ -34,6 +34,7 @@ begin with.
 ## FRAX Bond
 
 * V1 [0x8510...2514](https://etherscan.io/address/0x8510c8c2B6891E04864fa196693D44E6B6ec2514)
+* V2 [0xc60a...cc38](https://etherscan.io/address/0xc60a6656e08b62dd2644dc703d7855301363cc38)
 
 ## LUSD Bond
 
@@ -50,6 +51,7 @@ begin with.
 
 * V1 [0x539b...3776](https://etherscan.io/address/0x539b6c906244ac34e348bbe77885cdfa994a3776)
 * V2 [0xc20c...02f7](https://etherscan.io/address/0xc20cfff07076858a7e642e396180ec390e5a02f7)
+* V3 [0x99e9...aa53](https://etherscan.io/address/0x99e9b0a9dc965361c2cbc07525ea591761aeaa53)
 
 ## OHM / LUSD LP Bond
 
