@@ -248,9 +248,9 @@ $$
 
 The reward rate is subject to change by community vote and can be thought of as the amount of OHM distributed to the stakers per epoch. The total OHM supply is determined by several factors such as bond sales and DAO's minting, as documented in the [Olympus documentation](../references/equations.md#ohm-supply). These variables are exogenous (e.g. amount of OHM staked in the protocol) as well as endogenous (e.g. amount of OHM minted by the DAO, which is determined by the Policy team). Let's examine what happens to reward yield if any of them change while all other variables remain the same.  
 
-- If $ rewardRate $ **falls**, $ rewardYield $ **falls**. 
-- If $ OHM_{totalStaked} $ **falls**, $ rewardYield $ **rises**. 
-- If $ OHM_{totalSupply} $ **rises**, $ rewardYield $ **rises**.
+- If $$ rewardRate $$ **falls**, $$ rewardYield $$ **falls**. 
+- If $$ OHM_{totalStaked} $$ **falls**, $$ rewardYield $$ **rises**. 
+- If $$ OHM_{totalSupply} $$ **rises**, $$ rewardYield $$ **rises**.
 
 OHM supply growth is itself a function of staking and bonding. This leaves two scenarios where staking reciprocity could break down: staked percentage falls and/or reward rate falls. 
 
@@ -262,7 +262,7 @@ A break in the reciprocal relationship for staking would be evident by a drop in
 
 The other way for the reciprocal relationship in staking to seemingly break down would be for the reward rate to drop thereby bringing down APY. Drops in the reward rate are in fact planned as laid out in [OIP-18](https://forum.olympusdao.finance/d/77-oip-18-reward-rate-framework-and-reduction). 
 
-![](../.gitbook/assets/rrate_table.png)
+![](../.gitbook/assets/rr_table.png)
 
 By lowering the reward rate, the DAO is opting for lower supply inflation over continued high rewards for stakers. This is in line with the overall vision of the protocol to be a stable reserve asset.
 
