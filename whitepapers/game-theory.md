@@ -185,7 +185,97 @@ For a full analysis of the tournament and its implications I recommend reading A
 
 How do you establish a system of cooperation amongst strangers with vastly different preferences, who are separated by time and geography, who have never met, and likely never will?  
 
-If you pause to consider this question carefully, you will realise it is a problem humanity has faced since time immemorial. If there is one thing humanity is good at, it is solving problems and solving the problem of cooperation has powered human prosperity and facilitated our ingenuity like no other creature in the universe. So how have we learned to cooperate?
+If you pause to consider this question carefully, you will realise it is a problem humanity has faced since time immemorial. If there is one thing humanity is good at, it is solving problems. Solving the problem of cooperation has powered human prosperity and facilitated our ingenuity. Cooperation has enabled humans to flourish. So how have we learned to cooperate?  
+
+### Reciprocity
+
+A cooperative system must have reciprocity at its core. 
+
+We all have the same basic needs: safety, food, shelter, and social interactions. We all have the same core constraints: 24 hours in a day, a finite lifespan and geographic constraints - at least in the off-chain world. Of course, there are many additional needs and constraints a person may face in their life but what is contextually important is that no one can satisfy all of their needs and overcome their restraints alone. We all need to cooperate to get what we want whether that be through our jobs, our commercial dealings or our social interactions.  
+
+So we are all faced with deciding how to spend our time to satisfy our wants and needs. In economics this is a question of constrained optimisation. Constrained optimization in this context is the process of maximising a given function (e.g utility) in the presence of constraints. The constraint being the time in a day and the activities to be maximised being whatever will give us the highest utility. A person's utility from a good or service is the total amount of satisfaction they receive from that good. The question is what activities do I pursue to get the most from my time? And therefore, what activities do I forgo in order to pursue the ones that will give me greater utility? This is opportunity cost; the forgone benefit that a person would have derived had they taken an action not chosen.  
+
+This leads us to the idea of a mutually beneficial exchange, where both parties exchange a given good (could be their time, money or a physical good) in return for another. Markets and money facilitate exchanges which would otherwise be impossible by greatly increasing the number of exchanges which are possible. This effect is turbocharged by technology like the internet. 
+
+[Nick Szabo](https://unenumerated.blogspot.com/2017/02/money-blockchains-and-social-scalability.html) defines social scalability as the ability of an institution to overcome its shortcomings or constraints that limit how many can successfully participate. Szabo argues that the main social scalability benefit of the internet has been to increase matchmaking in markets meaning that anyone with an internet connection can successfully participate which greatly increases the opportunities for mutually beneficial exchanges.  
+
+No one goes into an exchange willingly giving away a good without expecting to receive one in return. This is the core of reciprocity. We can see this idea of mutually beneficial exchange and reciprocity in the iterated prisoner's dilemma. Tit-for-Tat succeeds because it rewards players who cooperate with it, and quickly punishes those who don't. Over many interactions, this strategy wins out. 
+
+### Reciprocity - Olympus
+
+The most obvious feature of Olympus which promotes reciprocity is staking. By staying staked, OHM holders are essentially cooperating to withhold supply of OHM from the market, and therefore maintaining its price. A consequence of this is the protocol is able to sell OHM (via bonds) at a profit (difference between price of bonded OHM and 1 $DAI) which increases the protocol treasury, a proportion of which is distributed to stakers every 8 hours as sOHM via rebases. The exact equations can be found [here](https://docs.olympusdao.finance/main/references/equations). The reciprocal relationship is thus: I stay staked so the protocol makes a profit, and I receive sOHM in return. 
+
+Initially many people view this dynamic as similar to a ponzi scheme. The claim is that older stakers are rewarded with newer stakers money and that this dynamic will fall apart once older stakers decide to cash out and leave. This is a false assessment for three reasons:
+
+- Stakers are rewarded with newly minted OHM, not whichever asset new entrants used to purchase their OHM. The protocol guarantees to back each OHM with 1 $DAI. Its ability to keep this promise is verifiable by anyone on-chain. The fact that OHM trades at a premium to 1 $DAI is a feature of market sentiment.  
+
+- In a ponzi there is no good or service being created, just money changing hands. Olympus has marketable services in the form of owned liquidity and bonding services for other protocols. As the treasury grows more opportunities will arise for Olympus to generate income.  
+
+- If large quantities of stakers suddenly decided to sell, they would first have to unstake. This raises APY for remaining stakers, limiting the volume of selling but if we imagine a doomsday scenario where everyone continued to sell, those last stakers would still get out with their initial investment and likely some profit (see [Asfi’s bankrun scenario](https://twitter.com/ishaheen10/status/1413369807450247168?s=21)).
+
+Bonding can also be thought of through the lens of reciprocity. 
+
+Bonders buy OHM from the protocol at a discount to the market price. This benefits the protocol by increasing its treasury or protocol owned liquidity (depending on the type of bond purchased). Naturally bonders can also become stakers once they have received their OHM.
+The reciprocal relationship is thus: I buy a bond so the protocol increases its treasury, and I receive discounted OHM in return. 
+
+A mutually beneficial exchange has been established between the Olympus protocol, bonders and stakers. 
+
+### Risks to Reciprocity in Olympus
+
+Stakers are incentivised by a high APY. Bonders are incentivised by discounted OHM. Can these incentives break? If so, how likely is it that the reciprocal relationship breaks down? 
+
+#### Stakers Reciprocity  
+
+First let's examine the necessary equations determining APY:
+
+$$
+APY = (1+rewardYield)^{1095}
+$$
+
+Rebases occur 3 times a day, hence why the APY equation raises to 1095 (365 * 3 = 1095)
+
+$$
+rewardYield = OHM_{distributed} / OHM_{totalStaked}
+$$
+
+$$ 
+OHM_{distributed} = OHM_{totalSupply} * rewardRate
+$$
+
+$$
+rewardYield = (OHM_{totalSupply} * rewardRate) / OHM_{totalStaked}
+$$
+
+The reward rate is subject to change by community vote and can be thought of as the amount of OHM distributed to the stakers per epoch. The total OHM supply is determined by several factors such as bond sales and DAO's minting, as documented in the [Olympus documentation](../references/equations.md#ohm-supply). These variables are exogenous (e.g. amount of OHM staked in the protocol) as well as endogenous (e.g. amount of OHM minted by the DAO, which is determined by the Policy team). Let's examine what happens to reward yield if any of them change while all other variables remain the same.  
+
+- If $ rewardRate $ **falls**, $ rewardYield $ **falls**. 
+- If $ OHM_{totalStaked} $ **falls**, $ rewardYield $ **rises**. 
+- If $ OHM_{totalSupply} $ **rises**, $ rewardYield $ **rises**.
+
+OHM supply growth is itself a function of staking and bonding. This leaves two scenarios where staking reciprocity could break down: staked percentage falls and/or reward rate falls. 
+
+### Staked Percentage Falls
+
+A break in the reciprocal relationship for staking would be evident by a drop in % staked. The fact that APY **rises** if staked OHM **falls** is a powerful feature which rewards stakers who stay staked and is the likely reason we have not seen OHM total staked fall below 90% (see [Dune dashboard](https://dune.xyz/shadow/Olympus-(OHM))).
+
+### Reward Rate Fall
+
+The other way for the reciprocal relationship in staking to seemingly break down would be for the reward rate to drop thereby bringing down APY. Drops in the reward rate are in fact planned as laid out in [OIP-18](https://forum.olympusdao.finance/d/77-oip-18-reward-rate-framework-and-reduction). 
+
+![](../.gitbook/assets/rrate_table.png)
+
+By lowering the reward rate, the DAO is opting for lower supply inflation over continued high rewards for stakers. This is in line with the overall vision of the protocol to be a stable reserve asset.
+
+The reader will have to decide for themselves whether this constitutes a breaking of the reciprocal relationship between protocol and staker. The fact that there is forward guidance on reductions and they are discussed and voted on suggests more of a changing relationship rather than an all out breaking. 
+
+
+
+
+
+
+
+
+
 
 
 
