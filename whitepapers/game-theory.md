@@ -248,9 +248,9 @@ $$
 
 The reward rate is subject to change by community vote and can be thought of as the amount that OHMsupply increases per epoch that is then given to stakers. OHM total staked is decided by stakers. OHM total supply is a function of bond sales, staking rewards and minting for the DAO. These variables are exogenous as they are decided by forces outside of the model, so we should examine what happens to reward yield if any of them change and all other variables remain the same.  
 
-If $$ rewardRate $$ **falls** $$ rewardYield $$ **falls**. 
-If $$ OHMtotalStaked $$ **falls** $$ rewardYield $$ **rises**. 
-If $$ OHMtotalSupply $$ **rises** (but total staked stays constant i.e the percentage of staked OHM falls) $$ rewardYield $$ **rises**.
+- If $ rewardRate $ **falls**, $ rewardYield $ **falls**. 
+- If $ OHM_{totalStaked} $ **falls**, $ rewardYield $ **rises**. 
+- If $ OHM_{totalSupply} $ **rises**, $ rewardYield $ **rises**.
 
 OHM supply growth is itself a function of staking and bonding. This leaves two scenarios where staking reciprocity could break down: staked percentage falls and/or reward rate falls. 
 
