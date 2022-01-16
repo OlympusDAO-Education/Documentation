@@ -229,7 +229,7 @@ Stakers are incentivised by a high APY. Bonders are incentivised by discounted O
 First let's examine the necessary equations determining APY:
 
 $$
-APY = (1+rewardYield)1095
+APY = (1+rewardYield)^{1095}
 $$
 
 Rebases occur 3 times a day, hence why the APY equation raises to 1095 (365 * 3 = 1095)
