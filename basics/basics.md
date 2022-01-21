@@ -125,7 +125,7 @@ Reward yield is the percentage by which your staked OHM balance increases on the
 
 APY stands for annual percentage yield. It measures the real rate of return on your principal by taking into account the effect of compounding interest. In the case of OlympusDAO, your staked OHM represents your principal, and the compound interest is added periodically on every epoch \(2200 Ethereum blocks, or around 8 hours\) thanks to the rebase mechanism.
 
-One interesting fact about APY is that your balance will grow not linearly but exponentially over time! Assuming a daily compound interest of 2%, if you start with a balance of 1 OHM on day 1, after a year, your balance will grow to about 1377. That is a lot!
+One interesting fact about APY is that your balance will grow not linearly but exponentially over time! Assuming a daily compound interest of 2%, if you start with a balance of 1 OHM on day 1, after a year, your balance will grow to about 1376. That is a lot!
 
 ![The power of compounding](../.gitbook/assets/apy.png)
 
@@ -134,7 +134,7 @@ One interesting fact about APY is that your balance will grow not linearly but e
 The APY is calculated from the reward yield \(a.k.a rebase rate\) using the following equation:
 
 $$
-APY = ( 1 + rewardYield )^{1095}
+APY = ( 1 + rewardYield )^{1095} - 1
 $$
 
 It raises to the power of 1095 because a rebase happens 3 times daily. Consider there are 365 days in a year, this would give a rebase frequency of 365 \* 3 = 1095.
@@ -155,7 +155,7 @@ Note that the reward rate is subject to change by the protocol. For example, it 
 
 ## Why does the price of OHM become irrelevant in long term?
 
-As illustrated above, your OHM balance will grow exponentially over time thanks to the power of compounding. Let's say you buy an OHM for $400 now and the market decides that in 1 year time, the intrinsic value of OHM will be $2. Assuming a daily compound interest rate of 2%, your balance would grow to about 1377 OHMs by the end of the year, which is worth around $2754. That is a cool $2354 profit! By now, you should understand that you are paying a premium for OHM now in exchange for a long-term benefit. Thus, you should have a long time horizon to allow your OHM balance to grow exponentially and make this a worthwhile investment.
+As illustrated above, your OHM balance will grow exponentially over time thanks to the power of compounding. Let's say you buy an OHM for $400 now and the market decides that in 1 year time, the intrinsic value of OHM will be $2. Assuming a daily compound interest rate of 2%, your balance would grow to about 1376 OHMs by the end of the year, which is worth around $2752. That is a cool $2354 profit! By now, you should understand that you are paying a premium for OHM now in exchange for a long-term benefit. Thus, you should have a long time horizon to allow your OHM balance to grow exponentially and make this a worthwhile investment.
 
 ## What will be OHM's intrinsic value in the future?
 
@@ -164,13 +164,13 @@ There is no clear answer for this, but the intrinsic value can be determined by 
 ## How does the protocol manage to maintain the high staking APY?
 
 Let’s say the protocol targets an APY range of 1,000% to 10,000% (see [OIP-18](https://forum.olympusdao.finance/d/77-oip-18-reward-rate-framework-and-reduction)
-for more details), this would translate to a *minimum* reward yield of about 0.2105%,
-or a daily growth of about 0.6328%. Please refer to the equation above to learn
+for more details), this would translate to a *minimum* reward yield of about 0.2192%,
+or a daily growth of about 0.6577%. Please refer to the equation above to learn
 [how APY is calculated from the reward yield](basics.md#how-is-the-apy-calculated).
 
 If there are 100,000 of OHM staked right now, the protocol would need to mint an
-additional 632.8 OHM to achieve this daily growth. This is achievable if the protocol
-can bring in at least $632.80 of daily revenue from bond sales. Even if the protocol
+additional 657.7 OHM to achieve this daily growth. This is achievable if the protocol
+can bring in at least $657.70 of daily revenue from bond sales. Even if the protocol
 doesn't bring in that much revenue, it can still sustain 1,000% APY for a considerable
 amount of time (see the [runway chart](https://dune.xyz/queries/102766/207436)
 for instance) due to the excess reserve in the treasury.
