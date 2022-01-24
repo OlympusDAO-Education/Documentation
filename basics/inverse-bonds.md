@@ -46,7 +46,7 @@
 ## When will these bonds become available?
 
 - First they need to pass the [vote in the Olympus forum](https://forum.olympusdao.finance/d/1020-oip-76-create-inverse-bond-policy-lever).
-- Next they need to pass a Snapshot governance vote.
+- Next they need to pass the [Snapshot governance vote](https://snapshot.org/#/olympusdao.eth/proposal/0xa544837835f3c4e681efba18d33623d4eb2acedec352dfc3c926a45902cd3612).
 - After the vote a modified version of v2 bonds will be deployed for inverse bonds.
 - Finally, the policy team will decide if and when inverse bonds will be made available.
 
