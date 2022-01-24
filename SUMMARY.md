@@ -10,6 +10,7 @@
 * [V2 Migration](basics/migration.md)
 * [Staking](basics/staking.md)
 * [Bonding](basics/bonding.md)
+* [Inverse Bonds](basics/inverse-bonds.md)
 
 ## Using the Website
 
