@@ -13,7 +13,7 @@
 
 ## Using the Website
 
-* [Stake Dein OHM (3, 3)](using-the-website/staking.md)
+* [OHM staken (3, 3)](using-the-website/staking.md)
 * [Kaufe Einen Bond (1, 1)](using-the-website/bonds/README.md)
   * [DAI Bond](using-the-website/bonds/bond\_dai.md)
   * [FRAX Bond](using-the-website/bonds/bond\_frax.md)

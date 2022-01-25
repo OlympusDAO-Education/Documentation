@@ -1,68 +1,70 @@
-# Stake Dein OHM (3, 3)
+# OHM staken (3, 3)
 
-Staking allows you to earn OHM passively via auto-compounding. By staking your OHM with OlympusDAO, you receive sOHM (staked OHM) in return at a 1:1 ratio. After that, your sOHM balance will increase automatically on every epoch based on the current APY.
+Beim Staken erwirtschaftet OHM passiv Erträge durch die automatische Verzinsung. Wer OHM bei OlympusDAO staked, erhält dafür sOHM (staked OHM) im Verhältnis 1:1. Dieses sOHM-Guthaben erhöht sich automatisch nach jeder Epoche basierend auf der aktuellen jährlichen Ertragsrate (Annual Percentage Yield, APY).
 
-Check out this video on how to get OHM and stake it on Olympus:
+Dieses Video erklärt, wie man OHM erwerben und auf Olympus staken kann:
 
 {% embed url="https://www.youtube.com/watch?v=aXAE1ikVMpM" %}
-How to get OHM and stake it on Olympus
+So kommt man an OHM und staked es bei Olympus
 {% endembed %}
 
-## How to Buy OHM
+## OHM kaufen
 
 {% hint style="warning" %}
-There are several venues to purchase OHM: [Sushiswap](https://app.sushi.com/swap), [Uniswap](https://app.uniswap.org/#/swap), or DEX aggregators such as [matcha](https://matcha.xyz). Make sure to **check the slippage first** before buying OHM, as some venue offers worse rate than the others due to low liquidity.
+Es gibt mehrere Möglichkeiten, OHM zu kaufen: [Sushiswap](https://app.sushi.com/swap), [Uniswap](https://app.uniswap.org/#/swap), oder DEX-Aggregatoren wie [matcha](https://matcha.xyz). Wichtig ist es, vor dem Kauf von OHM die **Slippage zu beachten**, da manche Plattformen aufgrund geringer Liquidität schlechtere Kurse bieten.
 {% endhint %}
 
-1. Go to [this Sushiswap swap page](https://app.sushi.com/swap?outputCurrency=0x383518188c0c6d7730d91b2c03a03c837814a899). We use Sushiswap as an example here. It is recommended to compare the exchange rate across different DEXes to ensure you are getting the best price.
-2. Make sure the output currency is OHM. You can also copy and paste the [OHM contract address](../contracts/tokens.md#ohm) into the output currency field to ensure you are swapping for the right token.
+1. Gehen Sie zu [dieser Sushiswap Swap-Seite](https://app.sushi.com/swap?outputCurrency=0x383518188c0c6d7730d91b2c03a03c837814a899). Wir nutzen SushiSwap als ein Beispiel. Es empfiehlt sich, die Tauschkurse auf mehreren DEX-Plattformen zu vergleichen, um den besten Preis ausfindig zu machen.
+2. Stellen Sie sicher, dass die Zielwährung OHM ist. Sie können auch die [OHM-Vertragsadresse](../contracts/tokens.md#ohm) kopieren und ins Feld für die Zielwährung einfügen, um sicher zu sein, dass sie in den richtigen Token umtauschen.
 
-![Paste OHM contract address](../.gitbook/assets/ohm\_contract.png)
+![OHM-Vertragsadresse einfügen](../.gitbook/assets/ohm\_contract.png)
 
-1. You can select any input currency based on your available wallet balance. It is recommended to use DAI as the input currency to minimize the slippage.
+* 3\. Sie können eine beliebige Ausgangswährung einstellen, je nach verfügbarem Guthaben in Ihrer Wallet. Empfehlenswert ist DAI als Ausgangswährung, um die Slippage möglichst gering zu halten.
 
 ![Make sure the output currency is OHM](../.gitbook/assets/buy\_ohm.png)
 
-1. Select the amount of OHM you want to swap for. Then click "Approve" and sign the transaction.
-2. After the "Approve" transaction has been processed successfully, click "Swap" and sign the transaction.
-3. You should see OHM in your wallet balance now after the swap transaction is successful. If you cannot find it in your wallet, add [OHM contract address](../contracts/tokens.md#ohm) to your wallet.
+4\. Geben Sie den Betrag an OHM ein, in den Sie tauschen möchten. Dann klicken Sie auf "Genehmigen" und unterzeichnen die Transaktion in Ihrer Wallet.
+
+5\. Sobald die Genehmigung erfolgreich war, klicken Sie auf "Swap" und unterzeichnen Sie erneut.
+
+6\. Wenn die Swap-Transaktion erfolgreich war, sollten Sie die OHM in Ihrer Wallet sehen. Falls nicht, fügen Sie die OHM-Vertragsadresse manuell zu Ihrer Wallet hinzu.
 
 {% hint style="info" %}
-The "Approve" transaction is only needed when you swap OHM for the first time; subsequent swapping only requires you to perform the "Swap" transaction.
+Die "Genehmigungs"-Transaktion ist nur nötig, wenn Sie zum ersten Mal OHM swappen. Zukünftiger Umtausch erfordert nur die "Swap"-Transaktion.
 {% endhint %}
 
-## How to Stake
+## OHM staken
 
-1. Go to the [Stake page of the OlympusDAO website](https://app.olympusdao.finance/#/). Select the "Stake" tab.
-2. Enter the amount of OHM that you would like to stake in the input field. If you would like to stake all your OHM, press the "Max" button and the input field will be populated with all your available OHM balance.
-3. Click "Approve" and sign the transaction.
-4. After the "Approve" transaction has been processed successfully, click "Stake" and sign the transaction. Voila, you have staked your OHM!
+1. Gehen Sie zum [Stake-Bereich der OlympusDAO Webseite](https://app.olympusdao.finance/#/). Wählen Sie "Stake".
+2. Falls Sie zum ersten Mal staken, erteilen Sie zunächst die Genehmigung, indem Sie auf "Approve" klicken und unterzeichnen.
+3. Geben Sie die gewünschte Menge an OHM an, die Sie staken wollen. Falls Sie alles OHM staken möchten, können Sie auf "Max." klicken, und der verfügbare Höchstbetrag erscheint automatisch im Eingabefeld.
+4. Klicken Sie auf "Staken" und unterzeichnen Sie die Transaktion. Voila, Sie haben OHM gestaked!
 
-## How to Unstake
+## OHM unstaken
 
-1. Go to the [Stake page of the OlympusDAO website](https://app.olympusdao.finance/#/). Select the "Unstake" tab.
-2. Enter the amount of sOHM that you would like to unstake in the input field. If you would like to unstake all your sOHM, press the "Max" button and the input field will be populated with all your available sOHM balance.
-3. Click "Approve" and sign the transaction.
-4. After the "Approve" transaction has been processed successfully, click "Unstake" and sign the transaction.
+1. Gehen Sie zum [Stake-Bereich der OlympusDAO Webseite](https://app.olympusdao.finance/#/). Wählen Sie "Unstake".
+2. Falls Sie zum ersten Mal unstaken, erteilen Sie zunächst die Genehmigung, indem Sie auf "Approve" klicken und unterzeichnen.
+3. Geben Sie die gewünschte Menge an OHM an, die Sie unstaken wollen. Falls Sie alles OHM unstaken möchten, können Sie auf "Max." klicken, und der verfügbare Höchstbetrag erscheint automatisch im Eingabefeld.
+4. Klicken Sie auf "Unstaken" und unterzeichnen Sie die Transaktion.
 
-_Note: The "Approve" transaction is only needed when staking/unstaking for the first time; subsequent staking/unstaking only requires you to perform the "Stake" or "Unstake" transaction._
+_Hinweis: Die "Genehmigungs"-Transaktion wird nur benötigt, wenn Sie zum ersten Mal staken oder unstaken. Nachfolgende Transaktionen erfondern nur noch "Staken" oder "Unstaken"._
 
-## Reading the Info
+## Angaben auf der Staking-Seite
 
 ![The staking page](../.gitbook/assets/staking\_page\_index.png)
 
-**APY** tells you the annualized rate of return based on the reward yield. It takes into account the effect of compounding since sOHM rebases exponentially.
+**APY:** Die jährliche Ertragsrate (Annual Percentage Yield, APY) gibt die tatsächliche Zinsrate an. Sie berücksichtigt die Zinseszinsen über den Zeitraum von einem Jahr, da die Ausschüttungen von sOHM exponentiell wachsen.
 
-**TVL** measures the dollar amount of all the staked OHM in Olympus.
+**TVL:** Das angelegte Gesamtvermögen (Total Value Locked, TVL) ist der Wert aller gestaketen OHM in US-Dollar.
 
-**Current Index** allows you to track your gain from staking. The index started from 1 at epoch 0, and increases every epoch. If you staked at genesis (epoch 0) and never unstaked any OHM, your balance today would be X times greater, where X is the current index. You can use the index to track your position by marking down the index number when you stake and unstake. You divide the index number when you unstake by the index number when you stake to get the ratio by which your sOHM balance has increased.
+**Current Index:** Der aktuelle Index ermöglicht es, die Ertragsentwicklung durch Staken zu verfolgen. Der Index startet bei Epoche 0 mit dem Wert 1 und erhöht sich in jeder weiteren Epoche. Wenn Sie OHM zum Zeitpunkt der Genesis gestaked haben und bisher nichts davon unstaked wurde, wäre Ihr Guthaben heute X-mal größer, wobei X der Wert des Current Index ist. Der Index lässt sich nutzen, um die Wertentwicklung einer gestaketen Position zu verfolgen: Dazu notiert man sich den Wert des Index sowohl beim Staken als auch beim Unstaken. Teilt man letzteren durch ersteren Wert ergibt sich der Faktor, um den sich das sOHM-Guthaben vermehrt hat.
 
-**Your Balance** tells you how many unstaked OHM are in your wallet. This is the maximum amount that you can stake.
+**Ihr Guthaben:** die Menge an ungestaketem OHM in Ihrer Wallet. Dies ist der Höchstbetrag, den Sie staken können.
 
-**Your Staked Balance** tells you how many staked OHM are in your wallet. This is the maximum amount that you can unstake.
+**Ihr gestaketes Guthaben:** die Menge an gestaketem OHM in Ihrer Wallet. Dies ist der Höchstbetrag, den Sie unstaken können.
 
-**Next Rebase** tells you the remaining time until the next rebase.
+**Nächste Ausschüttung:** die verbleibende Zeit bis zur nächsten Ausschüttungsrunde.
 
-**Reward Yield** tells you how much your sOHM balance will increase when the next epoch begins. For example, if you stake 100 OHM and the upcoming rebase is 0.5427%, your sOHM balance would increase from 100 to 100.5427.
+**Reward Yield:** Der Belohnungsertrag nennt die konkrete Menge an sOHM, um die Ihr Guthaben zu Beginn der nächsten Epoche ansteigen wird. Wenn Sie beispielsweise 100 OHM staken und die Ausschüttungsrate 0,5427% beträgt, dann wird Ihr Guthaben an sOHM von 100 auf 100, 5427 ansteigen.
 
-**ROI (5-Day Rate)** estimates how much your sOHM balance will increase after 5 days, if the reward yield stays the same during this period. For example, if you stake 100 OHM and the rate is 8.4577%, your sOHM balance would increase from 100 to 108.4577 after 5 days.
+**ROI (5-Tages-Rate):** Dieser Wert gibt an, um wie viel Ihr sOHM-Guthaben in den nächsten 5 Tagen ansteigt, wenn der Belohnungsertrag während dieser Zeit gleich bleibt. Wenn Sie beispielsweise 100 OHM staken und die Ausschüttungsrate 8,4577% beträgt, dann wird Ihr Guthaben an sOHM nach 5 Tagen von 100 auf 108,4577 ansteigen.
