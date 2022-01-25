@@ -5,6 +5,7 @@
 ## Grundlagen <a href="#basics" id="basics"></a>
 
 * [FAQ](basics/basics/README.md)
+  * [Olympus Give](basics/basics/olympus-give.md)
   * [OlyZaps](basics/basics/olyzaps.md)
 * [V2-Migration](basics/v2-migration.md)
 * [Staking](basics/staking.md)
