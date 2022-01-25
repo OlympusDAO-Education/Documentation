@@ -21,7 +21,8 @@
   * [OHM-FRAX LP Bond](using-the-website/bonds/bond\_ohm\_frax.md)
 * [Stake LP Tokens](using-the-website/staking\_lp.md)
 * [Unstake LP Tokens](using-the-website/unstaking\_lp.md)
-* [Migrieren von Staked OHM](using-the-website/migrate.md)
+* [Token migrieren (V1.1)](using-the-website/migrate.md)
+* [Token migrieren (V2)](using-the-website/token-migrieren-v2.md)
 
 ## Using Etherscan
 
