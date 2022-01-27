@@ -11,7 +11,7 @@
 * [Staking](basics/staking.md)
 * [Bonding](basics/bonding.md)
 
-## Using the Website
+## Bedienen der Website <a href="#using-the-website" id="using-the-website"></a>
 
 * [OHM staken (3, 3)](using-the-website/staking.md)
 * [Kaufe Einen Bond (1, 1)](using-the-website/bonds/README.md)
@@ -52,7 +52,7 @@
 * [DAO](contracts/dao.md)
 * [Policy](contracts/policy.md)
 * [Staking](contracts/staking.md)
-* [Tokens](contracts/tokens.md)
+* [Token](contracts/tokens.md)
 * [Treasury](contracts/treasury.md)
 
 ## References
