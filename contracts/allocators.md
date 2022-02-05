@@ -20,9 +20,10 @@ currently active contract.
 
 ## FXS Allocator
 
-The FXS allocator locks FXS in Frax Finance and yields veFXS. FXS tokens are
-locked for the maximum period of 4 years. veFXS can be used for Frax Gauge
-voting eventually.
+The FXS allocator locks FXS in Frax Finance and yields more FXS. Locked FXS
+tokens are converted into veFXS, which returns FXS rewards that can be claimed
+or locked again. The FXS allocator locks FXS tokens for the maximum period of 4
+years. veFXS can further be used for Frax Gauge voting eventually.
 
 * Proxy [0xde7b...9475](https://etherscan.io/address/0xde7b85f52577B113181921A7aa8Fc0C22e309475)
 * Underlying V1 [0x55ea...123b](https://etherscan.io/address/0x55eae7195b14f38e46a686bba70b87f4c4c7123b)
