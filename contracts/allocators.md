@@ -9,6 +9,15 @@ contract.
 
 * V1 [0x0e11...d9D4](https://etherscan.io/address/0x0e1177e47151Be72e5992E0975000E73Ab5fd9D4)
 
+## BTRFLY / LOBI Allocator
+
+The BTRFLY / LOBI allocator simply stakes both tokens in the respective
+contracts. The staked tokens have governance power. This allocator is very
+simple. It only supports staking and unstaking and was implemented without proxy
+pattern.
+
+* V1 [0x41Af...d58C](https://etherscan.io/address/0x41AfC1cD7d944cC38Dba0aFB31D5c6f83602d58C)
+
 ## Convex Allocator
 
 The Convex allocator is used to deposit excess FRAX of the treasury into Convex
