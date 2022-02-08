@@ -26,6 +26,8 @@ allocator contracts by version, where the latest version represents the
 currently active contract.
 
 * V1 [0x3dF5...dF78](https://etherscan.io/address/0x3dF5A355457dB3A4B5C744B8623A7721BF56dF78)
+* V2 [0x408a...67E8](https://etherscan.io/address/0x408a9A09d97103022F53300A3A14Ca6c3FF867E8)
+* V3 [0xDbf0...c42d](https://etherscan.io/address/0xDbf0683fC4FC8Ac11e64a6817d3285ec4f2Fc42d)
 
 ## FXS Allocator
 
