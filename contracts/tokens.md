@@ -6,7 +6,13 @@
 
 gOHM은 거버넌스 OHM을 의미합니다. [v2 마이그레이션](../basics/v2.md)의 일환으로 gOHM이 [wsOHM](tokens.md#undefined)을 대체하게 됩니다. gOHM은 sOHM V2를 다른 블록체인에서 사용할 수 있게 해주는 랩트(Wrapped) sOHM V2 입니다. 가격은 wsOHM과 똑같은 방식으로 계산됩니다.&#x20;
 
+$$
+gOHM_{price} = OHM_{price} * CurrentIndex
+$$
+
 sOHM을 보유했을 때와 마찬가지로 리베이스 수익을 받지만 가치의 증가는 사고 파는 시점의 현재 인덱스(Current Index) 값에 기반해서 이뤄지기 때문에 토큰의 수는 늘어나지 않습니다. 더 자세한 내용은 [FAQ](../basics/basics.md#how-do-i-track-my-rebase-rewards)를 참고하세요.
+
+![gohm](https://3531032088-files.gitbook.io/\~/files/v0/b/gitbook-x-prod.appspot.com/o/spaces%2F-MV4hwONledQK5nEDaUc-887967055%2Fuploads%2Fgit-blob-e3eefdfe3ab2ad2fbfd50b21945c8e6d10847a0f%2Fg-OHMsplainer2-01-01-01-01.png?alt=media)
 
 아래를 통해 현재 활성화 되어있는 최신 버전의 컨트랙트를 버전별로 확인하세요.
 
