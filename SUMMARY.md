@@ -66,7 +66,6 @@
 * [Equations](references/equations.md)
 * [Glossary](references/glossary.md)
 * [Links](references/links.md)
-* [Translations](references/translations.md)
 
 ## Get Involved
 
