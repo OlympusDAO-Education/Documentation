@@ -1,7 +1,22 @@
 # Bonds
 
-All bond contracts are more or less the same, with the one exception of the
-assets or LP tokens they manage. The bond contracts handle all deposits and
+The rollout of [V2 bonds](https://olympusdao.medium.com/introducing-v2-bonds-a17c7da298a2)
+requires a re-design of the bond contract. With this, V1 bonds have been
+deprecated, but their contracts are still listed here for reference.
+
+# V2 Bonds
+
+There is only one V2 bond contract, which manages bonds of various types (e.g.
+OHM-DAI LP bonds, FRAX bonds).
+
+* [0x9025...1ef6](https://etherscan.io/address/0x9025046c6fb25fb39e720d97a8fd881ed69a1ef6)
+
+# V1 Bonds
+
+There are multiple V1 bond contracts, where each contract manages a single bond
+type. Still, all bond contracts are more or less the same.
+
+The bond contracts handle all deposits and
 redemptions. Here parameters for monetary policy are configured. Such parameters
 are for instance the
 [BCV](https://docs.olympusdao.finance/references/glossary#bcv) and the max
