@@ -17,5 +17,20 @@ LP staking is deprecated. You can unstake your LP via Etherscan still.
 
 ## Staking
 
-Prior to the migration of the staking contract, the old staking contract \([0x0822...74A2](https://etherscan.io/address/0x0822F3C03dcc24d200AFF33493Dc08d0e1f274A2)\) was used for staking OHM. If users are still staked in there they should migrate their staked OHM to the new staking contract \([0xFd31....566a](https://etherscan.io/address/0xFd31c7d00Ca47653c6Ce64Af53c1571f9C36566a)\). The new staking contract works with a staking helper contract \([0xC8C4....612d](https://etherscan.io/address/0xC8C436271f9A6F10a5B80c8b8eD7D0E8f37a612d)\). The staking helper contract calls "stake" and then "claim" of the new staking contract. When the "stake" function is called, sOHM is put into a warmup phase and all the information about how much sOHM a user has staked is stored in the new staking contract. When the "claim" function is called, sOHM is retrieved from the warmup and then sent to the user's wallet.
+Prior to [V1.1  migration](https://olympusdao.medium.com/olympus-v1-1-a5c6a48be7d1),
+the old staking contract (V1) was used for staking OHM. Afterwards, a new staking
+contract (V2) was rolled out, which  works with a staking helper (V2, Staking Helper).
+The staking helper contract calls "stake" and then "claim" of the new staking contract.
+When the "stake" function is called, sOHM is put into a warmup phase and all the
+information about how much sOHM a user has staked is stored in the new staking
+contract. When the "claim" function is called, sOHM is retrieved from the warmup
+and then sent to the user's wallet.
 
+As part of the [V2 migration](https://olympusdao.medium.com/get-ready-for-olympus-v2-migration-360764a61168),
+a new staking contract (V3) has been rolled out, which supersedes the old staking
+contract and the staking helper. It supports both staking and unstaking operations.
+
+* V1 [0x0822...74A2](https://etherscan.io/address/0x0822F3C03dcc24d200AFF33493Dc08d0e1f274A2)
+* V2 [0xFd31....566a](https://etherscan.io/address/0xFd31c7d00Ca47653c6Ce64Af53c1571f9C36566a)
+* V2, Staking Helper [0xC8C4....612d](https://etherscan.io/address/0xC8C436271f9A6F10a5B80c8b8eD7D0E8f37a612d)
+* V3 [0xB63c...8020](https://etherscan.io/address/0xB63cac384247597756545b500253ff8E607a8020)
