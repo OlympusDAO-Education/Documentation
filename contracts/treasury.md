@@ -1,9 +1,5 @@
 # Treasury
 
-## OHM / DAI LP
-
-* V1 [0x34d7...ef7c](https://etherscan.io/address/0x34d7d7Aaf50AD4944B70B320aCB24C95fa2def7c)
-
 ## Treasury
 
 The treasury contract is a simple vault implementation holding all the funds
