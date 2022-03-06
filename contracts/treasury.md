@@ -15,6 +15,7 @@ represents the currently active contract.
 
 * V1 [0x886C...399D](https://etherscan.io/address/0x886CE997aa9ee4F8c2282E182aB72A705762399D)
 * V2 [0x31F8...46E8](https://etherscan.io/address/0x31F8Cc382c9898b273eff4e0b7626a6987C846E8)
+* V3 [0x9A31...13Ef](https://etherscan.io/address/0x9A315BdF513367C0377FB36545857d12e85813Ef)
 
 The treasury contract is guarded by a 4 of 7 multisig. That means any
 transaction for the treasury must be approved by at least 4 signers, of which we
