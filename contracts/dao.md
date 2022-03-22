@@ -11,11 +11,11 @@ latest version represents the currently active address.
 
 * V1 [0x245c...988B](https://etherscan.io/address/0x245cc372C84B3645Bf0Ffe6538620B04a217988B)
 
-The DAO contract is guarded by a 4 of 7 multisig. That means any transaction for
-making DAO changes must be approved by at least 4 signers, of which we have 7
+The DAO contract is guarded by a 4 of 8 multisig. That means any transaction for
+making DAO changes must be approved by at least 4 signers, of which we have 8
 signers in total. The operation security for our DAO is thus protected from a
 single actor going rogue, because it takes a quorum of 4 to authorize any
-transaction like engaging in DAO swaps. The 7 signing addresses for the DAO are
+transaction like engaging in DAO swaps. The 8 signing addresses for the DAO are
 listed below.
 
 Note that all signers can be verified on
