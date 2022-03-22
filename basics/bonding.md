@@ -16,3 +16,7 @@ Note that V1 has been deprecated, and all the bonds running on our website are V
 
 **Bonding allows Olympus to accumulate its own liquidity.** We call our own liquidity [POL](../references/glossary.md#pol). More POL ensures there is always locked exit liquidity in our trading pools to facilitate market operations and protect token holders. Since Olympus becomes its own market, on top of additional certainty for OHM investors, the protocol accrues more and more revenue from LP rewards bolstering our treasury.
 
+The decision of which assets to bond is taken by the policy team on behalf of the DAO. The policy team's 
+objective with bonds is to keep the purchasing power of OHM stable in difficult market conditions, and to 
+increase the backing in times of excess market demand. The long term objective with bonds is to fully move 
+to on-chain governance.
