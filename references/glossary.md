@@ -42,7 +42,7 @@ Proof of Reserve, is the mechanism of strengthening the reserve of OlympusDAO tr
 
 ## Reserve Bonds
 
-Reserve bonds are single asset bonds. They are sometimes referred to as "naked" bonds. Examples are DAI bonds and FRAX bonds.
+Reserve bonds are single asset bonds. Examples are DAI bonds and FRAX bonds.
 
 ## Reward Rate
 
