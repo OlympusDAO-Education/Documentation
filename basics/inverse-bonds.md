@@ -2,22 +2,24 @@
 
 ## What are inverse bonds?
 
-- They buy your OHM and sell you a backing asset from the treasury.
+Inverse bonds have been introduced as a protocol lever in [OIP-76](https://snapshot.org/#/olympusdao.eth/proposal/0xa544837835f3c4e681efba18d33623d4eb2acedec352dfc3c926a45902cd3612) 
+as a way to support the price of OHM when below the backing per OHM. As their name suggests, 
+one can think of inverse bonds as doing the "inverse" of what a regular bond does: 
+instead of taking a treasury asset in exchange for OHM, **it takes in OHM in exchange for an asset from the treasury**. 
+
+Here is a TL;DR on inverse bonds: 
+- They buy your OHM in exchange for a backing asset from the treasury.
 - They buy your OHM at a premium (slightly above market price) and then burn it.
-- They have no vesting and the asset exchange is instant.
+- They buy your OHM at a slight discount to the backing per OHM, increasing the backing per remaining OHM.
+- They have no vesting, meaning that the asset exchange is instant.
 - They are only available while the OHM market price is below the backing per OHM.
 - They are launched by the policy team.
 - Their price is determined by the market.
 
 ## Why are these bonds being introduced?
 
-- The policy team enacts monetary policy to support the health of the protocol.
-- Inverse bonds are an additional tool for the policy team to do that effectively.
-- They allow OHM to be sold without directly affecting its market price.
-- Their purpose is
-    - to absorb some sell pressure for OHM.
-    - to increase the backing per OHM.
-- They mirror the properties of regular bonds that have been incredibly effective.
+The purpose of inverse bonds is to absorb some sell pressure for OHM, supporting its price while 
+increasing the backing per OHM.
 
 ## What assets can I bond?
 
@@ -36,19 +38,17 @@
 ## What asset will I get for these bonds?
 
 - Different bonds will be provided that pay out different assets.
-- The policy team will add and remove bonds based on market conditions.
+- The policy team will add and remove bonds based on market conditions and treasury composition.
 
 ## How many of these bonds will be available?
 
 - Bonds have a limited capacity and are sold out once their capacity is reached.
-- Bond capacity will be determined by the policy team based on market conditions.
+- While the policy team is ultimately responsible for implementing inverse bonds, the lower the price of OHM compared to backing, the more capacity should be expected. 
 
 ## When will these bonds become available?
 
-- First they need to pass the [vote in the Olympus forum](https://forum.olympusdao.finance/d/1020-oip-76-create-inverse-bond-policy-lever).
-- Next they need to pass the [Snapshot governance vote](https://snapshot.org/#/olympusdao.eth/proposal/0xa544837835f3c4e681efba18d33623d4eb2acedec352dfc3c926a45902cd3612).
-- After the vote a modified version of v2 bonds will be deployed for inverse bonds.
-- Finally, the policy team will decide if and when inverse bonds will be made available.
+- The [Snapshot governance vote](https://snapshot.org/#/olympusdao.eth/proposal/0xa544837835f3c4e681efba18d33623d4eb2acedec352dfc3c926a45902cd3612) has passed and inverse bonds can now be used as a protocol lever.
+- The policy team is responsible for their implementation, notably the timing of inverse bonds and their capacities.
 
 ## Where can I buy these bonds?
 
@@ -57,33 +57,24 @@
 
 ## How do these bonds affect the backing per OHM?
 
-- The protocol acquires and burns OHM for a fraction of the backing per OHM.
-- The remaining fraction of the backing increases the backing of all other OHM tokens.
-
-## How do these bonds effect the runway?
-
-- Bonds that pay out risk-free assets will shorten the runway.
-- Bonds that pay out other assets will extend the runway.
+- The protocol acquires and burns OHM at a discount compared to backing per OHM.
+- The revenues from inverse bonds increase the backing of all remaining OHM tokens.
 
 ## Do these bonds guarantee a price floor?
 
 - No. They simply increase the backing per OHM and absorb some sell pressure.
-- That has a positive effect on the market price of OHM.
+- It is effectively the treasury acting as a whale buying OHM, supporting the market. 
+  As this whale can effectively buy all the circulating OHM, it reinforces market confidence. 
 
 ## Can these bonds drain the treasury?
 
 - The policy team decides how much OHM can be bonded in total.
 - The policy team allocates the amount of payout assets upfront to safeguard the treasury.
-- Inverse bonds do not have direct access to treasury assets.
+- In terms of implementation, inverse bonds do not have direct access to treasury assets.
 
 ## Will the DAO itself bond OHM?
 
 - No, OHM in DAO funds will not be used for inverse bonds.
-
-## Why are they called "inverse" bonds?
-
-- Regular [bonds](./bonding.md) take in treasury assets in exchange for OHM.
-- Inverse bonds take in OHM in exchange for treasury assets, so the _inverse_.
 
 ## Are these bonds the same as a buyback?
 
@@ -93,16 +84,15 @@ While they seem similar there are notable differences:
 - They reduce sell pressure further because they increase the backing per OHM.
 - Their availability is limited to certain market conditions.
 - The amount of OHM tokens that the protocol will acquire and burn is limited.
-- Sales are driven by market demand and not by the protocol or the DAO.
+- Sales are driven by market demand and not by the protocol or the DAO, removing moral hazard.
 
 ## What is the backing per OHM?
 
-- The USD value of the assets in the [treasury](https://zapper.fi/bundle/0x9a315bdf513367c0377fb36545857d12e85813ef,0xde7b85f52577B113181921A7aa8Fc0C22e309475,0xDbf0683fC4FC8Ac11e64a6817d3285ec4f2Fc42d,0x31f8cc382c9898b273eff4e0b7626a6987c846e8,0x408a9a09d97103022f53300a3a14ca6c3ff867e8,0x10B569271912CD3342d183c0f2dC4b5D5880b741,0x0e1177e47151be72e5992e0975000e73ab5fd9d4,0x0316508a1b5abf1cae42912dc2c8b9774b682ffc,0xe06efA3D9Ee6923240ee1195A16ddd96B5CcE8F7,0x2bC001fFEB862d843e0a02a7163C7d4828e5FB10,0xdfc95aaf0a107daae2b350458ded4b7906e7f728?label=Olympus%20Treasury) is called “backing” or “reserves”.
-- OHM in liquidity does not count towards the backing.
+- The USD value of the assets in the treasury is called “backing” or “reserves”.
+- OHM in liquidity pairs does not count towards the backing.
 - Locked assets like vlCVX and veFXS do not count towards the backing (for this purpose).
 - That backing divided by the amount of OHM in circulation is the “backing per OHM”.
-- The current backing can be found in the [Olympus Lookout](https://dune.xyz/fluidsonic/Olympus-DAO) dashboard under “Backing”.  
-  Note that the backing on the dashboard is higher as it does include locked assets.
+- The current backing can be found on the [Olympus dashboard](https://app.olympusdao.finance/#/dashboard) under “Liquid backing per OHM”.
 
 ## Example
 
@@ -112,6 +102,6 @@ While they seem similar there are notable differences:
 - `$100` bond price
 - `$105` payout per bond (`5%` premium over the market price of OHM)
 
-→ Treasury takes in `$100 in OHM` in exchange for `$105 in ETH`.  
+→ Treasury takes in `$100 in OHM` in exchange for `$105 in ETH`, supporting the market by removing some sell pressure.  
 → That `OHM` is burnt.  
-→ `$15` of backing can be allocated to the remaining OHM tokens, increasing overall backing.
+→ The treasury effectively pockets a revenue of `$15`, increasing the backing of the remaining OHM tokens.
