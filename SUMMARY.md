@@ -5,10 +5,12 @@
 ## Dasar-Dasar <a href="#basics" id="basics"></a>
 
 * [FAQ (Pertanyaan Yang Sering Diajukan)](basics/basics/README.md)
+  * [Olympus Give](basics/basics/olympus-give.md)
   * [OlyZaps](basics/basics/olyzaps.md)
 * [Migrasi V2](basics/migrasi-v2.md)
 * [Staking](basics/staking.md)
 * [Bonding](basics/bonding.md)
+* [Inverse Bond](basics/inverse-bond.md)
 
 ## Menggunakan Website <a href="#using-the-website" id="using-the-website"></a>
 
