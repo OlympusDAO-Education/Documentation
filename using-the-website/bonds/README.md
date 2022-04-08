@@ -1,11 +1,11 @@
 # Purchasing A Bond \(1, 1\)
 
 Bonds allow users to buy OHM from the protocol at a discount by trading it against i\) liquidity \(LP tokens\) or ii\) other assets. 
-The former are called [liquidity bonds](https://docs.olympusdao.finance/references/glossary#liquidity-bonds) and the latter [reserve bonds](https://docs.olympusdao.finance/references/glossary#reserve-bonds).
+The former are called [liquidity bonds](../../references/glossary.md#liquidity-bonds) and the latter [reserve bonds](../../references/glossary.md#reserve-bonds).
 
 Bonds take a variable amount of time to vest, called the vesting period. 
-During this period, the OHM tokens given as payout to the bonder are staked but locked. 
-Afterwards, the bonder can claim the OHM in full. 
+During this period, the OHM tokens given as payout to the bonder are staked and locked. 
+After the vesting period is expired, the bonder can claim the OHM in full. 
 
 Liquidity bonds help the protocol to accumulate and lock liquidity, while reserve bonds allow the protocol to grow its treasury.
 
@@ -39,7 +39,7 @@ _Notes:_
 Go to the [Bonds page](https://app.olympusdao.finance/#/bonds).
 ![](../../.gitbook/assets/claimable-bonds.png)
 You can then select whether you want the payout to be in sOHM or in gOHM, and claim all vested bonds in one click 
-or claim each bond individually if you prefer.
+or each bond individually if you prefer.
 
 ## Reading the Info
 
@@ -60,4 +60,4 @@ or claim each bond individually if you prefer.
 
 **Discount** is the difference between the bond price and the market price expressed as a percentage. In the screenshot above, bonding would give you a 0.11% discount versus buying the same amount of OHM from the market.
 
-**Duration** gives you the vesting term, which is the period during which the OHM payout is locked.
+**Duration** gives you the vesting term, which is the period during which the OHM payout is locked (and staked).

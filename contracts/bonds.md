@@ -1,13 +1,13 @@
 # Bonds
 
 The rollout of [V2 bonds](https://olympusdao.medium.com/introducing-v2-bonds-a17c7da298a2)
-requires a re-design of the bond contract. With this, V1 bonds have been
+required a re-design of the bond contract. V1 bonds have hence been
 deprecated, but their contracts are still listed here for reference.
 
 # V2 Bonds
 
 There is only one V2 bond contract, which manages bonds of various types (e.g.
-OHM-DAI LP bonds, FRAX bonds).
+OHM-DAI LP bonds, FRAX reserve bonds etc.).
 
 * [0x9025...1ef6](https://etherscan.io/address/0x9025046c6fb25fb39e720d97a8fd881ed69a1ef6)
 

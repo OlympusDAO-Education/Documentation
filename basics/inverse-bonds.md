@@ -3,7 +3,7 @@
 ## What are inverse bonds?
 
 Inverse bonds have been introduced as a protocol lever in [OIP-76](https://snapshot.org/#/olympusdao.eth/proposal/0xa544837835f3c4e681efba18d33623d4eb2acedec352dfc3c926a45902cd3612) 
-as a way to support the price of OHM when below the backing per OHM. As their name suggests, 
+as a way to support the price of OHM when it is below the backing per OHM. As their name suggests, 
 one can think of inverse bonds as doing the "inverse" of what a regular bond does: 
 instead of taking a treasury asset in exchange for OHM, **it takes in OHM in exchange for an asset from the treasury**. 
 
@@ -18,7 +18,7 @@ Here is a TL;DR on inverse bonds:
 
 ## Why are these bonds being introduced?
 
-The purpose of inverse bonds is to absorb some sell pressure for OHM, supporting its price while 
+The purpose of inverse bonds is to absorb some sell pressure for OHM, supporting OHM price while bringing in revenues and
 increasing the backing per OHM.
 
 ## What assets can I bond?
@@ -64,13 +64,13 @@ increasing the backing per OHM.
 
 - No. They simply increase the backing per OHM and absorb some sell pressure.
 - It is effectively the treasury acting as a whale buying OHM, supporting the market. 
-  As this whale can effectively buy all the circulating OHM, it reinforces market confidence. 
+  As this whale can effectively buy all the circulating OHM, it should give the market more confidence. 
 
 ## Can these bonds drain the treasury?
 
 - The policy team decides how much OHM can be bonded in total.
 - The policy team allocates the amount of payout assets upfront to safeguard the treasury.
-- In terms of implementation, inverse bonds do not have direct access to treasury assets.
+- In terms of implementation, inverse bonds will not have direct access to the full treasury assets.
 
 ## Will the DAO itself bond OHM?
 
@@ -104,4 +104,4 @@ While they seem similar there are notable differences:
 
 → Treasury takes in `$100 in OHM` in exchange for `$105 in ETH`, supporting the market by removing some sell pressure.  
 → That `OHM` is burnt.  
-→ The treasury effectively pockets a revenue of `$15`, increasing the backing of the remaining OHM tokens.
+→ The treasury pockets a revenue of `$15`, increasing the backing of the remaining OHM tokens.
