@@ -1,15 +1,11 @@
-# Bonding
+## Bonding
+Olympus bonds are a financial primitive for protocols to acquire assets, including their own liquidity, in exchange for governance tokens at a discount. In other words, Olympus bonds are a pricing mechanism for any two ERC-20 tokens that does not rely on third parties like oracles. Olympus bonds internally respond to supply and demand by offering a variable ROI rate to the market and its users. 
 
-## What is bonding?
+# How do both the Olympus Treasury and the bonder benefit from the process?
+Bonds are the primary mechanism for Treasury inflows, and thus, the growth of the network.
 
-**Bonding is the secondary value accrual strategy of Olympus.** It allows Olympus
-to acquire its own liquidity and other reserve assets such as LUSD by selling OHM
-at a discount in exchange for these assets. The protocol quotes the bonder with
-terms such as the bond price, the amount of OHM tokens entitled to the bonder, and
-the vesting term. The bonder can claim some of the rewards (OHM tokens) as they
-vest, and at the end of the vesting term, the full amount will be claimable.
+Bonders commit a capital sum upfront and are promised a fixed return at a set point in time; that return is in OHM and thus the bonder's profit would depend on OHM price when the bond matures. In Olympus v2, users who bond their assets for OHM reap the same benefits as stakers as OHM is automatically staked at the time of a bond purchase. 
 
-**Bonding is an active, short-term strategy.** The price discovery mechanism of the secondary bond market renders bond discounts more or less unpredictable. Therefore bonding is considered a more active investment strategy that has to be monitored constantly in order to be more profitable as compared to staking.
+If the ROI is positive – a bond can be purchased at a discount to market price) – market participants (bonders) are incentivized to exchange their assets for gOHM, vested over a period of time. The Treasury sells OHM at a premium to its backing, while the bonder is able to capture a discount (positive ROI) by purchasing OHM directly from the Treasury. However, if the variable ROI is negative, and market participants are unable to express their demand on the bond marketplace, they would have to resort to a decentralized exchange. 
 
-**Bonding allows Olympus to accumulate its own liquidity.** We call our own liquidity [POL](../references/glossary.md#pol). More POL ensures there is always locked exit liquidity in our trading pools to facilitate market operations and protect token holders. Since Olympus becomes its own market, on top of additional certainty for OHM investors, the protocol accrues more and more revenue from LP rewards bolstering our treasury.
-
+The variable ROI rate is at the one hand determined by the demand for the given bond on the Olympus bond marketplace, and on the other hand it is governed by the policy team which sets the BCV which determines the bond capacity. In exchange for being temporarily illiquid, and exposed to OHM/gOHM volatility for the duration of the vesting period, the bonder is rewarded with a variable ROI rate. 
