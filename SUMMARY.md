@@ -1,6 +1,6 @@
 # Table of contents
-* [Introduction](/README.md)
 ## Basics
+* [Basics] (basics/basics.md)
 * [Staking](basics/staking.md)
 * [Bonding](basics/bonding.md)
 * [Treasury](basics/treasury_basics.md)
