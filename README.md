@@ -2,31 +2,57 @@
 
 ## What is Olympus?
 
-Olympus is a decentralized reserve currency protocol based on the OHM token. Each OHM token is backed by a basket of assets \(e.g. DAI, FRAX\) in the Olympus treasury, giving it an intrinsic value that it cannot fall below. Olympus also introduces unique economic and game-theoretic dynamics into the market through staking and bonding. Read more about the game theory aspect of Olympus in [one of our blog posts](https://olympusdao.medium.com/the-game-theory-of-olympus-e4c5f19a77df).
+The goal of the Olympus protocol is to create a decentralized, censorship resistant reserve currency for the emerging Web3 ecosystem. Developing a reserve currency is important because a fundamental goal of the Web3 financial movement is to foster an alternative economic ecosystem that serves the needs of its various stakeholders, which include:
+* Having access to unique purpose-built assets that are widely and uniformly available across L1s and L2s
+* Being able to transact/store value in highly decentralized and censorship-resistant assets that are not dependent on the traditional financial ecosystem for validation or survival
 
 {% embed url="https://www.youtube.com/watch?v=QZOaZ9dd-ms" caption="Introductory video about Olympus" %}
 
-## What is the point of Olympus?
+## What is OHM?
 
-Our goal is to build a policy-controlled currency system, in which the behavior of the OHM token is controlled at a high level by the DAO. In the long term, we believe this system can be used to optimize for stability and consistency so that OHM can function as a global unit-of-account and medium-of-exchange currency. In the short term, we intend to optimize the system for growth and wealth creation.
+Olympus’ goal is to create a credibly neutral currency for Web3 and to help onboard users into a decentralized, democratized economy, with the additional goal of becoming the reserve currency for DeFi.
 
-## How do I participate in Olympus?
+What are reserve currencies designed to achieve? 
 
-There are two main strategies for market participants: [staking](basics/staking.md) and [bonding](basics/bonding.md). Stakers stake their OHM tokens in return for more OHM tokens, while bonders provide LP or DAI tokens in exchange for discounted OHM tokens after a fixed vesting period.
+- Preserving purchasing power: Over the medium- to long-term the asset grows to out-pace inflation, and becomes more stable over time
+- Deep liquidity: Reserve currencies are highly liquid and can be easily exchanged for other assets, products and services
+- Utilized as a unit of account: Other assets are denominated in the currency
+- Reserve assets serve as trusted backing: The currency is viewed as reliable and relatively low risk, which encourages entities to hold large quantities of it in reserve
 
-Governance participants can get involved on our [forum](https://forum.olympusdao.finance) and through discussions on our [community discord](https://discord.com/invite/olympusdao) and [DAO discord](https://discord.com/invite/42xFV68uEf) servers respectively. We are always looking for new community members to contribute!
+Currently, Olympus is early on its journey to secure OHM’s status as a decentralized reserve currency. The Olympus12 Action Plan outlines the concrete steps the DAO is taking to make this vision a reality in 2022, including making OHM as automated and governance-minimized as possible.
 
-## How can I benefit from Olympus?
+## Why is there a need for a reserve currency in DeFi?
 
-The main benefit for stakers comes from supply growth. The protocol mints new OHM tokens from the treasury, the majority of which are distributed to the stakers. Thus, the gain for stakers will come from their auto-compounding balances, though price exposure remains an important consideration. That is, if the increase in token balance outpaces the potential drop in price \(due to inflation\), stakers would make a profit.
+In contrast to the incumbent fiat system that’s declining in value due to inflation, our goal is to build and retain real purchasing power that withstands the test of time. Olympus DAO’s efforts in Treasury management, development of on-chain governance structures and prudent use of Olympus’ liquidity and Treasury assets will help to strengthen OHM’s stability.
 
-The main benefit for bonders comes from price consistency. Bonders commit a capital upfront and are promised a fixed return at a set point in time; that return is in OHM and thus the bonder's profit would depend on OHM price when the bond matures. Bonders benefit from a rising or static OHM price.
+## How does Olympus operate?
+
+Olympus is run by OlympusDAO.
+
+OlympusDAO is a network of dedicated community members who execute on decisions & protocol mechanisms voted on through community governance. 
+
+Our eventual goal is to build an autonomous system at the protocol level, in which the behavior of OHM is largely influenced by decentralized smart contracts and with minimal human intervention. 
+
+The DAO is pursuing a strategy of “progressive decentralization.” Currently, major components of the protocol are controlled at a high-level by the DAO. Though, ultimately the focus is on creating a foundation at the Treasury, Policy and economic levels, and to enable the community to directly operate protocol mechanics – in a trust- and process-minimized fashion.  
+
+
+## Governance
+
+All proposals, whether being consistent with the general direction of the DAO, a change in policy, or a pivot to a certain strategy or framework are voted for by the community. Any member of the community can create a proposal on the forum for discussion before being posted to snapshot for a governance vote.
+
+[Olympus Governance Council (OGC)](https://forum.olympusdao.finance/d/1156-oip-91-olympus-governance-council) will be initially comprised of 7 veteran community members who are primarily responsible for facilitating off-chain processes. These can include, but are not limited to, establishing strategic vision, coordinating working groups to execute on community-approved initiatives, and proposing strategic initiatives to the community via OIP.
+
+Key deliverables for the OGC include:
+- Drive prioritization and alignment across the DAO departments and working groups
+- Chart a path to further decentralized DAO governance and operations
+- Oversee the broader econOHMy
+
+
+## Policy Team & Policy Framework
+The policy team is composed of about 20 members of the Olympus community who have displayed sufficient knowledge of the protocol and a curiosity to continue to learn as the protocol grows in size and complexity. Policy is largely guided by the [policy framework.](https://forum.olympusdao.finance/d/622-oip-56-olympusdao-policy-framework-v2)
+
+Policy closely monitors the behavior of the protocol and utilizes the powers assigned to them in the policy framework to actively manage the protocol. Policy is committed to help bring inflows into the treasury, and continue to increase OHM's relative backing, and helping Olympus to continue developing products and services that grow the Olympus economy.
 
 ## Who created Olympus?
 
 Olympus was ideated by Zeus and built by a distributed pseudo-anonymous team.
-
-## Who runs Olympus?
-
-No one. Olympus is DAO-governed. All decisions are formed by community members on the forum and made by token holders through snapshot voting.
-
