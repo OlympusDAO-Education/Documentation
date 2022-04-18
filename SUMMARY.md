@@ -49,6 +49,5 @@
 
 * [Contribute](get-involved/contribute.md)
 * [Community Discord](https://discord.com/invite/olympusdao)
-* [DAO Discord](https://discord.com/invite/42xFV68uEf)
 * [Forum](https://forum.olympusdao.finance)
 
