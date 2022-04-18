@@ -1,5 +1,4 @@
 # Table of contents
-* [Introduction](README.md)
 
 ## Basics
 * [Staking](basics/staking.md)
@@ -24,6 +23,7 @@
 
 ## Literature & Content
 * [Media](literature-content/media.md)
+* [Papers](literature-content/papers.md)
 * [Links](references/links.md)
 * [Architecture](references/architecture.md)
 * [Equations](references/equations.md)
@@ -43,7 +43,6 @@
 * [Treasury](contracts/treasury.md)
 
 ## Get Involved
-
 * [Contribute](get-involved/contribute.md)
 * [Community Discord](https://discord.com/invite/olympusdao)
 * [Forum](https://forum.olympusdao.finance)
