@@ -2,7 +2,6 @@
 * [Introduction](README.md)
 
 ## Basics
-`FAQ/basics.md being removed for the time being, will get revamped`
 * [Staking](basics/staking.md)
 * [Bonding](basics/bonding.md)
 * [Treasury](basics/treasury_basics.md)
@@ -12,7 +11,6 @@
   * [OlyZaps](basics/olyzaps.md)
 
 ## Using the Website
-`stake&unstake lp tokens pages getting removed`
 * [Stake Your OHM \(3, 3\)](using-the-website/staking.md)
 * [Purchase A Bond \(1, 1\)](using-the-website/bonds/README.md)
   * [DAI Bond](using-the-website/bonds/bond_dai.md)
@@ -25,7 +23,6 @@
 * [OlyZaps](using-the-website/olyzaps.md)
 
 ## Literature & Content
- `need to create 2 new pages (podcasts, papers)`
 * [Podcasts] // need to embed 4 podcasts 
 * [Links](references/links.md)
 * [Architecture](references/architecture.md)
