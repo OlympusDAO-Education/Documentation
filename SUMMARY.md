@@ -23,7 +23,7 @@
 * [OlyZaps](using-the-website/olyzaps.md)
 
 ## Literature & Content
-* [Podcasts] // need to embed 4 podcasts 
+* [Media](literature-content/media.md)
 * [Links](references/links.md)
 * [Architecture](references/architecture.md)
 * [Equations](references/equations.md)
