@@ -19,8 +19,7 @@ What are reserve currencies designed to achieve?
 * Utilized as a unit of account: Other assets are denominated in the currency
 * Reserve assets serve as trusted backing: The currency is viewed as reliable and relatively low risk, which encourages entities to hold large quantities of it in reserve
 
-Currently, Olympus is early on its journey to secure OHM’s status as a decentralized reserve currency. The Olympus12 Action Plan outlines the concrete steps the DAO is taking to make this vision a reality in 2022, including making OHM as automated and governance-minimized as possible.
-`link to olympus12 action plan`
+Currently, Olympus is early on its journey to secure OHM’s status as a decentralized reserve currency. The [Olympus12 Action Plan](https://olympusdao.medium.com/olympus12-building-a-strong-ecosystem-around-a-web3-native-reserve-currency-416f58175e74) outlines the concrete steps the DAO is taking to make this vision a reality in 2022, including making OHM as automated and governance-minimized as possible.
 
 ## Why is there a need for a reserve currency in DeFi?
 

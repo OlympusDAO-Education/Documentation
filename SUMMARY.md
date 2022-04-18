@@ -1,5 +1,5 @@
 # Table of contents
-
+* [Introduction](/README.md)
 ## Basics
 * [Staking](basics/staking.md)
 * [Bonding](basics/bonding.md)
