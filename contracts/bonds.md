@@ -1,13 +1,13 @@
 # Bonds
 
 The rollout of [V2 bonds](https://olympusdao.medium.com/introducing-v2-bonds-a17c7da298a2)
-requires a re-design of the bond contract. With this, V1 bonds have been
+required a re-design of the bond contract. V1 bonds have hence been
 deprecated, but their contracts are still listed here for reference.
 
 # V2 Bonds
 
 There is only one V2 bond contract, which manages bonds of various types (e.g.
-OHM-DAI LP bonds, FRAX bonds).
+OHM-DAI LP bonds, FRAX reserve bonds etc.).
 
 * [0x9025...1ef6](https://etherscan.io/address/0x9025046c6fb25fb39e720d97a8fd881ed69a1ef6)
 
@@ -23,12 +23,9 @@ are for instance the
 individual payout.
 
 The bond contracts are listed by version, where the latest version represents
-the currently active contract.
-
-## CVX Bond
-
-* V1 [0x6754...1920](https://etherscan.io/address/0x6754c69fe02178f54ADa19Ebf1C5569826021920)
-* V2 [0x767e...e0a9](https://etherscan.io/address/0x767e3459a35419122e5f6274fb1223d75881e0a9)
+the last active V1 bond contract. These are kept for reference.
+Starting with V2, all bonds now share one address 
+[0x9025...1ef6](https://etherscan.io/address/0x9025046c6fb25fb39e720d97a8fd881ed69a1ef6).
 
 ## DAI Bond
 
@@ -36,12 +33,15 @@ the currently active contract.
 * V2 [0xd030...f045](https://etherscan.io/address/0xd03056323b7a63e2095ae97fa1ad92e4820ff045)
 * V3 [0x5754...381c](https://etherscan.io/address/0x575409F8d77c12B05feD8B455815f0e54797381c)
 
+## CVX Bond
+
+* V1 [0x6754...1920](https://etherscan.io/address/0x6754c69fe02178f54ADa19Ebf1C5569826021920)
+* V2 [0x767e...e0a9](https://etherscan.io/address/0x767e3459a35419122e5f6274fb1223d75881e0a9)
+
 ## ETH Bond
 
 Since ETH is not an ERC-20 token itself, our ETH bonds utilize
-[wETH](https://weth.io/). All things being equal to our other bond types, the
-only exception for ETH bonds is that we do not mint OHM against wETH taken in to
-begin with.
+[wETH](https://weth.io/). 
 
 * V1 [0x7464...d90d](https://etherscan.io/address/0x7464a65aa3fc15a625e2adfb8b340277d804d90d)
 * V2 [0xE629...6F1c](https://etherscan.io/address/0xE6295201CD1ff13CeD5f063a5421c39A1D236F1c)
@@ -76,7 +76,8 @@ begin with.
 
 The redeem helper contract is configured with all active bond contract
 addresses. When calling `redeemAll` all claimable bond rewards are redeemed for
-the given recipient. Below are listed redeem helper contracts by version, where
-the latest version represents the currently active contract.
+the given recipient. Below are listed redeem helper contracts by version for the V1 bonds. 
+Starting with V2, all bonds can be redeemed calling `redeemAll` on the V2 bond contract
+[0x9025...1ef6](https://etherscan.io/address/0x9025046c6fb25fb39e720d97a8fd881ed69a1ef6).
 
 * V1 [0xE1e8...819E](https://etherscan.io/address/0xE1e83825613DE12E8F0502Da939523558f0B819E)
