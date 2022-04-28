@@ -6,8 +6,8 @@
 * [Treasury](basics/treasury_basics.md)
 * [V2 Migration](basics/migration.md)
 * [Inverse Bonds](basics/inverse-bonds.md)
-  * [Olympus Give](basics/olympusgive.md)
-  * [OlyZaps](basics/olyzaps.md)
+* [Olympus Give](basics/olympusgive.md)
+* [OlyZaps](basics/olyzaps.md)
 
 ## Using the Website
 * [Stake Your OHM \(3, 3\)](using-the-website/staking.md)
