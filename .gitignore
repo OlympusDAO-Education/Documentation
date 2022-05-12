@@ -1,2 +1,3 @@
 # Windows' auto-generated config files
 *.ini
+node_modules
