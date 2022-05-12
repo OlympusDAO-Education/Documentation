@@ -1,36 +1,39 @@
 flowchart LR
+%% Nodes
     Staking:::gold
-    click Staking "https://etherscan.io/address/0xB63cac384247597756545b500253ff8E607a8020" _blank
     OHM:::dark
-    click OHM "https://etherscan.io/address/0x64aa3364f17a4d01c6f1751fd97c2bd3d7e7f1d5" _blank
     sOHM:::dark
-    click sOHM "https://etherscan.io/address/0x04906695D6D12CF5459975d7C3C03356E4Ccd460" _blank
     gOHM:::dark
-    click gOHM "https://etherscan.io/address/0x0ab87046fBb341D058F17CBC4c1133F25a20a52f" _blank
     StakingDistributor[Staking Distributor]:::gold
-    click StakingDistributor "https://etherscan.io/address/0xeeeb97A127a342656191E0313DF33D58D06B2E05" _blank
     BondDepository[Bond Depository]:::blue
-    click BondDepository "https://etherscan.io/address/0x9025046c6fb25Fb39e720d97a8FD881ED69a1Ef6" _blank
     Treasury:::blue
-    click Treasury "https://etherscan.io/address/0x245cc372C84B3645Bf0Ffe6538620B04a217988B" _blank
     TreasuryExtender[Treasury Extender]:::blue
+%% Click Handlers
+    click Staking "https://etherscan.io/address/0xB63cac384247597756545b500253ff8E607a8020" _blank
+    click OHM "https://etherscan.io/address/0x64aa3364f17a4d01c6f1751fd97c2bd3d7e7f1d5" _blank
+    click sOHM "https://etherscan.io/address/0x04906695D6D12CF5459975d7C3C03356E4Ccd460" _blank
+    click gOHM "https://etherscan.io/address/0x0ab87046fBb341D058F17CBC4c1133F25a20a52f" _blank
+    click StakingDistributor "https://etherscan.io/address/0xeeeb97A127a342656191E0313DF33D58D06B2E05" _blank
+    click BondDepository "https://etherscan.io/address/0x9025046c6fb25Fb39e720d97a8FD881ED69a1Ef6" _blank
+    click Treasury "https://etherscan.io/address/0x245cc372C84B3645Bf0Ffe6538620B04a217988B" _blank
     click TreasuryExtender "https://etherscan.io/address/0xb32Ad041f23eAfd682F57fCe31d3eA4fd92D17af" _blank
+%% Links
     Treasury-->|mint:<br />mints new OHM|OHM
     Treasury-->|changeDebt:<br />informs about use of incurDebt|sOHM
     TreasuryExtender-->|requestFundsFromTreasury:<br />withdraws tokens to send to allocator|Treasury
     TreasuryExtender-->|returnFundsToTreasury:<br />returns funds from allocator|Treasury
     TreasuryExtender-->|returnRewardsToTreasury:<br />returns rewards funds from allocator|Treasury
-    Staking-->|stake: exchanges OHM for sOHM|OHM
-    Staking-->|unstake: transfers OHM to the sender|OHM
-    Staking-->|unstake: exchanges sOHM for OHM|sOHM
-    Staking-->|wrap: Mints gOHM from sOHM|gOHM
-    Staking-->|unwrap: burns gOHM for sOHM|gOHM
-    Staking-->|rebase: Triggers rebase at the end of an epoch|sOHM
-    Staking-->|rebase: Mint OHM rewards|StakingDistributor
-    StakingDistributor-->|distribute: Distributes OHM rewards to stakers|Treasury
-    StakingDistributor-->|retrieveBounty: Mints OHM rewards|Treasury
-    BondDepository-->|deposit: Transfers bond quote token|Treasury
-
+    Staking-->|stake:<br />exchanges OHM for sOHM|OHM
+    Staking-->|unstake:<br />transfers OHM to the sender|OHM
+    Staking-->|unstake:<br />exchanges sOHM for OHM|sOHM
+    Staking-->|wrap:<br />Mints gOHM from sOHM|gOHM
+    Staking-->|unwrap:<br />burns gOHM for sOHM|gOHM
+    Staking-->|rebase:<br />Triggers rebase at the end of an epoch|sOHM
+    Staking-->|rebase:<br />Mint OHM rewards|StakingDistributor
+    StakingDistributor-->|distribute:<br />Distributes OHM rewards to stakers|Treasury
+    StakingDistributor-->|retrieveBounty:<br />Mints OHM rewards|Treasury
+    BondDepository-->|deposit:<br />Transfers bond quote token|Treasury
+%% Styling
     classDef blue fill:#798399,color:#fafafb;
     classDef dark fill:#1b232f,color:#fafafb;
     classDef gold fill:#f8cc82,color:#181a1d;
