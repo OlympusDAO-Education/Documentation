@@ -1,0 +1,28 @@
+flowchart LR
+%%{init:{'flowchart':{'nodeSpacing': 300}}}%%
+%% Nodes
+    InternalDiscussion([Internal Discussion])
+    Quorom{Quorum &<br>Consensus}
+    ActionableVote(Actionable vote<br>in #vote-tr)
+    PolicyVote(Policy members<br>explain votes)
+    VotePassed{Vote<br>Passed?}
+    ProposalNeeded{Whitelist/<br>Proposal<br>Needed?}
+    ProposalSnapshot(Proposal &<br>snapshot)
+    ProposalPassed{Proposal<br>Passed?}
+    CommunicateChange(Communicate Change)
+    ImplementPolicy([Implement Policy])
+%% Edges
+    InternalDiscussion-->Quorom
+    Quorom-->|No|InternalDiscussion
+    Quorom-->|Yes|ActionableVote
+    ActionableVote-->PolicyVote
+    PolicyVote-->VotePassed
+    VotePassed-->|No|InternalDiscussion
+    VotePassed-->|Yes|ProposalNeeded
+    ProposalNeeded-->|No|CommunicateChange
+    ProposalNeeded-->|Yes|ProposalSnapshot
+    ProposalSnapshot-->ProposalPassed
+    ProposalPassed-->|No|InternalDiscussion
+    ProposalPassed-->|Yes|CommunicateChange
+    CommunicateChange-->ImplementPolicy
+%% Styles
