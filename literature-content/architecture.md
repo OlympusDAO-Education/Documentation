@@ -12,3 +12,7 @@
 
 ![](../.gitbook/assets/staking.png)
 
+## Contracts
+
+{% mermaid src="./contracts.mmd" %}
+{% endmermaid %}
