@@ -1,0 +1,29 @@
+flowchart LR
+%%{init:{'flowchart':{'nodeSpacing': 300}}}%%
+%% Nodes
+    Application([Application])
+    InitialReview(Initial Review)
+    InitialReviewAdvance(Should<br>advance?)
+    DueDiligence(Due Diligence)
+    DueDiligenceAdvance(Should<br>advance?)
+    DAOFeedback(DAO-wide Consulation with Core, Strategoes and Leads)
+    DAOFeedbackAdvance(Should<br>advance?)
+    CommitteeVote(Committee Vote)
+    CommitteeVoteDecision(Should<br>advance?)
+    GranteeAdded(Grantee Added to Give)
+    Pass([Pass])
+%% Edges
+    Application-->InitialReview
+    InitialReview-->InitialReviewAdvance
+    InitialReviewAdvance-->|No|Pass
+    InitialReviewAdvance-->|Yes|DueDiligence
+    DueDiligence-->DueDiligenceAdvance
+    DueDiligenceAdvance-->|No|Pass
+    DueDiligenceAdvance-->|Yes|DAOFeedback
+    DAOFeedback-->DAOFeedbackAdvance
+    DAOFeedbackAdvance-->|No|Pass
+    DAOFeedbackAdvance-->|Yes|CommitteeVote
+    CommitteeVote-->CommitteeVoteDecision
+    CommitteeVoteDecision-->|No|Pass
+    CommitteeVoteDecision-->|Yes|GranteeAdded
+%% Styles
