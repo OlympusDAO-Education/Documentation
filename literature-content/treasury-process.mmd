@@ -1,0 +1,38 @@
+flowchart LR
+%%{init:{'flowchart':{'nodeSpacing': 300}}}%%
+%% Nodes
+    InternalDiscussion([Internal Discussion])
+    NewProposal(Open a new<br>proposal-focused<br>thread & post all<br>relevant information)
+    Quorom{Quorum &<br>Consensus}
+    TeamInput{Team<br>members<br>provided<br>input?}
+    ActionableVote(Actionable vote<br>in #vote-tr)
+    TreasuryVote(Treasury team<br>members vote &<br>explain)
+    VotePassed{Vote<br>Passed?}
+    ProposalNeeded{Whitelist/<br>Proposal<br>Needed?}
+    ProposalSnapshot(Proposal &<br>snapshot)
+    ProposalPassed{Proposal<br>Passed?}
+    AllocatorsNeeded{Allocators<br>Needed?}
+    NotifyMultisig(Notify Multisig)
+    NotifyEngineering(Notify Engineering)
+    FundsAllocation([Funds Allocation])
+%% Edges
+    InternalDiscussion-->NewProposal
+    NewProposal-->Quorom
+    Quorom-->|No|TeamInput
+    TeamInput-->|No|ActionableVote
+    TeamInput-->|Yes|InternalDiscussion
+    Quorom-->|Yes|ActionableVote
+    ActionableVote-->TreasuryVote
+    TreasuryVote-->VotePassed
+    VotePassed-->|No|InternalDiscussion
+    VotePassed-->|Yes|ProposalNeeded
+    ProposalNeeded-->|No|AllocatorsNeeded
+    ProposalNeeded-->|Yes|ProposalSnapshot
+    ProposalSnapshot-->ProposalPassed
+    ProposalPassed-->|No|InternalDiscussion
+    ProposalPassed-->|Yes|AllocatorsNeeded
+    AllocatorsNeeded-->|No|NotifyMultisig
+    AllocatorsNeeded-->|Yes|NotifyEngineering
+    NotifyEngineering-->NotifyMultisig
+    NotifyMultisig-->FundsAllocation
+%% Styles
