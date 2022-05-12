@@ -1,0 +1,8 @@
+{
+  "dependencies": {
+    "mermaid": "^9.0.1"
+  },
+  "devDependencies": {
+    "@mermaid-js/mermaid-cli": "^9.0.3"
+  }
+}
