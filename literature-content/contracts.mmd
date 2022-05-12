@@ -1,4 +1,5 @@
 flowchart LR
+%%{init:{'flowchart':{'nodeSpacing': 200}}}%%
 %% Nodes
     Staking:::gold
     OHM:::dark
@@ -33,7 +34,7 @@ flowchart LR
     StakingDistributor-->|distribute:<br />Distributes OHM rewards to stakers|Treasury
     StakingDistributor-->|retrieveBounty:<br />Mints OHM rewards|Treasury
     BondDepository-->|deposit:<br />Transfers bond quote token|Treasury
-%% Styling
+%% Styling Definitions
     classDef blue fill:#798399,color:#fafafb;
     classDef dark fill:#1b232f,color:#fafafb;
     classDef gold fill:#f8cc82,color:#181a1d;
