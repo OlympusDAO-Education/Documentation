@@ -23,7 +23,7 @@
 * [Media](literature-content/media.md)
 * [Papers](literature-content/papers.md)
 * [Links](references/links.md)
-* [Architecture](references/architecture.md)
+* [Architecture](literature-content/architecture.md)
 * [Treasury Process](literature-content/treasury-process.md)
 * [Policy Process](literature-content/policy-process.md)
 * [Grant Process](literature-content/grant-process.md)
