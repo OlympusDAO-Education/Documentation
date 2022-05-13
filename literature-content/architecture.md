@@ -18,7 +18,6 @@ Olympus has numerous contracts that work together to provide the required functi
 
 The diagram below illustrates the interactions between each contract.
 
-{% mermaid src="./contracts.mmd" %}
-{% endmermaid %}
+![Contracts Diagram](./contracts.svg)
 
 Click on any contract name to see details and transactions on Etherscan.
