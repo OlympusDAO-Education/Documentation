@@ -6,6 +6,6 @@
     "@mermaid-js/mermaid-cli": "^9.0.3"
   },
   "scripts": {
-    "mermaid:generate": "yarn run mmdc -i literature-content/contracts.mmd -o literature-content/contracts.svg && yarn run mmdc -i literature-content/grant-process.mmd -o literature-content/grant-process.svg && yarn run mmdc -i literature-content/policy-process.mmd -o literature-content/policy-process.svg && yarn run mmdc -i literature-content/treasury-process.mmd -o literature-content/treasury-process.svg"
+    "mermaid:generate": "yarn run mmdc -i contracts/interactions.mmd -o contracts/interactions.svg && yarn run mmdc -i literature-content/grant-process.mmd -o literature-content/grant-process.svg && yarn run mmdc -i literature-content/policy-process.mmd -o literature-content/policy-process.svg && yarn run mmdc -i literature-content/treasury-process.mmd -o literature-content/treasury-process.svg"
   }
 }

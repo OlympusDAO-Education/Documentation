@@ -34,6 +34,7 @@
 
 ## Contracts
 
+* [Interactions](contracts/interactions.md)
 * [Allocators](contracts/allocators.md)
 * [Audits](contracts/audits.md)
 * [Bonds](contracts/bonds.md)
