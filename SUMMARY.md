@@ -22,15 +22,19 @@
 ## Literature & Content
 * [Media](literature-content/media.md)
 * [Papers](literature-content/papers.md)
-* [Links](references/links.md)
-* [Architecture](references/architecture.md)
-* [Equations](references/equations.md)
-* [Glossary](references/glossary.md)
+* [Links](literature-content/links.md)
+* [Architecture](literature-content/architecture.md)
+* [Treasury Process](literature-content/treasury-process.md)
+* [Policy Process](literature-content/policy-process.md)
+* [Grant Process](literature-content/grant-process.md)
+* [Equations](literature-content/equations.md)
+* [Glossary](literature-content/glossary.md)
 * [Economic Productivity in Digital Media](whitepapers/economic-productivity.md)
 * [Olympus Game Theory](whitepapers/game-theory.md)
 
 ## Contracts
 
+* [Interactions](contracts/interactions.md)
 * [Allocators](contracts/allocators.md)
 * [Audits](contracts/audits.md)
 * [Bonds](contracts/bonds.md)

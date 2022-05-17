@@ -11,4 +11,3 @@
 ## Staking
 
 ![](../.gitbook/assets/staking.png)
-

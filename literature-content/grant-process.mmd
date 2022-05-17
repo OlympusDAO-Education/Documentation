@@ -1,0 +1,32 @@
+flowchart LR
+%%{init:{'flowchart':{'nodeSpacing': 300}}}%%
+%% Nodes
+    Application([Application]):::gold
+    InitialReview(Initial Review):::blue
+    InitialReviewAdvance{Should<br>advance?}:::dark
+    DueDiligence(Due Diligence):::blue
+    DueDiligenceAdvance{Should<br>advance?}:::dark
+    DAOFeedback(DAO-wide Consulation with Core, Strategoes and Leads):::blue
+    DAOFeedbackAdvance{Should<br>advance?}:::dark
+    CommitteeVote(Committee Vote):::blue
+    CommitteeVoteDecision{Should<br>advance?}:::dark
+    GranteeAdded(Grantee Added to Give):::gold
+    Pass([Pass]):::gold
+%% Edges
+    Application-->InitialReview
+    InitialReview-->InitialReviewAdvance
+    InitialReviewAdvance-->|No|Pass
+    InitialReviewAdvance-->|Yes|DueDiligence
+    DueDiligence-->DueDiligenceAdvance
+    DueDiligenceAdvance-->|No|Pass
+    DueDiligenceAdvance-->|Yes|DAOFeedback
+    DAOFeedback-->DAOFeedbackAdvance
+    DAOFeedbackAdvance-->|No|Pass
+    DAOFeedbackAdvance-->|Yes|CommitteeVote
+    CommitteeVote-->CommitteeVoteDecision
+    CommitteeVoteDecision-->|No|Pass
+    CommitteeVoteDecision-->|Yes|GranteeAdded
+%% Styles
+    classDef blue fill:#798399,color:#fafafb;
+    classDef dark fill:#1b232f,color:#fafafb;
+    classDef gold fill:#f8cc82,color:#181a1d;

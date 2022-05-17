@@ -1,0 +1,31 @@
+flowchart LR
+%%{init:{'flowchart':{'nodeSpacing': 300}}}%%
+%% Nodes
+    InternalDiscussion([Internal Discussion]):::gold
+    Quorom{Quorum &<br>Consensus}:::dark
+    ActionableVote(Actionable vote<br>in #vote-tr):::blue
+    PolicyVote(Policy members<br>explain votes):::blue
+    VotePassed{Vote<br>Passed?}:::dark
+    ProposalNeeded{Whitelist/<br>Proposal<br>Needed?}:::dark
+    ProposalSnapshot(Proposal &<br>snapshot):::blue
+    ProposalPassed{Proposal<br>Passed?}:::dark
+    CommunicateChange(Communicate Change):::blue
+    ImplementPolicy([Implement Policy]):::gold
+%% Edges
+    InternalDiscussion-->Quorom
+    Quorom-->|No|InternalDiscussion
+    Quorom-->|Yes|ActionableVote
+    ActionableVote-->PolicyVote
+    PolicyVote-->VotePassed
+    VotePassed-->|No|InternalDiscussion
+    VotePassed-->|Yes|ProposalNeeded
+    ProposalNeeded-->|No|CommunicateChange
+    ProposalNeeded-->|Yes|ProposalSnapshot
+    ProposalSnapshot-->ProposalPassed
+    ProposalPassed-->|No|InternalDiscussion
+    ProposalPassed-->|Yes|CommunicateChange
+    CommunicateChange-->ImplementPolicy
+%% Styles
+    classDef blue fill:#798399,color:#fafafb;
+    classDef dark fill:#1b232f,color:#fafafb;
+    classDef gold fill:#f8cc82,color:#181a1d;

@@ -1,0 +1,41 @@
+flowchart LR
+%%{init:{'flowchart':{'nodeSpacing': 300}}}%%
+%% Nodes
+    InternalDiscussion([Internal Discussion]):::gold
+    NewProposal(Open a new<br>proposal-focused<br>thread & post all<br>relevant information):::blue
+    Quorom{Quorum &<br>Consensus}:::dark
+    TeamInput{Team<br>members<br>provided<br>input?}:::dark
+    ActionableVote(Actionable vote<br>in #vote-tr):::blue
+    TreasuryVote(Treasury team<br>members vote &<br>explain):::blue
+    VotePassed{Vote<br>Passed?}:::dark
+    ProposalNeeded{Whitelist/<br>Proposal<br>Needed?}:::dark
+    ProposalSnapshot(Proposal &<br>snapshot):::blue
+    ProposalPassed{Proposal<br>Passed?}:::dark
+    AllocatorsNeeded{Allocators<br>Needed?}:::dark
+    NotifyMultisig(Notify Multisig):::blue
+    NotifyEngineering(Notify Engineering):::blue
+    FundsAllocation([Funds Allocation]):::gold
+%% Edges
+    InternalDiscussion-->NewProposal
+    NewProposal-->Quorom
+    Quorom-->|No|TeamInput
+    TeamInput-->|No|ActionableVote
+    TeamInput-->|Yes|InternalDiscussion
+    Quorom-->|Yes|ActionableVote
+    ActionableVote-->TreasuryVote
+    TreasuryVote-->VotePassed
+    VotePassed-->|No|InternalDiscussion
+    VotePassed-->|Yes|ProposalNeeded
+    ProposalNeeded-->|No|AllocatorsNeeded
+    ProposalNeeded-->|Yes|ProposalSnapshot
+    ProposalSnapshot-->ProposalPassed
+    ProposalPassed-->|No|InternalDiscussion
+    ProposalPassed-->|Yes|AllocatorsNeeded
+    AllocatorsNeeded-->|No|NotifyMultisig
+    AllocatorsNeeded-->|Yes|NotifyEngineering
+    NotifyEngineering-->NotifyMultisig
+    NotifyMultisig-->FundsAllocation
+%% Styles
+    classDef blue fill:#798399,color:#fafafb;
+    classDef dark fill:#1b232f,color:#fafafb;
+    classDef gold fill:#f8cc82,color:#181a1d;
