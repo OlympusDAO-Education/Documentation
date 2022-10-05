@@ -48,9 +48,8 @@ Navigate to https://app.bondprotocol.finance/ and follow instructions Bond Proto
 Earliest available participation date: October 5th
 
 ## Participating via Gnosis UI
-### Bidding Token: OHM token (0x64aa3364F17a4D01c6f1751Fd97C2BD3D7e7f1D5)
-### Auction Token: (available once deployed)
-#### Instructions: 
-Navigate to LINK and follow instructions Gnosis Auction Guide
-At conclusion of auction (7 days), a clearing price will be determined and, if you win, you will receive Auction Token.
+## Bidding Token: OHM token (0x64aa3364F17a4D01c6f1751Fd97C2BD3D7e7f1D5)
+## Auction Token: (available once deployed)
+### Instructions: 
+
 Earliest available participation date: October 12th
