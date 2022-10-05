@@ -41,15 +41,16 @@ Price discovery - Sequential Dutch Auction locks the price at your chosen market
 Canceling orders - With Gnosis Auction, you can cancel your limit order right up to the auction close. With Sequential Dutch Auction, you secure a bond at the time of purchase.
 
 ## Participating via Bond Protocol UI
-### Bidding Token: OHM token (0x64aa3364F17a4D01c6f1751Fd97C2BD3D7e7f1D5)
-### Auction Token: (available once deployed)
-####Instructions: 
+## Bidding Token: OHM token (0x64aa3364F17a4D01c6f1751Fd97C2BD3D7e7f1D5)
+## Auction Token: (available once deployed)
+## Instructions: 
 Navigate to https://app.bondprotocol.finance/ and follow instructions Bond Protocol Auction Guide
 Earliest available participation date: October 5th
 
 ## Participating via Gnosis UI
 ## Bidding Token: OHM token (0x64aa3364F17a4D01c6f1751Fd97C2BD3D7e7f1D5)
 ## Auction Token: (available once deployed)
-### Instructions: 
-
+## Instructions: 
+Navigate to https://gnosis-auction.eth.link/#/overview#topAnchor and follow instructions Gnosis Auction Guide
 Earliest available participation date: October 12th
+At conclusion of auction (7 days), a clearing price will be determined and, if you win, you will receive Auction Token.
