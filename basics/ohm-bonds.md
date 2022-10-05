@@ -53,4 +53,4 @@ Earliest available participation date: October 5th
 ## Instructions: 
 Navigate to https://gnosis-auction.eth.link/#/overview#topAnchor and follow instructions Gnosis Auction Guide
 Earliest available participation date: October 12th
-At conclusion of auction (7 days), a clearing price will be determined and, if you win, you will receive Auction Token.
+At conclusion of auction (7 days), a clearing price will be determined and, if you win, you will receive Auction Token. 
