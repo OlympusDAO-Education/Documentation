@@ -5,7 +5,7 @@
 * [Basics](README.md)
 * [Staking](basics/staking.md)
 * [Bonding](basics/bonding.md)
-* [OHM Bonds](basics/ohm-bonds.md)\
+* [OHM Bonds](basics/ohm-bonds.md)
 * [Treasury](basics/treasury\_basics.md)
 * [V2 Migration](basics/migration.md)
 * [Inverse Bonds](basics/inverse-bonds.md)
@@ -34,7 +34,7 @@
 * [Grant Process](literature-content/grant-process.md)
 * [Equations](literature-content/equations.md)
 * [Glossary](literature-content/glossary.md)
-* [Economic Productivity in Digital Media](whitepapers/economic-productivity.md)
+* [Economic Productivity in Digital Media](literature-and-content/economic-productivity-in-digital-media.md)
 * [Olympus Game Theory](whitepapers/game-theory.md)
 
 ## Contracts
