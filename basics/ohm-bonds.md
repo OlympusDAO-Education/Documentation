@@ -18,7 +18,6 @@ NOTE: If you can’t secure a bond, do not worry. You’ll have a second opportu
 Per [OIP-114 (Tantalus)](https://forum.olympusdao.finance/d/1328-oip-114-tantalus-testing-ohm-bonds), Olympus will be conducting a trial run of OHM bonds. The goal will be to understand the market demand for OHM bonds and analyze the relationship between discount rate and bond maturity by utilizing two different maturity lengths. This testing and analysis will be important data to inform the development of the bond markets and the transition to a bond-centric Olympus protocol.
 
 ## Setup
-Setup
 We will be utilizing two auction mechanisms for price discovery: Sequential Dutch Auction (also known as Olympus-style Bond Auction) and Gnosis Auction. You can learn more about each mechanism in Bond Protocol Guide and Gnosis Auction Guide.
 
 Each auction will launch with two bond markets: 1) fixed-maturity dated 14-day after market launch, and 2) fixed-maturity dated 28-day after market launch. Users will be able to bond OHM and receive an ERC-20 bond token. At maturity, the bond token can be redeemed for OHM. Capacity for each bond market will be 10,000 OHM. 
@@ -48,11 +47,17 @@ Price discovery - Sequential Dutch Auction locks the price at your chosen market
 
 Canceling orders - With Gnosis Auction, you can cancel your limit order right up to the auction close. With Sequential Dutch Auction, you secure a bond at the time of purchase.
 
+
 ## Participating via Olymous UI
+
 - Bidding Token: OHM token (0x64aa3364F17a4D01c6f1751Fd97C2BD3D7e7f1D5)
+
 - Auction Token: (available once deployed)
+
 **Instructions:**
+
 Navigate to [Olympus UI](https://app.olympusdao.finance/#/bonds)
+
 Earliest available participation date: October 6th
 
 
