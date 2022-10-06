@@ -8,7 +8,7 @@ Alternatively users can find these bonds on the [Bond Protocol dApp.](https://ap
 
 If you need guidance on using Bond Protocol, check out the [docs.](https://docs.bondprotocol.finance/bond-marketplace/purchasing-a-bond)
 
-We have included a chart to help you compare OHM Bond discounts in relation to existing staking rates. For more detailed information, make a copy of [this Google Sheet] (https://ohm.fyi/8fr)
+We have included a chart to help you compare OHM Bond discounts in relation to existing staking rates. For more detailed information, make a copy of [this Google Sheet](https://ohm.fyi/8fr)
 
 NOTE: If you can’t secure a bond, do not worry. You’ll have a second opportunity next week, October 12th, through the Gnosis Auction. We’ll share more information next week.
 
