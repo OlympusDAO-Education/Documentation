@@ -29,7 +29,7 @@ On **Wed, October 6th:** launch 2 Sequential Dutch Auction markets on Bond Proto
 
 On **Wed, October 13th:** launch 2 Gnosis Auction markets, one with November 3rd, 2022 maturity and another with November 17th, 2022 maturity. The reason for a 7-day added lag is because of how Gnosis Auctions determine clearing price.
 
-!(../../.gitbook/assets/auctionexplainer.png)
+![Auction details](../../.gitbook/assets/auctionexplainer.png)
 
 Keep in mind that Gnosis Auction requires a total minimum interest of 1,000 OHM to close successfully, otherwise all funds will be distributed back. 
 
