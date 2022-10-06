@@ -5,7 +5,6 @@
 * [Basics](README.md)
 * [Staking](basics/staking.md)
 * [Bonding](basics/bonding.md)
-* [OHM Bonds](basics/ohm-bonds.md)
 * [Treasury](basics/treasury\_basics.md)
 * [V2 Migration](basics/migration.md)
 * [Inverse Bonds](basics/inverse-bonds.md)
