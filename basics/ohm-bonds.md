@@ -1,4 +1,5 @@
-**Per OIP-114, OlympusDAO has launched two OHM Bond markets!
+
+**Per OIP-114, OlympusDAO has launched two OHM Bond markets!**
 
 These bonds are available through the [Olympus dApp.](https://app.olympusdao.finance/#/bonds)
  
@@ -15,7 +16,7 @@ NOTE: If you can’t secure a bond, do not worry. You’ll have a second opportu
 ![Staking rate vs. OHM helper](../../.gitbook/assets/staking-rate-vs-ohm-helper.png)
 
 ## Context
-Per OIP-114 (Tantalus), Olympus will be conducting a trial run of OHM bonds. The goal will be to understand the market demand for OHM bonds and analyze the relationship between discount rate and bond maturity by utilizing two different maturity lengths. This testing and analysis will be important data to inform the development of the bond markets and the transition to a bond-centric Olympus protocol.
+Per [OIP-114 (Tantalus)](https://forum.olympusdao.finance/d/1328-oip-114-tantalus-testing-ohm-bonds), Olympus will be conducting a trial run of OHM bonds. The goal will be to understand the market demand for OHM bonds and analyze the relationship between discount rate and bond maturity by utilizing two different maturity lengths. This testing and analysis will be important data to inform the development of the bond markets and the transition to a bond-centric Olympus protocol.
 
 ## Setup
 Setup
@@ -41,32 +42,38 @@ We will run Gnosis Auction bond markets through the Gnosis website, available vi
 
 The first bond market launches October 12th.
 
-
 Unsure about which auction to participate in? Here are some considerations for you to make an informed decision:
 
 Price discovery - Sequential Dutch Auction locks the price at your chosen market discount. Gnosis Auction runs for 7 days and calculates a final clearing price based on all bids in that timeframe. 
 
 Canceling orders - With Gnosis Auction, you can cancel your limit order right up to the auction close. With Sequential Dutch Auction, you secure a bond at the time of purchase.
 
+
 ## Participating via Bond Protocol UI
 
-- Bidding Token: OHM token (0x64aa3364F17a4D01c6f1751Fd97C2BD3D7e7f1D5)
+- Bidding Token: OHM token *(0x64aa3364F17a4D01c6f1751Fd97C2BD3D7e7f1D5)*
+
 - Auction Token: (available once deployed)
 
-**Instructions**\
+**Instructions**
 
-Navigate to https://app.bondprotocol.finance/ and follow instructions Bond Protocol Auction Guide
+Navigate to [Bond Protocol app](https://app.bondprotocol.finance/) and follow instructions Bond Protocol Auction Guide
 
 Earliest available participation date: October 5th
 
+
 ## Participating via Gnosis UI
 
-- Bidding Token: OHM token (0x64aa3364F17a4D01c6f1751Fd97C2BD3D7e7f1D5)
+
+- Bidding Token: OHM token *(0x64aa3364F17a4D01c6f1751Fd97C2BD3D7e7f1D5)*
 
 - Auction Token: (available once deployed)
 
-**Instructions**\
+
+**Instructions**
 
 Navigate to [Gnosis](https://gnosis-auction.eth.link/#/overview#topAnchor) and follow instructions Gnosis Auction Guide
+
 Earliest available participation date: October 12th
+
 At conclusion of auction (7 days), a clearing price will be determined and, if you win, you will receive Auction Token. 
