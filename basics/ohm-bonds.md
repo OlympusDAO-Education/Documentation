@@ -35,11 +35,11 @@ Keep in mind that Gnosis Auction requires a total minimum interest of 1,000 OHM 
 
 
 # How can I participate?
-We will run Sequential Dutch Auction bond markets through the Bond Protocol website, available on the [Bond Protocol app] (https://app.bondprotocol.finance). The first bond market launches October 5th. 
+We will run Sequential Dutch Auction bond markets through the Bond Protocol website, available on the [Bond Protocol app] (https://app.bondprotocol.finance). The first bond market launches October 6th. 
 
 We will run Gnosis Auction bond markets through the Gnosis website, available via [Gnosis](https://gnosis-auction.eth.link/#/overview#topAnchor). 
 
-The first bond market launches October 12th.
+The first bond market launches October 13th.
 
 
 Unsure about which auction to participate in? Here are some considerations for you to make an informed decision:
