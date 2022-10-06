@@ -60,7 +60,7 @@ Canceling orders - With Gnosis Auction, you can cancel your limit order right up
 
 **Instructions**
 
-Navigate to https://app.bondprotocol.finance/ and follow instructions Bond Protocol Auction Guide
+Navigate to [https://app.bondprotocol.finance/] and follow instructions Bond Protocol Auction Guide
 
 Earliest available participation date: October 5th
 
@@ -74,7 +74,7 @@ Earliest available participation date: October 5th
 
 **Instructions**
 
-Navigate to [Gnosis](https://gnosis-auction.eth.link/#/overview#topAnchor) and follow instructions Gnosis Auction Guide
+Navigate to [Gnosis UI](https://gnosis-auction.eth.link/#/overview#topAnchor) and follow instructions Gnosis Auction Guide
 
 Earliest available participation date: October 12th
 
