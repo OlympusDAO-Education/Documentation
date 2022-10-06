@@ -1,3 +1,4 @@
+
 **Per OIP-114, OlympusDAO has launched two OHM Bond markets!**
 
 These bonds are available through the [Olympus dApp.](https://app.olympusdao.finance/#/bonds)
@@ -34,15 +35,12 @@ On **Wed, October 13th:** launch 2 Gnosis Auction markets, one with November 3rd
 Keep in mind that Gnosis Auction requires a total minimum interest of 1,000 OHM to close successfully, otherwise all funds will be distributed back. 
 
 
-
-
 ## How can I participate?
 We will run Sequential Dutch Auction bond markets through the Bond Protocol website, available on the [Bond Protocol app] (https://app.bondprotocol.finance). The first bond market launches October 5th. 
 
 We will run Gnosis Auction bond markets through the Gnosis website, available via [Gnosis](https://gnosis-auction.eth.link/#/overview#topAnchor). 
 
 The first bond market launches October 12th.
-
 
 Unsure about which auction to participate in? Here are some considerations for you to make an informed decision:
 
@@ -57,15 +55,15 @@ Canceling orders - With Gnosis Auction, you can cancel your limit order right up
 
 - Auction Token: (available once deployed)
 
-
 **Instructions**
 
-Navigate to https://app.bondprotocol.finance/ and follow instructions Bond Protocol Auction Guide
+Navigate to [Bond Protocol app](https://app.bondprotocol.finance/) and follow instructions Bond Protocol Auction Guide
 
 Earliest available participation date: October 5th
 
 
 ## Participating via Gnosis UI
+
 
 - Bidding Token: OHM token *(0x64aa3364F17a4D01c6f1751Fd97C2BD3D7e7f1D5)*
 
