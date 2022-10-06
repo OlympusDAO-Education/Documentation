@@ -24,10 +24,12 @@ We will be utilizing two auction mechanisms for price discovery: Sequential Dutc
 Each auction will launch with two bond markets: 1) fixed-maturity dated 14-day after market launch, and 2) fixed-maturity dated 28-day after market launch. Users will be able to bond OHM and receive an ERC-20 bond token. At maturity, the bond token can be redeemed for OHM. Capacity for each bond market will be 10,000 OHM. 
 
 The launch timeline is as follows:
-On Wed, October 5th: launch 2 Sequential Dutch Auction markets on Bond Protocol, one with October 19th, 2022 maturity, and another with November 2nd, 2022 maturity.
-On Wed, October 12th: launch 2 Gnosis Auction markets, one with November 2nd, 2022 maturity and another with November 16th, 2022 maturity. The reason for a 7-day added lag is because of how Gnosis Auctions determine clearing price.
 
-![Auction details](../../.gitbook/assets/ohm-bond-auction.png)
+On **Wed, October 6th:** launch 2 Sequential Dutch Auction markets on Bond Protocol, one with October 20th, 2022 maturity, and another with November 3rd, 2022 maturity.
+
+On **Wed, October 13th:** launch 2 Gnosis Auction markets, one with November 3rd, 2022 maturity and another with November 17th, 2022 maturity. The reason for a 7-day added lag is because of how Gnosis Auctions determine clearing price.
+
+![Auction details](../../.gitbook/assets/auction-details-updated.png)
 
 Keep in mind that Gnosis Auction requires a total minimum interest of 1,000 OHM to close successfully, otherwise all funds will be distributed back. 
 
@@ -57,12 +59,13 @@ Navigate to https://app.bondprotocol.finance/ and follow instructions Bond Proto
 Earliest available participation date: October 5th
 
 ## Participating via Gnosis UI
+
 - Bidding Token: OHM token (0x64aa3364F17a4D01c6f1751Fd97C2BD3D7e7f1D5)
 
 - Auction Token: (available once deployed)
 
 **Instructions**\
 
-Navigate to https://gnosis-auction.eth.link/#/overview#topAnchor and follow instructions Gnosis Auction Guide
+Navigate to [Gnosis](https://gnosis-auction.eth.link/#/overview#topAnchor) and follow instructions Gnosis Auction Guide
 Earliest available participation date: October 12th
 At conclusion of auction (7 days), a clearing price will be determined and, if you win, you will receive Auction Token. 
