@@ -29,14 +29,12 @@ On **Wed, October 6th:** launch 2 Sequential Dutch Auction markets on Bond Proto
 
 On **Wed, October 13th:** launch 2 Gnosis Auction markets, one with November 3rd, 2022 maturity and another with November 17th, 2022 maturity. The reason for a 7-day added lag is because of how Gnosis Auctions determine clearing price.
 
-![Auction details](../../.gitbook/assets/auction-details-updated.png)
+!(../../.gitbook/assets/auctionexplainer.png)
 
 Keep in mind that Gnosis Auction requires a total minimum interest of 1,000 OHM to close successfully, otherwise all funds will be distributed back. 
 
 
-
-
-## How can I participate?
+# How can I participate?
 We will run Sequential Dutch Auction bond markets through the Bond Protocol website, available on the [Bond Protocol app] (https://app.bondprotocol.finance). The first bond market launches October 5th. 
 
 We will run Gnosis Auction bond markets through the Gnosis website, available via [Gnosis](https://gnosis-auction.eth.link/#/overview#topAnchor). 
@@ -60,9 +58,9 @@ Canceling orders - With Gnosis Auction, you can cancel your limit order right up
 
 **Instructions**
 
-Navigate to [https://app.bondprotocol.finance/] and follow instructions Bond Protocol Auction Guide
+Navigate to [Bond Protocol UI](https://app.bondprotocol.finance/) and follow instructions Bond Protocol Auction Guide
 
-Earliest available participation date: October 5th
+Earliest available participation date: October 6th
 
 
 ## Participating via Gnosis UI
@@ -76,6 +74,6 @@ Earliest available participation date: October 5th
 
 Navigate to [Gnosis UI](https://gnosis-auction.eth.link/#/overview#topAnchor) and follow instructions Gnosis Auction Guide
 
-Earliest available participation date: October 12th
+Earliest available participation date: October 13th
 
 At conclusion of auction (7 days), a clearing price will be determined and, if you win, you will receive Auction Token. 
