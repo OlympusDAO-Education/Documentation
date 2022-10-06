@@ -15,7 +15,6 @@ NOTE: If you can’t secure a bond, do not worry. You’ll have a second opportu
 ![Staking rate vs. OHM helper](../../.gitbook/assets/staking-rate-vs-ohm-helper.png)
 
 ## Context
-
 Per [OIP-114 (Tantalus)](https://forum.olympusdao.finance/d/1328-oip-114-tantalus-testing-ohm-bonds), Olympus will be conducting a trial run of OHM bonds. The goal will be to understand the market demand for OHM bonds and analyze the relationship between discount rate and bond maturity by utilizing two different maturity lengths. This testing and analysis will be important data to inform the development of the bond markets and the transition to a bond-centric Olympus protocol.
 
 ## Setup
@@ -32,12 +31,17 @@ On **Wed, October 13th:** launch 2 Gnosis Auction markets, one with November 3rd
 
 ![Auction details](../../.gitbook/assets/auction-details-updated.png)
 
-Keep in mind that Gnosis Auction requires a total minimum interest of 1,000 OHM to close successfully, otherwise all funds will be distributed back. 
+Keep in mind that Gnosis Auction requires a total minimum interest of 1,000 OHM to close successfully, otherwise all funds will be distributed back.
 
-##How can I participate?
-We will run Sequential Dutch Auction bond markets through the Bond Protocol website, available at https://app.bondprotocol.finance. The first bond market launches October 6th. 
 
-We will run Gnosis Auction bond markets through the Gnosis website, available at [https://gnosis-auction.eth.link/#/overview#topAnchor]. The first bond market launches October 13th.
+
+## How can I participate?
+
+We will run Sequential Dutch Auction bond markets through the Bond Protocol website, available on the [Bond Protocol app] (https://app.bondprotocol.finance). The first bond market launches October 6th. 
+
+We will run Gnosis Auction bond markets through the Gnosis website, available at [https://gnosis-auction.eth.link/#/overview#topAnchor]
+
+The first bond market launches October 13th.
 
 Unsure about which auction to participate in? Here are some considerations for you to make an informed decision:
 
@@ -45,21 +49,24 @@ Price discovery - Sequential Dutch Auction locks the price at your chosen market
 
 Canceling orders - With Gnosis Auction, you can cancel your limit order right up to the auction close. With Sequential Dutch Auction, you secure a bond at the time of purchase.
 
+
 ## Participating via Bond Protocol UI
 
 - Bidding Token: OHM token *(0x64aa3364F17a4D01c6f1751Fd97C2BD3D7e7f1D5)*
 
 - Auction Token: (available once deployed)
 
-**Instructions:** 
+**Instructions**
 
 Navigate to [https://app.bondprotocol.finance/] and follow instructions Bond Protocol Auction Guide
 
 Earliest available participation date: October 6th
 
+
+
 ## Participating via Gnosis UI
 
-- Bidding Token: OHM token (0x64aa3364F17a4D01c6f1751Fd97C2BD3D7e7f1D5)
+- Bidding Token: OHM token *(0x64aa3364F17a4D01c6f1751Fd97C2BD3D7e7f1D5)*
 
 - Auction Token: (available once deployed)
 
@@ -68,3 +75,4 @@ Earliest available participation date: October 6th
 Navigate to [https://gnosis-auction.eth.link/#/overview#topAnchor] and follow instructions Gnosis Auction Guide
 
 Earliest available participation date: October 13th
+
