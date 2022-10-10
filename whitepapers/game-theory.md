@@ -78,7 +78,7 @@ Both players are self-interested and want to minimise their jail time. What shou
 
 Using a payoff matrix allows us to condense all the information into an easy-to-analyse diagram:
 
-![](../.gitbook/assets/matrix\_2.png)
+![](../.gitbook/assets/matrix\_1.png)
 
 Player 1’s available strategies are the rows (Quiet or Confess) and their corresponding payoffs are the first numbers in each cell.
 

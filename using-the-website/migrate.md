@@ -5,17 +5,14 @@ To prepare the roll-out of [Olympus v1.1](https://olympusdao.medium.com/olympus-
 ## How to Migrate Your Staked OHM
 
 1. Go to the [Migrate page of the OlympusDAO website](https://app.olympusdao.finance/#/stake/migrate).
-2. In **Staked \(Legacy\)** field, you can see your staked OHM balance in the old contract. Click "Unstake SOHM \(Legacy\)" to unstake all of them. If this is your first time to unstake OHM, you need to approve the contract to spend your sOHM token.
+2.  In **Staked (Legacy)** field, you can see your staked OHM balance in the old contract. Click "Unstake SOHM (Legacy)" to unstake all of them. If this is your first time to unstake OHM, you need to approve the contract to spend your sOHM token.
 
-   ![Unstake sOHM](../.gitbook/assets/unstake.png)
+    <img src="../.gitbook/assets/unstake.png" alt="Unstake sOHM" data-size="original">
+3.  After the unstaking transaction has completed, you are now in the second stage of the migration process: restake OHM in the new contract. **Refresh the browser** to make sure your OHM balance show up correctly on the input field.
 
-3. After the unstaking transaction has completed, you are now in the second stage of the migration process: restake OHM in the new contract. **Refresh the browser** to make sure your OHM balance show up correctly on the input field.
-
-   ![Restake OHM](../.gitbook/assets/restake.png)
-
+    <img src="../.gitbook/assets/restake.png" alt="Restake OHM" data-size="original">
 4. Approve the contract to spend your OHM token and wait for the transaction to complete.
-5. Click "Stake OHM \(New\)" to restake your OHM in the new contract and wait for the transaction to complete.
-6. Congratulations! You have now completed the migration process. The **Staked \(New\)** field should show your staked OHM balance in the new contract. If it does not show the balance correctly, refresh the browser.
+5. Click "Stake OHM (New)" to restake your OHM in the new contract and wait for the transaction to complete.
+6.  Congratulations! You have now completed the migration process. The **Staked (New)** field should show your staked OHM balance in the new contract. If it does not show the balance correctly, refresh the browser.
 
-   ![Migration is complete](../.gitbook/assets/complete.png)
-
+    <img src="../.gitbook/assets/complete.png" alt="Migration is complete" data-size="original">

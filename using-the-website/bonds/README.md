@@ -1,45 +1,34 @@
-# Purchasing A Bond \(1, 1\)
+# Purchase A Bond (1, 1)
 
-Bonds allow users to buy OHM from the protocol at a discount by trading it against i\) liquidity \(LP tokens\) or ii\) other assets. 
-The former are called [liquidity bonds](../../references/glossary.md#liquidity-bonds) and the latter [reserve bonds](../../references/glossary.md#reserve-bonds).
+Bonds allow users to buy OHM from the protocol at a discount by trading it against i) liquidity (LP tokens) or ii) other assets. The former are called [liquidity bonds](../../references/glossary.md#liquidity-bonds) and the latter [reserve bonds](../../references/glossary.md#reserve-bonds).
 
-Bonds take a variable amount of time to vest, called the vesting period. 
-During this period, the OHM tokens given as payout to the bonder are staked and locked. 
-After the vesting period is expired, the bonder can claim the OHM in full. 
+Bonds take a variable amount of time to vest, called the vesting period. During this period, the OHM tokens given as payout to the bonder are staked and locked. After the vesting period is expired, the bonder can claim the OHM in full.
 
 Liquidity bonds help the protocol to accumulate and lock liquidity, while reserve bonds allow the protocol to grow its treasury.
 
-Olympus offers two types of bonds [on its website](https://app.olympusdao.finance/#/bonds), reserve and liquidity bonds.
-You can follow the [tutorial](bond_example.md) to see a step-by-step guide to bonding.
+Olympus offers two types of bonds [on its website](https://app.olympusdao.finance/#/bonds), reserve and liquidity bonds. You can follow the [tutorial](bond\_example.md) to see a step-by-step guide to bonding.
 
 ## Settings
 
-Bonds settings can be tweaked to change the slippage or to send the OHM payout to a different address than the one
-buying the bond (a feature called Hades), which can be useful for additional privacy. To access these settings:
+Bonds settings can be tweaked to change the slippage or to send the OHM payout to a different address than the one buying the bond (a feature called Hades), which can be useful for additional privacy. To access these settings:
 
 1. Go to the [Bonds page](https://app.olympusdao.finance/#/bonds) and select the bond type you want to purchase.
-2. Click on the cogwheel icon at the top right of the page.
+2.  Click on the cogwheel icon at the top right of the page.
 
-   ![](../../.gitbook/assets/cogwheel.png)
+    <img src="../../.gitbook/assets/cogwheel.png" alt="" data-size="original">
+3.  The settings menu will show up.
 
-3. The settings menu will show up. 
-
-   ![](../../.gitbook/assets/bond-settings.png)
-
+    <img src="../../.gitbook/assets/bond-settings.png" alt="" data-size="original">
 4. You can modify the Slippage field to increase or decrease the likelihood of your order getting through. A higher slippage increases that likelihood, but you may get a more undesirable fill price.
 5. In the Recipient Address field, you can specify a different address that will receive the vested OHM. By default, it is filled with your current address.
 
 _Notes:_
 
-* _An "Approve" transaction is needed when bonding an asset for the first time; this transaction gives the [Olympus bond contract](../../contracts/bonds.md) the permission to execute the bond. Subsequent bonding only requires you to perform the "Bond" transaction._
-
+* _An "Approve" transaction is needed when bonding an asset for the first time; this transaction gives the_ [_Olympus bond contract_](../../contracts/bonds.md) _the permission to execute the bond. Subsequent bonding only requires you to perform the "Bond" transaction._
 
 ## **How to Redeem**
 
-Go to the [Bonds page](https://app.olympusdao.finance/#/bonds).
-![](../../.gitbook/assets/claimable-bonds.png)
-You can then select whether you want the payout to be in sOHM or in gOHM, and claim all vested bonds in one click 
-or each bond individually if you prefer.
+Go to the [Bonds page](https://app.olympusdao.finance/#/bonds). ![](../../.gitbook/assets/claimable-bonds.png) You can then select whether you want the payout to be in sOHM or in gOHM, and claim all vested bonds in one click or each bond individually if you prefer.
 
 ## Reading the Info
 
@@ -49,8 +38,8 @@ or each bond individually if you prefer.
 
 **Bond Price** is the price of OHM you get from bonding. You can calculate the bond price using the following formulae:
 
-* SLP Bond: \(Value of your SLP token / OHM you'll get from bonding\)
-* DAI Bond: \(Value of your DAI token / OHM you'll get from bonding\)
+* SLP Bond: (Value of your SLP token / OHM you'll get from bonding)
+* DAI Bond: (Value of your DAI token / OHM you'll get from bonding)
 
 **Market Price** is the market price of OHM.
 

@@ -10,4 +10,4 @@
 
 ## Staking
 
-![](<../.gitbook/assets/staking (1) (1).png>)
+![](<../.gitbook/assets/staking (1).png>)
